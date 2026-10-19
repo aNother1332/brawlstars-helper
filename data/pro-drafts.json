@@ -1,11 +1,11 @@
 {
   "asOf": "2026-10-19",
-  "notice": "来自2026年10月17–18日广州LCQ的官方第二日回放。两例均来自同一系列赛，不代表全赛事统计；最终阵容已看画面，完整禁用与逐手顺序未全部核验。解说判断和工具推论不等于选手意图。",
+  "notice": "来自2026年10月17–18日广州LCQ的官方第二日回放。已核对7个地图对局、3场系列赛的双方最终阵容；仅阅读相关选角与解说片段，未通看整场回放，不代表全赛事统计。完整禁用与逐手顺序未全部核验；解说判断和工具推论不等于选手意图。",
   "cases": [
     {
       "id": "lcq2026-day2-skc-loud-belles-rock",
       "eventDate": "2026-10-18",
-      "stage": "B组败者组决赛 · SKCalalas vs LOUD",
+      "stage": "Group B — Lower Bracket Final",
       "teams": [
         {
           "name": "LOUD",
@@ -139,7 +139,7 @@
     {
       "id": "lcq2026-day2-skc-loud-ring-of-fire",
       "eventDate": "2026-10-18",
-      "stage": "B组败者组决赛 · SKCalalas vs LOUD",
+      "stage": "Group B — Lower Bracket Final",
       "teams": [
         {
           "name": "SKCalalas",
@@ -247,6 +247,558 @@
       },
       "finalRosterFrameSeconds": 3680,
       "finalRosterUrl": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=3680s",
+      "event": "2026 LCQ · 广州",
+      "sourceId": "youtube:PIAPgulZPa4",
+      "lineupsVerified": true,
+      "verifiedFields": [
+        "官方回放日期与赛事阶段",
+        "地图广播名称、模式与资料ID匹配",
+        "双方最终三人阵容与选手对应（已看画面）"
+      ],
+      "unknownFields": [
+        "完整地图禁用名单",
+        "完整逐手选择顺序",
+        "国服当前地图逐格一致性",
+        "具体配装",
+        "本局最终结果未提取"
+      ]
+    },
+    {
+      "id": "lcq2026-day2-skc-loud-kaboom",
+      "eventDate": "2026-10-18",
+      "stage": "B组败者组决赛 · SKCalalas vs LOUD",
+      "teams": [
+        {
+          "name": "SKCalalas",
+          "heroesEn": [
+            "8-Bit",
+            "Griff",
+            "Starr Nova"
+          ],
+          "heroIds": [
+            16000027,
+            16000050,
+            16000105
+          ],
+          "players": [
+            {
+              "player": "Naipishu",
+              "heroEn": "8-Bit"
+            },
+            {
+              "player": "Ghost T",
+              "heroEn": "Griff"
+            },
+            {
+              "player": "Kuru",
+              "heroEn": "Starr Nova"
+            }
+          ],
+          "rosterEvidence": "official_final_draft_overlay_visually_inspected"
+        },
+        {
+          "name": "LOUD",
+          "heroesEn": [
+            "Nori",
+            "Otis",
+            "Gus"
+          ],
+          "heroIds": [
+            16000107,
+            16000059,
+            16000061
+          ],
+          "players": [
+            {
+              "player": "KaioDog",
+              "heroEn": "Nori"
+            },
+            {
+              "player": "Edinho",
+              "heroEn": "Otis"
+            },
+            {
+              "player": "FireCrow",
+              "heroEn": "Gus"
+            }
+          ],
+          "rosterEvidence": "official_final_draft_overlay_visually_inspected"
+        }
+      ],
+      "mapId": 15000018,
+      "mode": "Heist",
+      "startSeconds": 5500,
+      "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=5500s",
+      "bans": null,
+      "pickOrder": null,
+      "lessons": [
+        "解说把轰隆峡谷分成后排渗透与中场控制两条思路：侵入者牵制防守，队友争草区与通路。",
+        "解说认为LOUD的Nori具有后排渗透威胁，而SK缺少相应的进攻切入与足够射程；这是一场对局分析，不是全地图胜率结论。",
+        "解说提到训练赛数字，未核验其原始样本，因此不写入产品的胜率或英雄强度评分。"
+      ],
+      "conditions": [
+        "最终三人阵容由官方画面核验，配合执行方案由工具整理；未取得选手本人对选角意图的解释。",
+        "完整地图禁用、六手先后顺序、配装与本局最终结果未核验；不推算比赛胜率。",
+        "广播地图名称和资料ID相符；当前国服版本、地图几何及三人实战尚待复核。"
+      ],
+      "partialDraftObservations": [],
+      "verification": {
+        "finalTeams": "visual_verified",
+        "mapIdentity": "broadcast_label_and_catalog_match",
+        "ordinaryMap": "not_certified_against_current_game_geometry",
+        "draftOrder": "partial_or_unknown",
+        "region": "international_competitive",
+        "currentPatchVerified": false,
+        "completeTeamObserved": true,
+        "screenListsRead": true
+      },
+      "finalRosterFrameSeconds": 5730,
+      "finalRosterUrl": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=5730s",
+      "event": "2026 LCQ · 广州",
+      "sourceId": "youtube:PIAPgulZPa4",
+      "lineupsVerified": true,
+      "verifiedFields": [
+        "官方回放日期与赛事阶段",
+        "地图广播名称、模式与资料ID匹配",
+        "双方最终三人阵容与选手对应（已看画面）"
+      ],
+      "unknownFields": [
+        "完整地图禁用名单",
+        "完整逐手选择顺序",
+        "国服当前地图逐格一致性",
+        "具体配装",
+        "本局最终结果未提取"
+      ]
+    },
+    {
+      "id": "lcq2026-day2-fut-kds-hot-potato",
+      "eventDate": "2026-10-18",
+      "stage": "A组败者组决赛 · FUT FreeZone vs KDS",
+      "teams": [
+        {
+          "name": "FUT FreeZone",
+          "heroesEn": [
+            "Colette",
+            "Emz",
+            "Maisie"
+          ],
+          "heroIds": [
+            16000039,
+            16000030,
+            16000068
+          ],
+          "players": [
+            {
+              "player": "Zeyrox",
+              "heroEn": "Colette"
+            },
+            {
+              "player": "DeMaster",
+              "heroEn": "Emz"
+            },
+            {
+              "player": "Ferissa",
+              "heroEn": "Maisie"
+            }
+          ],
+          "rosterEvidence": "official_final_draft_overlay_visually_inspected"
+        },
+        {
+          "name": "KDS",
+          "heroesEn": [
+            "Nita",
+            "Cordelius",
+            "Nori"
+          ],
+          "heroIds": [
+            16000008,
+            16000070,
+            16000107
+          ],
+          "players": [
+            {
+              "player": "duckie",
+              "heroEn": "Nita"
+            },
+            {
+              "player": "sans",
+              "heroEn": "Cordelius"
+            },
+            {
+              "player": "bobby",
+              "heroEn": "Nori"
+            }
+          ],
+          "rosterEvidence": "official_final_draft_overlay_visually_inspected"
+        }
+      ],
+      "mapId": 15000053,
+      "mode": "Heist",
+      "startSeconds": 7118,
+      "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=7118s",
+      "bans": null,
+      "pickOrder": null,
+      "lessons": [
+        "KDS以Nori制造进攻空间，妮塔的熊提供金库压力；科迪琉斯需要处理科莱特的关键输出窗口。",
+        "FUT采用科莱特的远程金库输出、艾魅的中场控制与麦茜的防近身，展示同图两种不同的攻防结构。",
+        "解说讨论科迪琉斯对科莱特大招的打断；实际交互取决于时机和当前版本，不能自动当作必定成功的反制。"
+      ],
+      "conditions": [
+        "最终三人阵容由官方画面核验，配合执行方案由工具整理；未取得选手本人对选角意图的解释。",
+        "完整地图禁用、六手先后顺序、配装与本局最终结果未核验；不推算比赛胜率。",
+        "广播地图名称和资料ID相符；当前国服版本、地图几何及三人实战尚待复核。"
+      ],
+      "partialDraftObservations": [],
+      "verification": {
+        "finalTeams": "visual_verified",
+        "mapIdentity": "broadcast_label_and_catalog_match",
+        "ordinaryMap": "not_certified_against_current_game_geometry",
+        "draftOrder": "partial_or_unknown",
+        "region": "international_competitive",
+        "currentPatchVerified": false,
+        "completeTeamObserved": true,
+        "screenListsRead": true
+      },
+      "finalRosterFrameSeconds": 7218,
+      "finalRosterUrl": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=7218s",
+      "event": "2026 LCQ · 广州",
+      "sourceId": "youtube:PIAPgulZPa4",
+      "lineupsVerified": true,
+      "verifiedFields": [
+        "官方回放日期与赛事阶段",
+        "地图广播名称、模式与资料ID匹配",
+        "双方最终三人阵容与选手对应（已看画面）"
+      ],
+      "unknownFields": [
+        "完整地图禁用名单",
+        "完整逐手选择顺序",
+        "国服当前地图逐格一致性",
+        "具体配装",
+        "本局最终结果未提取"
+      ]
+    },
+    {
+      "id": "lcq2026-day2-fut-kds-triple-dribble",
+      "eventDate": "2026-10-18",
+      "stage": "A组败者组决赛 · FUT FreeZone vs KDS",
+      "teams": [
+        {
+          "name": "FUT FreeZone",
+          "heroesEn": [
+            "Meeple",
+            "Spike",
+            "Melodie"
+          ],
+          "heroIds": [
+            16000089,
+            16000005,
+            16000078
+          ],
+          "players": [
+            {
+              "player": "Ferissa",
+              "heroEn": "Meeple"
+            },
+            {
+              "player": "Zeyrox",
+              "heroEn": "Spike"
+            },
+            {
+              "player": "DeMaster",
+              "heroEn": "Melodie"
+            }
+          ],
+          "rosterEvidence": "official_final_draft_overlay_visually_inspected"
+        },
+        {
+          "name": "KDS",
+          "heroesEn": [
+            "Rico",
+            "Larry & Lawrie",
+            "Kenji"
+          ],
+          "heroIds": [
+            16000004,
+            16000077,
+            16000085
+          ],
+          "players": [
+            {
+              "player": "bobby",
+              "heroEn": "Rico"
+            },
+            {
+              "player": "sans",
+              "heroEn": "Larry & Lawrie"
+            },
+            {
+              "player": "duckie",
+              "heroEn": "Kenji"
+            }
+          ],
+          "rosterEvidence": "official_final_draft_overlay_visually_inspected"
+        }
+      ],
+      "mapId": 15000025,
+      "mode": "Brawl Ball",
+      "startSeconds": 7670,
+      "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=7670s",
+      "bans": null,
+      "pickOrder": null,
+      "lessons": [
+        "瑞科利用侧墙，拉里和劳里从墙后压低血线，健次提供近身威胁；对面若用投掷反压瑞科，也要顾忌健次的切入。",
+        "解说认为FUT过早拿出斯派克后，KDS的投掷能利用其无法隔墙攻击的弱点；属于这次选角的具体对位分析。",
+        "解说对FUT末补Melodie的练习基础和通用性提出疑问，不能因为职业选过就把该组合列为稳健推荐。"
+      ],
+      "conditions": [
+        "最终三人阵容由官方画面核验，配合执行方案由工具整理；未取得选手本人对选角意图的解释。",
+        "完整地图禁用、六手先后顺序、配装与本局最终结果未核验；不推算比赛胜率。",
+        "广播地图名称和资料ID相符；当前国服版本、地图几何及三人实战尚待复核。"
+      ],
+      "partialDraftObservations": [
+        {
+          "statement": "7839秒解说称FUT最后补入Melodie，7835秒最终画面已能核对其英雄身份。",
+          "sourceType": "caption_plus_visual",
+          "startSeconds": 7839,
+          "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=7839s",
+          "doesNotEstablish": "其余五手的完整顺序"
+        }
+      ],
+      "verification": {
+        "finalTeams": "visual_verified",
+        "mapIdentity": "broadcast_label_and_catalog_match",
+        "ordinaryMap": "not_certified_against_current_game_geometry",
+        "draftOrder": "partial_or_unknown",
+        "region": "international_competitive",
+        "currentPatchVerified": false,
+        "completeTeamObserved": true,
+        "screenListsRead": true
+      },
+      "finalRosterFrameSeconds": 7835,
+      "finalRosterUrl": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=7835s",
+      "event": "2026 LCQ · 广州",
+      "sourceId": "youtube:PIAPgulZPa4",
+      "lineupsVerified": true,
+      "verifiedFields": [
+        "官方回放日期与赛事阶段",
+        "地图广播名称、模式与资料ID匹配",
+        "双方最终三人阵容与选手对应（已看画面）"
+      ],
+      "unknownFields": [
+        "完整地图禁用名单",
+        "完整逐手选择顺序",
+        "国服当前地图逐格一致性",
+        "具体配装",
+        "本局最终结果未提取"
+      ]
+    },
+    {
+      "id": "lcq2026-day2-fut-kds-open-business",
+      "eventDate": "2026-10-18",
+      "stage": "A组败者组决赛 · FUT FreeZone vs KDS",
+      "teams": [
+        {
+          "name": "FUT FreeZone",
+          "heroesEn": [
+            "Lumi",
+            "Kenji",
+            "Gus"
+          ],
+          "heroIds": [
+            16000091,
+            16000085,
+            16000061
+          ],
+          "players": [
+            {
+              "player": "Zeyrox",
+              "heroEn": "Lumi"
+            },
+            {
+              "player": "Ferissa",
+              "heroEn": "Kenji"
+            },
+            {
+              "player": "DeMaster",
+              "heroEn": "Gus"
+            }
+          ],
+          "rosterEvidence": "official_final_draft_overlay_visually_inspected"
+        },
+        {
+          "name": "KDS",
+          "heroesEn": [
+            "Glowy",
+            "Emz",
+            "Larry & Lawrie"
+          ],
+          "heroIds": [
+            16000101,
+            16000030,
+            16000077
+          ],
+          "players": [
+            {
+              "player": "sans",
+              "heroEn": "Glowy"
+            },
+            {
+              "player": "duckie",
+              "heroEn": "Emz"
+            },
+            {
+              "player": "bobby",
+              "heroEn": "Larry & Lawrie"
+            }
+          ],
+          "rosterEvidence": "official_final_draft_overlay_visually_inspected"
+        }
+      ],
+      "mapId": 15000292,
+      "mode": "Hot Zone",
+      "startSeconds": 8400,
+      "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=8400s",
+      "bans": null,
+      "pickOrder": null,
+      "lessons": [
+        "KDS围绕格鲁伊的连接支援、艾魅的入口控制和拉里和劳里的隔墙攻击组成控区体系。",
+        "解说明确指出双方没有破墙，拉里能长期利用保留下来的墙；若普通对局出现破墙英雄，原有优势需要重新判断。",
+        "FUT由格斯支援，露米限制接近路线，健次承担近身压力；解说同时指出拉里末补面对健次仍有风险。"
+      ],
+      "conditions": [
+        "最终三人阵容由官方画面核验，配合执行方案由工具整理；未取得选手本人对选角意图的解释。",
+        "完整地图禁用、六手先后顺序、配装与本局最终结果未核验；不推算比赛胜率。",
+        "广播地图名称和资料ID相符；当前国服版本、地图几何及三人实战尚待复核。"
+      ],
+      "partialDraftObservations": [
+        {
+          "statement": "解说8499–8539秒讨论KDS最后选择拉里和劳里，并指出双方缺少破墙。",
+          "sourceType": "caption_plus_final_roster_visual",
+          "startSeconds": 8499,
+          "endSeconds": 8539,
+          "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=8499s",
+          "doesNotEstablish": "完整六手顺序与具体配装"
+        }
+      ],
+      "verification": {
+        "finalTeams": "visual_verified",
+        "mapIdentity": "broadcast_label_and_catalog_match",
+        "ordinaryMap": "not_certified_against_current_game_geometry",
+        "draftOrder": "partial_or_unknown",
+        "region": "international_competitive",
+        "currentPatchVerified": false,
+        "completeTeamObserved": true,
+        "screenListsRead": true
+      },
+      "finalRosterFrameSeconds": 8530,
+      "finalRosterUrl": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=8530s",
+      "event": "2026 LCQ · 广州",
+      "sourceId": "youtube:PIAPgulZPa4",
+      "lineupsVerified": true,
+      "verifiedFields": [
+        "官方回放日期与赛事阶段",
+        "地图广播名称、模式与资料ID匹配",
+        "双方最终三人阵容与选手对应（已看画面）"
+      ],
+      "unknownFields": [
+        "完整地图禁用名单",
+        "完整逐手选择顺序",
+        "国服当前地图逐格一致性",
+        "具体配装",
+        "本局最终结果未提取"
+      ]
+    },
+    {
+      "id": "lcq2026-day2-th-loud-hideout",
+      "eventDate": "2026-10-18",
+      "stage": "淘汰赛胜者组半决赛 · Team Heretics vs LOUD",
+      "teams": [
+        {
+          "name": "Team Heretics",
+          "heroesEn": [
+            "Pearl",
+            "Mortis",
+            "Jae-Yong"
+          ],
+          "heroIds": [
+            16000072,
+            16000011,
+            16000093
+          ],
+          "players": [
+            {
+              "player": "Sublime",
+              "heroEn": "Pearl"
+            },
+            {
+              "player": "Marco",
+              "heroEn": "Mortis"
+            },
+            {
+              "player": "iKaoss",
+              "heroEn": "Jae-Yong"
+            }
+          ],
+          "rosterEvidence": "official_final_draft_overlay_visually_inspected"
+        },
+        {
+          "name": "LOUD",
+          "heroesEn": [
+            "Gus",
+            "Brock",
+            "Leon"
+          ],
+          "heroIds": [
+            16000061,
+            16000003,
+            16000023
+          ],
+          "players": [
+            {
+              "player": "KaioDog",
+              "heroEn": "Gus"
+            },
+            {
+              "player": "FireCrow",
+              "heroEn": "Brock"
+            },
+            {
+              "player": "Edinho",
+              "heroEn": "Leon"
+            }
+          ],
+          "rosterEvidence": "official_final_draft_overlay_visually_inspected"
+        }
+      ],
+      "mapId": 15000022,
+      "mode": "Bounty",
+      "startSeconds": 10305,
+      "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=10305s",
+      "bans": null,
+      "pickOrder": null,
+      "lessons": [
+        "解说将莫提斯争蓝星、珀尔防守和载勇的速度与回复联系起来，尤其指出载勇可以弥补珀尔速度方面的短板。",
+        "这是针对LOUD格斯、布洛克、里昂的阵容结构：解说认为速度有助于应对布洛克，同时强调珀尔对近身的防守能力。",
+        "解说对LOUD布洛克面对莫提斯的风险有疑问；是否携带脱身或破墙妙具并未由本批次逐帧核验。"
+      ],
+      "conditions": [
+        "最终三人阵容由官方画面核验，配合执行方案由工具整理；未取得选手本人对选角意图的解释。",
+        "完整地图禁用、六手先后顺序、配装与本局最终结果未核验；不推算比赛胜率。",
+        "广播地图名称和资料ID相符；当前国服版本、地图几何及三人实战尚待复核。"
+      ],
+      "partialDraftObservations": [],
+      "verification": {
+        "finalTeams": "visual_verified",
+        "mapIdentity": "broadcast_label_and_catalog_match",
+        "ordinaryMap": "not_certified_against_current_game_geometry",
+        "draftOrder": "partial_or_unknown",
+        "region": "international_competitive",
+        "currentPatchVerified": false,
+        "completeTeamObserved": true,
+        "screenListsRead": true
+      },
+      "finalRosterFrameSeconds": 10525,
+      "finalRosterUrl": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=10525s",
       "event": "2026 LCQ · 广州",
       "sourceId": "youtube:PIAPgulZPa4",
       "lineupsVerified": true,

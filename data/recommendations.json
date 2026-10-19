@@ -1,8 +1,8 @@
 {
   "updatedAt": "2026-10-19",
-  "version": "研究试点 v0.2",
+  "version": "研究试点 v0.3",
   "currentPatchVerified": false,
-  "notice": "阵容均为机制推导，尚未完成国服当前版本与三人实战验证；不代表当前胜率排名。有条件的选择保留原条件，缺证据的地图不补虚构阵容。",
+  "notice": "组合包括机制推导与已核验职业三英雄模板，配合执行说明均为工具整理；尚未完成国服当前版本与三人实战验证，不代表当前胜率排名。职业模板保留原对手条件，缺证据的地图不补虚构阵容。",
   "sources": [
     {
       "id": "spen54",
@@ -177,6 +177,26 @@
         [
           3550,
           3740
+        ],
+        [
+          5500,
+          5765
+        ],
+        [
+          7118,
+          7245
+        ],
+        [
+          7670,
+          7905
+        ],
+        [
+          8400,
+          8635
+        ],
+        [
+          10305,
+          10600
         ]
       ],
       "region": "international_competitive_event_in_China",
@@ -1263,6 +1283,15 @@
           "url": "https://www.youtube.com/watch?v=5iHVKzN0c5M&t=1089s",
           "claim": "持续守家者、金库伤害和制造压力是不同职责；连续复活接力进攻需要更高配合。支援型角色不能占去过多高伤害位置。",
           "type": "role_structure_not_complete_team"
+        },
+        {
+          "sourceId": "youtube:PIAPgulZPa4",
+          "professionalCaseId": "lcq2026-day2-fut-kds-hot-potato",
+          "startSeconds": 7218,
+          "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=7218s",
+          "claim": "LCQ双方完整三英雄阵容已核对。KDS以Nori制造进攻空间，妮塔的熊提供金库压力；科迪琉斯需要处理科莱特的关键输出窗口。 FUT采用科莱特的远程金库输出、艾魅的中场控制与麦茜的防近身，展示同图两种不同的攻防结构。 解说讨论科迪琉斯对科莱特大招的打断；实际交互取决于时机和当前版本，不能自动当作必定成功的反制。",
+          "completeTeamObserved": true,
+          "evidenceType": "professional_visual_roster"
         }
       ],
       "candidates": [
@@ -1305,6 +1334,30 @@
           "quote": "Griff to open up the map",
           "condition": "破墙后地图玩法会改变；需与队友火力匹配",
           "status": "旧版本单英雄候选"
+        },
+        {
+          "heroEn": "Nita",
+          "role": "占线／熊压金库",
+          "sourceId": "youtube:PIAPgulZPa4",
+          "startSeconds": 7218,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Cordelius",
+          "role": "隔离关键防守者",
+          "sourceId": "youtube:PIAPgulZPa4",
+          "startSeconds": 7218,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Nori",
+          "role": "侧路渗透／压库",
+          "sourceId": "youtube:PIAPgulZPa4",
+          "startSeconds": 7218,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
         }
       ],
       "negativeEvidence": [
@@ -1401,6 +1454,48 @@
               "格里夫破墙前说明对己方金库的影响；柯尔特有输出窗口时由另一人明确留守，不三人同时追击。",
               "早期受到长射程压制就让出部分进攻节奏；成长位倒下时立即报守家缺口，不能继续默认原分工有效。"
             ]
+          }
+        },
+        {
+          "title": "LCQ · 双路牵制与熊压库",
+          "synergy": "妮塔稳住路线积累熊的压力，阿宪制造另一侧进攻威胁，科迪琉斯在合适窗口隔离关键防守者，使对手难以同时处理两路。",
+          "risk": "原对手为科莱特、艾魅、麦茜，三者都能惩罚直接冲脸。隔离科莱特的技能窗口需要练习，不能把妮塔和阿宪理解成开局一起换家。",
+          "loadout": "需要三人沟通站位与关键技能。赛事具体妙具、星徽、装备与养成配置未核验；请按当前可用版本确认，不默认职业配装。",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "实际三英雄来自已核验职业选角；站位、触发与回撤流程由工具据机制整理，未完成三人实战验证。",
+            "steps": [
+              "妮塔在可支援路线交战，阿宪观察薄弱侧，科迪琉斯先留意谁在负责阻挡压库。",
+              "当两路压力形成时再交熊或渗透，科迪琉斯隔离最影响本次推进的人；留一人注意返家通路。",
+              "被清掉熊或进攻者阵亡就停下换家，先接住敌方科莱特的压库节奏，再重新积累进攻资源。"
+            ]
+          },
+          "id": "15000053-lcq-4",
+          "kind": "mechanism_inference",
+          "status": "职业三英雄已核验 · 配合与版本待实战",
+          "members": [
+            {
+              "heroId": 16000008,
+              "role": "占线／熊压金库"
+            },
+            {
+              "heroId": 16000070,
+              "role": "隔离关键防守者"
+            },
+            {
+              "heroId": 16000107,
+              "role": "侧路渗透／压库"
+            }
+          ],
+          "mapFitBand": 1,
+          "cooperationBand": 2,
+          "evidenceRefs": [
+            "youtube:PIAPgulZPa4"
+          ],
+          "substitutions": [],
+          "professionalReference": {
+            "caseId": "lcq2026-day2-fut-kds-hot-potato",
+            "teamName": "KDS"
           }
         }
       ]
@@ -1906,6 +2001,48 @@
               "梅格状态不足就退回治疗距离；此方案受后续环境负评影响，仅作条件实验，不因能治疗就持续硬顶。"
             ]
           }
+        },
+        {
+          "title": "LCQ · 消耗支援与换线",
+          "synergy": "娜吉亚保持消耗压力，格斯保护需要前压的队友，蜜娜根据对面站位换线争空间。先压低血线或迫使对手交技能，再一起推进。",
+          "risk": "原对手为琥珀、贝尔、达里尔。蜜娜不可脱离护盾支援范围强开；达里尔后期有进场威胁。对方若换成高爆发反突进或强隔墙压制，不能原样照搬。",
+          "loadout": "需要三人沟通站位与关键技能。赛事具体妙具、星徽、装备与养成配置未核验；请按当前可用版本确认，不默认职业配装。",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "实际三英雄来自已核验职业选角；站位、触发与回撤流程由工具据机制整理，未完成三人实战验证。",
+            "steps": [
+              "娜吉亚和格斯保留相互支援的射线，蜜娜先观察两条边路，不三人挤同一通道。",
+              "消耗逼退一人后格斯给受威胁队友护盾，蜜娜转向人数占优的一侧，另外两人同步跟进。",
+              "未取得人数优势就停止追击；格斯留关键技能保护退路，避免把残局拆成各自单挑。"
+            ]
+          },
+          "id": "15000368-lcq-1",
+          "kind": "mechanism_inference",
+          "status": "职业三英雄已核验 · 配合与版本待实战",
+          "members": [
+            {
+              "heroId": 16000103,
+              "role": "持续消耗"
+            },
+            {
+              "heroId": 16000061,
+              "role": "护盾支援／中路"
+            },
+            {
+              "heroId": 16000097,
+              "role": "机动换线／残局"
+            }
+          ],
+          "mapFitBand": 1,
+          "cooperationBand": 2,
+          "evidenceRefs": [
+            "youtube:PIAPgulZPa4"
+          ],
+          "substitutions": [],
+          "professionalReference": {
+            "caseId": "lcq2026-day2-skc-loud-belles-rock",
+            "teamName": "LOUD"
+          }
         }
       ],
       "candidates": [
@@ -1940,6 +2077,30 @@
           "startSeconds": 1720,
           "condition": "只是9月11意见，10月12同作者评价下降，需显示新旧冲突；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
           "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Najia",
+          "role": "持续消耗",
+          "sourceId": "youtube:PIAPgulZPa4",
+          "startSeconds": 2998,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Gus",
+          "role": "护盾支援／中路",
+          "sourceId": "youtube:PIAPgulZPa4",
+          "startSeconds": 2998,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Mina",
+          "role": "机动换线／残局",
+          "sourceId": "youtube:PIAPgulZPa4",
+          "startSeconds": 2998,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
         }
       ],
       "mechanismEvidence": [
@@ -1990,6 +2151,15 @@
           "claim": "2026 LCQ职业对局的完整阵容已核对关键画面。解说称Mina能提供分路交换主动权，Gus提供支援与自保；这是解说对LOUD阵容功能的解释。 Darryl的被动大招积累提供后期进场威胁；解说据此描述队友争取时间的计划。 不能把三个看起来各司其职的英雄自动称作有强协同：3550秒后解说回顾SK的Belle/Amber/Darryl时明确质疑其协同，只认为各自承担某种角色。",
           "completeTeamObserved": false,
           "evidenceType": "map_guide"
+        },
+        {
+          "sourceId": "youtube:PIAPgulZPa4",
+          "professionalCaseId": "lcq2026-day2-skc-loud-belles-rock",
+          "startSeconds": 2998,
+          "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=2998s",
+          "claim": "LCQ双方完整三英雄阵容已核对。解说称Mina能提供分路交换主动权，Gus提供支援与自保；这是解说对LOUD阵容功能的解释。 Darryl的被动大招积累提供后期进场威胁；解说据此描述队友争取时间的计划。 不能把三个看起来各司其职的英雄自动称作有强协同：3550秒后解说回顾SK的Belle/Amber/Darryl时明确质疑其协同，只认为各自承担某种角色。",
+          "completeTeamObserved": true,
+          "evidenceType": "professional_visual_roster"
         }
       ]
     },
@@ -2479,6 +2649,7 @@
           "status": "待版本与实战复核",
           "mapFitBand": 1,
           "evidenceRefs": [
+            "youtube:PIAPgulZPa4",
             "bilibili:BV1tH4y1A7K6",
             "brawlpick-map-kaboom-canyon"
           ],
@@ -2492,6 +2663,48 @@
               "确认敌方防守者被科莱特或杰西牵制、对手无法及时回防后，麦乐迪呼叫并发起侧路金库突击。",
               "我方金库遭到威胁或麦乐迪输出窗口结束时立即撤回协防，不把一次侧路突击变成连续送人。"
             ]
+          }
+        },
+        {
+          "title": "LCQ · 渗透与中场保护",
+          "synergy": "阿宪制造后排和金库压力，奥蒂斯控制中场并限制关键敌人，格斯为过线队友提供保护。进攻者牵制防守时，中场两人争取稳固通路。",
+          "risk": "原对手为8比特、格里夫、丝塔诺娃；不是无条件换家阵容。阿宪被限制技能截住时会失去渗透价值，奥蒂斯与格斯也不能一起离开防线。",
+          "loadout": "需要三人沟通站位与关键技能。赛事具体妙具、星徽、装备与养成配置未核验；请按当前可用版本确认，不默认职业配装。",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "实际三英雄来自已核验职业选角；站位、触发与回撤流程由工具据机制整理，未完成三人实战验证。",
+            "steps": [
+              "奥蒂斯与格斯先确认中草和两侧动向，阿宪等待可进入后排的路线，明确谁留守。",
+              "中场取得空间后格斯掩护阿宪进场，奥蒂斯留限制技能应对最危险的反推者。",
+              "阿宪被堵就撤回中场重置，不硬换金库；守家位报告敌人数量后再决定下一次推进。"
+            ]
+          },
+          "id": "15000018-lcq-3",
+          "kind": "mechanism_inference",
+          "status": "职业三英雄已核验 · 配合与版本待实战",
+          "members": [
+            {
+              "heroId": 16000107,
+              "role": "后排渗透／金库压力"
+            },
+            {
+              "heroId": 16000059,
+              "role": "守中／限制关键输出"
+            },
+            {
+              "heroId": 16000061,
+              "role": "护盾支援／路线交接"
+            }
+          ],
+          "mapFitBand": 1,
+          "cooperationBand": 2,
+          "evidenceRefs": [
+            "youtube:PIAPgulZPa4"
+          ],
+          "substitutions": [],
+          "professionalReference": {
+            "caseId": "lcq2026-day2-skc-loud-kaboom",
+            "teamName": "LOUD"
           }
         }
       ],
@@ -2591,9 +2804,41 @@
           "startSeconds": null,
           "condition": "具体条件见原视频；版本与国服适用性待核验。",
           "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Nori",
+          "role": "后排渗透／金库压力",
+          "sourceId": "youtube:PIAPgulZPa4",
+          "startSeconds": 5730,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Otis",
+          "role": "守中／限制关键输出",
+          "sourceId": "youtube:PIAPgulZPa4",
+          "startSeconds": 5730,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Gus",
+          "role": "护盾支援／路线交接",
+          "sourceId": "youtube:PIAPgulZPa4",
+          "startSeconds": 5730,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
         }
       ],
       "mechanismEvidence": [
+        {
+          "sourceId": "youtube:PIAPgulZPa4",
+          "startSeconds": 5500,
+          "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=5500s",
+          "claim": "2026 LCQ职业对局的完整阵容已核对关键画面。解说把轰隆峡谷分成后排渗透与中场控制两条思路：侵入者牵制防守，队友争草区与通路。 解说认为LOUD的Nori具有后排渗透威胁，而SK缺少相应的进攻切入与足够射程；这是一场对局分析，不是全地图胜率结论。 解说提到训练赛数字，未核验其原始样本，因此不写入产品的胜率或英雄强度评分。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        },
         {
           "sourceId": "bilibili:BV1tH4y1A7K6",
           "startSeconds": 35,
@@ -2625,6 +2870,15 @@
           "claim": "BrawlPick map sample: Nori (60.8%, 1,844 games), Cosmo (59.6%, 606), Mico (57.6%, 1,491), Wendy (58.5%, 698), Melodie (57.1%, 1,414), Shade (57.1%, 1,310), Jessie (55.8%, 2,173), Juju (64.6%, 79; limited sample), Starr Nova (59.4%, 251), Colette (54.9%, 3,393). The page orders picks by the lower end of its confidence range.",
           "completeTeamObserved": false,
           "evidenceType": "mixed_ranked_and_regular_3v3_map_statistics"
+        },
+        {
+          "sourceId": "youtube:PIAPgulZPa4",
+          "professionalCaseId": "lcq2026-day2-skc-loud-kaboom",
+          "startSeconds": 5730,
+          "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=5730s",
+          "claim": "LCQ双方完整三英雄阵容已核对。解说把轰隆峡谷分成后排渗透与中场控制两条思路：侵入者牵制防守，队友争草区与通路。 解说认为LOUD的Nori具有后排渗透威胁，而SK缺少相应的进攻切入与足够射程；这是一场对局分析，不是全地图胜率结论。 解说提到训练赛数字，未核验其原始样本，因此不写入产品的胜率或英雄强度评分。",
+          "completeTeamObserved": true,
+          "evidenceType": "professional_visual_roster"
         }
       ]
     },
@@ -2827,6 +3081,7 @@
           "status": "待版本与实战复核",
           "mapFitBand": 1,
           "evidenceRefs": [
+            "youtube:PIAPgulZPa4",
             "bilibili:BV11FEJzfEG4",
             "brawlzone-ranked-triple-dribble"
           ],
@@ -2875,6 +3130,7 @@
           "status": "待版本与实战复核",
           "mapFitBand": 1,
           "evidenceRefs": [
+            "youtube:PIAPgulZPa4",
             "bilibili:BV11FEJzfEG4",
             "brawlzone-ranked-triple-dribble"
           ],
@@ -2887,6 +3143,48 @@
               "对方交控制后 Colette 再推进；Willow 留控场技能打断关键带球或反扑。",
               "人数优势形成后一起压近球门，不要让 Colette 因追击离开回防路线。"
             ]
+          }
+        },
+        {
+          "title": "LCQ · 墙区火力与近身终结",
+          "synergy": "瑞科利用侧墙持续压制，拉里和劳里从掩体后逼走对方站位，健次补上近身威胁。隔墙压制与切入相互牵制，取得人数或空间优势再推进球。",
+          "risk": "原对手为谜宝、斯派克、麦洛迪。墙被破坏、健次被沉默或对面具有强范围反突进时，原来的互保关系会改变。高操作要求，不能只依赖健次单人强开。",
+          "loadout": "需要三人沟通站位与关键技能。赛事具体妙具、星徽、装备与养成配置未核验；请按当前可用版本确认，不默认职业配装。",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "实际三英雄来自已核验职业选角；站位、触发与回撤流程由工具据机制整理，未完成三人实战验证。",
+            "steps": [
+              "瑞科取有弹射收益的边路，拉里保留墙后位置，健次站在可以接应球权的位置，不抢先孤入后排。",
+              "投掷或弹射把敌人逼离掩体后，健次前压；瑞科封回防线，拉里保护持球路线。",
+              "推进未成先把球移出危险区；健次回到队友火力覆盖内，拉里不为补伤害走出掩体。"
+            ]
+          },
+          "id": "15000025-lcq-5",
+          "kind": "mechanism_inference",
+          "status": "职业三英雄已核验 · 配合与版本待实战",
+          "members": [
+            {
+              "heroId": 16000004,
+              "role": "弹射边路"
+            },
+            {
+              "heroId": 16000077,
+              "role": "墙后压制／保护"
+            },
+            {
+              "heroId": 16000085,
+              "role": "切入／推进球权"
+            }
+          ],
+          "mapFitBand": 1,
+          "cooperationBand": 2,
+          "evidenceRefs": [
+            "youtube:PIAPgulZPa4"
+          ],
+          "substitutions": [],
+          "professionalReference": {
+            "caseId": "lcq2026-day2-fut-kds-triple-dribble",
+            "teamName": "KDS"
           }
         }
       ],
@@ -2954,9 +3252,41 @@
           "startSeconds": null,
           "condition": "具体条件见原视频；版本与国服适用性待核验。",
           "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Rico",
+          "role": "弹射边路",
+          "sourceId": "youtube:PIAPgulZPa4",
+          "startSeconds": 7835,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Larry & Lawrie",
+          "role": "墙后压制／保护",
+          "sourceId": "youtube:PIAPgulZPa4",
+          "startSeconds": 7835,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Kenji",
+          "role": "切入／推进球权",
+          "sourceId": "youtube:PIAPgulZPa4",
+          "startSeconds": 7835,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
         }
       ],
       "mechanismEvidence": [
+        {
+          "sourceId": "youtube:PIAPgulZPa4",
+          "startSeconds": 7670,
+          "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=7670s",
+          "claim": "2026 LCQ职业对局的完整阵容已核对关键画面。瑞科利用侧墙，拉里和劳里从墙后压低血线，健次提供近身威胁；对面若用投掷反压瑞科，也要顾忌健次的切入。 解说认为FUT过早拿出斯派克后，KDS的投掷能利用其无法隔墙攻击的弱点；属于这次选角的具体对位分析。 解说对FUT末补Melodie的练习基础和通用性提出疑问，不能因为职业选过就把该组合列为稳健推荐。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        },
         {
           "sourceId": "bilibili:BV11FEJzfEG4",
           "startSeconds": 0,
@@ -2988,6 +3318,15 @@
           "claim": "BrawlZone map page reports recent Ranked trios: Griff · Gus · Shade, 82.6% over 46 games/36 players; and Colette · Willow · Wendy, 85.0% over 40 games/22 players. These are short-window, small samples. The BrawlZone Ranked dashboard reports 74,299 Ranked battles on this map.",
           "completeTeamObserved": true,
           "evidenceType": "ranked_map_statistics"
+        },
+        {
+          "sourceId": "youtube:PIAPgulZPa4",
+          "professionalCaseId": "lcq2026-day2-fut-kds-triple-dribble",
+          "startSeconds": 7835,
+          "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=7835s",
+          "claim": "LCQ双方完整三英雄阵容已核对。瑞科利用侧墙，拉里和劳里从墙后压低血线，健次提供近身威胁；对面若用投掷反压瑞科，也要顾忌健次的切入。 解说认为FUT过早拿出斯派克后，KDS的投掷能利用其无法隔墙攻击的弱点；属于这次选角的具体对位分析。 解说对FUT末补Melodie的练习基础和通用性提出疑问，不能因为职业选过就把该组合列为稳健推荐。",
+          "completeTeamObserved": true,
+          "evidenceType": "professional_visual_roster"
         }
       ]
     },
@@ -3758,6 +4097,48 @@
               "被迫离点时由最近队友拖延，另外两人沿约定路线支援；夺回后立即确定下一轮守点人选。"
             ]
           }
+        },
+        {
+          "title": "LCQ · 控区与水侧包夹",
+          "synergy": "小罗限制热区入口，珠珠利用水域和隔墙角度持续施压，鳄梨抓被控或掉血目标切入。占区与追击分开，由留守者持续拿进度。",
+          "risk": "原对手为格斯、8比特、阿拾。对方持续火力与护盾会惩罚无准备进区；鳄梨不能独自进入8比特火力范围。水域通行与当前地图结构需确认。",
+          "loadout": "需要三人沟通站位与关键技能。赛事具体妙具、星徽、装备与养成配置未核验；请按当前可用版本确认，不默认职业配装。",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "实际三英雄来自已核验职业选角；站位、触发与回撤流程由工具据机制整理，未完成三人实战验证。",
+            "steps": [
+              "小罗靠安全侧覆盖热区，珠珠从另一角度封入口，鳄梨探侧翼但保持可回援距离。",
+              "小罗控制或珠珠压低血线后，鳄梨才切目标；另两人至少留一人维持占区。",
+              "切入未奏效就退到控制范围内，不连送；重新累积关键技能再一起回区。"
+            ]
+          },
+          "id": "15000300-lcq-2",
+          "kind": "mechanism_inference",
+          "status": "职业三英雄已核验 · 配合与版本待实战",
+          "members": [
+            {
+              "heroId": 16000041,
+              "role": "中区控制"
+            },
+            {
+              "heroId": 16000087,
+              "role": "隔墙封路／召唤物"
+            },
+            {
+              "heroId": 16000095,
+              "role": "侧翼切入"
+            }
+          ],
+          "mapFitBand": 1,
+          "cooperationBand": 2,
+          "evidenceRefs": [
+            "youtube:PIAPgulZPa4"
+          ],
+          "substitutions": [],
+          "professionalReference": {
+            "caseId": "lcq2026-day2-skc-loud-ring-of-fire",
+            "teamName": "LOUD"
+          }
         }
       ],
       "candidates": [
@@ -3840,6 +4221,30 @@
           "startSeconds": null,
           "condition": "具体条件见原视频；版本与国服适用性待核验。",
           "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Lou",
+          "role": "中区控制",
+          "sourceId": "youtube:PIAPgulZPa4",
+          "startSeconds": 3680,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Juju",
+          "role": "隔墙封路／召唤物",
+          "sourceId": "youtube:PIAPgulZPa4",
+          "startSeconds": 3680,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Alli",
+          "role": "侧翼切入",
+          "sourceId": "youtube:PIAPgulZPa4",
+          "startSeconds": 3680,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
         }
       ],
       "mechanismEvidence": [
@@ -3906,6 +4311,15 @@
           "claim": "BrawlPick map sample: Wendy (61.5%, 904 games), Bo (58.1%, 2,513), Amber (57.6%, 1,103), Gus (56.7%, 1,480), Tick (55.6%, 1,332), Poco (56.7%, 631), Ash (55.7%, 708), Griff (53.8%, 2,092), Gale (57.5%, 188), Emz (52.8%, 1,509). The page orders picks by the lower end of its confidence range.",
           "completeTeamObserved": false,
           "evidenceType": "mixed_ranked_and_regular_3v3_map_statistics"
+        },
+        {
+          "sourceId": "youtube:PIAPgulZPa4",
+          "professionalCaseId": "lcq2026-day2-skc-loud-ring-of-fire",
+          "startSeconds": 3680,
+          "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=3680s",
+          "claim": "LCQ双方完整三英雄阵容已核对。解说将SK的Gus描述为强回复中路，并认为8-Bit的威胁限制对方传统坦克选项。 LOUD的Lou承担中区控制，Juju与Alli能利用地图水域；解说强调SK必须防止减速和刺杀。 解说对最后补Ash并非一味肯定：其对Alli可能有利，但面对Juju和Lou未必理想，同时猜测SK看到LOUD伤害不足，想增加前排。 这是职责、反制与地形适应同时作用的案例，不是坦克加治疗必胜的证据。",
+          "completeTeamObserved": true,
+          "evidenceType": "professional_visual_roster"
         }
       ]
     },
@@ -5019,7 +5433,8 @@
           "status": "待版本与实战复核",
           "mapFitBand": 1,
           "evidenceRefs": [
-            "youtube:5iHVKzN0c5M"
+            "youtube:5iHVKzN0c5M",
+            "youtube:PIAPgulZPa4"
           ],
           "substitutions": [],
           "teamStats": null,
@@ -5031,6 +5446,48 @@
               "科莱特报推进方向，拜伦确认能支援的距离；布洛克选择性破墙，让中距离威胁与远程火力同时作用。",
               "拜伦失去支援射线就停止深入；前排血线不足时回收回复，避免为了救一个人连续损失人数。"
             ]
+          }
+        },
+        {
+          "title": "LCQ · 蓝星防守与速度支援",
+          "synergy": "莫提斯在可安全撤回时争取蓝星，珀尔提供防守火力，载勇用速度和回复帮助慢速队友转移。先拿分数主动权，再逼对方进入己方可保护的区域。",
+          "risk": "原对手为格斯、布洛克、里昂。对手若换成强反突进或能封退路的英雄，莫提斯争星计划会变危险。莫提斯操作要求高；领先后不可为了收割主动送出蓝星。",
+          "loadout": "需要三人沟通站位与关键技能。赛事具体妙具、星徽、装备与养成配置未核验；请按当前可用版本确认，不默认职业配装。",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "实际三英雄来自已核验职业选角；站位、触发与回撤流程由工具据机制整理，未完成三人实战验证。",
+            "steps": [
+              "莫提斯先判断争蓝星的安全退路，珀尔留防守火力，载勇与两人保持支援距离。",
+              "有蓝星或击杀优势时围绕珀尔防线轮换，载勇帮助转移；只有敌方关键技能空档才允许莫提斯出击。",
+              "抢星失败或莫提斯回不来就停止轮流送人；先重新聚齐，等待合力突破，而非三路各自找击杀。"
+            ]
+          },
+          "id": "15000022-lcq-8",
+          "kind": "mechanism_inference",
+          "status": "职业三英雄已核验 · 配合与版本待实战",
+          "members": [
+            {
+              "heroId": 16000072,
+              "role": "防守火力／护后排"
+            },
+            {
+              "heroId": 16000011,
+              "role": "争蓝星／收割"
+            },
+            {
+              "heroId": 16000093,
+              "role": "速度与回复支援"
+            }
+          ],
+          "mapFitBand": 1,
+          "cooperationBand": 2,
+          "evidenceRefs": [
+            "youtube:PIAPgulZPa4"
+          ],
+          "substitutions": [],
+          "professionalReference": {
+            "caseId": "lcq2026-day2-th-loud-hideout",
+            "teamName": "Team Heretics"
           }
         }
       ],
@@ -5074,6 +5531,30 @@
           "startSeconds": 163,
           "condition": "原文明示中间类型角色；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
           "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Pearl",
+          "role": "防守火力／护后排",
+          "sourceId": "youtube:PIAPgulZPa4",
+          "startSeconds": 10525,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Mortis",
+          "role": "争蓝星／收割",
+          "sourceId": "youtube:PIAPgulZPa4",
+          "startSeconds": 10525,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Jae-Yong",
+          "role": "速度与回复支援",
+          "sourceId": "youtube:PIAPgulZPa4",
+          "startSeconds": 10525,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
         }
       ],
       "mechanismEvidence": [
@@ -5084,6 +5565,23 @@
           "claim": "作者建议远程与中距离压力搭配，可按条件增加狙击或侵略角色。",
           "completeTeamObserved": false,
           "evidenceType": "map_guide"
+        },
+        {
+          "sourceId": "youtube:PIAPgulZPa4",
+          "startSeconds": 10305,
+          "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=10305s",
+          "claim": "2026 LCQ职业对局的完整阵容已核对关键画面。解说将莫提斯争蓝星、珀尔防守和载勇的速度与回复联系起来，尤其指出载勇可以弥补珀尔速度方面的短板。 这是针对LOUD格斯、布洛克、里昂的阵容结构：解说认为速度有助于应对布洛克，同时强调珀尔对近身的防守能力。 解说对LOUD布洛克面对莫提斯的风险有疑问；是否携带脱身或破墙妙具并未由本批次逐帧核验。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        },
+        {
+          "sourceId": "youtube:PIAPgulZPa4",
+          "professionalCaseId": "lcq2026-day2-th-loud-hideout",
+          "startSeconds": 10525,
+          "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=10525s",
+          "claim": "LCQ双方完整三英雄阵容已核对。解说将莫提斯争蓝星、珀尔防守和载勇的速度与回复联系起来，尤其指出载勇可以弥补珀尔速度方面的短板。 这是针对LOUD格斯、布洛克、里昂的阵容结构：解说认为速度有助于应对布洛克，同时强调珀尔对近身的防守能力。 解说对LOUD布洛克面对莫提斯的风险有疑问；是否携带脱身或破墙妙具并未由本批次逐帧核验。",
+          "completeTeamObserved": true,
+          "evidenceType": "professional_visual_roster"
         }
       ]
     },
@@ -5129,7 +5627,8 @@
           "mapFitBand": 1,
           "evidenceRefs": [
             "youtube:5iHVKzN0c5M",
-            "bilibili:BV1wGgfz1Eoa"
+            "bilibili:BV1wGgfz1Eoa",
+            "youtube:PIAPgulZPa4"
           ],
           "substitutions": [],
           "teamStats": null,
@@ -5141,6 +5640,90 @@
               "艾魅区域限制与麦茜反突进错开；波克回复帮助队友留在争区距离，安全者站区，其余限制敌人回场。",
               "被破墙或长射程压退时先换角度；不要三人同时硬站热区耗尽回复，先恢复交叉火力再进场。"
             ]
+          }
+        },
+        {
+          "title": "LCQ · 连接续航与隔墙控区",
+          "synergy": "格鲁伊维持与队友的有效支援距离，艾魅限制热区入口，拉里和劳里从墙后持续施压。三人围绕同一片可支援区域轮换，而不是各自抢点。",
+          "risk": "原对手为露米、健次、格斯。解说特别指出当时双方缺少破墙，这使拉里的位置更稳定；遇到破墙或多路切入时应降低优先级。也要防健次绕过艾魅的有效区域。",
+          "loadout": "需要三人沟通站位与关键技能。赛事具体妙具、星徽、装备与养成配置未核验；请按当前可用版本确认，不默认职业配装。",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "实际三英雄来自已核验职业选角；站位、触发与回撤流程由工具据机制整理，未完成三人实战验证。",
+            "steps": [
+              "拉里先找可保留墙体，艾魅覆盖最近入口，格鲁伊保持能支援两人的距离，避免连接断开。",
+              "拉里逼出走位、艾魅封入口后再站区；格鲁伊跟随轮换，艾魅留一轮保护后排的资源。",
+              "有人被切或墙体被拆就退到新掩体重新布阵，控制技能错开使用，避免三人一起交空后丢区。"
+            ]
+          },
+          "id": "15000292-lcq-6",
+          "kind": "mechanism_inference",
+          "status": "职业三英雄已核验 · 配合与版本待实战",
+          "members": [
+            {
+              "heroId": 16000101,
+              "role": "连接支援／续航"
+            },
+            {
+              "heroId": 16000030,
+              "role": "入口控制／防近身"
+            },
+            {
+              "heroId": 16000077,
+              "role": "隔墙封路"
+            }
+          ],
+          "mapFitBand": 1,
+          "cooperationBand": 2,
+          "evidenceRefs": [
+            "youtube:PIAPgulZPa4"
+          ],
+          "substitutions": [],
+          "professionalReference": {
+            "caseId": "lcq2026-day2-fut-kds-open-business",
+            "teamName": "KDS"
+          }
+        },
+        {
+          "title": "LCQ · 护盾控场与侧翼推进",
+          "synergy": "格斯用护盾支援需要前压的队友，露米限制敌人靠近队友的路线，健次选择已被消耗或受控的一侧进入。不要让两名远程同时跟进到近身距离。",
+          "risk": "原对手为格鲁伊、艾魅、拉里和劳里。艾魅能惩罚正面冲入，拉里在墙体完整时持续施压；健次要找侧角，而非靠护盾硬顶所有控制。",
+          "loadout": "需要三人沟通站位与关键技能。赛事具体妙具、星徽、装备与养成配置未核验；请按当前可用版本确认，不默认职业配装。",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "实际三英雄来自已核验职业选角；站位、触发与回撤流程由工具据机制整理，未完成三人实战验证。",
+            "steps": [
+              "格斯先建立支援射线，露米守住可封入口，健次观察墙边能否形成侧角。",
+              "露米逼退一人后格斯支援健次进场，远程队友同步争区，不能只看健次追人。",
+              "健次被反制就收回，格斯保留自保空间，露米以封路掩护重新组队。"
+            ]
+          },
+          "id": "15000292-lcq-7",
+          "kind": "mechanism_inference",
+          "status": "职业三英雄已核验 · 配合与版本待实战",
+          "members": [
+            {
+              "heroId": 16000091,
+              "role": "减速封路／区域压制"
+            },
+            {
+              "heroId": 16000085,
+              "role": "侧翼切入"
+            },
+            {
+              "heroId": 16000061,
+              "role": "护盾支援／中路"
+            }
+          ],
+          "mapFitBand": 1,
+          "cooperationBand": 2,
+          "evidenceRefs": [
+            "youtube:PIAPgulZPa4"
+          ],
+          "substitutions": [],
+          "professionalReference": {
+            "caseId": "lcq2026-day2-fut-kds-open-business",
+            "teamName": "FUT FreeZone"
           }
         }
       ],
@@ -5184,6 +5767,54 @@
           "startSeconds": 1472,
           "condition": "原文提到存在不利反制，模糊专名不补猜；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
           "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Glowy",
+          "role": "连接支援／续航",
+          "sourceId": "youtube:PIAPgulZPa4",
+          "startSeconds": 8530,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Emz",
+          "role": "入口控制／防近身",
+          "sourceId": "youtube:PIAPgulZPa4",
+          "startSeconds": 8530,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Larry & Lawrie",
+          "role": "隔墙封路",
+          "sourceId": "youtube:PIAPgulZPa4",
+          "startSeconds": 8530,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Lumi",
+          "role": "减速封路／区域压制",
+          "sourceId": "youtube:PIAPgulZPa4",
+          "startSeconds": 8530,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Kenji",
+          "role": "侧翼切入",
+          "sourceId": "youtube:PIAPgulZPa4",
+          "startSeconds": 8530,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Gus",
+          "role": "护盾支援／中路",
+          "sourceId": "youtube:PIAPgulZPa4",
+          "startSeconds": 8530,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
         }
       ],
       "mechanismEvidence": [
@@ -5210,6 +5841,23 @@
           "claim": "作者看完对方选择后选贝亚，字幕强调给敌方施加持续减速；展示的是针对性选择与配置，不是无条件先手。",
           "completeTeamObserved": false,
           "evidenceType": "map_guide"
+        },
+        {
+          "sourceId": "youtube:PIAPgulZPa4",
+          "startSeconds": 8400,
+          "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=8400s",
+          "claim": "2026 LCQ职业对局的完整阵容已核对关键画面。KDS围绕格鲁伊的连接支援、艾魅的入口控制和拉里和劳里的隔墙攻击组成控区体系。 解说明确指出双方没有破墙，拉里能长期利用保留下来的墙；若普通对局出现破墙英雄，原有优势需要重新判断。 FUT由格斯支援，露米限制接近路线，健次承担近身压力；解说同时指出拉里末补面对健次仍有风险。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        },
+        {
+          "sourceId": "youtube:PIAPgulZPa4",
+          "professionalCaseId": "lcq2026-day2-fut-kds-open-business",
+          "startSeconds": 8530,
+          "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=8530s",
+          "claim": "LCQ双方完整三英雄阵容已核对。KDS围绕格鲁伊的连接支援、艾魅的入口控制和拉里和劳里的隔墙攻击组成控区体系。 解说明确指出双方没有破墙，拉里能长期利用保留下来的墙；若普通对局出现破墙英雄，原有优势需要重新判断。 FUT由格斯支援，露米限制接近路线，健次承担近身压力；解说同时指出拉里末补面对健次仍有风险。",
+          "completeTeamObserved": true,
+          "evidenceType": "professional_visual_roster"
         }
       ]
     },

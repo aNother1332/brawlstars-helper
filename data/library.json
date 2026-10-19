@@ -58,6 +58,26 @@
         [
           3550,
           3740
+        ],
+        [
+          5500,
+          5765
+        ],
+        [
+          7118,
+          7245
+        ],
+        [
+          7670,
+          7905
+        ],
+        [
+          8400,
+          8635
+        ],
+        [
+          10305,
+          10600
         ]
       ],
       "region": "international_competitive_event_in_China",
@@ -5414,6 +5434,71 @@
       "startSeconds": 3622,
       "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=3622s",
       "summary": "2026 LCQ职业对局的完整阵容已核对关键画面。解说将SK的Gus描述为强回复中路，并认为8-Bit的威胁限制对方传统坦克选项。 LOUD的Lou承担中区控制，Juju与Alli能利用地图水域；解说强调SK必须防止减速和刺杀。 解说对最后补Ash并非一味肯定：其对Alli可能有利，但面对Juju和Lou未必理想，同时猜测SK看到LOUD伤害不足，想增加前排。 这是职责、反制与地形适应同时作用的案例，不是坦克加治疗必胜的证据。",
+      "conditions": [
+        "这是特定对手下的职业选择，不能当作无条件阵容推荐；逐手完整选禁仍未核验。"
+      ]
+    },
+    {
+      "sourceId": "youtube:PIAPgulZPa4",
+      "mapId": 15000018,
+      "mode": "Heist",
+      "heroIds": [],
+      "currentStrengthEvidence": false,
+      "startSeconds": 5500,
+      "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=5500s",
+      "summary": "2026 LCQ职业对局的完整阵容已核对关键画面。解说把轰隆峡谷分成后排渗透与中场控制两条思路：侵入者牵制防守，队友争草区与通路。 解说认为LOUD的Nori具有后排渗透威胁，而SK缺少相应的进攻切入与足够射程；这是一场对局分析，不是全地图胜率结论。 解说提到训练赛数字，未核验其原始样本，因此不写入产品的胜率或英雄强度评分。",
+      "conditions": [
+        "这是特定对手下的职业选择，不能当作无条件阵容推荐；逐手完整选禁仍未核验。"
+      ]
+    },
+    {
+      "sourceId": "youtube:PIAPgulZPa4",
+      "mapId": 15000053,
+      "mode": "Heist",
+      "heroIds": [],
+      "currentStrengthEvidence": false,
+      "startSeconds": 7118,
+      "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=7118s",
+      "summary": "2026 LCQ职业对局的完整阵容已核对关键画面。KDS以Nori制造进攻空间，妮塔的熊提供金库压力；科迪琉斯需要处理科莱特的关键输出窗口。 FUT采用科莱特的远程金库输出、艾魅的中场控制与麦茜的防近身，展示同图两种不同的攻防结构。 解说讨论科迪琉斯对科莱特大招的打断；实际交互取决于时机和当前版本，不能自动当作必定成功的反制。",
+      "conditions": [
+        "这是特定对手下的职业选择，不能当作无条件阵容推荐；逐手完整选禁仍未核验。"
+      ]
+    },
+    {
+      "sourceId": "youtube:PIAPgulZPa4",
+      "mapId": 15000025,
+      "mode": "Brawl Ball",
+      "heroIds": [],
+      "currentStrengthEvidence": false,
+      "startSeconds": 7670,
+      "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=7670s",
+      "summary": "2026 LCQ职业对局的完整阵容已核对关键画面。瑞科利用侧墙，拉里和劳里从墙后压低血线，健次提供近身威胁；对面若用投掷反压瑞科，也要顾忌健次的切入。 解说认为FUT过早拿出斯派克后，KDS的投掷能利用其无法隔墙攻击的弱点；属于这次选角的具体对位分析。 解说对FUT末补Melodie的练习基础和通用性提出疑问，不能因为职业选过就把该组合列为稳健推荐。",
+      "conditions": [
+        "这是特定对手下的职业选择，不能当作无条件阵容推荐；逐手完整选禁仍未核验。"
+      ]
+    },
+    {
+      "sourceId": "youtube:PIAPgulZPa4",
+      "mapId": 15000292,
+      "mode": "Hot Zone",
+      "heroIds": [],
+      "currentStrengthEvidence": false,
+      "startSeconds": 8400,
+      "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=8400s",
+      "summary": "2026 LCQ职业对局的完整阵容已核对关键画面。KDS围绕格鲁伊的连接支援、艾魅的入口控制和拉里和劳里的隔墙攻击组成控区体系。 解说明确指出双方没有破墙，拉里能长期利用保留下来的墙；若普通对局出现破墙英雄，原有优势需要重新判断。 FUT由格斯支援，露米限制接近路线，健次承担近身压力；解说同时指出拉里末补面对健次仍有风险。",
+      "conditions": [
+        "这是特定对手下的职业选择，不能当作无条件阵容推荐；逐手完整选禁仍未核验。"
+      ]
+    },
+    {
+      "sourceId": "youtube:PIAPgulZPa4",
+      "mapId": 15000022,
+      "mode": "Bounty",
+      "heroIds": [],
+      "currentStrengthEvidence": false,
+      "startSeconds": 10305,
+      "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=10305s",
+      "summary": "2026 LCQ职业对局的完整阵容已核对关键画面。解说将莫提斯争蓝星、珀尔防守和载勇的速度与回复联系起来，尤其指出载勇可以弥补珀尔速度方面的短板。 这是针对LOUD格斯、布洛克、里昂的阵容结构：解说认为速度有助于应对布洛克，同时强调珀尔对近身的防守能力。 解说对LOUD布洛克面对莫提斯的风险有疑问；是否携带脱身或破墙妙具并未由本批次逐帧核验。",
       "conditions": [
         "这是特定对手下的职业选择，不能当作无条件阵容推荐；逐手完整选禁仍未核验。"
       ]
