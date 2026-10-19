@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content">
+  <meta name="theme-color" content="#211721">
+  <meta name="description" content="输入荒野乱斗地图，探索三人阵容、英雄分工与有来源的配合思路。">
+  <title>乱斗阵容研究室 · 地图与三人配合</title>
+  <link rel="preload" href="assets/fonts/DouyinSansBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/LilitaOne-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="comic.css">
+</head>
+<body>
+  <div class="comic-backdrop" aria-hidden="true"><div class="backdrop-rays"></div><div class="backdrop-dots"></div><span class="comic-spark spark-one">✦</span><span class="comic-spark spark-two">✷</span><span class="comic-spark spark-three">✦</span></div>
+  <a class="skip-link" href="#main">跳到阵容内容</a>
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="乱斗阵容研究室首页"><span class="brand-symbol" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="m32 3 8 15 18-2-9 17 9 16-19-1-8 13-8-15-18 2 9-17-8-15 18 2Z" fill="#ffd63d" stroke="#120f18" stroke-width="3"/><path d="M19 29c0-17 28-17 28 0 0 7-4 10-8 12v6H26v-6c-4-2-7-5-7-12Z" fill="#fff9e6" stroke="#120f18" stroke-width="3"/><path d="m23 27 8 3-4 7-5-2Zm19 0-8 3 4 7 5-2ZM30 39h5v5h-5Z" fill="#120f18"/></svg></span><span>乱斗阵容<span class="brand-light">研究室</span><small>BRAWL SQUAD LAB</small></span></a>
+    <nav class="top-nav" aria-label="页面导航"><a href="#main" class="nav-current">地图阵容</a><a href="#rankings">强度榜</a><a href="#pro-hub">职业配合</a></nav>
+    <div class="top-actions"><span class="private-note">3V3 <span>TEAM UP!</span></span><button class="quiet" id="library-button">资料库 <span aria-hidden="true">↗</span></button><button class="quiet" id="about-button">关于 <span aria-hidden="true">↗</span></button></div>
+  </header>
+  <section class="masthead" aria-label="三人组队阵容工具">
+    <img class="masthead-art" src="assets/design/brawl-heroes-official.jpg" alt="" fetchpriority="high" width="1681" height="729">
+    <div class="masthead-art-shade" aria-hidden="true"></div>
+    <div class="masthead-copy"><span class="comic-kicker">BETTER TOGETHER · 三人组队研究室</span><h1>选好地图，<br><span>组队开打！</span></h1><p>三个强势英雄，更要一套漂亮配合。</p></div>
+    <span class="squad-sticker" aria-hidden="true">3V3<small>LET'S BRAWL!</small></span>
+    <div class="masthead-bottom"><span>地图适配 <b>×</b> 角色互补 <b>×</b> 团队协作</span><span class="live-pill"><i></i> 有依据，才上场</span></div>
+  </section>
+  <div class="workspace">
+    <aside class="sidebar" aria-label="地图搜索">
+      <div class="sidebar-intro"><span class="eyebrow">CHOOSE YOUR BATTLEGROUND</span><h2>你的主场，<span>你来选！</span></h2><p>搜索地图，找到三人的出战方案。</p></div>
+      <label class="search-label" for="search">搜索地图</label>
+      <div class="search-box"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜索地图 / Map" aria-label="搜索地图中文名、英文名或简称" autocomplete="off" enterkeyhint="search"><kbd>/</kbd></div>
+      <label class="sr-only" for="mode">按模式筛选</label><select id="mode"><option value="">全部模式</option></select>
+      <div class="filter-row"><button id="pilot-toggle" class="pill active" aria-pressed="true">有阵容</button><button id="research-toggle" class="pill" aria-pressed="false">有攻略</button><button id="all-toggle" class="pill" aria-pressed="false">全部</button><button id="favorites-toggle" class="icon-button" aria-label="只看收藏" aria-pressed="false">☆</button></div>
+      <label class="check"><input id="retired" type="checkbox">包含资料中停用的地图</label>
+      <div class="list-heading"><span id="result-count" role="status">正在载入地图…</span><span>地图 / 模式</span></div>
+      <div id="map-list" class="map-list"></div>
+      <div class="sidebar-foot"><span class="small-star">✦</span><p>分工明确，才能一起赢。<br><b>TEAMWORK WINS.</b></p></div>
+    </aside>
+    <main id="main" tabindex="-1"><div id="content"><div class="loading"><span class="brand-symbol">✦</span><p>正在打开地图资料…</p></div></div><section id="rankings" class="ranking-section" aria-label="英雄强度排行"></section><div id="pro-hub"></div></main>
+  </div>
+  <footer>荒野乱斗玩家自制工具 · 与 Supercell 无隶属关系。游戏素材归其权利人所有。<span id="catalog-date"></span></footer>
+  <dialog id="detail-dialog"><div id="dialog-content"></div><button id="close-dialog" class="dialog-close" aria-label="关闭详情">×</button></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "reviewedAt": "2026-10-19",
+  "patchDate": "2026-09-16",
+  "completePatchHistoryVerified": false,
+  "chinaServerSyncVerified": false,
+  "url": "https://supercell.com/en/games/brawlstars/blog/release-notes/release-notes-august-2026/",
+  "title": "官方 9月16日维护 · 晚于9月11日视频",
+  "changes": [
+    {"heroEn":"Gus","note":"自保妙具冷却与治疗增益调整，视频中的自保判断需要复核。"},
+    {"heroEn":"Colette","note":"特定超充强化的第二发伤害下调，旧版输出与配置判断需要复核。"},
+    {"heroEn":"Brock","note":"跳跃妙具冷却增加，超级技能充能调整，机动与技能循环需要复核。"},
+    {"heroEn":"Pam","note":"炮台生命与治疗增强；增强不直接等于某张地图排名提高。"},
+    {"heroEn":"Colt","note":"修复特定皮肤下星辉子弹速度未正确增加的问题。"},
+    {"heroEn":"Belle","note":"主攻伤害增强，Wiki无日期推荐不能直接当当前强度排序。"},
+    {"heroEn":"Chuck","note":"减速及对应强化增强，仍不能忽略原教学中的操作难度与后手条件。"}
+  ]
+}

@@ -1,0 +1,5335 @@
+{
+  "updatedAt": "2026-10-19",
+  "version": "研究试点 v0.2",
+  "currentPatchVerified": false,
+  "notice": "阵容均为机制推导，尚未完成国服当前版本与三人实战验证；不代表当前胜率排名。有条件的选择保留原条件，缺证据的地图不补虚构阵容。",
+  "sources": [
+    {
+      "id": "spen54",
+      "title": "The ULTIMATE Ranked Guide - Cheat Sheet Season 54",
+      "author": "SpenLC - Brawl Stars",
+      "url": "https://www.youtube.com/watch?v=5iHVKzN0c5M",
+      "publishedAt": "2026-09-11",
+      "dateVerification": "yt-dlp upload_date",
+      "retrieval": "Nonempty en VTT and info JSON downloaded to system TEMP; map chapter captions read",
+      "evidenceType": "automatic_captions",
+      "status": "historical_pending_current_patch_review"
+    },
+    {
+      "id": "spen50",
+      "title": "The ULTIMATE Ranked Guide - Cheat Sheet Season 50",
+      "author": "SpenLC - Brawl Stars",
+      "url": "https://www.youtube.com/watch?v=z2ylbG5zFVk",
+      "publishedAt": "2026-05-07",
+      "dateVerification": "yt-dlp upload_date",
+      "retrieval": "Nonempty en VTT downloaded to system TEMP; target map captions read",
+      "evidenceType": "automatic_captions",
+      "status": "old_pending_review"
+    },
+    {
+      "id": "spen49",
+      "title": "Ultimate CHEAT Sheet For Ranked - Best Picks & Bans Season 49",
+      "author": "SpenLC - Brawl Stars",
+      "url": "https://www.youtube.com/watch?v=Nv8PaDm2U7g",
+      "publishedAt": "2026-04-09",
+      "dateVerification": "yt-dlp upload_date",
+      "retrieval": "Nonempty en VTT downloaded to system TEMP; target map captions read",
+      "evidenceType": "automatic_captions",
+      "status": "old_pending_review"
+    },
+    {
+      "id": "wiki-backyard",
+      "title": "Backyard Bowl — Brawl Stars Wiki",
+      "url": "https://brawlstars.fandom.com/wiki/Backyard_Bowl",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-19",
+      "retrieval": "Exa page extraction returned Layout and Tips sections",
+      "evidenceType": "community_wiki",
+      "status": "undated_mechanism_reference"
+    },
+    {
+      "id": "bili-hardrock-local",
+      "title": "排位赛地图bp思路解析 1.硬石矿井「国服」",
+      "author": "littlething冷饮",
+      "url": "https://www.bilibili.com/video/BV19TvczFErE",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-19",
+      "retrieval": "157-second audio downloaded with bili-cli; locally transcribed with faster-whisper small int8; transcript actually read. Hero proper names and screen not fully verified.",
+      "evidenceType": "local_asr",
+      "status": "local_asr_pending_visual_date_review"
+    },
+    {
+      "id": "youtube:5iHVKzN0c5M",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=5iHVKzN0c5M",
+      "title": "The ULTIMATE Ranked Guide - Cheat Sheet Season 54",
+      "author": "SpenLC - Brawl Stars",
+      "publishedAt": "2026-09-11",
+      "kind": "map_guide",
+      "read": true,
+      "status": "historical_pending_current_patch_review",
+      "visualChecked": false,
+      "recent": true,
+      "reviewedRangesSeconds": [
+        [
+          54,
+          125
+        ],
+        [
+          125,
+          184
+        ],
+        [
+          184,
+          243
+        ],
+        [
+          243,
+          322
+        ],
+        [
+          243,
+          412
+        ],
+        [
+          322,
+          412
+        ],
+        [
+          482,
+          562
+        ],
+        [
+          562,
+          625
+        ],
+        [
+          743,
+          824
+        ],
+        [
+          890,
+          950
+        ],
+        [
+          1004,
+          1089
+        ],
+        [
+          1004,
+          1182
+        ],
+        [
+          1352,
+          1431
+        ],
+        [
+          1431,
+          1506
+        ],
+        [
+          1675,
+          1740
+        ]
+      ],
+      "region": "international",
+      "variantOnly": false,
+      "validityNotes": [],
+      "evidenceType": "automatic_captions"
+    },
+    {
+      "id": "bilibili:BV1Tsn2zLEUU",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1Tsn2zLEUU",
+      "title": "【荒野乱斗】三分钟搞懂摇滚贝尔BP思路！排位赛地图详细攻略",
+      "author": "JefFly_",
+      "publishedAt": "2025-09-30T17:09:59+08:00",
+      "dataAsOf": null,
+      "read": true,
+      "status": "historical_pending_current_patch_review",
+      "visualChecked": true,
+      "reviewedRangesSeconds": [],
+      "region": "CN-explicit",
+      "variantOnly": false,
+      "kind": "map_guide",
+      "recent": false,
+      "validityNotes": [
+        "historical-mechanics-only; exclude current-strength-weighting"
+      ],
+      "evidenceType": "local_asr"
+    },
+    {
+      "id": "youtube:PIAPgulZPa4",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=PIAPgulZPa4",
+      "title": "Brawl Stars Championship 2026 | Last Chance Qualifier | Day 2",
+      "author": "Brawl Stars Esports",
+      "publishedAt": "2026-10-18",
+      "dataAsOf": null,
+      "read": true,
+      "status": "historical_pending_current_patch_review",
+      "visualChecked": true,
+      "reviewedRangesSeconds": [
+        [
+          2700,
+          3075
+        ],
+        [
+          3550,
+          3740
+        ]
+      ],
+      "region": "international_competitive_event_in_China",
+      "variantOnly": false,
+      "kind": "map_guide",
+      "recent": true,
+      "validityNotes": [],
+      "evidenceType": "automatic_captions"
+    },
+    {
+      "id": "brawlpick-map-undermine",
+      "platform": "web",
+      "url": "https://www.brawlpick.app/map-stats/undermine",
+      "title": "Best Brawlers for Undermine — Tier List & Win Rates",
+      "author": "BrawlPick",
+      "dataAsOf": "2026-10-19",
+      "retrievedAt": "2026-10-19",
+      "kind": "mixed_ranked_and_regular_3v3_map_statistics",
+      "read": true,
+      "status": "map statistics and scope read",
+      "visualChecked": false,
+      "recent": false,
+      "validityNotes": [
+        "107 brawlers across 11,924 battles; includes Ranked and regular 3v3, not Ranked-only.",
+        "BrawlPick separately labels Undermine as in the Ranked rotation."
+      ],
+      "evidenceType": "map_statistics"
+    },
+    {
+      "id": "bilibili:BV1tH4y1A7K6",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1tH4y1A7K6",
+      "title": "查克攻略金库篇之轰隆峡谷",
+      "author": "新萌o_O",
+      "publishedAt": "2024-04-25T12:51:39+08:00",
+      "dataAsOf": null,
+      "read": true,
+      "status": "historical_pending_current_patch_review",
+      "visualChecked": false,
+      "reviewedRangesSeconds": [
+        [
+          0,
+          217
+        ]
+      ],
+      "region": null,
+      "variantOnly": false,
+      "kind": "map_guide",
+      "recent": false,
+      "validityNotes": [],
+      "evidenceType": "local_asr"
+    },
+    {
+      "id": "brawlpick-map-kaboom-canyon",
+      "platform": "web",
+      "url": "https://www.brawlpick.app/map-stats/kaboom-canyon",
+      "title": "Best Brawlers for Kaboom Canyon — Tier List & Win Rates",
+      "author": "BrawlPick",
+      "dataAsOf": "2026-10-19",
+      "retrievedAt": "2026-10-19",
+      "kind": "mixed_ranked_and_regular_3v3_map_statistics",
+      "read": true,
+      "status": "map statistics and scope read",
+      "visualChecked": false,
+      "recent": false,
+      "validityNotes": [
+        "99 brawlers across 9,104 battles; includes Ranked and regular 3v3, not Ranked-only.",
+        "BrawlPick separately labels Kaboom Canyon as in the Ranked rotation."
+      ],
+      "evidenceType": "map_statistics"
+    },
+    {
+      "id": "brawlpick-map-safe-zone",
+      "platform": "web",
+      "url": "https://www.brawlpick.app/map-stats/safe-zone",
+      "title": "Best Brawlers for Safe Zone — Tier List & Win Rates",
+      "author": "BrawlPick",
+      "dataAsOf": "2026-10-19",
+      "retrievedAt": "2026-10-19",
+      "kind": "mixed_ranked_and_regular_3v3_map_statistics",
+      "read": true,
+      "status": "map statistics and scope read",
+      "visualChecked": false,
+      "recent": false,
+      "validityNotes": [
+        "87 brawlers across 6,954 battles; includes Ranked and regular 3v3, not Ranked-only.",
+        "BrawlPick separately labels Safe Zone as in the Ranked rotation."
+      ],
+      "evidenceType": "map_statistics"
+    },
+    {
+      "id": "bilibili:BV11FEJzfEG4",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV11FEJzfEG4",
+      "title": "〖荒野乱斗〗足球思路教学第三期—三重威胁",
+      "author": "约翰_阿尔科",
+      "publishedAt": "2025-05-12T19:40:50+08:00",
+      "dataAsOf": null,
+      "read": true,
+      "status": "historical_pending_current_patch_review",
+      "visualChecked": false,
+      "reviewedRangesSeconds": [
+        [
+          0,
+          100
+        ],
+        [
+          150,
+          249
+        ]
+      ],
+      "region": null,
+      "variantOnly": false,
+      "kind": "map_guide",
+      "recent": false,
+      "validityNotes": [],
+      "evidenceType": "local_asr"
+    },
+    {
+      "id": "brawlzone-ranked-triple-dribble",
+      "platform": "web",
+      "url": "https://brawlzone.net/maps/brawl-ball/triple-dribble",
+      "title": "Triple Dribble best brawlers, Brawl Ball (October 2026)",
+      "author": "BrawlZone",
+      "publishedAt": null,
+      "dataAsOf": "2026-10-19",
+      "retrievedAt": "2026-10-19",
+      "kind": "ranked_map_statistics",
+      "read": true,
+      "status": "ranked map candidates, layout and recent trios read",
+      "visualChecked": false,
+      "reviewedRangesSeconds": [],
+      "recent": false,
+      "validityNotes": [
+        "Ranked trio sample covers the last 14 days; 46 games/36 players and 40 games/22 players are small samples.",
+        "The trio win rates are descriptive observations, not forecasts for this friend group."
+      ],
+      "durationSeconds": null,
+      "evidenceType": "ranked_map_statistics"
+    },
+    {
+      "id": "brawlpick-map-bridge-too-far",
+      "platform": "web",
+      "url": "https://www.brawlpick.app/map-stats/bridge-too-far",
+      "title": "Best Brawlers for Bridge Too Far — Tier List & Win Rates",
+      "author": "BrawlPick",
+      "dataAsOf": "2026-10-19",
+      "retrievedAt": "2026-10-19",
+      "kind": "mixed_ranked_and_regular_3v3_map_statistics",
+      "read": true,
+      "status": "map statistics and scope read",
+      "visualChecked": false,
+      "recent": false,
+      "validityNotes": [
+        "87 brawlers across 7,071 battles; includes Ranked and regular 3v3, not Ranked-only.",
+        "BrawlPick separately labels Bridge Too Far as in the Ranked rotation."
+      ],
+      "evidenceType": "map_statistics"
+    },
+    {
+      "id": "bilibili:BV1npQAYjE98",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1npQAYjE98",
+      "title": "足球基础意识和梦幻弹珠点位",
+      "author": "翼小飞Y",
+      "publishedAt": "2025-03-13T16:35:17+08:00",
+      "dataAsOf": null,
+      "read": true,
+      "status": "historical_pending_current_patch_review",
+      "visualChecked": true,
+      "reviewedRangesSeconds": [],
+      "region": "not-established",
+      "variantOnly": false,
+      "kind": "map_guide",
+      "recent": false,
+      "validityNotes": [],
+      "evidenceType": "local_asr"
+    },
+    {
+      "id": "brawlpick-map-pinball-dreams",
+      "platform": "web",
+      "url": "https://www.brawlpick.app/map-stats/pinball-dreams",
+      "title": "Best Brawlers for Pinball Dreams — Tier List & Win Rates",
+      "author": "BrawlPick",
+      "dataAsOf": "2026-10-19",
+      "retrievedAt": "2026-10-19",
+      "kind": "mixed_ranked_and_regular_3v3_map_statistics",
+      "read": true,
+      "status": "map statistics and scope read",
+      "visualChecked": false,
+      "recent": false,
+      "validityNotes": [
+        "107 brawlers across 34,513 battles; includes Ranked and regular 3v3, not Ranked-only.",
+        "BrawlPick separately labels Pinball Dreams as in the Ranked rotation."
+      ],
+      "evidenceType": "map_statistics"
+    },
+    {
+      "id": "brawlpick-map-center-stage",
+      "platform": "web",
+      "url": "https://www.brawlpick.app/map-stats/center-stage",
+      "title": "Best Brawlers for Center Stage — Tier List & Win Rates",
+      "author": "BrawlPick",
+      "dataAsOf": "2026-10-19",
+      "retrievedAt": "2026-10-19",
+      "kind": "mixed_ranked_and_regular_3v3_map_statistics",
+      "read": true,
+      "status": "map statistics and scope read",
+      "visualChecked": false,
+      "recent": false,
+      "validityNotes": [
+        "87 brawlers across 6,807 battles; includes Ranked and regular 3v3, not Ranked-only.",
+        "BrawlPick separately labels Center Stage as in the Ranked rotation."
+      ],
+      "evidenceType": "map_statistics"
+    },
+    {
+      "id": "brawlpick-map-parallel-plays",
+      "platform": "web",
+      "url": "https://www.brawlpick.app/map-stats/parallel-plays",
+      "title": "Best Brawlers for Parallel Plays — Tier List & Win Rates",
+      "author": "BrawlPick",
+      "dataAsOf": "2026-10-19",
+      "retrievedAt": "2026-10-19",
+      "kind": "mixed_ranked_and_regular_3v3_map_statistics",
+      "read": true,
+      "status": "map statistics and scope read",
+      "visualChecked": false,
+      "recent": false,
+      "validityNotes": [
+        "107 brawlers across 11,494 battles; includes Ranked and regular 3v3, not Ranked-only.",
+        "BrawlPick separately labels Parallel Plays as in the Ranked rotation."
+      ],
+      "evidenceType": "map_statistics"
+    },
+    {
+      "id": "bilibili:BV1jU411Z7sx",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1jU411Z7sx",
+      "title": "【绝剑】欧洲理解！来跟职业选手学习灼热火圈的BP思路和打法",
+      "author": "绝剑KonnoYuuki",
+      "publishedAt": "2024-05-24T19:12:12+08:00",
+      "dataAsOf": null,
+      "read": true,
+      "status": "historical_pending_current_patch_review",
+      "visualChecked": true,
+      "reviewedRangesSeconds": [],
+      "region": "international-tournament-EMEA",
+      "variantOnly": false,
+      "kind": "map_guide",
+      "recent": false,
+      "validityNotes": [
+        "historical-mechanics-only; exclude current-strength-weighting"
+      ],
+      "evidenceType": "local_asr"
+    },
+    {
+      "id": "brawlpick-map-ring-of-fire",
+      "platform": "web",
+      "url": "https://www.brawlpick.app/map-stats/ring-of-fire",
+      "title": "Best Brawlers for Ring of Fire — Tier List & Win Rates",
+      "author": "BrawlPick",
+      "dataAsOf": "2026-10-19",
+      "retrievedAt": "2026-10-19",
+      "kind": "mixed_ranked_and_regular_3v3_map_statistics",
+      "read": true,
+      "status": "map statistics and scope read",
+      "visualChecked": false,
+      "recent": false,
+      "validityNotes": [
+        "97 brawlers across 6,929 battles; includes Ranked and regular 3v3, not Ranked-only.",
+        "BrawlPick separately labels Ring of Fire as in the Ranked rotation."
+      ],
+      "evidenceType": "map_statistics"
+    },
+    {
+      "id": "brawlzone-ranked-flaring-phoenix",
+      "platform": "web",
+      "url": "https://brawlzone.net/maps/knockout/flaring-phoenix",
+      "title": "Flaring Phoenix best brawlers, Knockout (October 2026)",
+      "author": "BrawlZone",
+      "publishedAt": null,
+      "dataAsOf": "2026-10-19",
+      "retrievedAt": "2026-10-19",
+      "kind": "ranked_map_statistics",
+      "read": true,
+      "status": "ranked map candidates, layout and recent trios read",
+      "visualChecked": false,
+      "reviewedRangesSeconds": [],
+      "recent": false,
+      "validityNotes": [
+        "73,945 sampled Ranked battles on the map for individual brawler estimates.",
+        "Ranked trio sample covers the last 14 days; best listed team has 146 games/95 players. Small-sample bias remains possible."
+      ],
+      "durationSeconds": null,
+      "evidenceType": "ranked_map_statistics"
+    },
+    {
+      "id": "brawlpick-map-out-in-the-open",
+      "platform": "web",
+      "url": "https://www.brawlpick.app/map-stats/out-in-the-open",
+      "title": "Best Brawlers for Out in the Open — Tier List & Win Rates",
+      "author": "BrawlPick",
+      "dataAsOf": "2026-10-19",
+      "retrievedAt": "2026-10-19",
+      "kind": "mixed_ranked_and_regular_3v3_map_statistics",
+      "read": true,
+      "status": "map statistics and scope read",
+      "visualChecked": false,
+      "recent": false,
+      "validityNotes": [
+        "107 brawlers across 11,659 battles; includes Ranked and regular 3v3, not Ranked-only.",
+        "BrawlPick separately labels Out in the Open as in the Ranked rotation."
+      ],
+      "evidenceType": "map_statistics"
+    },
+    {
+      "id": "brawlzone-ranked-new-horizons",
+      "platform": "web",
+      "url": "https://brawlzone.net/ranked",
+      "title": "Brawl Stars Ranked maps and best brawlers (October 2026)",
+      "author": "BrawlZone",
+      "publishedAt": null,
+      "dataAsOf": "2026-10-19",
+      "retrievedAt": "2026-10-19",
+      "kind": "ranked_map_statistics",
+      "read": true,
+      "status": "ranked map candidates and trio read; trio sample count undisclosed on overview",
+      "visualChecked": false,
+      "reviewedRangesSeconds": [],
+      "recent": false,
+      "validityNotes": [
+        "Competitive Ranked battle sample, 78,055 battles on New Horizons.",
+        "Dashboard reports Brock · Piper · Wendy at 76.0%, but does not expose that trio's game count on the overview; treat as a weak signal, not expected win rate."
+      ],
+      "durationSeconds": null,
+      "evidenceType": "ranked_map_statistics"
+    },
+    {
+      "id": "bilibili:BV15RmQBWELU",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV15RmQBWELU",
+      "title": "【荒野乱斗】三分钟搞懂新地平线BP思路！排位赛地图详细攻略",
+      "author": "JefFly_",
+      "publishedAt": "2025-12-13",
+      "dataAsOf": null,
+      "read": true,
+      "status": "historical_pending_current_patch_review",
+      "visualChecked": false,
+      "reviewedRangesSeconds": [
+        [
+          0,
+          186
+        ]
+      ],
+      "region": null,
+      "variantOnly": false,
+      "kind": "map_guide",
+      "recent": false,
+      "validityNotes": [
+        "Full 3:08 audio was downloaded through bili-cli and transcribed locally with faster-whisper small; the video reports 3:08.",
+        "Chinese hero proper nouns are machine-transcribed and not visually verified. Keep only the map-structure and role-level ideas as historical mechanism evidence; exclude its picks from current strength ranking.",
+        "The competitive draft discussed in the video is a 2025 World Finals semifinal, not a current-patch recommendation."
+      ],
+      "durationSeconds": 188,
+      "evidenceType": "local_asr"
+    },
+    {
+      "id": "brawlzone-ranked-spiraling-out",
+      "platform": "web",
+      "url": "https://brawlzone.net/ranked",
+      "title": "Brawl Stars Ranked maps and best brawlers (October 2026)",
+      "author": "BrawlZone",
+      "publishedAt": null,
+      "dataAsOf": "2026-10-19",
+      "retrievedAt": "2026-10-19",
+      "kind": "ranked_map_statistics",
+      "read": true,
+      "status": "ranked map candidates and trio read; trio sample count undisclosed on overview",
+      "visualChecked": false,
+      "reviewedRangesSeconds": [],
+      "recent": false,
+      "validityNotes": [
+        "Competitive Ranked battle sample, 15,879 battles on Spiraling Out.",
+        "Dashboard reports Bibi · Edgar · Griff at 77.1%, but does not expose that trio's game count on the overview; treat as a weak signal, not expected win rate."
+      ],
+      "durationSeconds": null,
+      "evidenceType": "ranked_map_statistics"
+    },
+    {
+      "id": "brawlplanet-map-pinhole-punt",
+      "platform": "web",
+      "url": "https://www.brawlplanet.com/maps/pinholepunt_brawlball",
+      "title": "Best Brawlers for Pinhole Punt - Brawl Ball",
+      "author": "Brawl Planet",
+      "dataAsOf": "2026-10-19",
+      "retrievedAt": "2026-10-19",
+      "kind": "mixed_ranked_and_regular_3v3_map_statistics",
+      "read": true,
+      "status": "Map page, geometry, ladder and ranked sections read",
+      "visualChecked": false,
+      "recent": false,
+      "validityNotes": [
+        "Page reports 1,046,933 trophy-ladder Brawl Ball matches and a separate 200,003 Ranked-match section. Ranked section and ladder must not be merged.",
+        "Individual top ladder picks include Cosmo, Wendy, Amber and Gus; ranked-section top picks include Jacky, Buster and Charlie. Ranked trio sample not disclosed."
+      ],
+      "evidenceType": "map_statistics"
+    },
+    {
+      "id": "brawlmetrics-map-pinhole-punt",
+      "platform": "web",
+      "url": "https://brawlmetrics.gg/maps/brawl-ball/pinhole-punt",
+      "title": "Pinhole Punt Best Brawlers | Brawl Ball",
+      "author": "BrawlMetrics",
+      "dataAsOf": "2026-10-15",
+      "retrievedAt": "2026-10-19",
+      "kind": "ranked_map_statistics",
+      "read": true,
+      "status": "310,326 battle map page and rotations read",
+      "visualChecked": false,
+      "recent": false,
+      "validityNotes": [
+        "310,326 battles from the map’s last appearance, timestamped 2026-10-15 23:06 UTC; page says not currently in rotation.",
+        "Buster, Amber and Wendy perform well in the displayed map table, but several pick rates are low."
+      ],
+      "evidenceType": "ranked_map_statistics"
+    },
+    {
+      "id": "bilibili:BV1vs4y1y7KD",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1vs4y1y7KD",
+      "title": "基础瑞科绿荫球场无死角点位教学",
+      "author": "臭名昭著的Krusty",
+      "publishedAt": "2023-06-16T18:32:07+08:00",
+      "dataAsOf": null,
+      "read": true,
+      "status": "historical_pending_current_patch_review",
+      "visualChecked": true,
+      "reviewedRangesSeconds": [],
+      "region": "not-established",
+      "variantOnly": false,
+      "kind": "map_guide",
+      "recent": false,
+      "validityNotes": [],
+      "evidenceType": "local_asr"
+    },
+    {
+      "id": "brawlplanet-map-sneaky-fields",
+      "platform": "web",
+      "url": "https://www.brawlplanet.com/maps/sneakyfields_brawlball",
+      "title": "Best Brawlers for Sneaky Fields - Brawl Ball",
+      "author": "Brawl Planet",
+      "dataAsOf": "2026-10-19",
+      "retrievedAt": "2026-10-19",
+      "kind": "map_statistics",
+      "read": true,
+      "status": "Map geometry, candidates and team-comp card read",
+      "visualChecked": false,
+      "recent": false,
+      "validityNotes": [
+        "1,038,051 trophy-ladder Brawl Ball matches; not Ranked-only.",
+        "Page lists Rosa · Gus · Shade at 79.3% but does not expose that trio’s game count; treat as a weak descriptive signal."
+      ],
+      "evidenceType": "map_statistics"
+    },
+    {
+      "id": "brawlmetrics-map-sneaky-fields",
+      "platform": "web",
+      "url": "https://brawlmetrics.gg/maps/brawl-ball/sneaky-fields",
+      "title": "Sneaky Fields Best Brawlers | Brawl Ball",
+      "author": "BrawlMetrics",
+      "dataAsOf": "2026-10-19",
+      "retrievedAt": "2026-10-19",
+      "kind": "map_statistics",
+      "read": true,
+      "status": "Map rankings and comp sample read",
+      "visualChecked": false,
+      "recent": false,
+      "validityNotes": [
+        "Over 1 million Brawl Ball matches on the map in the current page snapshot; page says not currently in rotation.",
+        "A Shelly · El Primo · Shade composition was reported in 126 games; this is historical map evidence, not current-patch advice."
+      ],
+      "evidenceType": "map_statistics"
+    },
+    {
+      "id": "brawlplanet-map-super-beach",
+      "platform": "web",
+      "url": "https://www.brawlplanet.com/maps/superbeach_brawlball",
+      "title": "Best Brawlers for Super Beach - Brawl Ball",
+      "author": "Brawl Planet",
+      "dataAsOf": "2026-10-19",
+      "retrievedAt": "2026-10-19",
+      "kind": "map_statistics",
+      "read": true,
+      "status": "Map geometry and large ladder sample read",
+      "visualChecked": false,
+      "recent": false,
+      "validityNotes": [
+        "1,341,911 trophy-ladder Brawl Ball matches; not Ranked-only.",
+        "Amber, Ash and Wendy lead the displayed individual win-rate list; team-composition win rate has no visible trio sample count."
+      ],
+      "evidenceType": "map_statistics"
+    },
+    {
+      "id": "brawlzone-map-super-beach",
+      "platform": "web",
+      "url": "https://brawlzone.net/maps/brawl-ball/super-beach",
+      "title": "Super Beach best brawlers, Brawl Ball (October 2026)",
+      "author": "BrawlZone",
+      "dataAsOf": "2026-10-19",
+      "retrievedAt": "2026-10-19",
+      "kind": "ranked_mode_map_statistics",
+      "read": true,
+      "status": "Ranked map page, ranked mode comps and geometry read",
+      "visualChecked": false,
+      "recent": false,
+      "validityNotes": [
+        "The page states there are too few map-specific Ranked battles for map-specific ranking; listed Ranked teams are across Brawl Ball, not Super Beach.",
+        "Map layout: open center, diagonal side bushes, fences near goals, three goal approaches; map is diagonally symmetrical."
+      ],
+      "evidenceType": "map_statistics"
+    },
+    {
+      "id": "bilibili:BV1wGgfz1Eoa",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1wGgfz1Eoa",
+      "title": "［冷饮粉丝］排位解说：空旷荒野&开门营业地图的打法及BP思路",
+      "author": "yuki下无光",
+      "publishedAt": "2025-06-29T15:03:08+08:00",
+      "dataAsOf": null,
+      "read": true,
+      "status": "historical_pending_current_patch_review",
+      "visualChecked": true,
+      "reviewedRangesSeconds": [],
+      "region": "CN-observed-client",
+      "variantOnly": false,
+      "kind": "map_guide",
+      "recent": false,
+      "validityNotes": [],
+      "evidenceType": "local_asr"
+    },
+    {
+      "id": "bilibili:BV1a8Tp6qEb3",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1a8Tp6qEb3",
+      "title": "宝石要塞走边打法思路，不是排位赛，只是讲打法",
+      "author": "八云的荒野教学区",
+      "publishedAt": "2026-07-03T11:58:08+08:00",
+      "dataAsOf": null,
+      "read": true,
+      "status": "historical_pending_current_patch_review",
+      "visualChecked": false,
+      "reviewedRangesSeconds": [
+        [
+          0,
+          105
+        ]
+      ],
+      "region": null,
+      "variantOnly": false,
+      "kind": "map_guide",
+      "recent": false,
+      "validityNotes": [],
+      "evidenceType": "local_asr"
+    }
+  ],
+  "bilibiliTests": [
+    {
+      "bvid": "BV19TvczFErE",
+      "title": "排位赛地图bp思路解析 1.硬石矿井「国服」",
+      "author": "littlething冷饮",
+      "url": "https://www.bilibili.com/video/BV19TvczFErE",
+      "publishedAt": null,
+      "durationSeconds": 157,
+      "scope": "国服地图BP，可能用于机制提取",
+      "test": "bili video --subtitle-timeline explicitly failed: Credential missing sessdata; OpenCLI failed BROWSER_CONNECT. bili audio --no-split succeeded and saved 1.2MB M4A to system TEMP. Local faster-whisper small CPU ASR succeeded; full timestamped transcript retained in system TEMP.",
+      "status": "音频已本地转写并阅读；录入机制与分歧证据，日期、专名和画面待核验"
+    },
+    {
+      "bvid": "BV1xc411v7zY",
+      "title": "查克攻略宝石篇之硬石矿井",
+      "author": "新萌o_O",
+      "url": "https://www.bilibili.com/video/BV1xc411v7zY",
+      "publishedAt": null,
+      "durationSeconds": 266,
+      "scope": "国际服单英雄单地图教学，非完整阵容",
+      "test": "bili video --subtitle-timeline explicitly failed: Credential missing sessdata",
+      "status": "仅元数据，未读取视频观点，不入候选证据"
+    },
+    {
+      "bvid": "BV1xt4y1G7nE",
+      "title": "【大师乱斗课堂】90％的玩家都不知道的分路知识与地图细节，纯干货，萌新福利！",
+      "author": "DRIVER_GOLEM",
+      "url": "https://www.bilibili.com/video/BV1xt4y1G7nE",
+      "publishedAt": "2022-08-09",
+      "dateVerification": "Exa page extraction; page timestamp 2022-08-09 18:30:00",
+      "durationSeconds": 375,
+      "scope": "分路与地图机制的历史教学，非当前版本阵容",
+      "test": "bili video --subtitle-timeline explicitly failed: Credential missing sessdata",
+      "status": "仅元数据，未读取视频观点，不入候选证据"
+    }
+  ],
+  "maps": [
+    {
+      "mapId": 15000007,
+      "nameEn": "Hard Rock Mine",
+      "nameZh": "硬石矿井",
+      "mode": "Gem Grab",
+      "overallStatus": "候选待国服当前版本复核",
+      "mechanismEvidence": [
+        {
+          "sourceId": "spen54",
+          "startSeconds": 890,
+          "endSeconds": 945,
+          "url": "https://www.youtube.com/watch?v=5iHVKzN0c5M&t=890s",
+          "claim": "必须有能持续制造压力的角色，为队友持宝和拾宝争取空间；只被动夹击会被压回出生点。",
+          "type": "role_structure_not_complete_team"
+        },
+        {
+          "sourceId": "spen50",
+          "startSeconds": 1132,
+          "endSeconds": 1214,
+          "url": "https://www.youtube.com/watch?v=z2ylbG5zFVk&t=1132s",
+          "claim": "三条预定分路；中路持宝者要能自保，搭配压力角色与灵活边路。",
+          "type": "role_structure_not_complete_team"
+        },
+        {
+          "sourceId": "bili-hardrock-local",
+          "startSeconds": 10,
+          "endSeconds": 39,
+          "url": "https://www.bilibili.com/video/BV19TvczFErE?t=10",
+          "claim": "国服教学强调密集草丛、掩体以及突进对持宝者的威胁；作者还提醒瑞科等边路压制者会受到刺客环境影响。发布日期未知，保留为有版本条件的机制与分歧证据。",
+          "type": "local_asr_mechanism_pending_visual_review"
+        }
+      ],
+      "candidates": [
+        {
+          "heroEn": "Rico",
+          "role": "边路弹射压制",
+          "sourceId": "spen50",
+          "startSeconds": 1202,
+          "endSeconds": 1212,
+          "quote": "a lot of time you can just go like a Rico ... Bo ... Sandy, Ruffs",
+          "condition": "利用走廊与墙面；需要另有能自保的持宝者和施压角色",
+          "status": "旧版本单英雄候选"
+        },
+        {
+          "heroEn": "Pam",
+          "role": "持宝与回复",
+          "sourceId": "spen50",
+          "startSeconds": 1173,
+          "endSeconds": 1178,
+          "quote": "you've got Pam with her Scrap Sucker and then super",
+          "condition": "持宝位强调生存；妙具与技能配置需按当前版本复核",
+          "status": "旧版本单英雄候选"
+        },
+        {
+          "heroEn": "Colette",
+          "role": "自保持宝/反坦克",
+          "sourceId": "spen50",
+          "startSeconds": 1146,
+          "endSeconds": 1159,
+          "quote": "Colette ... she's just a better mid",
+          "condition": "原视频强调当时妙具自保；不等于当前版本通用最强持宝者",
+          "status": "旧版本单英雄候选"
+        },
+        {
+          "heroEn": "Sandy",
+          "role": "灵活边路",
+          "sourceId": "spen50",
+          "startSeconds": 1202,
+          "endSeconds": 1212,
+          "quote": "you've got Bo here as well, you've got Sandy, Ruffs",
+          "condition": "需要队伍补充可靠持宝和施压能力",
+          "status": "旧版本单英雄候选"
+        }
+      ],
+      "completeTeamObserved": false,
+      "negativeEvidence": [
+        {
+          "heroEn": "Rico",
+          "sourceId": "bili-hardrock-local",
+          "startSeconds": 28,
+          "endSeconds": 39,
+          "claim": "这条国服教学认为瑞科／拉夫旧有的边路线霸优势会受刺客环境限制，与较旧国际服候选存在分歧。由于发布日期与画面尚未核对，不能直接判定哪条代表当前版本；含瑞科阵容应特别验证对突进的防护。"
+        }
+      ],
+      "tags": [
+        "走廊弹射",
+        "三线争夺",
+        "持宝保护"
+      ],
+      "terrain": "侧路墙体与走廊适合弹射压制。中路争夺矿井，持宝者需要撤退空间；两条边路要主动施压，不能让持宝者独自顶在前面。",
+      "objective": "持宝者保命，边路制造空间。领先后一起收缩，避免为追击丢掉宝石。",
+      "teams": [
+        {
+          "id": "15000007-1",
+          "title": "续航与边路压制",
+          "kind": "mechanism_inference",
+          "status": "待版本与实战复核",
+          "mapFitBand": 1,
+          "cooperationBand": 2,
+          "members": [
+            {
+              "heroId": 16000016,
+              "role": "中路持宝与续航"
+            },
+            {
+              "heroId": 16000004,
+              "role": "弹射边路"
+            },
+            {
+              "heroId": 16000028,
+              "role": "施压与团队掩护"
+            }
+          ],
+          "synergy": "帕姆保持安全距离持宝，瑞科利用侧墙压制，沙迪争夺另一侧空间并在团队行动时提供掩护。回复与控场支持边路持续施压。",
+          "risk": "中路不宜被超远程持续消耗；沙迪需要接近有效距离。国服教学对瑞科在刺客环境下的边路优势提出不同意见，日期待核实；对方突进绕后时两条边路必须及时回防。",
+          "loadout": "瑞科保留墙体。帕姆的自保妙具、沙迪团队技能的具体配置需按当前版本复核。",
+          "evidenceRefs": [
+            "spen50",
+            "spen54",
+            "bili-hardrock-local"
+          ],
+          "substitutions": [
+            {
+              "position": 0,
+              "heroId": 16000039,
+              "tradeoff": "替换帕姆会失去持续回复，增加反高血量能力；持宝安全性需重新判断。"
+            }
+          ],
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "以下协作流程由工具根据已整理职责推导，不是视频作者逐字建议，也不是职业实战验证。技能可用性与国服当前版本仍需核验。",
+            "steps": [
+              "瑞科沿保留墙体压侧路，沙迪争另一边；帕姆在两边都有支援距离的位置拾宝。",
+              "沙迪获得团队掩护时先报推进方向；帕姆留在能回撤的位置，瑞科切断敌人支援路线，不三人挤入同一走廊。",
+              "任一边路失守先报方向，帕姆带宝后退；另一边停止深追，回收交叉火力再争矿井。"
+            ]
+          }
+        },
+        {
+          "id": "15000007-2",
+          "title": "反坦克与边路控线",
+          "kind": "mechanism_inference",
+          "status": "待版本与实战复核",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "members": [
+            {
+              "heroId": 16000039,
+              "role": "自保持宝／反高血量"
+            },
+            {
+              "heroId": 16000004,
+              "role": "弹射边路"
+            },
+            {
+              "heroId": 16000028,
+              "role": "侧路推进"
+            }
+          ],
+          "synergy": "科莱特处理高血量前排，瑞科守住狭窄路线，沙迪负责推进和团队掩护；仅在科莱特能安全持宝时采用这套分工。",
+          "risk": "缺少持续治疗；科莱特携宝时不能无保护地用位移追击。国服教学提醒瑞科会受刺客环境影响，来源日期待核实；对低血量远程队伍收益可能下降。",
+          "loadout": "科莱特的持宝判断来自旧版本攻略，自保配置必须复核；不可仅因这张卡片就默认她是当前版本最佳持宝者。",
+          "evidenceRefs": [
+            "spen50",
+            "spen54",
+            "bili-hardrock-local"
+          ],
+          "substitutions": [],
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "以下协作流程由工具根据已整理职责推导，不是视频作者逐字建议，也不是职业实战验证。技能可用性与国服当前版本仍需核验。",
+            "steps": [
+              "瑞科负责墙区火力，沙迪抢接近路线；科莱特在安全射线里处理高血量英雄并拾宝。",
+              "沙迪的掩护服务于拾宝与回撤；科莱特携宝时先报自保技能，瑞科压住能追到持宝者的入口。",
+              "缺乏治疗时主动留出回复时间；科莱特不能携宝冲入敌后，边路丢失后先让矿井再重组。"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "mapId": 15000005,
+      "nameEn": "Shooting Star",
+      "nameZh": "神秘流星",
+      "mode": "Bounty",
+      "overallStatus": "9月口播候选待国服当前版本复核",
+      "mechanismEvidence": [
+        {
+          "sourceId": "spen54",
+          "startSeconds": 303,
+          "endSeconds": 320,
+          "url": "https://www.youtube.com/watch?v=5iHVKzN0c5M&t=303s",
+          "claim": "除远程压制外，至少需要一名能前压中路的英雄，避免被投掷或中路体系卡住。",
+          "type": "role_structure_not_complete_team"
+        }
+      ],
+      "candidates": [
+        {
+          "heroEn": "Max",
+          "role": "前压与机动",
+          "sourceId": "spen54",
+          "startSeconds": 303,
+          "endSeconds": 314,
+          "quote": "at least one brawler that can push up into mid ... Max, a Gus ... Brock",
+          "condition": "作为能前压的角色候选，不是完整远程阵容",
+          "status": "9月单英雄候选"
+        },
+        {
+          "heroEn": "Gus",
+          "role": "中路支援",
+          "sourceId": "spen54",
+          "startSeconds": 303,
+          "endSeconds": 314,
+          "quote": "a Max, a Gus ... something that's okay in the mid",
+          "condition": "提供中路存在感，仍需远程伤害位",
+          "status": "9月单英雄候选"
+        },
+        {
+          "heroEn": "Brock",
+          "role": "远程火力/推进",
+          "sourceId": "spen54",
+          "startSeconds": 303,
+          "endSeconds": 314,
+          "quote": "Brock, something that's okay in the mid",
+          "condition": "远程对枪与推进；破墙时机属于机制推断",
+          "status": "9月单英雄候选"
+        },
+        {
+          "heroEn": "Angelo",
+          "role": "远程压制",
+          "sourceId": "spen54",
+          "startSeconds": 309,
+          "endSeconds": 316,
+          "quote": "even an Angelo",
+          "condition": "原视频作为可前压中路的远程候选之一",
+          "status": "9月单英雄候选"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "heroEn": "Nani",
+          "sourceId": "spen54",
+          "startSeconds": 266,
+          "endSeconds": 296,
+          "claim": "作者称传奇段位仍可能奏效，但在大师以上易被克制，仅适合更有条件的后选；不能沿用4月视频的无条件高推荐。"
+        }
+      ],
+      "completeTeamObserved": false,
+      "tags": [
+        "开阔远程",
+        "中路前压",
+        "生存优先"
+      ],
+      "terrain": "整体开阔，长射程威胁明显。阵容仍需要争夺中场的能力，不能三人都只在后方等待对枪。",
+      "objective": "保持击杀交换优势，避免无意义冒进。需要沟通集火与撤退，而非只追求伤害量。",
+      "teams": [
+        {
+          "id": "15000005-1",
+          "title": "远程与护盾推进",
+          "kind": "mechanism_inference",
+          "status": "待版本与实战复核",
+          "mapFitBand": 1,
+          "cooperationBand": 2,
+          "members": [
+            {
+              "heroId": 16000061,
+              "role": "支援与中路"
+            },
+            {
+              "heroId": 16000003,
+              "role": "远程火力／破墙"
+            },
+            {
+              "heroId": 16000079,
+              "role": "远程压制"
+            }
+          ],
+          "synergy": "格斯帮助队友安全争夺中路，布洛克利用火力创造走位压力，安吉洛抓住压制后的射击机会。护盾用于关键推进或保护高价值队友。",
+          "risk": "较依赖命中率；被绕后或近身时需要提前退让。破墙会影响双方，不要无沟通地改变地形。",
+          "loadout": "需要熟悉格斯护盾的投放时机、布洛克脱身与破墙选择；安吉洛需稳定蓄力射击。具体配装待当前版本复核。",
+          "evidenceRefs": [
+            "spen54"
+          ],
+          "substitutions": [],
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "以下协作流程由工具根据已整理职责推导，不是视频作者逐字建议，也不是职业实战验证。技能可用性与国服当前版本仍需核验。",
+            "steps": [
+              "安吉洛与布洛克分开射线；格斯站在能支援主输出、又不与其同时被命中的距离。",
+              "先报集火目标与护盾接收者；护盾支持抢位，布洛克的破墙只打开约定射线，安吉洛利用对手被迫移动的窗口射击。",
+              "领先后减少主动交换；被绕后时两名射手拉开方向，格斯保护最难撤回的人，避免为救人连送。"
+            ]
+          }
+        },
+        {
+          "id": "15000005-2",
+          "title": "机动远程",
+          "kind": "mechanism_inference",
+          "status": "待版本与实战复核",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "members": [
+            {
+              "heroId": 16000032,
+              "role": "机动与前压"
+            },
+            {
+              "heroId": 16000061,
+              "role": "护盾支援"
+            },
+            {
+              "heroId": 16000079,
+              "role": "主远程威胁"
+            }
+          ],
+          "synergy": "麦克斯带动团队移动，格斯提供保护，安吉洛负责远程压制。加速用来协调抢位和撤退，不是要求三人一起冲进近战。",
+          "risk": "破墙能力不足，对掩体后的持续压制需要谨慎处理；主火力位失误会降低整个阵容的威胁。",
+          "loadout": "麦克斯需要明确发起与撤退信号；格斯优先保护关键输出。属于配合要求较高的机制组合。",
+          "evidenceRefs": [
+            "spen54"
+          ],
+          "substitutions": [],
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "以下协作流程由工具根据已整理职责推导，不是视频作者逐字建议，也不是职业实战验证。技能可用性与国服当前版本仍需核验。",
+            "steps": [
+              "安吉洛维持远程威胁，格斯保留支援角度，麦克斯寻找能让三人同时改善射线的位置。",
+              "麦克斯报加速方向，格斯确认护盾接收者；安吉洛借机横移创造角度，不因加速变成近战冲脸。",
+              "未获得击杀就回到安全射程；绕后威胁出现时加速也可用于分散撤退，避免单一主火力被孤立。"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "mapId": 15000024,
+      "nameEn": "Backyard Bowl",
+      "nameZh": "后院球场",
+      "mode": "Brawl Ball",
+      "overallStatus": "仅Wiki机制候选，证据等级较低；无已读地图视频字幕",
+      "mechanismEvidence": [
+        {
+          "sourceId": "wiki-backyard",
+          "section": "Layout / Tips",
+          "claim": "开阔、中场掩体少；远程英雄适合。可破坏球门前掩体扩大进球角度。",
+          "type": "map_mechanism"
+        }
+      ],
+      "candidates": [
+        {
+          "heroEn": "Brock",
+          "role": "远程与破墙",
+          "sourceId": "wiki-backyard",
+          "section": "Tips",
+          "condition": "开阔地图远程候选；破墙服务于射门空间",
+          "status": "无日期Wiki单英雄候选"
+        },
+        {
+          "heroEn": "Colt",
+          "role": "破墙与持续火力",
+          "sourceId": "wiki-backyard",
+          "section": "Tips",
+          "condition": "原文明确提到超级技能或Silver Bullet破坏敌方掩体；配置需当前版本复核",
+          "status": "无日期Wiki单英雄候选"
+        },
+        {
+          "heroEn": "Bea",
+          "role": "远程输出",
+          "sourceId": "wiki-backyard",
+          "section": "Tips",
+          "condition": "被Wiki点名为开阔地图适用远程；不能推导无反制能力的三射手队",
+          "status": "无日期Wiki单英雄候选"
+        },
+        {
+          "heroEn": "Belle",
+          "role": "远程压制",
+          "sourceId": "wiki-backyard",
+          "section": "Tips",
+          "condition": "被Wiki点名为开阔地图适用远程",
+          "status": "无日期Wiki单英雄候选"
+        }
+      ],
+      "completeTeamObserved": false,
+      "tags": [
+        "开阔球场",
+        "破墙射门",
+        "需要补充实战验证"
+      ],
+      "terrain": "中场较开阔，远程压制重要。球门前的掩体会限制射门角度，破墙能改变攻防，但也会削弱己方防守屏障。",
+      "objective": "取得空间后再带球推进，利用射门角度得分；不能把击杀数量当作胜利条件。",
+      "teams": [
+        {
+          "id": "15000024-1",
+          "title": "远程与减速守门",
+          "kind": "mechanism_inference",
+          "status": "待版本与实战复核",
+          "mapFitBand": 1,
+          "cooperationBand": 2,
+          "members": [
+            {
+              "heroId": 16000029,
+              "role": "减速与防守"
+            },
+            {
+              "heroId": 16000003,
+              "role": "破墙与推进"
+            },
+            {
+              "heroId": 16000046,
+              "role": "远程标记压制"
+            }
+          ],
+          "synergy": "贝亚提供减速威胁，贝尔和布洛克争取远程空间；布洛克在进攻有把握时处理门前掩体。由站位更安全的队友接球，不设固定全程持球者。",
+          "risk": "仅有无日期Wiki单英雄依据，整队实战证据不足。三人都偏远程，面对多突进、贴身强攻或高水平绕后存在共同弱点。",
+          "loadout": "当前版本与反突进能力尚待验证；只作为远程配合实验，不标为稳健强势阵容。",
+          "evidenceRefs": [
+            "wiki-backyard"
+          ],
+          "substitutions": [],
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "以下协作流程由工具根据已整理职责推导，不是视频作者逐字建议，也不是职业实战验证。技能可用性与国服当前版本仍需核验。",
+            "steps": [
+              "贝亚留出防守角度，布洛克和贝尔分线压制；球先停在安全区，避免持球者损失输出后硬推。",
+              "贝亚减速命中后报目标，贝尔与布洛克跟进；确认人数或站位优势再破门前墙，由空闲队友接球。",
+              "对方突进逼近时先保住门前空间；三人远程无法稳定化解贴身强攻时应换阵容，不靠继续破墙补救。"
+            ]
+          }
+        },
+        {
+          "id": "15000024-2",
+          "title": "双线火力与破墙",
+          "kind": "mechanism_inference",
+          "status": "待版本与实战复核",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "members": [
+            {
+              "heroId": 16000029,
+              "role": "减速防守"
+            },
+            {
+              "heroId": 16000001,
+              "role": "持续火力／破墙"
+            },
+            {
+              "heroId": 16000046,
+              "role": "远程压制"
+            }
+          ],
+          "synergy": "柯尔特以破墙扩大传射角度，贝尔压低对方血线，贝亚提供减速来帮助集火和守门。优先控住球再发起进攻。",
+          "risk": "同样缺少可靠前排与脱身；依赖远程命中率。仅为Wiki候选推导，不应作为无条件首选。",
+          "loadout": "柯尔特若选择破墙妙具，需要与队友沟通，避免把己方门前掩体提前打掉。",
+          "evidenceRefs": [
+            "wiki-backyard"
+          ],
+          "substitutions": [],
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "以下协作流程由工具根据已整理职责推导，不是视频作者逐字建议，也不是职业实战验证。技能可用性与国服当前版本仍需核验。",
+            "steps": [
+              "柯尔特与贝尔分射线压血，贝亚负责观察回防路线；先约定柯尔特的破墙区域。",
+              "贝亚减速创造命中窗口，柯尔特输出或破墙，贝尔补远程压力；处理球和输出分人完成。",
+              "推进失败后由位置最近者守球，其余拉开距离回防；避免为重复破墙或连续射门同时耗空弹药。"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "mapId": 15000053,
+      "nameEn": "Hot Potato",
+      "nameZh": "烫手山芋",
+      "mode": "Heist",
+      "overallStatus": "9月机制证据与5月候选，待国服当前版本复核",
+      "mechanismEvidence": [
+        {
+          "sourceId": "spen54",
+          "startSeconds": 1089,
+          "endSeconds": 1175,
+          "url": "https://www.youtube.com/watch?v=5iHVKzN0c5M&t=1089s",
+          "claim": "持续守家者、金库伤害和制造压力是不同职责；连续复活接力进攻需要更高配合。支援型角色不能占去过多高伤害位置。",
+          "type": "role_structure_not_complete_team"
+        }
+      ],
+      "candidates": [
+        {
+          "heroEn": "Colt",
+          "role": "金库输出/破墙",
+          "sourceId": "spen50",
+          "startSeconds": 1479,
+          "endSeconds": 1485,
+          "quote": "got Colt, you can break up in the map ... right hand lane ... deal damage",
+          "condition": "可破墙转控制，也可侧路打金库；9月字幕再次提及但专名转写不清，优先引用5月清晰点名",
+          "status": "旧版本单英雄候选"
+        },
+        {
+          "heroEn": "Otis",
+          "role": "守家/反突进",
+          "sourceId": "spen50",
+          "startSeconds": 1498,
+          "endSeconds": 1502,
+          "quote": "a brawler that's great at defending ... Otis",
+          "condition": "作为守家候选，需要搭配能接近金库且有伤害的角色",
+          "status": "旧版本单英雄候选"
+        },
+        {
+          "heroEn": "Clancy",
+          "role": "守家输出",
+          "sourceId": "spen50",
+          "startSeconds": 1508,
+          "endSeconds": 1512,
+          "quote": "Clancy, a great defender",
+          "condition": "不能由守家能力推出单独能进攻金库",
+          "status": "旧版本单英雄候选"
+        },
+        {
+          "heroEn": "Griff",
+          "role": "破墙/控制",
+          "sourceId": "spen50",
+          "startSeconds": 1484,
+          "endSeconds": 1489,
+          "quote": "Griff to open up the map",
+          "condition": "破墙后地图玩法会改变；需与队友火力匹配",
+          "status": "旧版本单英雄候选"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "heroEn": "Penny",
+          "sourceId": "spen54",
+          "startSeconds": 1150,
+          "endSeconds": 1157,
+          "claim": "作者现场纠正图表：忘记移除Penny，她不是这张图理想的金库伤害角色。禁止只OCR图表不听纠正。"
+        }
+      ],
+      "completeTeamObserved": false,
+      "tags": [
+        "守家分工",
+        "金库输出",
+        "破墙改变路线"
+      ],
+      "terrain": "进攻路线与墙体影响接近金库的效率。破墙既能释放射线，也会改变防守压力，应围绕队伍职责使用。",
+      "objective": "分清守家、制造压力和金库输出。交替进攻要保证防守不断档，不能三个人都去换家。",
+      "teams": [
+        {
+          "id": "15000053-1",
+          "title": "明确守家与输出",
+          "kind": "mechanism_inference",
+          "status": "待版本与实战复核",
+          "mapFitBand": 1,
+          "cooperationBand": 2,
+          "members": [
+            {
+              "heroId": 16000059,
+              "role": "守家／限制突进"
+            },
+            {
+              "heroId": 16000001,
+              "role": "金库主输出"
+            },
+            {
+              "heroId": 16000050,
+              "role": "清线与破墙"
+            }
+          ],
+          "synergy": "奥蒂斯优先阻止敌人接近己方金库，格里夫处理路线与掩体，柯尔特在侧路获得窗口后输出金库。轮换前先确认守家位置有人接手。",
+          "risk": "候选英雄来自旧版本；阵容接近敌方金库的能力尚待实战验证。双破墙不可重复浪费技能或暴露己方金库。",
+          "loadout": "奥蒂斯保留关键限制技能应对进攻。柯尔特和格里夫先约定破墙职责；当前版本伤害效率待复核。",
+          "evidenceRefs": [
+            "spen50",
+            "spen54"
+          ],
+          "substitutions": [],
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "以下协作流程由工具根据已整理职责推导，不是视频作者逐字建议，也不是职业实战验证。技能可用性与国服当前版本仍需核验。",
+            "steps": [
+              "奥蒂斯先接守家职责，格里夫清线、选择性破墙，柯尔特争取金库输出路线。",
+              "柯尔特准备打金库前报位置；格里夫观察是否需要接防，奥蒂斯把限制技能留给最危险的进攻者。",
+              "柯尔特被迫回防时明确交接，不能三人同时换家；己方金库暴露后优先恢复防线再找输出窗口。"
+            ]
+          }
+        },
+        {
+          "id": "15000053-2",
+          "title": "守家成长与火力",
+          "kind": "mechanism_inference",
+          "status": "待版本与实战复核",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "members": [
+            {
+              "heroId": 16000083,
+              "role": "防守输出"
+            },
+            {
+              "heroId": 16000001,
+              "role": "金库主输出"
+            },
+            {
+              "heroId": 16000050,
+              "role": "清线与破墙"
+            }
+          ],
+          "synergy": "克兰西负责防守积累有效交战机会，格里夫清线，柯尔特利用队友创造的空间打金库。需要清晰地交接防守职责。",
+          "risk": "成长阶段可能受到压制，缺少稳定治疗；对长射程压制或早期持续进攻，不能假定守家必然成功。",
+          "loadout": "克兰西不同阶段能力与当前数值需复核。不要把守家能力误当成一定能攻到金库。",
+          "evidenceRefs": [
+            "spen50",
+            "spen54"
+          ],
+          "substitutions": [],
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "以下协作流程由工具根据已整理职责推导，不是视频作者逐字建议，也不是职业实战验证。技能可用性与国服当前版本仍需核验。",
+            "steps": [
+              "克兰西利用防守交战积累成长，格里夫清线，柯尔特争取输出路线；避免把成长时间误当成安全期。",
+              "格里夫破墙前说明对己方金库的影响；柯尔特有输出窗口时由另一人明确留守，不三人同时追击。",
+              "早期受到长射程压制就让出部分进攻节奏；成长位倒下时立即报守家缺口，不能继续默认原分工有效。"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "mapId": 15000306,
+      "nameEn": "Dueling Beetles",
+      "nameZh": "甲虫决斗",
+      "mode": "Hot Zone",
+      "overallStatus": "9月口播候选待国服当前版本复核",
+      "mechanismEvidence": [
+        {
+          "sourceId": "spen54",
+          "startSeconds": 1352,
+          "endSeconds": 1429,
+          "url": "https://www.youtube.com/watch?v=5iHVKzN0c5M&t=1352s",
+          "claim": "占区控制需要抗突进与对投掷的回答；不能仅看击杀。对Gray/Emz体系、投掷位及其反制关系有明显条件。",
+          "type": "role_structure_not_complete_team"
+        }
+      ],
+      "candidates": [
+        {
+          "heroEn": "Lou",
+          "role": "区域控制/反进攻",
+          "sourceId": "spen54",
+          "startSeconds": 1360,
+          "endSeconds": 1389,
+          "quote": "Lou is always a safe one in hot zone ... one of the best counters",
+          "condition": "超级技能区域控制，能应对部分Gray体系；作者同时提醒存在不利单挑",
+          "status": "9月单英雄候选"
+        },
+        {
+          "heroEn": "Colette",
+          "role": "反坦克/抗突进",
+          "sourceId": "spen54",
+          "startSeconds": 1390,
+          "endSeconds": 1396,
+          "quote": "Klette and Mazy ... decent enough counters into gray M",
+          "condition": "字幕专名归一为Colette/Maisie；应对Gray/Emz体系而非无条件最强",
+          "status": "9月有条件单英雄候选"
+        },
+        {
+          "heroEn": "Maisie",
+          "role": "反突进/区域威胁",
+          "sourceId": "spen54",
+          "startSeconds": 1390,
+          "endSeconds": 1396,
+          "quote": "Klette and Mazy ... decent enough counters into gray M",
+          "condition": "字幕专名归一为Colette/Maisie；需要当前版本确认技能与伤害",
+          "status": "9月有条件单英雄候选"
+        },
+        {
+          "heroEn": "Barley",
+          "role": "隔墙控区",
+          "sourceId": "spen54",
+          "startSeconds": 1396,
+          "endSeconds": 1421,
+          "quote": "Barley ... gets so much value on this map",
+          "condition": "原视频讨论后选；没有敌方阵容信息的MVP必须提醒易受突进影响",
+          "status": "9月有条件单英雄候选"
+        },
+        {
+          "heroEn": "Chuck",
+          "role": "高熟练度路线施压",
+          "sourceId": "spen54",
+          "startSeconds": 1421,
+          "endSeconds": 1429,
+          "quote": "a really underrated pick is Chuck, but it's quite hard",
+          "condition": "作者明确说难且应后选；无BP的首版不应默认排在稳健候选前",
+          "status": "9月条件性进阶候选"
+        }
+      ],
+      "completeTeamObserved": false,
+      "tags": [
+        "占区控场",
+        "防突进",
+        "隔墙压制"
+      ],
+      "terrain": "围绕热区持续争夺空间，墙体能为投掷提供保护。阵容需要阻止敌人直接进区，也需要保护持续控场位。",
+      "objective": "持续、安全地累积占区进度。击退敌人后及时站区，避免只追击而让进度空转。",
+      "teams": [
+        {
+          "id": "15000306-1",
+          "title": "区域控制与反突进",
+          "kind": "mechanism_inference",
+          "status": "待版本与实战复核",
+          "mapFitBand": 1,
+          "cooperationBand": 2,
+          "members": [
+            {
+              "heroId": 16000041,
+              "role": "主区域控制"
+            },
+            {
+              "heroId": 16000068,
+              "role": "反突进与保护"
+            },
+            {
+              "heroId": 16000006,
+              "role": "隔墙封路"
+            }
+          ],
+          "synergy": "小罗控制热区，巴利在墙后封锁入口，麦茜保护控场位并处理近身威胁。控制技能错开使用，减少对手重新进区的窗口。",
+          "risk": "巴利依赖保护；面对跳跃、传送或破墙体系时风险增加。原攻略包含后手条件，此处没有对方阵容信息，不能保证通用适用。",
+          "loadout": "麦茜需要掌握反突进时机；巴利避免孤立站位。小罗的区域控制配置需当前版本复核。",
+          "evidenceRefs": [
+            "spen54"
+          ],
+          "substitutions": [],
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "以下协作流程由工具根据已整理职责推导，不是视频作者逐字建议，也不是职业实战验证。技能可用性与国服当前版本仍需核验。",
+            "steps": [
+              "小罗争区，巴利在墙后封入口，麦茜站在能保护巴利又能影响热区的位置。",
+              "小罗与巴利控制覆盖错开，麦茜保留反突进资源；逼退敌人后由安全者站区，其他人封回场路线。",
+              "破墙或跳入导致巴利失去保护时先后撤换角度；不要为抢少量进度同时交掉三人的关键技能。"
+            ]
+          }
+        },
+        {
+          "id": "15000306-2",
+          "title": "控区与高血量压制",
+          "kind": "mechanism_inference",
+          "status": "待版本与实战复核",
+          "mapFitBand": 1,
+          "cooperationBand": 2,
+          "members": [
+            {
+              "heroId": 16000041,
+              "role": "区域控制"
+            },
+            {
+              "heroId": 16000039,
+              "role": "反高血量／回防"
+            },
+            {
+              "heroId": 16000006,
+              "role": "隔墙封路"
+            }
+          ],
+          "synergy": "小罗和巴利形成不同角度的区域限制，科莱特负责处理高血量进场者并回防。前两人交错施压，为占区争取持续时间。",
+          "risk": "替换麦茜会改变反突进方式；不能默认科莱特提供相同的范围保护。面对机动刺客仍需谨慎。",
+          "loadout": "科莱特的具体自保与控制配置必须核对，替换会降低某些近身对局的容错。",
+          "evidenceRefs": [
+            "spen54"
+          ],
+          "substitutions": [],
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "以下协作流程由工具根据已整理职责推导，不是视频作者逐字建议，也不是职业实战验证。技能可用性与国服当前版本仍需核验。",
+            "steps": [
+              "小罗控区、巴利封路，科莱特观察高血量进场路线；三人保持能回防的间距。",
+              "敌方前排进场时科莱特处理血量，小罗延续控制，巴利封住支援入口；技能错开形成连续占区窗口。",
+              "科莱特无法提供麦茜同样的范围保护；被机动刺客切后排时先撤巴利，重新分配站区者而非硬站。"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "mapId": 15000143,
+      "nameEn": "Beach Ball",
+      "nameZh": "沙滩足球",
+      "mode": "Brawl Ball",
+      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "completeTeamObserved": false,
+      "teamEvidenceNotice": null,
+      "tags": [
+        "边路窄口",
+        "破墙与弹射取舍",
+        "对突进的条件方案"
+      ],
+      "terrain": "教学强调左右窄口的弹射价值，以及中路投掷、破墙与进攻压力的关系。阵容不能只堆低伤害控制位。",
+      "objective": "控住路线后再带球进攻；破墙为射门和队友火力服务，避免同时破坏瑞科依赖的弹射路线。",
+      "teams": [
+        {
+          "title": "应对突进的边路压力",
+          "synergy": "瑞科利用侧墙压住窄口，格里夫负责持续伤害和选择性破墙，科迪琉斯处理近身威胁。控住路线后由位置安全者接球；隔离关键敌人前先沟通持球与回防。",
+          "risk": "这是应对刺客时的条件组合，不是无对手信息下的通用最优阵容。缺少治疗与超远程压制；科迪琉斯的原视频条件不能省略。",
+          "loadout": "格里夫与瑞科先约定保留和破坏哪些墙体。科迪琉斯隔离目标时应避免让球和防线无人接管。具体配置待当前国服版本核验。",
+          "cooperationBand": 1,
+          "id": "15000143-1",
+          "members": [
+            {
+              "heroId": 16000004,
+              "role": "侧路弹射"
+            },
+            {
+              "heroId": 16000050,
+              "role": "清线与火力"
+            },
+            {
+              "heroId": 16000070,
+              "role": "应对刺客／隔离威胁"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "status": "待版本与实战复核",
+          "mapFitBand": 1,
+          "evidenceRefs": [
+            "youtube:5iHVKzN0c5M"
+          ],
+          "substitutions": [],
+          "teamStats": null,
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "以下协作流程由工具根据已整理职责推导，不是视频作者逐字建议，也不是职业实战验证。技能可用性与国服当前版本仍需核验。",
+            "steps": [
+              "先约定瑞科需要保留的侧墙，格里夫负责另一条清线路线，科迪琉斯观察近身威胁。",
+              "科迪琉斯隔离前报目标与球的位置；瑞科和格里夫接管场上防守或推进，避免隔离后球和球门同时无人照看。",
+              "对方不是突进体系时重新评估科迪琉斯的价值；失去墙区后不能继续照搬瑞科原来的压制路线。"
+            ]
+          }
+        }
+      ],
+      "candidates": [
+        {
+          "heroEn": "Rico",
+          "role": "边路弹射",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 353,
+          "condition": "原文明确左右窄口利于弹射；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Griff",
+          "role": "制造压力",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 374,
+          "condition": "与伤害和破墙体系搭配，非完整队伍；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Cordelius",
+          "role": "针对刺客",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 377,
+          "condition": "仅在需要反制刺客时；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Moe",
+          "role": "进攻/得分压力",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 367,
+          "condition": "自动字幕Mo按标题英雄上下文归一，仍未视觉核验；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        }
+      ],
+      "mechanismEvidence": [
+        {
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 322,
+          "url": "https://www.youtube.com/watch?v=5iHVKzN0c5M&t=322s",
+          "claim": "中路投掷和破墙形成对抗；至少有伤害与进攻压力，不能堆低伤害控制位。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        }
+      ]
+    },
+    {
+      "mapId": 15000115,
+      "nameEn": "Double Swoosh",
+      "nameZh": "嗖嗖作响",
+      "mode": "Gem Grab",
+      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "completeTeamObserved": false,
+      "teamEvidenceNotice": null,
+      "tags": [
+        "自保持宝",
+        "边路压力",
+        "团队撤退"
+      ],
+      "terrain": "教学强调持宝者需要逃生能力，并需要边路提供伤害和推进压力。只被动控场会让对手持续抢占拾宝空间。",
+      "objective": "持宝者优先存活，边路在可回撤距离内创造拾宝空间。领先后沟通撤退，避免三人同时向前追击。",
+      "teams": [
+        {
+          "title": "安全持宝与支援前压",
+          "synergy": "珍妮特承担持宝与安全撤退，戈雷为边路制造支援角度，奥蒂斯提供持续威胁并保留限制技能回防。传送只作为团队转移工具，不要求持宝者主动深入敌后。",
+          "risk": "缺少稳定治疗；传送落点若暴露会让持宝者被集火。珍妮特的伤害与自保判断来自9月历史版本，仍需复核。",
+          "loadout": "先明确传送入口的用途与撤退路线，奥蒂斯不要为了追击提前用掉唯一防突进手段。",
+          "cooperationBand": 2,
+          "id": "15000115-1",
+          "members": [
+            {
+              "heroId": 16000057,
+              "role": "自保持宝"
+            },
+            {
+              "heroId": 16000064,
+              "role": "侧路支援与转移"
+            },
+            {
+              "heroId": 16000059,
+              "role": "伤害与防突进"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "status": "待版本与实战复核",
+          "mapFitBand": 1,
+          "evidenceRefs": [
+            "youtube:5iHVKzN0c5M"
+          ],
+          "substitutions": [],
+          "teamStats": null,
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "以下协作流程由工具根据已整理职责推导，不是视频作者逐字建议，也不是职业实战验证。技能可用性与国服当前版本仍需核验。",
+            "steps": [
+              "珍妮特安全拾宝，戈雷建立可支援的转移角度，奥蒂斯压住敌方靠近持宝者的入口。",
+              "传送入口先定义为支援还是撤退；珍妮特移动前报宝石状态，奥蒂斯保留限制追击者的资源。",
+              "传送落点暴露就放弃使用；戈雷不能独自深入把持宝者的撤退通道一起丢掉。"
+            ]
+          }
+        },
+        {
+          "title": "位移持宝与机动推进",
+          "synergy": "斯图用位移保持安全距离，麦克斯协调团队抢位与撤退，奥蒂斯守住关键入口。加速用来同步争夺空间，不能代替输出或无条件冲锋。",
+          "risk": "配合和走位要求较高；持宝者断掉位移循环时必须及时让出前线。缺少治疗与破墙，对掩体后的压制不宜硬顶。",
+          "loadout": "加速前约定目标区域；斯图携宝时优先自保，奥蒂斯观察敌方突进路线。",
+          "cooperationBand": 1,
+          "id": "15000115-2",
+          "members": [
+            {
+              "heroId": 16000045,
+              "role": "位移持宝"
+            },
+            {
+              "heroId": 16000032,
+              "role": "团队机动与侧路压力"
+            },
+            {
+              "heroId": 16000059,
+              "role": "伤害与回防"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "status": "待版本与实战复核",
+          "mapFitBand": 1,
+          "evidenceRefs": [
+            "youtube:5iHVKzN0c5M"
+          ],
+          "substitutions": [],
+          "teamStats": null,
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "以下协作流程由工具根据已整理职责推导，不是视频作者逐字建议，也不是职业实战验证。技能可用性与国服当前版本仍需核验。",
+            "steps": [
+              "斯图在可维持位移循环的位置持宝，麦克斯与奥蒂斯分边施压，避免持宝位为充能过度前探。",
+              "麦克斯报加速目的地，斯图横移拾宝或回撤，奥蒂斯封追击路线；三人同步移动而非各自冲刺。",
+              "斯图位移断档时立即示意撤退；奥蒂斯守住入口，麦克斯加速优先保住宝石而非继续追击。"
+            ]
+          }
+        }
+      ],
+      "candidates": [
+        {
+          "heroEn": "Max",
+          "role": "安全持宝/机动",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 790,
+          "condition": "作为自保持宝候选，未提供完整三人队；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Stu",
+          "role": "位移持宝",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 780,
+          "condition": "作者称其他场景可能被高估，但此图自保适用；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Janet",
+          "role": "自保持宝",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 786,
+          "condition": "作者强调当时伤害增强；当前国服数值未核验；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Otis",
+          "role": "带射程的伤害/防守",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 802,
+          "condition": "口播Otus归一为Otis；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Gray",
+          "role": "支援前压",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 792,
+          "condition": "原文明说与侵略型角色搭配；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        }
+      ],
+      "mechanismEvidence": [
+        {
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 743,
+          "url": "https://www.youtube.com/watch?v=5iHVKzN0c5M&t=743s",
+          "claim": "持宝者要有逃生；搭配伤害与施压能力，避免只被动控场。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        }
+      ]
+    },
+    {
+      "mapId": 15000368,
+      "nameEn": "Belles Rock",
+      "nameZh": "摇滚贝尔",
+      "mode": "Knockout",
+      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "completeTeamObserved": false,
+      "teamEvidenceNotice": null,
+      "tags": [
+        "墙区压制",
+        "回复与残局",
+        "防突进体系"
+      ],
+      "terrain": "教学明确讨论瑞科与布洛克的墙区配合，以及回复和残局能力。普通地图的墙体分析与活动变体分别保留，不混用旧版强度榜。",
+      "objective": "保住人数优势，避免为追击离开队友可支援范围。破墙应同时考虑射线和瑞科的弹射价值。",
+      "teams": [
+        {
+          "title": "墙区火力与回复",
+          "synergy": "瑞科在墙区提供不同于直线射击的威胁，布洛克处理需要打开的射线，拜伦维持队友血线并提供残局支援。三人保持能相互支援的间距。",
+          "risk": "容易受到凯特与达里尔等近身体系针对；回复不能替代防突进。布洛克无沟通破墙可能削弱瑞科。原视频只明确点名二人配合，第三位是机制推导。",
+          "loadout": "开局约定保留瑞科哪一侧墙。拜伦避免与需要治疗的队友断线；布洛克保留必要的脱身机会。",
+          "cooperationBand": 2,
+          "id": "15000368-1",
+          "members": [
+            {
+              "heroId": 16000004,
+              "role": "墙区弹射压制"
+            },
+            {
+              "heroId": 16000003,
+              "role": "远程与选择性破墙"
+            },
+            {
+              "heroId": 16000042,
+              "role": "回复与残局支援"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "status": "待版本与实战复核",
+          "mapFitBand": 1,
+          "evidenceRefs": [
+            "youtube:5iHVKzN0c5M",
+            "bilibili:BV1Tsn2zLEUU",
+            "youtube:PIAPgulZPa4"
+          ],
+          "substitutions": [],
+          "teamStats": null,
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "以下协作流程由工具根据已整理职责推导，不是视频作者逐字建议，也不是职业实战验证。技能可用性与国服当前版本仍需核验。",
+            "steps": [
+              "瑞科选择墙区，拜伦留出治疗射线，布洛克先标记需要保留与准备打开的墙。",
+              "布洛克只打开能增加己方射线的缺口；瑞科压迫对手走位，拜伦在不暴露自身的前提下维持前线血量。",
+              "对方近身体系逼到拜伦时一起退让，不能让治疗位独自应战；失去人数优势后停止单人探角。"
+            ]
+          }
+        },
+        {
+          "title": "耐久推进与残局回复",
+          "synergy": "梅格承担前线存在感，拜伦帮助维持血线，布洛克提供远程射线与地形调整。队友围绕能撤回回复的位置推进，而不是把耐久位当作无限承伤。",
+          "risk": "梅格的9月地图观点与10月同作者较低的环境评价有分歧，因此只保留为条件实验，不视为当前强势阵容。也需要防针对回复位的突进。",
+          "loadout": "核对梅格当前形态与生存配置。拜伦站位不应被前线推进拉出安全区。",
+          "cooperationBand": 1,
+          "id": "15000368-2",
+          "members": [
+            {
+              "heroId": 16000052,
+              "role": "耐久与前线存在感"
+            },
+            {
+              "heroId": 16000003,
+              "role": "远程与破墙"
+            },
+            {
+              "heroId": 16000042,
+              "role": "血线与残局支援"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "status": "待版本与实战复核",
+          "mapFitBand": 1,
+          "evidenceRefs": [
+            "youtube:5iHVKzN0c5M",
+            "bilibili:BV1Tsn2zLEUU",
+            "youtube:PIAPgulZPa4"
+          ],
+          "substitutions": [],
+          "teamStats": null,
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "以下协作流程由工具根据已整理职责推导，不是视频作者逐字建议，也不是职业实战验证。技能可用性与国服当前版本仍需核验。",
+            "steps": [
+              "梅格的推进终点必须在拜伦的有效支援范围内；布洛克保持独立射线，避免三人被同一路线压制。",
+              "梅格吸引注意时布洛克从侧角施压，拜伦在安全位置续航；破墙前确认是否会暴露拜伦。",
+              "梅格状态不足就退回治疗距离；此方案受后续环境负评影响，仅作条件实验，不因能治疗就持续硬顶。"
+            ]
+          }
+        }
+      ],
+      "candidates": [
+        {
+          "heroEn": "Brock",
+          "role": "远程/破墙配合",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 1689,
+          "condition": "原文有反制Rico与形成二人配合两层语境；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Rico",
+          "role": "墙区弹射压制",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 1686,
+          "condition": "原文认为与Brock配合难处理，未给第三人；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Byron",
+          "role": "回复与残局",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 1724,
+          "condition": "原文以回复队友作为残局价值；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Meg",
+          "role": "耐久残局",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 1720,
+          "condition": "只是9月11意见，10月12同作者评价下降，需显示新旧冲突；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        }
+      ],
+      "mechanismEvidence": [
+        {
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 1675,
+          "url": "https://www.youtube.com/watch?v=5iHVKzN0c5M&t=1675s",
+          "claim": "至少有远程和能处理残局的角色；双狙容易被Kit/Darryl体系针对。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        },
+        {
+          "sourceId": "bilibili:BV1Tsn2zLEUU",
+          "startSeconds": 21.3,
+          "url": "https://www.bilibili.com/video/BV1Tsn2zLEUU?t=21",
+          "claim": "作者强调布洛克掌握破墙点位后能改善边路对线；保留破墙与分路关系，不保留2025年的T0结论。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        },
+        {
+          "sourceId": "bilibili:BV1Tsn2zLEUU",
+          "startSeconds": 30.6,
+          "url": "https://www.bilibili.com/video/BV1Tsn2zLEUU?t=30",
+          "claim": "淘汰赛重视人数优势；作者解释吉恩在缩圈时拉人制造三打二，兼顾长射程与队友治疗。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        },
+        {
+          "sourceId": "bilibili:BV1Tsn2zLEUU",
+          "startSeconds": 63.8,
+          "url": "https://www.bilibili.com/video/BV1Tsn2zLEUU?t=63",
+          "claim": "狭窄对线路径和墙体会挡住纳妮的多弹道，降低完整命中的空间。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        },
+        {
+          "sourceId": "bilibili:BV1Tsn2zLEUU",
+          "startSeconds": 180.9,
+          "url": "https://www.bilibili.com/video/BV1Tsn2zLEUU?t=180",
+          "claim": "中路两个不可破坏铁墙为投掷提供掩体；单纯破墙无法清掉这些掩体，突进/坦克贴脸更需要防备。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        },
+        {
+          "sourceId": "youtube:PIAPgulZPa4",
+          "startSeconds": 2891,
+          "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=2891s",
+          "claim": "2026 LCQ职业对局的完整阵容已核对关键画面。解说称Mina能提供分路交换主动权，Gus提供支援与自保；这是解说对LOUD阵容功能的解释。 Darryl的被动大招积累提供后期进场威胁；解说据此描述队友争取时间的计划。 不能把三个看起来各司其职的英雄自动称作有强协同：3550秒后解说回顾SK的Belle/Amber/Darryl时明确质疑其协同，只认为各自承担某种角色。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        }
+      ]
+    },
+    {
+      "mapId": 15000083,
+      "nameEn": "Dry Season",
+      "nameZh": "酷热地带",
+      "mode": "Bounty",
+      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "completeTeamObserved": false,
+      "teamEvidenceNotice": null,
+      "tags": [
+        "领先后防守",
+        "主动破局",
+        "破墙与拉取"
+      ],
+      "terrain": "教学认为领先方较容易防守，需要破墙、拉取或团队前压等方式改变僵持局面。不能只带被动对枪英雄等待失误。",
+      "objective": "领先时减少冒险，落后时一起创造有把握的交换机会。抢回关键空间后及时收缩，不连续送出击杀。",
+      "teams": [
+        {
+          "title": "拉取与破墙破局",
+          "synergy": "吉恩寻找可以被队友跟进的拉取机会，布洛克打开需要的射线，麦茜帮助处理近身威胁并跟进前压。控制与火力围绕同一目标使用。",
+          "risk": "需要稳定命中和明确跟进。麦茜的隔墙影响依赖当时配置，不能默认所有配置都能穿墙；不能靠一个拉取就认定交换必胜。",
+          "loadout": "吉恩出手前确认队友弹药与位置。破墙与麦茜具体配置均应按当前国服版本复核。",
+          "cooperationBand": 2,
+          "id": "15000083-1",
+          "members": [
+            {
+              "heroId": 16000021,
+              "role": "消耗与拉取"
+            },
+            {
+              "heroId": 16000003,
+              "role": "射线与破墙"
+            },
+            {
+              "heroId": 16000068,
+              "role": "应对近身与前压支援"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "status": "待版本与实战复核",
+          "mapFitBand": 1,
+          "evidenceRefs": [
+            "youtube:5iHVKzN0c5M"
+          ],
+          "substitutions": [],
+          "teamStats": null,
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "以下协作流程由工具根据已整理职责推导，不是视频作者逐字建议，也不是职业实战验证。技能可用性与国服当前版本仍需核验。",
+            "steps": [
+              "吉恩先消耗并观察拉取路线，布洛克准备能跟进的射线，麦茜留意近身和侧路威胁。",
+              "吉恩出手前确认两位队友弹药与距离；布洛克补伤害，麦茜控制靠近的敌人，避免三人各打一个目标。",
+              "拉取失败就回到消耗站位，不为补救追进敌方火力；领先时保留技能阻止对方破局。"
+            ]
+          }
+        },
+        {
+          "title": "团队机动抢位",
+          "synergy": "吉恩消耗并寻找机会，麦克斯用加速同步三人抢位或撤退，布洛克提供远程威胁。前压的目的在于改善射击与交换角度。",
+          "risk": "缺少明显的稳定范围防突进手段，不能把加速当作直接冲脸的许可；对掩体后威胁仍需选择性破墙。",
+          "loadout": "加速应与拉取、弹药和视野窗口配合使用；领先后减少不必要的深追。",
+          "cooperationBand": 1,
+          "id": "15000083-2",
+          "members": [
+            {
+              "heroId": 16000021,
+              "role": "消耗与机会创造"
+            },
+            {
+              "heroId": 16000003,
+              "role": "远程与地形调整"
+            },
+            {
+              "heroId": 16000032,
+              "role": "机动前压与撤退"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "status": "待版本与实战复核",
+          "mapFitBand": 1,
+          "evidenceRefs": [
+            "youtube:5iHVKzN0c5M"
+          ],
+          "substitutions": [],
+          "teamStats": null,
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "以下协作流程由工具根据已整理职责推导，不是视频作者逐字建议，也不是职业实战验证。技能可用性与国服当前版本仍需核验。",
+            "steps": [
+              "布洛克争远程射线，吉恩消耗寻找机会，麦克斯保留能帮助两人同时转移的站位。",
+              "拉取与加速先约定顺序和落点；麦克斯帮助队友获得射击角度，布洛克围绕同一目标补输出。",
+              "拉取条件不成熟时用加速横移抢位而非冲脸；领先后保留安全距离，弥补缺少范围反突进的弱点。"
+            ]
+          }
+        }
+      ],
+      "candidates": [
+        {
+          "heroEn": "Brock",
+          "role": "破墙",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 102,
+          "condition": "原文明确打破掩体；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Gene",
+          "role": "拉取破局",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 104,
+          "condition": "自动字幕Jean归一为Gene；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Max",
+          "role": "推进破局",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 92,
+          "condition": "不是隔墙攻击，价值来自推动队伍上前；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Maisie",
+          "role": "隔墙影响/破局",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 97,
+          "condition": "原文指当时配置；不能默认所有配置都能穿墙；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Jae-Yong",
+          "role": "妙具推进",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 104,
+          "condition": "字幕Jay Young归一；具体妙具效果依版本和配置；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        }
+      ],
+      "mechanismEvidence": [
+        {
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 54,
+          "url": "https://www.youtube.com/watch?v=5iHVKzN0c5M&t=54s",
+          "claim": "蓝星领先后防守很强，至少需要隔墙影响、破墙或推进手段夺回局势。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        }
+      ]
+    },
+    {
+      "mapId": 15000082,
+      "nameEn": "Layer Cake",
+      "nameZh": "夹心蛋糕",
+      "mode": "Bounty",
+      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "completeTeamObserved": false,
+      "teamEvidenceNotice": null,
+      "tags": [
+        "墙区进攻",
+        "侧向夹击",
+        "限制脆弱后排数量"
+      ],
+      "terrain": "教学强调墙区进攻与侧向夹击，并限制脆弱远程数量。持有领先后需要减少被侧路突进打破阵形的机会。",
+      "objective": "在安全的交叉火力范围内争夺墙区。落后时协调夹击，领先时让敌人承担进入危险区域的代价。",
+      "teams": [
+        {
+          "title": "近身威胁与墙区火力",
+          "synergy": "谢德在侧路制造近身威胁，瑞科封住墙区的部分走位，布洛克从不同射线施压。三人先建立交叉火力，再一起决定是否推进。",
+          "risk": "没有治疗，两个后排被同时突进时容错较低。过度破墙会损害谢德和瑞科依赖的地形，三人的强度与配置仍需当前版本验证。",
+          "loadout": "布洛克只处理需要的墙，不把己方接近路线全部打开。谢德接近前确认队友能提供火力支持。",
+          "cooperationBand": 2,
+          "id": "15000082-1",
+          "members": [
+            {
+              "heroId": 16000086,
+              "role": "侧路近身与隔墙威胁"
+            },
+            {
+              "heroId": 16000004,
+              "role": "墙区弹射压制"
+            },
+            {
+              "heroId": 16000003,
+              "role": "远程与选择性破墙"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "status": "待版本与实战复核",
+          "mapFitBand": 1,
+          "evidenceRefs": [
+            "youtube:5iHVKzN0c5M"
+          ],
+          "substitutions": [],
+          "teamStats": null,
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "以下协作流程由工具根据已整理职责推导，不是视频作者逐字建议，也不是职业实战验证。技能可用性与国服当前版本仍需核验。",
+            "steps": [
+              "瑞科压墙区，谢德沿保留地形接近，布洛克提供远程支援；事先约定不破坏的墙。",
+              "谢德前压前确认瑞科和布洛克能覆盖退路；由两路火力限制走位，再选择是否近身，避免单人绕后。",
+              "谢德接近失败就停止追击；敌方同时压后排时收缩交叉火力，不能为追人失去两名远程。"
+            ]
+          }
+        },
+        {
+          "title": "夹击与远程支援",
+          "synergy": "谢德牵制一侧，露米从另一角度制造威胁，布洛克连接两条射线。夹击用于限制对方退路，避免三人同时挤进一条狭窄路线。",
+          "risk": "配合要求高，牵制位孤立时容易失去人数优势；露米的夹击价值来自有配合条件的历史教学，不能当作单排通用打法。",
+          "loadout": "先约定夹击开始与撤退信号。露米和布洛克保留对主战区的支援距离。",
+          "cooperationBand": 1,
+          "id": "15000082-2",
+          "members": [
+            {
+              "heroId": 16000086,
+              "role": "侧路牵制"
+            },
+            {
+              "heroId": 16000091,
+              "role": "侧向夹击与区域威胁"
+            },
+            {
+              "heroId": 16000003,
+              "role": "远程支援"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "status": "待版本与实战复核",
+          "mapFitBand": 1,
+          "evidenceRefs": [
+            "youtube:5iHVKzN0c5M"
+          ],
+          "substitutions": [],
+          "teamStats": null,
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "以下协作流程由工具根据已整理职责推导，不是视频作者逐字建议，也不是职业实战验证。技能可用性与国服当前版本仍需核验。",
+            "steps": [
+              "谢德与另一侧夹击位分别建立接近角度，布洛克保持远程射线；三人不能同时脱离支援距离。",
+              "两侧先报进入时机与目标；布洛克先制造走位压力，再由侧路压缩空间，不把夹击理解为同时硬冲。",
+              "一侧无法接近就取消强攻；布洛克保留撤退路线，避免两侧深入后仅剩远程位独自承受反扑。"
+            ]
+          }
+        }
+      ],
+      "candidates": [
+        {
+          "heroEn": "Brock",
+          "role": "能自保的远程",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 220,
+          "condition": "作者反对无条件多狙；不是鼓励三远程；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Rico",
+          "role": "墙区压制",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 212,
+          "condition": "作为当时夹击与反推候选；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Meg",
+          "role": "耐久推进",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 215,
+          "condition": "与10月12评价冲突，保留历史日期；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Shade",
+          "role": "近身/隔墙威胁",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 184,
+          "condition": "原文说在该次强化前已强，配置与补丁待复核；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Lumi",
+          "role": "夹击追回领先",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 208,
+          "condition": "作者强调好团队配合下的夹击策略；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        }
+      ],
+      "mechanismEvidence": [
+        {
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 184,
+          "url": "https://www.youtube.com/watch?v=5iHVKzN0c5M&t=184s",
+          "claim": "侵略和墙区压制显著；作者限制脆弱远程数量，需防刺客后选。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        }
+      ]
+    },
+    {
+      "mapId": 15000011,
+      "nameEn": "Undermine",
+      "nameZh": "十面埋伏",
+      "mode": "Gem Grab",
+      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "completeTeamObserved": false,
+      "teamEvidenceNotice": "地图候选按地图结构与近期适配筛选。新增地图的队友组合优先引用排位实测三人样本；样本与时间窗展示在阵容卡片上。没有实测样本数的排位主页组合明确标记为低置信度。三人胜率是群体描述数据，不是玩家个人胜率或未来表现保证。 新增的经典地图不在当前排位轮换，数据卡片分别注明排位、奖杯赛和历史范围；机制阵容不视作实时强度榜。",
+      "tags": [
+        "草区探路",
+        "宝石安全",
+        "边路控场"
+      ],
+      "terrain": "十面埋伏是宝石争霸图，草丛和侧路威胁让侦察与持宝安全很关键。团队要控制矿井周围的接近路线，同时给持宝者保留回撤空间。",
+      "objective": "由一名安全位承担持宝和撤退，两侧制造压力与检查草区；达到胜利所需宝石后，立即统一回撤并用控制手段阻止追击。",
+      "teams": [
+        {
+          "title": "探草控线与安全持宝",
+          "synergy": "阿渤检查草区并控制高风险路线，格斯在队友清线后负责安全拾宝和撤退，琥珀持续施压阻止敌人靠近矿井。取得目标宝石后停止深追，三人沿已确认安全的路线一起回撤。",
+          "risk": "缺少快速转场能力，若两侧同时被突进会难以救援；阿渤侦察技能不应替代持续看守，琥珀弹药空窗可能暴露持宝者。",
+          "loadout": "开局明确格斯为优先持宝者，并给出另一条撤退路线。阿渤留意复活后的草区变化，琥珀不要耗尽弹药后独自顶线；具体配置按当前版本验证。",
+          "cooperationBand": 2,
+          "id": "15000011-1",
+          "members": [
+            {
+              "heroId": 16000014,
+              "role": "草区侦察与路线控制"
+            },
+            {
+              "heroId": 16000061,
+              "role": "安全持宝与护盾支援"
+            },
+            {
+              "heroId": 16000040,
+              "role": "持续压线与争夺空间"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "status": "待版本与实战复核",
+          "mapFitBand": 1,
+          "evidenceRefs": [
+            "brawlpick-map-undermine"
+          ],
+          "substitutions": [],
+          "teamStats": null,
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "以下协作流程由工具根据已整理职责推导，不是视频作者逐字建议，也不是职业实战验证。技能可用性与国服当前版本仍需核验。",
+            "steps": [
+              "确认格斯承担优先持宝与回撤职责，阿渤检查草丛通路，琥珀在能支援中路的位置控线。",
+              "阿渤报出安全路线后，格斯进入可拾宝位置；琥珀限制敌人接近，三人围绕矿井取得宝石。",
+              "达到获胜数量或持宝者血线危险时立即停止追击，沿预先确认的路线一起后撤并保护持宝者。"
+            ]
+          }
+        }
+      ],
+      "candidates": [
+        {
+          "heroEn": "El Primo",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-undermine",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Bo",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-undermine",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Gene",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-undermine",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Amber",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-undermine",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Gus",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-undermine",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Doug",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-undermine",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Trunk",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-undermine",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Najia",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-undermine",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Wendy",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-undermine",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Cosmo",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-undermine",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        }
+      ],
+      "mechanismEvidence": [
+        {
+          "sourceId": "brawlpick-map-undermine",
+          "startSeconds": null,
+          "url": "https://www.brawlpick.app/map-stats/undermine",
+          "claim": "BrawlPick map sample: Cosmo (64.2%, 332 games), Najia (63.4%, 164), Wendy (58.4%, 977), Doug (61.1%, 252), Gus (56.8%, 2,433), Amber (57.1%, 1,689), Trunk (60.8%, 237), Bolt (58.6%, 527), Bo (56.1%, 2,561), Janet (58.8%, 359). The page orders picks by the lower end of its confidence range.",
+          "completeTeamObserved": false,
+          "evidenceType": "mixed_ranked_and_regular_3v3_map_statistics"
+        }
+      ]
+    },
+    {
+      "mapId": 15000018,
+      "nameEn": "Kaboom Canyon",
+      "nameZh": "轰隆峡谷",
+      "mode": "Heist",
+      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "completeTeamObserved": false,
+      "teamEvidenceNotice": "地图候选按地图结构与近期适配筛选。新增地图的队友组合优先引用排位实测三人样本；样本与时间窗展示在阵容卡片上。没有实测样本数的排位主页组合明确标记为低置信度。三人胜率是群体描述数据，不是玩家个人胜率或未来表现保证。 新增的经典地图不在当前排位轮换，数据卡片分别注明排位、奖杯赛和历史范围；机制阵容不视作实时强度榜。",
+      "tags": [
+        "快速金库压力",
+        "持线与反扑",
+        "多路线切换"
+      ],
+      "terrain": "轰隆峡谷是金库图，局部掩体与进攻路线使持续打金库和留人防守必须同步安排。单一路线冲家容易被对方用人数交换反制。",
+      "objective": "一名英雄维持路线和阻止敌方直冲，另两人寻找对方技能空档打金库；敌方压家时及时放弃贪伤害，先阻止对方完成交换。",
+      "teams": [
+        {
+          "title": "防线炮台与侧路突击",
+          "synergy": "杰西炮台和弹射负责减慢敌方进攻，科莱特处理高生命值防守者并补充稳定金库伤害，麦乐迪在对方注意力被牵制时利用机动制造侧路输出。行动前由队友确认敌方复活和回防位置。",
+          "risk": "麦乐迪若脱离团队时机过早，杰西和科莱特会被迫同时防守；三人都不能忽略敌方金库交换，科莱特的强度与配置需要按当前版本复核。",
+          "loadout": "杰西炮台优先放在能保护路线的位置；科莱特和麦乐迪不要在己方被压家时继续贪金库伤害。麦乐迪突击前报点并预留撤退方案。",
+          "cooperationBand": 1,
+          "id": "15000018-1",
+          "members": [
+            {
+              "heroId": 16000007,
+              "role": "防线清理与炮台守点"
+            },
+            {
+              "heroId": 16000039,
+              "role": "反前排与金库持续伤害"
+            },
+            {
+              "heroId": 16000078,
+              "role": "机动侧路与爆发拆家"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "status": "待版本与实战复核",
+          "mapFitBand": 1,
+          "evidenceRefs": [
+            "bilibili:BV1tH4y1A7K6",
+            "brawlpick-map-kaboom-canyon"
+          ],
+          "substitutions": [],
+          "teamStats": null,
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "以下协作流程由工具根据已整理职责推导，不是视频作者逐字建议，也不是职业实战验证。技能可用性与国服当前版本仍需核验。",
+            "steps": [
+              "杰西负责主要防线，科莱特选择安全路线施压，麦乐迪报告侧路位置并等待队友吸引回防注意。",
+              "确认敌方防守者被科莱特或杰西牵制、对手无法及时回防后，麦乐迪呼叫并发起侧路金库突击。",
+              "我方金库遭到威胁或麦乐迪输出窗口结束时立即撤回协防，不把一次侧路突击变成连续送人。"
+            ]
+          }
+        }
+      ],
+      "candidates": [
+        {
+          "heroEn": "Jessie",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-kaboom-canyon",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Emz",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-kaboom-canyon",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Colette",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-kaboom-canyon",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Chuck",
+          "role": "预设轨道后反复进攻金库",
+          "sourceId": "bilibili:BV1tH4y1A7K6",
+          "startSeconds": 0,
+          "condition": "来源是查克专门地图路线教程；只支持该图中规划路标的战术知识，不代表他是当前最强选择。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Mico",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-kaboom-canyon",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Melodie",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-kaboom-canyon",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Shade",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-kaboom-canyon",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Juju",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-kaboom-canyon",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Trunk",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-kaboom-canyon",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Nori",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-kaboom-canyon",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Wendy",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-kaboom-canyon",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Cosmo",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-kaboom-canyon",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        }
+      ],
+      "mechanismEvidence": [
+        {
+          "sourceId": "bilibili:BV1tH4y1A7K6",
+          "startSeconds": 35,
+          "url": "https://www.bilibili.com/video/BV1tH4y1A7K6?t=35",
+          "claim": "作者对该图的查克方案讲解不同路标位置，说明逆风时可用大招越过掩体朝中线补第三个路标；路标之间的极限距离需要练习，若位置卡偏会失去路线收益。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        },
+        {
+          "sourceId": "bilibili:BV1tH4y1A7K6",
+          "startSeconds": 125,
+          "url": "https://www.bilibili.com/video/BV1tH4y1A7K6?t=125",
+          "claim": "作者强调查克使用大招前观察局势，避免盲目冲到敌方金库；应同时看己方金库与对手位置。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        },
+        {
+          "sourceId": "bilibili:BV1tH4y1A7K6",
+          "startSeconds": 0,
+          "url": "https://www.bilibili.com/video/BV1tH4y1A7K6?t=0",
+          "claim": "预设轨道后反复进攻金库。来源是查克专门地图路线教程；只支持该图中规划路标的战术知识，不代表他是当前最强选择。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        },
+        {
+          "sourceId": "brawlpick-map-kaboom-canyon",
+          "startSeconds": null,
+          "url": "https://www.brawlpick.app/map-stats/kaboom-canyon",
+          "claim": "BrawlPick map sample: Nori (60.8%, 1,844 games), Cosmo (59.6%, 606), Mico (57.6%, 1,491), Wendy (58.5%, 698), Melodie (57.1%, 1,414), Shade (57.1%, 1,310), Jessie (55.8%, 2,173), Juju (64.6%, 79; limited sample), Starr Nova (59.4%, 251), Colette (54.9%, 3,393). The page orders picks by the lower end of its confidence range.",
+          "completeTeamObserved": false,
+          "evidenceType": "mixed_ranked_and_regular_3v3_map_statistics"
+        }
+      ]
+    },
+    {
+      "mapId": 15000019,
+      "nameEn": "Safe Zone",
+      "nameZh": "安全区域",
+      "mode": "Heist",
+      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "completeTeamObserved": false,
+      "teamEvidenceNotice": "地图候选按地图结构与近期适配筛选。新增地图的队友组合优先引用排位实测三人样本；样本与时间窗展示在阵容卡片上。没有实测样本数的排位主页组合明确标记为低置信度。三人胜率是群体描述数据，不是玩家个人胜率或未来表现保证。 新增的经典地图不在当前排位轮换，数据卡片分别注明排位、奖杯赛和历史范围；机制阵容不视作实时强度榜。",
+      "tags": [
+        "金库直线爆发",
+        "炮台守线",
+        "团队增伤"
+      ],
+      "terrain": "安全区域是金库图，双方都能快速建立对金库的射线。攻守节奏需要压制敌方近身路线，并把输出窗口集中到同一侧。",
+      "objective": "一人处理防守与敌方突进，另外两人创造安全区输出窗口；当防守技能或对方复活空档出现时统一转火金库。",
+      "teams": [
+        {
+          "title": "炮台守家与火力增幅",
+          "synergy": "杰西用弹射和炮台处理敌方抱团推进，8比特让两名队友的安全区输出更集中，柯尔特负责爆发与必要破墙。由杰西或8比特留意防线，其余队友在窗口期同步攻击金库。",
+          "risk": "两名低机动远程位容易被刺客绕后；炮台和增伤部署过于靠前会被迅速处理。无计划破墙也可能让敌方更容易进攻。",
+          "loadout": "开局指定一个防守转火信号和留守者。确认敌方危险技能已交或短时无法回防再转火；破墙前检查防守路线，具体配装需版本核验。",
+          "cooperationBand": 2,
+          "id": "15000019-1",
+          "members": [
+            {
+              "heroId": 16000007,
+              "role": "弹射清线与炮台防守"
+            },
+            {
+              "heroId": 16000027,
+              "role": "团队增伤与金库输出"
+            },
+            {
+              "heroId": 16000001,
+              "role": "爆发打金库与开射线"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "status": "待版本与实战复核",
+          "mapFitBand": 1,
+          "evidenceRefs": [
+            "brawlpick-map-safe-zone"
+          ],
+          "substitutions": [],
+          "teamStats": null,
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "以下协作流程由工具根据已整理职责推导，不是视频作者逐字建议，也不是职业实战验证。技能可用性与国服当前版本仍需核验。",
+            "steps": [
+              "指定杰西或8比特负责观察敌方进攻路线，另外一人协助控线，柯尔特确认双方安全区的射线。",
+              "敌方回防技能交出或人员被迫离开时，杰西炮台控线、8比特部署增伤，柯尔特呼叫后同步输出。",
+              "敌方开始集体进攻时立即停止打金库，由杰西清线，队友协同击退后再重新布置输出窗口。"
+            ]
+          }
+        }
+      ],
+      "candidates": [
+        {
+          "heroEn": "Colt",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-safe-zone",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Brock",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-safe-zone",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Jessie",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-safe-zone",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "8-Bit",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-safe-zone",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Amber",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-safe-zone",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Griff",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-safe-zone",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Pearl",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-safe-zone",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Mico",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-safe-zone",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Shade",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-safe-zone",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Nori",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-safe-zone",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        }
+      ],
+      "mechanismEvidence": [
+        {
+          "sourceId": "brawlpick-map-safe-zone",
+          "startSeconds": null,
+          "url": "https://www.brawlpick.app/map-stats/safe-zone",
+          "claim": "BrawlPick map sample: Shade (61.6%, 1,057 games), Nori (60.3%, 1,529), Jessie (58.7%, 1,600), followed by other map-fit candidates in the table. The page orders picks by the lower end of its confidence range.",
+          "completeTeamObserved": false,
+          "evidenceType": "mixed_ranked_and_regular_3v3_map_statistics"
+        }
+      ]
+    },
+    {
+      "mapId": 15000025,
+      "nameEn": "Triple Dribble",
+      "nameZh": "三重威胁",
+      "mode": "Brawl Ball",
+      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "completeTeamObserved": false,
+      "teamEvidenceNotice": "地图候选按地图结构与近期适配筛选。新增地图的队友组合优先引用排位实测三人样本；样本与时间窗展示在阵容卡片上。没有实测样本数的排位主页组合明确标记为低置信度。三人胜率是群体描述数据，不是玩家个人胜率或未来表现保证。 新增的经典地图不在当前排位轮换，数据卡片分别注明排位、奖杯赛和历史范围；机制阵容不视作实时强度榜。",
+      "tags": [
+        "中路掩体",
+        "双翼配合",
+        "控制后转球"
+      ],
+      "terrain": "Triple Dribble 的中心与两侧掩体、草丛会形成分路交锋；局部墙体既可以给近战创造接近路线，也会保护投射/反弹攻击。阵容应让侧翼威胁和中线支援互相接应。",
+      "objective": "先控制中场和两侧通路，再通过控制或击退制造安全带球窗口。不要把小样本组合胜率理解为固定对局表现。",
+      "teams": [
+        {
+          "title": "清线保护与侧翼终结",
+          "synergy": "Griff 留在中线补伤害并压低敌方血线，Gus 护住正在控球或接应的队友，Shade 借侧路与草丛寻找绕侧窗口。Griff 与 Gus 先逼出控制，再由 Shade 进场，随后全队汇合推进。BrawlZone 近 14 天记录到这组 46 场、36 名玩家、82.6%。",
+          "risk": "46 场仍属小样本。Shade 进场过早会让中路失去接应，Gus 若跟随追击也可能让持球人无人保护；遇到强制退场和大范围控制时降低正面冲锋频率。",
+          "loadout": "开局沟通分路和持球人；Gus 优先保护负责球权的人，Griff 只在有利时改变墙体，Shade 等到对手控制技能交出后再绕侧。具体装备按当前客户端复核。",
+          "cooperationBand": 2,
+          "teamStats": {
+            "winRate": 0.826,
+            "games": 46,
+            "players": 36,
+            "periodDays": 14,
+            "sourceId": "brawlzone-ranked-triple-dribble",
+            "sampleStatus": "small_sample",
+            "note": "近期排位组合的描述统计；样本较小，不代表你们组队后的预期胜率。"
+          },
+          "id": "15000025-1",
+          "members": [
+            {
+              "heroId": 16000050,
+              "role": "中线火力、清掩体与逼位"
+            },
+            {
+              "heroId": 16000061,
+              "role": "保护中线并维持血量交换"
+            },
+            {
+              "heroId": 16000086,
+              "role": "草侧压迫、惩罚落单与终结"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "status": "待版本与实战复核",
+          "mapFitBand": 1,
+          "evidenceRefs": [
+            "bilibili:BV11FEJzfEG4",
+            "brawlzone-ranked-triple-dribble"
+          ],
+          "substitutions": [],
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "以下协作流程由工具根据已整理职责推导，不是视频作者逐字建议，也不是职业实战验证。技能可用性与国服当前版本仍需核验。",
+            "steps": [
+              "开局分好中路和两条侧路，Griff 与 Gus 保住中线接应。",
+              "Gus 优先保护球权队友；Shade 等敌方关键控制用掉后绕侧进场。",
+              "对方退让后迅速汇合推进，避免 Shade 单独深入后队友才开始跟进。"
+            ]
+          }
+        },
+        {
+          "title": "反坦克与双重控制",
+          "synergy": "科莱特处理冲点或高血量目标，薇洛从掩体后扰乱敌方站位，温蒂补充伤害并支援球权转换。先由两名远程/控制角色压缩路线，再让科莱特选择安全时机推进。BrawlZone 近 14 天记录到这组 40 场、22 名玩家、85.0%。",
+          "risk": "40 场、22 名玩家的样本很小；科莱特是主要近身反制，若她被牵制，阵容缺少强硬前排。该组合对执行和技能时机要求较高。",
+          "loadout": "避免三人挤同一条线；Willow 的控制技能优先打断关键推进，Colette 不要为追击离开可回防的位置。当前版本具体配置仍需核验。",
+          "cooperationBand": 1,
+          "teamStats": {
+            "winRate": 0.85,
+            "games": 40,
+            "players": 22,
+            "periodDays": 14,
+            "sourceId": "brawlzone-ranked-triple-dribble",
+            "sampleStatus": "small_sample",
+            "note": "近期排位组合的描述统计；样本较小，不代表你们组队后的预期胜率。"
+          },
+          "id": "15000025-2",
+          "members": [
+            {
+              "heroId": 16000039,
+              "role": "反高血量、侧路压制与回防"
+            },
+            {
+              "heroId": 16000067,
+              "role": "远程干扰并封锁关键通路"
+            },
+            {
+              "heroId": 16000108,
+              "role": "补充输出、跟进控制并支援推进"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "status": "待版本与实战复核",
+          "mapFitBand": 1,
+          "evidenceRefs": [
+            "bilibili:BV11FEJzfEG4",
+            "brawlzone-ranked-triple-dribble"
+          ],
+          "substitutions": [],
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "以下协作流程由工具根据已整理职责推导，不是视频作者逐字建议，也不是职业实战验证。技能可用性与国服当前版本仍需核验。",
+            "steps": [
+              "Willow 与 Wendy 从安全角度控制通道，Colette 负责盯防高血量或冲点目标。",
+              "对方交控制后 Colette 再推进；Willow 留控场技能打断关键带球或反扑。",
+              "人数优势形成后一起压近球门，不要让 Colette 因追击离开回防路线。"
+            ]
+          }
+        }
+      ],
+      "candidates": [
+        {
+          "heroEn": "Barley",
+          "role": "投掷与区域封锁",
+          "sourceId": "bilibili:BV11FEJzfEG4",
+          "startSeconds": 160,
+          "condition": "旧教学明确将巴利列作投掷手选择；窄墙区利于隔墙压制，但需要队友保护，不能把这条旧版评价当成当前强度结论。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Bo",
+          "role": "地图候选",
+          "sourceId": "brawlzone-ranked-triple-dribble",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Colette",
+          "role": "地图候选",
+          "sourceId": "brawlzone-ranked-triple-dribble",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Griff",
+          "role": "地图候选",
+          "sourceId": "brawlzone-ranked-triple-dribble",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Gus",
+          "role": "地图候选",
+          "sourceId": "brawlzone-ranked-triple-dribble",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Willow",
+          "role": "地图候选",
+          "sourceId": "brawlzone-ranked-triple-dribble",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Shade",
+          "role": "地图候选",
+          "sourceId": "brawlzone-ranked-triple-dribble",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Wendy",
+          "role": "地图候选",
+          "sourceId": "brawlzone-ranked-triple-dribble",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        }
+      ],
+      "mechanismEvidence": [
+        {
+          "sourceId": "bilibili:BV11FEJzfEG4",
+          "startSeconds": 0,
+          "url": "https://www.bilibili.com/video/BV11FEJzfEG4?t=0",
+          "claim": "作者把地图分为三条路线，指出中路较窄、靠近球门处墙桶密集；中路直接抢球容易被两侧夹击。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        },
+        {
+          "sourceId": "bilibili:BV11FEJzfEG4",
+          "startSeconds": 37,
+          "url": "https://www.bilibili.com/video/BV11FEJzfEG4?t=37",
+          "claim": "两侧墙体压缩防守者活动空间，同时让进攻路线更可预测；墙体阻隔也给投掷英雄提供隔墙压力。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        },
+        {
+          "sourceId": "bilibili:BV11FEJzfEG4",
+          "startSeconds": 160,
+          "url": "https://www.bilibili.com/video/BV11FEJzfEG4?t=160",
+          "claim": "投掷与区域封锁。旧教学明确将巴利列作投掷手选择；窄墙区利于隔墙压制，但需要队友保护，不能把这条旧版评价当成当前强度结论。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        },
+        {
+          "sourceId": "brawlzone-ranked-triple-dribble",
+          "startSeconds": null,
+          "url": "https://brawlzone.net/maps/brawl-ball/triple-dribble",
+          "claim": "BrawlZone map page reports recent Ranked trios: Griff · Gus · Shade, 82.6% over 46 games/36 players; and Colette · Willow · Wendy, 85.0% over 40 games/22 players. These are short-window, small samples. The BrawlZone Ranked dashboard reports 74,299 Ranked battles on this map.",
+          "completeTeamObserved": true,
+          "evidenceType": "ranked_map_statistics"
+        }
+      ]
+    },
+    {
+      "mapId": 15000072,
+      "nameEn": "Bridge Too Far",
+      "nameZh": "遥远的桥",
+      "mode": "Heist",
+      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "completeTeamObserved": false,
+      "teamEvidenceNotice": "地图候选按地图结构与近期适配筛选。新增地图的队友组合优先引用排位实测三人样本；样本与时间窗展示在阵容卡片上。没有实测样本数的排位主页组合明确标记为低置信度。三人胜率是群体描述数据，不是玩家个人胜率或未来表现保证。 新增的经典地图不在当前排位轮换，数据卡片分别注明排位、奖杯赛和历史范围；机制阵容不视作实时强度榜。",
+      "tags": [
+        "长直射线",
+        "安全区持续输出",
+        "边路防守"
+      ],
+      "terrain": "遥远的桥是金库图，中央与两侧提供较长射线，双方都能直接威胁金库。争夺路线和输出效率需要同时照顾，不能让全队只守不打或只冲金库。",
+      "objective": "先取得一侧射线和中场控制，再在对手复活或交关键技能时同步打金库；安排一人看住敌方突进与偷袭路线。",
+      "teams": [
+        {
+          "title": "炮台防守与集中爆发",
+          "synergy": "杰西用弹射和炮台惩罚抱团、同时兼顾金库；8比特把伤害增益放在团队能共同利用的位置；柯尔特负责远程爆发并只破开有利射线。三人先压住敌方推进，再同步转火金库。",
+          "risk": "8比特机动较低，需避免被侧路绕后；柯尔特随意破墙会改变杰西和队友的攻防路线。遇到强突进时应由一人留守，而不是三人轮流冲金库。",
+          "loadout": "开局约定要保留的掩体和杰西炮台守线位置。确认敌方复活时间与关键防守技能后再集体打金库；具体星徽和妙具按当前国服版本核验。",
+          "cooperationBand": 2,
+          "id": "15000072-1",
+          "members": [
+            {
+              "heroId": 16000007,
+              "role": "炮台控线与金库持续伤害"
+            },
+            {
+              "heroId": 16000027,
+              "role": "团队增伤与远程压制"
+            },
+            {
+              "heroId": 16000001,
+              "role": "爆发输出与选择性破墙"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "status": "待版本与实战复核",
+          "mapFitBand": 1,
+          "evidenceRefs": [
+            "youtube:5iHVKzN0c5M",
+            "brawlpick-map-bridge-too-far"
+          ],
+          "substitutions": [],
+          "teamStats": null,
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "以下协作流程由工具根据已整理职责推导，不是视频作者逐字建议，也不是职业实战验证。技能可用性与国服当前版本仍需核验。",
+            "steps": [
+              "开局约定保留的掩体与破墙线，杰西守一侧路线，8比特和柯尔特分别占据可互相支援的射线。",
+              "敌方关键防守技能交出或回防出现空档时，杰西提供控场，8比特放置增伤，柯尔特与队友同步转火金库。",
+              "若敌方转攻我方金库，由杰西优先处理推进者，另外两人停止贪输出并回防；确认安全后重新建立射线。"
+            ]
+          }
+        }
+      ],
+      "candidates": [
+        {
+          "heroEn": "Colt",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-bridge-too-far",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Brock",
+          "role": "金库伤害/远程",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 1034,
+          "condition": "被Max对枪克制时可换线；不能因此完全否定其金库输出；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Jessie",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-bridge-too-far",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "8-Bit",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-bridge-too-far",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Amber",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-bridge-too-far",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Eve",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-bridge-too-far",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Bonnie",
+          "role": "有条件进攻",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 1071,
+          "condition": "原文后选，不能无条件前推；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Chuck",
+          "role": "路线进攻",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 1073,
+          "condition": "原文可能的后选选项，不是稳定首推；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Mico",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-bridge-too-far",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Melodie",
+          "role": "进攻/对位选项",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 1058,
+          "condition": "作者描述与其他压力角色的反制往返，字幕前一个专名不清，不补猜；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Shade",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-bridge-too-far",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Nori",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-bridge-too-far",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Wendy",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-bridge-too-far",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        }
+      ],
+      "mechanismEvidence": [
+        {
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 1004,
+          "url": "https://www.youtube.com/watch?v=5iHVKzN0c5M&t=1004s",
+          "claim": "三条一对一分路，应尽量择优对位；赢对枪与打金库能力是不同职责。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        },
+        {
+          "sourceId": "brawlpick-map-bridge-too-far",
+          "startSeconds": null,
+          "url": "https://www.brawlpick.app/map-stats/bridge-too-far",
+          "claim": "BrawlPick map sample: Nori (61.5%, 1,297 games), Shade (58.8%, 959), Jessie (57.1%, 1,460), Colt (56.1%, 3,849), Mico (58.3%, 587), Wendy (58%, 664), 8-Bit (55.4%, 2,171), Eve (54.7%, 510), Amber (52.8%, 1,325). The page orders picks by the lower end of its confidence range.",
+          "completeTeamObserved": false,
+          "evidenceType": "mixed_ranked_and_regular_3v3_map_statistics"
+        }
+      ]
+    },
+    {
+      "mapId": 15000118,
+      "nameEn": "Pinball Dreams",
+      "nameZh": "梦幻弹珠",
+      "mode": "Brawl Ball",
+      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "completeTeamObserved": false,
+      "teamEvidenceNotice": "地图候选按地图结构与近期适配筛选。新增地图的队友组合优先引用排位实测三人样本；样本与时间窗展示在阵容卡片上。没有实测样本数的排位主页组合明确标记为低置信度。三人胜率是群体描述数据，不是玩家个人胜率或未来表现保证。 新增的经典地图不在当前排位轮换，数据卡片分别注明排位、奖杯赛和历史范围；机制阵容不视作实时强度榜。",
+      "tags": [
+        "中路抢位",
+        "控场接球",
+        "侧翼突破"
+      ],
+      "terrain": "梦幻弹珠是乱斗足球图，中央交锋和两侧通路决定推进机会。阵容需要先创造可安全带球的空间，再把控场或近身威胁转成射门。",
+      "objective": "先清理接球路线并建立人数优势，控制技能留给关键带球或阻止射门的时机；不要在没有队友跟进时单人深入。",
+      "teams": [
+        {
+          "title": "侧翼突破与中场护球",
+          "synergy": "琥珀持续压迫通路并限制对手站位，巴斯特在队友身边接近中场、帮助团队安全过线，谢德从侧路惩罚被分散的防线。确认门前防守者被逼退后，再由安全位置的队友接球射门。",
+          "risk": "近中距离为主，容易被长射程阵容先手压血；巴斯特需要队友在其身边才能发挥掩护价值，谢德过早深入会让中场失去接应。",
+          "loadout": "开局分别占中路和两侧，不要三人挤同一入口。巴斯特开掩护前确认队友能跟进，谢德保留退路；配置依当前国服版本复核。",
+          "cooperationBand": 2,
+          "id": "15000118-1",
+          "members": [
+            {
+              "heroId": 16000086,
+              "role": "侧路突进与终结"
+            },
+            {
+              "heroId": 16000040,
+              "role": "持续压线与区域封锁"
+            },
+            {
+              "heroId": 16000062,
+              "role": "前排掩护与团队推进"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "status": "待版本与实战复核",
+          "mapFitBand": 1,
+          "evidenceRefs": [
+            "youtube:5iHVKzN0c5M",
+            "bilibili:BV1npQAYjE98",
+            "brawlpick-map-pinball-dreams"
+          ],
+          "substitutions": [],
+          "teamStats": null,
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "以下协作流程由工具根据已整理职责推导，不是视频作者逐字建议，也不是职业实战验证。技能可用性与国服当前版本仍需核验。",
+            "steps": [
+              "巴斯特先和一名队友靠近推进，琥珀分路压迫，谢德检查侧翼并保持可跟进距离。",
+              "对手被迫退离中场或交出控制技能后，巴斯特带动过线，谢德从侧翼威胁门前，安全位置的队友接球。",
+              "球权丢失或推进被截断时三人先回到中场互相掩护，重新分配两侧路线，不单人连续冲门。"
+            ]
+          }
+        }
+      ],
+      "candidates": [
+        {
+          "heroEn": "Barley",
+          "role": "有条件投掷",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 505,
+          "condition": "原文只作为后选；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Amber",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-pinball-dreams",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Otis",
+          "role": "中路射程对位",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 524,
+          "condition": "作为能压射程的对位例子，并非明确全图最高排名；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Buster",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-pinball-dreams",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Willow",
+          "role": "投掷/控制",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 502,
+          "condition": "原文三种较安全投掷之一；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Larry & Lawrie",
+          "role": "投掷/伤害",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 502,
+          "condition": "自动字幕Laren Lurorry归一；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Shade",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-pinball-dreams",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Ollie",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-pinball-dreams",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Finx",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-pinball-dreams",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Jae-Yong",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-pinball-dreams",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Trunk",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-pinball-dreams",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Gigi",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-pinball-dreams",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Sirius",
+          "role": "较能应对突进的投掷",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 502,
+          "condition": "口播明确Sirius；依当时机制与配置；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Damian",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-pinball-dreams",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Cosmo",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-pinball-dreams",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        }
+      ],
+      "mechanismEvidence": [
+        {
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 482,
+          "url": "https://www.youtube.com/watch?v=5iHVKzN0c5M&t=482s",
+          "claim": "投掷仍可用，但必须搭配伤害、施压或破墙，防止被后选控制。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        },
+        {
+          "sourceId": "bilibili:BV1npQAYjE98",
+          "startSeconds": 186.8,
+          "url": "https://www.bilibili.com/video/BV1npQAYjE98?t=186",
+          "claim": "辅助中路不必强行单独赢中；可与优势侧边路联动，边路拿到前方草区后形成斜线火力压中，最终争夺球权。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        },
+        {
+          "sourceId": "bilibili:BV1npQAYjE98",
+          "startSeconds": 606.1,
+          "url": "https://www.bilibili.com/video/BV1npQAYjE98?t=606",
+          "claim": "右侧受地形压制时，转中与中路形成二打一，把敌方中路驱退，再重建控球和推进空间。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        },
+        {
+          "sourceId": "bilibili:BV1npQAYjE98",
+          "startSeconds": 429.8,
+          "url": "https://www.bilibili.com/video/BV1npQAYjE98?t=429",
+          "claim": "投掷可以隔着侧边掩体消耗，使原本的优势边路难以正常对线；需用破墙或能越墙突袭的英雄处理。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        },
+        {
+          "sourceId": "bilibili:BV1npQAYjE98",
+          "startSeconds": 269.8,
+          "url": "https://www.bilibili.com/video/BV1npQAYjE98?t=269",
+          "claim": "把球控在对方需要绕路的位置，一人防拿球路径，中路后撤配合夹击，以取球时间差争取复活和重新组织。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        },
+        {
+          "sourceId": "brawlpick-map-pinball-dreams",
+          "startSeconds": null,
+          "url": "https://www.brawlpick.app/map-stats/pinball-dreams",
+          "claim": "BrawlPick map sample: Cosmo (73.8%, 2,065 games), Ollie (65.9%, 607), Shade (62.4%, 8,805), Trunk (64.7%, 665), Jae-Yong (66.5%, 236), Gigi (62.7%, 1,114), Amber (61%, 3,103), Damian (61.6%, 1,365), Buster (63.7%, 410), Finx (64.6%, 288). The page orders picks by the lower end of its confidence range.",
+          "completeTeamObserved": false,
+          "evidenceType": "mixed_ranked_and_regular_3v3_map_statistics"
+        }
+      ]
+    },
+    {
+      "mapId": 15000132,
+      "nameEn": "Center Stage",
+      "nameZh": "中心舞台",
+      "mode": "Brawl Ball",
+      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "completeTeamObserved": false,
+      "teamEvidenceNotice": "地图候选按地图结构与近期适配筛选。新增地图的队友组合优先引用排位实测三人样本；样本与时间窗展示在阵容卡片上。没有实测样本数的排位主页组合明确标记为低置信度。三人胜率是群体描述数据，不是玩家个人胜率或未来表现保证。 新增的经典地图不在当前排位轮换，数据卡片分别注明排位、奖杯赛和历史范围；机制阵容不视作实时强度榜。",
+      "tags": [
+        "近中场争夺",
+        "草区探路",
+        "破墙后推进"
+      ],
+      "terrain": "中心舞台是乱斗足球图，中路争夺和两侧绕行共同决定能否安全持球。地形改变会影响射门线和近战推进路线。",
+      "objective": "先争取中场并确认边路威胁，再由前排接应带球；只在能让队友跟进或形成射门角度时破墙。",
+      "teams": [
+        {
+          "title": "前排接球与侧翼火力",
+          "synergy": "波比负责前排争球并迫使对手后退，格里夫清理近中距离防守者并为射门打开必要角度，阿渤检查草区和侧路，减少队友接球时遭伏击的风险。三人形成安全跟进后再推进球门。",
+          "risk": "阵容较偏向近中距离，面对开阔远程压制会难以接近；格里夫若无沟通破墙，可能让波比失去可利用掩体。",
+          "loadout": "阿渤先处理未知草区，格里夫与波比约定保留的墙体。波比接球后只在有队友跟进时强行突破；星徽和妙具以当前国服数据为准。",
+          "cooperationBand": 2,
+          "id": "15000132-1",
+          "members": [
+            {
+              "heroId": 16000026,
+              "role": "前排控球与近战空间"
+            },
+            {
+              "heroId": 16000050,
+              "role": "中距离清线与选择性破墙"
+            },
+            {
+              "heroId": 16000014,
+              "role": "草区侦察与边路控制"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "status": "待版本与实战复核",
+          "mapFitBand": 1,
+          "evidenceRefs": [
+            "brawlpick-map-center-stage"
+          ],
+          "substitutions": [],
+          "teamStats": null,
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "以下协作流程由工具根据已整理职责推导，不是视频作者逐字建议，也不是职业实战验证。技能可用性与国服当前版本仍需核验。",
+            "steps": [
+              "阿渤先探关键草区，格里夫和波比分占中路与侧翼，同时确认需要保留的墙体。",
+              "格里夫压低防守者血量后，波比接近争球并等待队友跟进；只有形成可用射门线时才破墙或带球突破。",
+              "球权丢失后格里夫回到能支援防守的位置，阿渤继续检查侧路，波比不要脱离队伍独自追回。"
+            ]
+          }
+        }
+      ],
+      "candidates": [
+        {
+          "heroEn": "Rico",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-center-stage",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Bo",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-center-stage",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Bibi",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-center-stage",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Emz",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-center-stage",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Jacky",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-center-stage",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Nani",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-center-stage",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Griff",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-center-stage",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Doug",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-center-stage",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Shade",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-center-stage",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Damian",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-center-stage",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        }
+      ],
+      "mechanismEvidence": [
+        {
+          "sourceId": "brawlpick-map-center-stage",
+          "startSeconds": null,
+          "url": "https://www.brawlpick.app/map-stats/center-stage",
+          "claim": "BrawlPick map sample: Jacky (63.6%, 184 games), Doug (60.9%, 312), Damian (61%, 187), Shade (55.7%, 1,029), Bibi (55.4%, 1,223), Griff (54%, 2,874), Rico (53.4%, 3,189), Bo (55.4%, 654), El Primo (54%, 1,109), Emz (53.2%, 1,698). The page orders picks by the lower end of its confidence range.",
+          "completeTeamObserved": false,
+          "evidenceType": "mixed_ranked_and_regular_3v3_map_statistics"
+        }
+      ]
+    },
+    {
+      "mapId": 15000293,
+      "nameEn": "Parallel Plays",
+      "nameZh": "平行游戏",
+      "mode": "Hot Zone",
+      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "completeTeamObserved": false,
+      "teamEvidenceNotice": "地图候选按地图结构与近期适配筛选。新增地图的队友组合优先引用排位实测三人样本；样本与时间窗展示在阵容卡片上。没有实测样本数的排位主页组合明确标记为低置信度。三人胜率是群体描述数据，不是玩家个人胜率或未来表现保证。 新增的经典地图不在当前排位轮换，数据卡片分别注明排位、奖杯赛和历史范围；机制阵容不视作实时强度榜。",
+      "tags": [
+        "分区轮转",
+        "远程跨区支援",
+        "双人推进"
+      ],
+      "terrain": "平行游戏是热区图，左右目标区要求队伍管理分散与汇合。单人守点容易被集火，三人长期抱团又会放弃另一侧压力。",
+      "objective": "明确开局由谁负责安全侧区，另外两人争取另一侧；一旦对面形成局部人数优势，守点者先拖延，队友再一起轮转支援。",
+      "teams": [
+        {
+          "title": "双区支援与前排驻点",
+          "synergy": "R-T用分线攻击和区域技能覆盖主要争夺区，Doug维持一侧队友的站点时间，Juju从掩体另一侧持续迫使敌人离点。两人制造压力时第三人保持另一目标的最低防守人数；确定优势后再一起转区。",
+          "risk": "三人都需要较好的区域判断，若Doug被远程集火或R-T技能落空，双点容易同时丢失；不能把角色技能带来的续航误当成可以无视人数差。",
+          "loadout": "出生后先沟通左右分配和轮转路线。R-T开大前确认队友能守住另一侧，Doug优先照顾正在承担站点任务的人；当前配置须在游戏版本中复核。",
+          "cooperationBand": 1,
+          "id": "15000293-1",
+          "members": [
+            {
+              "heroId": 16000066,
+              "role": "远程分线与区域压制"
+            },
+            {
+              "heroId": 16000071,
+              "role": "驻点续航与复活支援"
+            },
+            {
+              "heroId": 16000087,
+              "role": "跨掩体消耗与侧区牵制"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "status": "待版本与实战复核",
+          "mapFitBand": 1,
+          "evidenceRefs": [
+            "brawlpick-map-parallel-plays"
+          ],
+          "substitutions": [],
+          "teamStats": null,
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "以下协作流程由工具根据已整理职责推导，不是视频作者逐字建议，也不是职业实战验证。技能可用性与国服当前版本仍需核验。",
+            "steps": [
+              "开局分配左右目标区和支援路线，避免Doug单人硬守，Juju与R-T保持能在局部交战时互相支援。",
+              "Juju从掩体消耗并逼退敌人，R-T协助建立区域威胁，Doug只在队友能跟进时向前稳住站点。",
+              "若一侧出现人数劣势，先拖住并呼叫轮转；拿下优势后再考虑转区，不能三人同时离开仍在积累进度的区域。"
+            ]
+          }
+        }
+      ],
+      "candidates": [
+        {
+          "heroEn": "Bibi",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-parallel-plays",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Squeak",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-parallel-plays",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "R-T",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-parallel-plays",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Doug",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-parallel-plays",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Chuck",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-parallel-plays",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Shade",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-parallel-plays",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Juju",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-parallel-plays",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Trunk",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-parallel-plays",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Sirius",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-parallel-plays",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Cosmo",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-parallel-plays",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        }
+      ],
+      "mechanismEvidence": [
+        {
+          "sourceId": "brawlpick-map-parallel-plays",
+          "startSeconds": null,
+          "url": "https://www.brawlpick.app/map-stats/parallel-plays",
+          "claim": "BrawlPick map sample: Trunk (63.1%, 1,037 games), Juju (61%, 1,820), R-T (61.1%, 833), Doug (59.5%, 2,055), Cosmo (63.5%, 219), Chuck (59.6%, 628), Shade (57.2%, 4,096), Sirius (57.5%, 1,390), Hank (57.5%, 842), Bibi (55.5%, 2,458). The page orders picks by the lower end of its confidence range.",
+          "completeTeamObserved": false,
+          "evidenceType": "mixed_ranked_and_regular_3v3_map_statistics"
+        }
+      ]
+    },
+    {
+      "mapId": 15000300,
+      "nameEn": "Ring Of Fire",
+      "nameZh": "灼热火圈",
+      "mode": "Hot Zone",
+      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "completeTeamObserved": false,
+      "teamEvidenceNotice": "地图候选按地图结构与近期适配筛选。新增地图的队友组合优先引用排位实测三人样本；样本与时间窗展示在阵容卡片上。没有实测样本数的排位主页组合明确标记为低置信度。三人胜率是群体描述数据，不是玩家个人胜率或未来表现保证。 新增的经典地图不在当前排位轮换，数据卡片分别注明排位、奖杯赛和历史范围；机制阵容不视作实时强度榜。",
+      "tags": [
+        "双区轮转",
+        "草区侦察",
+        "持续占点"
+      ],
+      "terrain": "灼热火圈是热区图，关键在于占住区域并在被驱赶时及时轮换。视野、持续范围压力和保护队友站点缺一不可。",
+      "objective": "至少保持一人稳定留区，其余两人负责清线和阻止敌人进入；落点被压制时同步换边，不要三人一起离开目标区追击。",
+      "teams": [
+        {
+          "title": "侦察控区与护盾续航",
+          "synergy": "阿渤为草区和入口提供侦察与威胁，琥珀逼退站点内的敌人，格斯保护要留在区域中的队友并补足远程火力。阿渤先确认安全路线，琥珀负责让敌人离点，格斯根据血线决定跟进或守点。",
+          "risk": "阿渤的陷阱或侦察价值依赖布置位置；琥珀持续压制消耗弹药后可能出现空窗。若格斯离点追击，团队会同时失去保护和占区人数。",
+          "loadout": "开局沟通侦察路径与区域轮守者。把格斯护盾留给争夺点位或撤退的关键交换，避免无目标地交技能；具体配置需按当前版本核验。",
+          "cooperationBand": 2,
+          "id": "15000300-1",
+          "members": [
+            {
+              "heroId": 16000014,
+              "role": "草区侦察与入口控制"
+            },
+            {
+              "heroId": 16000040,
+              "role": "持续范围压制"
+            },
+            {
+              "heroId": 16000061,
+              "role": "护盾支援与远程补伤害"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "status": "待版本与实战复核",
+          "mapFitBand": 1,
+          "evidenceRefs": [
+            "bilibili:BV1jU411Z7sx",
+            "youtube:PIAPgulZPa4",
+            "brawlpick-map-ring-of-fire"
+          ],
+          "substitutions": [],
+          "teamStats": null,
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "以下协作流程由工具根据已整理职责推导，不是视频作者逐字建议，也不是职业实战验证。技能可用性与国服当前版本仍需核验。",
+            "steps": [
+              "先沟通主要占点位和轮换方向，阿渤侦察未知草区，格斯保持能支援站点队友的位置。",
+              "琥珀开始压制时格斯保护留点队友，阿渤限制敌方安全绕行；确认一侧人数占优后同步推进或转区。",
+              "被迫离点时由最近队友拖延，另外两人沿约定路线支援；夺回后立即确定下一轮守点人选。"
+            ]
+          }
+        }
+      ],
+      "candidates": [
+        {
+          "heroEn": "Poco",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-ring-of-fire",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Bo",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-ring-of-fire",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Tick",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-ring-of-fire",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Emz",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-ring-of-fire",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Gale",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-ring-of-fire",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Amber",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-ring-of-fire",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Griff",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-ring-of-fire",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Ash",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-ring-of-fire",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Gus",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-ring-of-fire",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Wendy",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-ring-of-fire",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        }
+      ],
+      "mechanismEvidence": [
+        {
+          "sourceId": "bilibili:BV1jU411Z7sx",
+          "startSeconds": 31.2,
+          "url": "https://www.bilibili.com/video/BV1jU411Z7sx?t=31",
+          "claim": "作者解释灼热火圈的2＋1职责分配：两个中路作为阵容主体，另一个位置承担边路任务。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        },
+        {
+          "sourceId": "bilibili:BV1jU411Z7sx",
+          "startSeconds": 71.2,
+          "url": "https://www.bilibili.com/video/BV1jU411Z7sx?t=71",
+          "claim": "以梅格火力覆盖和坦度争夺站点，再补杰西弥补应对高坦度抱团的短板，体现站点能力与反抱团输出互补。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        },
+        {
+          "sourceId": "bilibili:BV1jU411Z7sx",
+          "startSeconds": 123.2,
+          "url": "https://www.bilibili.com/video/BV1jU411Z7sx?t=123",
+          "claim": "作者认为巴斯特面对爆发较低、控制较少的阵容，可以依托指定掩体拖住较长占点时间。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        },
+        {
+          "sourceId": "bilibili:BV1jU411Z7sx",
+          "startSeconds": 135.2,
+          "url": "https://www.bilibili.com/video/BV1jU411Z7sx?t=135",
+          "claim": "复盘以雪莉的高爆发与控制阻止巴斯特长期卡墙，说明占点坦克需要考虑反贴脸控制威胁。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        },
+        {
+          "sourceId": "bilibili:BV1jU411Z7sx",
+          "startSeconds": 154.2,
+          "url": "https://www.bilibili.com/video/BV1jU411Z7sx?t=154",
+          "claim": "复盘边路先依靠掩体劝退前压，持续观察全局并随时支援中路；敌方回撤后再转中形成局部人数优势。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        },
+        {
+          "sourceId": "bilibili:BV1jU411Z7sx",
+          "startSeconds": 220.8,
+          "url": "https://www.bilibili.com/video/BV1jU411Z7sx?t=220",
+          "claim": "一侧掩体被破坏后，雪莉难以原地卡位，转向另一侧寻找切入，体现破墙改变坦克路线与站位。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        },
+        {
+          "sourceId": "youtube:PIAPgulZPa4",
+          "startSeconds": 3622,
+          "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=3622s",
+          "claim": "2026 LCQ职业对局的完整阵容已核对关键画面。解说将SK的Gus描述为强回复中路，并认为8-Bit的威胁限制对方传统坦克选项。 LOUD的Lou承担中区控制，Juju与Alli能利用地图水域；解说强调SK必须防止减速和刺杀。 解说对最后补Ash并非一味肯定：其对Alli可能有利，但面对Juju和Lou未必理想，同时猜测SK看到LOUD伤害不足，想增加前排。 这是职责、反制与地形适应同时作用的案例，不是坦克加治疗必胜的证据。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        },
+        {
+          "sourceId": "brawlpick-map-ring-of-fire",
+          "startSeconds": null,
+          "url": "https://www.brawlpick.app/map-stats/ring-of-fire",
+          "claim": "BrawlPick map sample: Wendy (61.5%, 904 games), Bo (58.1%, 2,513), Amber (57.6%, 1,103), Gus (56.7%, 1,480), Tick (55.6%, 1,332), Poco (56.7%, 631), Ash (55.7%, 708), Griff (53.8%, 2,092), Gale (57.5%, 188), Emz (52.8%, 1,509). The page orders picks by the lower end of its confidence range.",
+          "completeTeamObserved": false,
+          "evidenceType": "mixed_ranked_and_regular_3v3_map_statistics"
+        }
+      ]
+    },
+    {
+      "mapId": 15000440,
+      "nameEn": "Flaring Phoenix",
+      "nameZh": "烈焰凤凰",
+      "mode": "Knockout",
+      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "completeTeamObserved": false,
+      "teamEvidenceNotice": "地图候选按地图结构与近期适配筛选。新增地图的队友组合优先引用排位实测三人样本；样本与时间窗展示在阵容卡片上。没有实测样本数的排位主页组合明确标记为低置信度。三人胜率是群体描述数据，不是玩家个人胜率或未来表现保证。 新增的经典地图不在当前排位轮换，数据卡片分别注明排位、奖杯赛和历史范围；机制阵容不视作实时强度榜。",
+      "tags": [
+        "水区绕侧",
+        "草丛侦察",
+        "远程与突进联动"
+      ],
+      "terrain": "Flaring Phoenix 是对角对称的 Knockout 地图，两侧各有水面与草丛，中央和边线分布小块掩体。绕侧和中场视线会随破墙而改变；要同时保留远程压制、突进惩罚和残局能力。",
+      "objective": "先侦察两侧草区，远程队友控制可见通道，前压位等对手交出关键控制或失位后再进场。领先时优先守住安全角度，不为追击放弃人数优势。",
+      "teams": [
+        {
+          "title": "破墙远压与侧翼收割",
+          "synergy": "Brock 通过远程火力逼退对手，并只在队友能利用时打开射线；Wendy 补足远程支援，避免 Brock 单独承受压力；Edgar 绕开正面火力，等敌方关键技能用掉后再切后排。三人先消耗，再同步压缩安全区。BrawlZone 近期排位记录到这组 118 场、68 名玩家、72.9%。",
+          "risk": "这是 Knockout，Edgar 若没有明确目标会把队伍变成 2v3；Brock 的破墙也可能拆掉己方的侧路掩护。组合样本 118 场仍不能等同于固定胜率。",
+          "loadout": "开局先确认草丛和水边通路；Brock 与 Wendy 保持互相支援距离。Edgar 在对手控制技能交出或血量被压低后再切入。关键掩体不要无目的拆除。",
+          "cooperationBand": 2,
+          "teamStats": {
+            "winRate": 0.729,
+            "games": 118,
+            "players": 68,
+            "periodDays": 14,
+            "sourceId": "brawlzone-ranked-flaring-phoenix",
+            "sampleStatus": "moderate_sample",
+            "note": "近 14 天排位组合样本，适合当作方向性证据，不是胜率承诺。"
+          },
+          "id": "15000440-1",
+          "members": [
+            {
+              "heroId": 16000003,
+              "role": "远程压制、选择性破墙"
+            },
+            {
+              "heroId": 16000043,
+              "role": "侧翼突进与残局收割"
+            },
+            {
+              "heroId": 16000108,
+              "role": "远程支援、补伤害并保持团队续航"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "status": "待版本与实战复核",
+          "mapFitBand": 1,
+          "evidenceRefs": [
+            "brawlzone-ranked-flaring-phoenix"
+          ],
+          "substitutions": [],
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "以下协作流程由工具根据已整理职责推导，不是视频作者逐字建议，也不是职业实战验证。技能可用性与国服当前版本仍需核验。",
+            "steps": [
+              "Brock 与 Wendy 先分配中线和侧翼视野，确认草区和水边是否安全。",
+              "Brock 只拆除队友计划利用的掩体；Edgar 等对手交控制后从另一侧切入。",
+              "Edgar 命中后两名远程队友同步压进，未形成优势时回到安全射线继续消耗。"
+            ]
+          }
+        },
+        {
+          "title": "双远压与前排突袭",
+          "synergy": "Brock 牵制远端路线，Pearl 提供稳定持续火力并避免中场空档，Edgar 负责在对手被压低或交出控制后从侧翼收割。与 Wendy 版本相比，这组 146 场、95 名玩家的记录更多（70.5%），实战优先级可稍高，但差异不能直接解释为阵容优劣。",
+          "risk": "依旧依赖 Edgar 选择合适的切入时机；没有突进窗口时不要强行进场。Pearl 与 Brock 需要避免同时被迫撤退，否则缺少中场压力。",
+          "loadout": "两名远程角色分开覆盖中路和侧路；Edgar 先观察敌方控制与位移，再判断切入。开墙决策与前一套相同，需要团队共识。",
+          "cooperationBand": 2,
+          "teamStats": {
+            "winRate": 0.705,
+            "games": 146,
+            "players": 95,
+            "periodDays": 14,
+            "sourceId": "brawlzone-ranked-flaring-phoenix",
+            "sampleStatus": "moderate_sample",
+            "note": "近 14 天排位组合样本，适合当作方向性证据，不是胜率承诺。"
+          },
+          "id": "15000440-2",
+          "members": [
+            {
+              "heroId": 16000003,
+              "role": "远程压制与关键开线"
+            },
+            {
+              "heroId": 16000043,
+              "role": "侧翼突袭与残局收割"
+            },
+            {
+              "heroId": 16000072,
+              "role": "稳定输出并守住中场空间"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "status": "待版本与实战复核",
+          "mapFitBand": 1,
+          "evidenceRefs": [
+            "brawlzone-ranked-flaring-phoenix"
+          ],
+          "substitutions": [],
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "以下协作流程由工具根据已整理职责推导，不是视频作者逐字建议，也不是职业实战验证。技能可用性与国服当前版本仍需核验。",
+            "steps": [
+              "Brock 控制主要远程通道，Pearl 补住中场与可撤退路线。",
+              "Edgar 只在对手血线被压低或控制技能交出时切入，不强行单人开团。",
+              "若 Edgar 未获得击杀窗口，团队保持双远程交叉火力，继续控制安全区。"
+            ]
+          }
+        }
+      ],
+      "candidates": [
+        {
+          "heroEn": "Brock",
+          "role": "地图候选",
+          "sourceId": "brawlzone-ranked-flaring-phoenix",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Bo",
+          "role": "地图候选",
+          "sourceId": "brawlzone-ranked-flaring-phoenix",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Edgar",
+          "role": "地图候选",
+          "sourceId": "brawlzone-ranked-flaring-phoenix",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Eve",
+          "role": "地图候选",
+          "sourceId": "brawlzone-ranked-flaring-phoenix",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Pearl",
+          "role": "地图候选",
+          "sourceId": "brawlzone-ranked-flaring-phoenix",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Shade",
+          "role": "地图候选",
+          "sourceId": "brawlzone-ranked-flaring-phoenix",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Wendy",
+          "role": "地图候选",
+          "sourceId": "brawlzone-ranked-flaring-phoenix",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        }
+      ],
+      "mechanismEvidence": [
+        {
+          "sourceId": "brawlzone-ranked-flaring-phoenix",
+          "startSeconds": null,
+          "url": "https://brawlzone.net/maps/knockout/flaring-phoenix",
+          "claim": "BrawlZone sampled 73,945 Ranked battles on Flaring Phoenix. Brock, Edgar and Grom are the leading individual results. Recent Ranked trio records include Brock · Edgar · Wendy, 72.9% over 118 games/68 players, and Brock · Edgar · Pearl, 70.5% over 146 games/95 players.",
+          "completeTeamObserved": true,
+          "evidenceType": "ranked_map_statistics"
+        }
+      ]
+    },
+    {
+      "mapId": 15000548,
+      "nameEn": "Out In The Open",
+      "nameZh": "空旷荒野",
+      "mode": "Knockout",
+      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "completeTeamObserved": false,
+      "teamEvidenceNotice": "地图候选按地图结构与近期适配筛选。新增地图的队友组合优先引用排位实测三人样本；样本与时间窗展示在阵容卡片上。没有实测样本数的排位主页组合明确标记为低置信度。三人胜率是群体描述数据，不是玩家个人胜率或未来表现保证。 新增的经典地图不在当前排位轮换，数据卡片分别注明排位、奖杯赛和历史范围；机制阵容不视作实时强度榜。",
+      "tags": [
+        "开阔对枪",
+        "侦察与支援",
+        "选择性破墙"
+      ],
+      "terrain": "空旷荒野是淘汰赛图，开阔视线使远程命中、掩体利用和存活价值突出。破墙虽然能打开射线，也会同时减少队伍的安全空间。",
+      "objective": "优先形成稳定的交叉火力和人数优势；领先后缩短暴露时间，落后时先协调集火目标再尝试交换。",
+      "teams": [
+        {
+          "title": "远程交叉火力与安全支援",
+          "synergy": "贝儿和布洛克从不同角度建立远程交叉火力，格斯为需要承担视野或推进任务的队友提供保护。优先集火被标记或暴露的目标，布洛克只在团队准备利用时打开射线。",
+          "risk": "依赖远程命中，近身突进或对方控制技能会压缩后排空间；过早破墙会让己方也失去掩护。格斯应保留支援能力，不要独自和双射手脱节。",
+          "loadout": "出生后分配交叉火力角度并约定撤退掩体。格斯护盾优先用于关键交换，破墙前先确认队友都能利用新射线；配置按当前国服版本核验。",
+          "cooperationBand": 2,
+          "id": "15000548-1",
+          "members": [
+            {
+              "heroId": 16000046,
+              "role": "远程标记与分线压制"
+            },
+            {
+              "heroId": 16000003,
+              "role": "远程火力与选择性破墙"
+            },
+            {
+              "heroId": 16000061,
+              "role": "护盾支援与容错"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "status": "待版本与实战复核",
+          "mapFitBand": 1,
+          "evidenceRefs": [
+            "brawlpick-map-out-in-the-open"
+          ],
+          "substitutions": [],
+          "teamStats": null,
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "以下协作流程由工具根据已整理职责推导，不是视频作者逐字建议，也不是职业实战验证。技能可用性与国服当前版本仍需核验。",
+            "steps": [
+              "三人分开建立交叉火力并标出回撤掩体，先检查可能的绕后路线，未沟通前不破墙。",
+              "贝儿标记或队友命中形成血量优势时，格斯保护推进者，布洛克与队友集中火力完成交换。",
+              "人数领先后收缩并保留掩体；若队友倒下，停止追击并重组视线，等待下一次安全交战。"
+            ]
+          }
+        }
+      ],
+      "candidates": [
+        {
+          "heroEn": "Brock",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-out-in-the-open",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Bo",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-out-in-the-open",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Piper",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-out-in-the-open",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Belle",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-out-in-the-open",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Eve",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-out-in-the-open",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Gus",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-out-in-the-open",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Pearl",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-out-in-the-open",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Angelo",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-out-in-the-open",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Wendy",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-out-in-the-open",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Cosmo",
+          "role": "地图候选",
+          "sourceId": "brawlpick-map-out-in-the-open",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        }
+      ],
+      "mechanismEvidence": [
+        {
+          "sourceId": "brawlpick-map-out-in-the-open",
+          "startSeconds": null,
+          "url": "https://www.brawlpick.app/map-stats/out-in-the-open",
+          "claim": "BrawlPick map sample: Cosmo (62.9%, 283 games), Pearl (59.3%, 1,570), Wendy (59%, 1,412), Eve (58.2%, 747), Bo (57.6%, 653), Brock (54.7%, 5,932), Angelo (55.1%, 1,322), Belle (54.9%, 1,374), Piper (53.6%, 4,942), Gus (54%, 2,778). The page orders picks by the lower end of its confidence range.",
+          "completeTeamObserved": false,
+          "evidenceType": "mixed_ranked_and_regular_3v3_map_statistics"
+        }
+      ]
+    },
+    {
+      "mapId": 15000703,
+      "nameEn": "New Horizons",
+      "nameZh": "新地平线",
+      "mode": "Knockout",
+      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "completeTeamObserved": false,
+      "teamEvidenceNotice": "地图候选按地图结构与近期适配筛选。新增地图的队友组合优先引用排位实测三人样本；样本与时间窗展示在阵容卡片上。没有实测样本数的排位主页组合明确标记为低置信度。三人胜率是群体描述数据，不是玩家个人胜率或未来表现保证。 新增的经典地图不在当前排位轮换，数据卡片分别注明排位、奖杯赛和历史范围；机制阵容不视作实时强度榜。",
+      "tags": [
+        "三线对局",
+        "边路先手",
+        "协同破墙"
+      ],
+      "terrain": "New Horizons 的排位样本大且接近开放的三线对局。近期完整 B 站地图教学将其描述为类似 Belle's Rock 的结构，但中路掩体较少；边路对位和中间墙体是否保留会影响全队视线。",
+      "objective": "先拿住边路并确认中路墙体对阵容的价值。只有队友确实需要开放视线时才破墙；避免过早选出有明显克制点的英雄。",
+      "teams": [
+        {
+          "title": "双远程占线与稳定支援",
+          "synergy": "Piper 负责远程主威胁，Wendy 支援并协助稳住交火节奏，Brock 同时提供远程压力与破墙选择。先用边线压制逼出走位，再决定是否由 Brock 打开中路视线；如果 Piper 仍需要掩体，就保留墙体。BrawlZone 当前排位主页报告该三人组 76.0%，但没有展示组合场数，因此只作为待验证方向。",
+          "risk": "Brock 和 Piper 都偏远程，遇到侧翼突进时要留出回撤与互保路线；无沟通破墙会让 Piper 失去掩护。76.0% 的排位组合样本数未公开，不宜据此承诺胜率。",
+          "loadout": "开局先对位再讨论破墙。Brock 破墙前问清队友是否准备利用新射线；Piper 优先保持安全距离，Wendy 不要离开侧路队友太远。具体配置按当前版本核验。",
+          "cooperationBand": 2,
+          "teamStats": {
+            "winRate": 0.76,
+            "games": null,
+            "players": null,
+            "periodDays": 14,
+            "sourceId": "brawlzone-ranked-new-horizons",
+            "sampleStatus": "dashboard_count_not_reported",
+            "note": "BrawlZone 排位地图主页报告 76.0%，但未公开这组的场数；旧版中文视频仅用于结构判断。"
+          },
+          "id": "15000703-1",
+          "members": [
+            {
+              "heroId": 16000003,
+              "role": "边线压制、控制中墙是否开放"
+            },
+            {
+              "heroId": 16000015,
+              "role": "远程主输出与边路对位"
+            },
+            {
+              "heroId": 16000108,
+              "role": "支援与跟进伤害，保护团队节奏"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "status": "待版本与实战复核",
+          "mapFitBand": 1,
+          "evidenceRefs": [
+            "brawlzone-ranked-new-horizons",
+            "bilibili:BV15RmQBWELU"
+          ],
+          "substitutions": [],
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "以下协作流程由工具根据已整理职责推导，不是视频作者逐字建议，也不是职业实战验证。技能可用性与国服当前版本仍需核验。",
+            "steps": [
+              "开局先确认三条线路的对位和中间掩体状态，不急着拆墙。",
+              "Piper 与 Wendy 先建立远程压力，Brock 根据队友需要选择是否开放中路射线。",
+              "一侧取得优势后两人保持交叉支援，第三人再轮转收窄对手空间。"
+            ]
+          }
+        }
+      ],
+      "candidates": [
+        {
+          "heroEn": "Brock",
+          "role": "地图候选",
+          "sourceId": "brawlzone-ranked-new-horizons",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Piper",
+          "role": "地图候选",
+          "sourceId": "brawlzone-ranked-new-horizons",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Penny",
+          "role": "地图候选",
+          "sourceId": "brawlzone-ranked-new-horizons",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Pearl",
+          "role": "地图候选",
+          "sourceId": "brawlzone-ranked-new-horizons",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Wendy",
+          "role": "地图候选",
+          "sourceId": "brawlzone-ranked-new-horizons",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        }
+      ],
+      "mechanismEvidence": [
+        {
+          "sourceId": "brawlzone-ranked-new-horizons",
+          "startSeconds": null,
+          "url": "https://brawlzone.net/ranked",
+          "claim": "BrawlZone current Ranked dashboard: 78,055 New Horizons Ranked battles; Wendy, Sprout and Brock lead the dashboard's individual map candidates. It reports Brock · Piper · Wendy at 76.0%, but does not show the trio game count.",
+          "completeTeamObserved": true,
+          "evidenceType": "ranked_map_statistics"
+        },
+        {
+          "sourceId": "bilibili:BV15RmQBWELU",
+          "startSeconds": 14,
+          "url": "https://www.bilibili.com/video/BV15RmQBWELU?t=14",
+          "claim": "Historical map-mechanism read (audio 0:14–1:33): the creator describes New Horizons as a Belle's Rock-like three-lane map with fewer central walls; side-lane control is emphasized, and opening the central wall is presented as conditional on a teammate whose attack benefits from that sightline. The later draft example analyzes a 2025 World Finals semifinal and is not a current pick list.",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        }
+      ]
+    },
+    {
+      "mapId": 15001021,
+      "nameEn": "Spiraling Out",
+      "nameZh": "盘旋而出",
+      "mode": "Brawl Ball",
+      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "completeTeamObserved": false,
+      "teamEvidenceNotice": "地图候选按地图结构与近期适配筛选。新增地图的队友组合优先引用排位实测三人样本；样本与时间窗展示在阵容卡片上。没有实测样本数的排位主页组合明确标记为低置信度。三人胜率是群体描述数据，不是玩家个人胜率或未来表现保证。 新增的经典地图不在当前排位轮换，数据卡片分别注明排位、奖杯赛和历史范围；机制阵容不视作实时强度榜。",
+      "tags": [
+        "侧路强攻",
+        "连续压迫",
+        "破墙控球"
+      ],
+      "terrain": "Spiraling Out 是本期排位轮换的 Brawl Ball 地图。排位统计显示 Bibi、Amber、Shade 表现突出；地图图像与社区地图资料显示中路和两侧掩体形成多条进攻路线，阵容需要一人能从侧路施压、一人争夺中线、一人负责把人数优势转成球权推进。",
+      "objective": "先让边路制造压力，再由中线队友接应；形成局部人数优势后才带球推进。避免 Bibi 与 Edgar 同时脱离球权去追击。",
+      "teams": [
+        {
+          "title": "侧路双威胁与中线破局",
+          "synergy": "Bibi 用击退干扰近路防守并创造护球空间，Edgar 等对手交出控制后再从侧面进场，Griff 留在中线惩罚抱团并在需要时打开射门或进场角度。三人将侧翼压力汇合到球权，而不是分散追人。",
+          "risk": "Bibi 与 Edgar 都偏近身，若同时交位移或被减速、击退类控制挡住，队伍会缺少安全接球点。BrawlZone 展示的三人组合为 77.1%，但其排位主页未展示该组合场数，不能把该比例当作稳定胜率。",
+          "loadout": "开局先分侧路与中路。Griff 破墙前确认队友需要开放通道；Edgar 等敌方关键控制技能交出后再切入。比赛中明确由谁拿球和谁跟进。",
+          "cooperationBand": 2,
+          "teamStats": {
+            "winRate": 0.771,
+            "games": null,
+            "players": null,
+            "periodDays": 14,
+            "sourceId": "brawlzone-ranked-spiraling-out",
+            "sampleStatus": "dashboard_count_not_reported",
+            "note": "BrawlZone 排位地图总样本为 15,879 场；三人组报告 77.1%，但主页未显示这组的场数。仅作低置信度协同信号。"
+          },
+          "id": "15001021-1",
+          "members": [
+            {
+              "heroId": 16000026,
+              "role": "侧路前压、击退与护球"
+            },
+            {
+              "heroId": 16000043,
+              "role": "抓住敌方技能空窗切入收割"
+            },
+            {
+              "heroId": 16000050,
+              "role": "中线补伤害、限制近身并选择性清墙"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "status": "待版本与实战复核",
+          "mapFitBand": 1,
+          "evidenceRefs": [
+            "brawlzone-ranked-spiraling-out"
+          ],
+          "substitutions": [],
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "以下协作流程由工具根据已整理职责推导，不是视频作者逐字建议，也不是职业实战验证。技能可用性与国服当前版本仍需核验。",
+            "steps": [
+              "Bibi 和 Griff 分别压侧路与中线；Edgar 保留切入位，等待敌方控制或击退技能交出。",
+              "Griff 只在队伍能利用时破墙，Bibi 负责干扰近路防守并接应球权。",
+              "取得人数优势后由 Bibi/队友护球，Edgar 与 Griff 负责封堵回防路线；不要三人同时追击。"
+            ]
+          }
+        }
+      ],
+      "candidates": [
+        {
+          "heroEn": "Bo",
+          "role": "地图候选",
+          "sourceId": "brawlzone-ranked-spiraling-out",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Bibi",
+          "role": "地图候选",
+          "sourceId": "brawlzone-ranked-spiraling-out",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Edgar",
+          "role": "地图候选",
+          "sourceId": "brawlzone-ranked-spiraling-out",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Griff",
+          "role": "地图候选",
+          "sourceId": "brawlzone-ranked-spiraling-out",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Shade",
+          "role": "地图候选",
+          "sourceId": "brawlzone-ranked-spiraling-out",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        }
+      ],
+      "mechanismEvidence": [
+        {
+          "sourceId": "brawlzone-ranked-spiraling-out",
+          "startSeconds": null,
+          "url": "https://brawlzone.net/ranked",
+          "claim": "BrawlZone current Ranked dashboard: 15,879 Spiraling Out Ranked battles. Bibi 60.9%, Amber 59.9%, Shade 57.3% are listed as the leading individual map results. The dashboard also reports Bibi · Edgar · Griff at 77.1%; it does not show the trio game count.",
+          "completeTeamObserved": true,
+          "evidenceType": "ranked_map_statistics"
+        }
+      ]
+    },
+    {
+      "mapId": 15000026,
+      "nameEn": "Pinhole Punt",
+      "nameZh": "精准射门",
+      "mode": "Brawl Ball",
+      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "completeTeamObserved": false,
+      "teamEvidenceNotice": "地图候选按地图结构与近期适配筛选。新增地图的队友组合优先引用排位实测三人样本；样本与时间窗展示在阵容卡片上。没有实测样本数的排位主页组合明确标记为低置信度。三人胜率是群体描述数据，不是玩家个人胜率或未来表现保证。 新增的经典地图不在当前排位轮换，数据卡片分别注明排位、奖杯赛和历史范围；机制阵容不视作实时强度榜。",
+      "tags": [
+        "四路交叉",
+        "控中与侧路",
+        "破墙后反击"
+      ],
+      "terrain": "精准射门的多条窄通路和交错墙体会把中场争夺拆成多个接敌角度；墙体既能保护推进，也会遮挡球门射线。先赢中路，再由边路建立安全传球/射门线。",
+      "objective": "两人互相照应争夺中间通道，第三人压一侧并留意回防；打开射门线前先确认己方能利用新视野，失去球权时至少留一人阻止快速反击。",
+      "teams": [
+        {
+          "title": "控线保护与侧翼开路",
+          "synergy": "Amber 先用持续火力压缩侧路草区并逼出敌方弹药；Wendy 留在能保护接球人的距离提供支援；Buster 观察对手控制技能后开盾带队过中。三人取得人数优势后再破关键墙或传球推进，球权丢失时由 Amber/Wendy 延缓推进，Buster 回到球门前截断冲线。地图样本把 Amber、Wendy 与 Buster 都列为候选，但统计来源和模式范围不同。",
+          "risk": "Buster 过早前压会暴露球门；Amber 与 Wendy 本身不擅长处理所有贴身突进，敌方强开时应保留 Buster 的保护技能。破墙若没取得中路优势，反而会给敌方更直接的进球线。",
+          "loadout": "开局先报中路双人和侧路压制职责；Buster 不要先手交保护，直到队友确认可跟进；破墙/投球前标记推进方向。地图当前不在轮换，英雄强度和配置需随地图回归再核验。",
+          "cooperationBand": 2,
+          "id": "15000026-1",
+          "members": [
+            {
+              "heroId": 16000040,
+              "role": "中场控线、压缩草区和侧路"
+            },
+            {
+              "heroId": 16000108,
+              "role": "安全接应、支援带球和续航"
+            },
+            {
+              "heroId": 16000062,
+              "role": "前排保护、协同推进与反击挡拆"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "status": "待版本与实战复核",
+          "mapFitBand": 1,
+          "evidenceRefs": [
+            "brawlplanet-map-pinhole-punt",
+            "brawlmetrics-map-pinhole-punt"
+          ],
+          "substitutions": [],
+          "teamStats": null,
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "以下协作流程由工具根据已整理职责推导，不是视频作者逐字建议，也不是职业实战验证。技能可用性与国服当前版本仍需核验。",
+            "steps": [
+              "中路双人确认敌方近战和控制位置，第三人逐步检查侧路草区；球权先交给有安全传球角度的人。",
+              "Amber 逼出敌方弹药后由 Wendy 接应，Buster 再开盾带队过中；破墙前先确认新射线能给己方创造射门机会。",
+              "丢球后 Buster 回到门前截断最短路线，Amber/Wendy 延缓追球者；拿回球权后重新组织，不单人直冲。"
+            ]
+          }
+        }
+      ],
+      "candidates": [
+        {
+          "heroEn": "Amber",
+          "role": "地图候选",
+          "sourceId": "brawlplanet-map-pinhole-punt",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Gus",
+          "role": "地图候选",
+          "sourceId": "brawlplanet-map-pinhole-punt",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Buster",
+          "role": "地图候选",
+          "sourceId": "brawlmetrics-map-pinhole-punt",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Shade",
+          "role": "地图候选",
+          "sourceId": "brawlplanet-map-pinhole-punt",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Wendy",
+          "role": "地图候选",
+          "sourceId": "brawlplanet-map-pinhole-punt",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Cosmo",
+          "role": "地图候选",
+          "sourceId": "brawlplanet-map-pinhole-punt",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        }
+      ],
+      "mechanismEvidence": [
+        {
+          "sourceId": "brawlplanet-map-pinhole-punt",
+          "startSeconds": null,
+          "url": "https://www.brawlplanet.com/maps/pinholepunt_brawlball",
+          "claim": "Pinhole Punt ladder data: Cosmo, Wendy, Amber and Gus appear among the leading individual map candidates; page separately reports a Ranked sample, where Buster is among the leading candidates. Ladder, Ranked and overall trios are distinct samples.",
+          "completeTeamObserved": false,
+          "evidenceType": "mixed_ranked_and_regular_3v3_map_statistics"
+        },
+        {
+          "sourceId": "brawlmetrics-map-pinhole-punt",
+          "startSeconds": null,
+          "url": "https://brawlmetrics.gg/maps/brawl-ball/pinhole-punt",
+          "claim": "310,326 battles from Pinhole Punt’s last appearance, ending 2026-10-15 23:06 UTC. Buster and Amber perform well with low pick rates; Wendy and Shade also appear in the leading map candidates.",
+          "completeTeamObserved": false,
+          "evidenceType": "ranked_map_statistics"
+        }
+      ]
+    },
+    {
+      "mapId": 15000050,
+      "nameEn": "Sneaky Fields",
+      "nameZh": "绿荫球场",
+      "mode": "Brawl Ball",
+      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "completeTeamObserved": false,
+      "teamEvidenceNotice": "地图候选按地图结构与近期适配筛选。新增地图的队友组合优先引用排位实测三人样本；样本与时间窗展示在阵容卡片上。没有实测样本数的排位主页组合明确标记为低置信度。三人胜率是群体描述数据，不是玩家个人胜率或未来表现保证。 新增的经典地图不在当前排位轮换，数据卡片分别注明排位、奖杯赛和历史范围；机制阵容不视作实时强度榜。",
+      "tags": [
+        "草区侦察",
+        "双人前压",
+        "保护终结位",
+        "草区持续压力",
+        "反突进保护",
+        "加速协调"
+      ],
+      "terrain": "草区信息影响进场时机，队伍要保留足够伤害，不能只堆控场。麦克斯的机动需要与前线压力及反突进火力配套。",
+      "objective": "先确认接近路线，再同步争夺中场和控球空间；取球与施压分人完成，避免三人同时钻入未知草区。",
+      "teams": [
+        {
+          "title": "前排占草与保护侧翼",
+          "synergy": "Rosa 先占据安全草边逼对手交弹药，Gus 保持能给前排护盾的位置并承担安全接应，Shade 等敌方侦察或控制交出后从另一条草路夹击。任一侧取得击退/击杀后，三人集中把优势转成球权；领先后 Rosa 与 Gus 收缩，Shade 只拦截追击路线，不单独深入。地图数据记录到 Rosa · Gus · Shade 的高胜率组合，但场数未公开，作为配合线索而非胜率预测。",
+          "risk": "地图存在高频伏草交锋，三人抱团容易被范围控制同时命中；Shade 深入过早会让 Rosa 没有支援，Gus 若追前排也会失去安全接球点。面对强探草或击退队伍，要缩短站位距离。",
+          "loadout": "开局分配一名探草/诱敌位、一名跟进护盾位和一名反绕侧位；使用控草技能前先确认队友的接应位置。球权领先时减少追击，回防时不要让三人同时停留在草里。该图当前不在排位轮换，阵容为经典 3v3 机制推导。",
+          "cooperationBand": 2,
+          "id": "15000050-1",
+          "members": [
+            {
+              "heroId": 16000024,
+              "role": "占据草区、吸引火力和争夺前线"
+            },
+            {
+              "heroId": 16000061,
+              "role": "护盾支援、稳定接球和保住人数优势"
+            },
+            {
+              "heroId": 16000086,
+              "role": "绕侧惩罚落单、控制草区出口并终结推进"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "status": "待版本与实战复核",
+          "mapFitBand": 1,
+          "evidenceRefs": [
+            "youtube:5iHVKzN0c5M",
+            "bilibili:BV1vs4y1y7KD",
+            "brawlplanet-map-sneaky-fields",
+            "brawlmetrics-map-sneaky-fields"
+          ],
+          "substitutions": [],
+          "teamStats": null,
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "以下协作流程由工具根据已整理职责推导，不是视频作者逐字建议，也不是职业实战验证。技能可用性与国服当前版本仍需核验。",
+            "steps": [
+              "Ash 检查草边并吸引火力，Max 与 Maisie 分别看中路和另一侧入口，避免三人挤在同一片草区。",
+              "Max 在确认队友能跟进后加速带动前压，Maisie 用击退和爆发阻断反冲，Ash 趁对手被迫后退时争球。",
+              "失去球权时 Ash 退回防线，Maisie 阻断带球路线，Max 留好加速用于回防或下一次协同推进。"
+            ]
+          }
+        },
+        {
+          "title": "草区前压与机动保护",
+          "synergy": "阿拾在确认的草区路线制造持续压力，麦克斯帮助团队同步移动，麦茜保持可保护队友的角度。推进时由位置更安全者取球，前线与后排不因加速脱节。",
+          "risk": "没有稳定治疗，阿拾的前线持续性有限。草区侦察依赖当前配置，不能假定麦茜天然拥有全程视野；麦克斯也不能替代主输出。阿拾是原作者偏好选项，不是来源给出的完整三人队。",
+          "loadout": "进草前先消耗弹药确认路线；加速用途约定为抢位、接球或回防。麦茜侦察相关配置必须核对。",
+          "cooperationBand": 2,
+          "id": "15000050-2",
+          "members": [
+            {
+              "heroId": 16000051,
+              "role": "草区持续压力"
+            },
+            {
+              "heroId": 16000032,
+              "role": "加速与转移"
+            },
+            {
+              "heroId": 16000068,
+              "role": "反突进与后方火力"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "status": "待版本与实战复核",
+          "mapFitBand": 1,
+          "evidenceRefs": [
+            "youtube:5iHVKzN0c5M",
+            "bilibili:BV1vs4y1y7KD",
+            "brawlplanet-map-sneaky-fields",
+            "brawlmetrics-map-sneaky-fields"
+          ],
+          "substitutions": [],
+          "teamStats": null,
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "以下协作流程由工具根据已整理职责推导，不是视频作者逐字建议，也不是职业实战验证。技能可用性与国服当前版本仍需核验。",
+            "steps": [
+              "Rosa 探边草并报告对手位置，Gus 贴近但不挤同一条线，Shade 选择另一侧观察对方探草技能。",
+              "对手交出范围攻击或侦察后，Shade 绕侧，Gus 给承压队友护盾；取得局部优势后立即由最近队友接球推进。",
+              "领先后 Rosa 与 Gus 收缩保护球权，Shade 阻止对手绕后；失球时先堵住中路，避免三人一起追球。"
+            ]
+          }
+        }
+      ],
+      "candidates": [
+        {
+          "heroEn": "Rosa",
+          "role": "地图候选",
+          "sourceId": "brawlplanet-map-sneaky-fields",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Max",
+          "role": "机动控场",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 583,
+          "condition": "不能替代队伍所有伤害；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Colette",
+          "role": "草区反坦克",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 579,
+          "condition": "字幕collect归一；未核验画面；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Amber",
+          "role": "地图候选",
+          "sourceId": "brawlplanet-map-sneaky-fields",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Edgar",
+          "role": "有条件后选",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 597,
+          "condition": "原文需玩得好且条件适合，非无条件推荐；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Ash",
+          "role": "草区持续压力",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 590,
+          "condition": "作者明确个人喜欢此选项；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Gus",
+          "role": "地图候选",
+          "sourceId": "brawlplanet-map-sneaky-fields",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Buster",
+          "role": "地图候选",
+          "sourceId": "brawlplanet-map-sneaky-fields",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Maisie",
+          "role": "草区伤害/威慑",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 574,
+          "condition": "字幕mazes归一；需要配置提供侦察；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Shade",
+          "role": "地图候选",
+          "sourceId": "brawlplanet-map-sneaky-fields",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Cosmo",
+          "role": "地图候选",
+          "sourceId": "brawlplanet-map-sneaky-fields",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        }
+      ],
+      "mechanismEvidence": [
+        {
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 562,
+          "url": "https://www.youtube.com/watch?v=5iHVKzN0c5M&t=562s",
+          "claim": "草区侦察、近身存在感与压力重要；需有能近距离处理入侵的伤害。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        },
+        {
+          "sourceId": "bilibili:BV1vs4y1y7KD",
+          "startSeconds": 10,
+          "url": "https://www.bilibili.com/video/BV1vs4y1y7KD?t=10",
+          "claim": "画面展示瑞科利用墙角弹射和不同站位让子弹覆盖草区与门前；最后字幕提醒点位并非处处实用，需要按实际情况判断。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        },
+        {
+          "sourceId": "brawlplanet-map-sneaky-fields",
+          "startSeconds": null,
+          "url": "https://www.brawlplanet.com/maps/sneakyfields_brawlball",
+          "claim": "1,038,051 trophy-ladder Brawl Ball matches. Rosa, Gus and Shade are individually map-relevant and are also the page’s listed top trio (79.3% with undisclosed sample count); Amber is the top individual win-rate result.",
+          "completeTeamObserved": false,
+          "evidenceType": "map_statistics"
+        },
+        {
+          "sourceId": "brawlmetrics-map-sneaky-fields",
+          "startSeconds": null,
+          "url": "https://brawlmetrics.gg/maps/brawl-ball/sneaky-fields",
+          "claim": "Map page reports more than one million battles, a 126-game Shelly · El Primo · Shade team and a current-rotation absence. Rosa, Shade and Gus are among the map-level candidates.",
+          "completeTeamObserved": false,
+          "evidenceType": "map_statistics"
+        }
+      ]
+    },
+    {
+      "mapId": 15000051,
+      "nameEn": "Super Beach",
+      "nameZh": "超级海滩",
+      "mode": "Brawl Ball",
+      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "completeTeamObserved": false,
+      "teamEvidenceNotice": "地图候选按地图结构与近期适配筛选。新增地图的队友组合优先引用排位实测三人样本；样本与时间窗展示在阵容卡片上。没有实测样本数的排位主页组合明确标记为低置信度。三人胜率是群体描述数据，不是玩家个人胜率或未来表现保证。 新增的经典地图不在当前排位轮换，数据卡片分别注明排位、奖杯赛和历史范围；机制阵容不视作实时强度榜。",
+      "tags": [
+        "开阔中场",
+        "斜向草区",
+        "接球与反击"
+      ],
+      "terrain": "超级海滩中央开阔，两翼的斜向草丛弯向球门，门前还有栅栏与多个入口；队伍既要争夺中线视野，也要通过侧草制造绕行威胁。",
+      "objective": "中场拿到优势后先确认哪条球门入口被压制，再由侧翼提供交叉火力并安排一个人留守；利用传球和击退形成安全的射门路线。",
+      "teams": [
+        {
+          "title": "弹射控线与双侧跟进",
+          "synergy": "Rico 先利用墙面反弹封锁球门附近入口并逼出防守技能，Wendy 从中场安全位置补伤害并保护接球者，Shade 等敌人被牵制后绕侧逼出门前防守。形成两人压门、第三人留意回防的节奏；确认防线被拉开后再传球射门，不把三人同时压进球门区域。BrawlZone 的 64 场/30 人 Rico · Shade · Wendy 是跨整种 Brawl Ball 的排位样本，不是本图专属数据。",
+          "risk": "Rico 依赖可利用的墙面，若破墙过多会损失反弹角度；Shade 侧绕时容易让中路人数不足，Wendy 需要保持能支援球权而不是只在后方远射。反击时不能三人都追球。",
+          "loadout": "开局检查可用反弹墙与侧草路线，明确谁在失球后回防；破墙前先决定要保留哪条 Rico 的反弹通道。该图暂无足够地图专属排位样本，推荐主要来自地图几何、个人地图候选和跨模式协同线索。",
+          "cooperationBand": 2,
+          "id": "15000051-1",
+          "members": [
+            {
+              "heroId": 16000004,
+              "role": "利用栅栏/墙体反弹压制入口"
+            },
+            {
+              "heroId": 16000108,
+              "role": "远程接应和团队保护"
+            },
+            {
+              "heroId": 16000086,
+              "role": "借侧草包抄并把控线优势转化为终结"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "status": "待版本与实战复核",
+          "mapFitBand": 1,
+          "evidenceRefs": [
+            "brawlplanet-map-super-beach",
+            "brawlzone-map-super-beach"
+          ],
+          "substitutions": [],
+          "teamStats": null,
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "以下协作流程由工具根据已整理职责推导，不是视频作者逐字建议，也不是职业实战验证。技能可用性与国服当前版本仍需核验。",
+            "steps": [
+              "Rico 先占可弹射的墙边，Wendy 控制中场接应位置，Shade 负责检查一侧草区并报告门前防守。",
+              "Rico 持续压入口，Shade 等防守注意力转向后切侧路；Wendy 保护传球路线，确认人数优势后再传球射门。",
+              "球权丢失时 Shade 不继续深入，Wendy 回到接应/拦截位，Rico 用反弹火力拖慢反击并保留关键墙体。"
+            ]
+          }
+        }
+      ],
+      "candidates": [
+        {
+          "heroEn": "Rico",
+          "role": "地图候选",
+          "sourceId": "brawlplanet-map-super-beach",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Amber",
+          "role": "地图候选",
+          "sourceId": "brawlplanet-map-super-beach",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Gus",
+          "role": "地图候选",
+          "sourceId": "brawlplanet-map-super-beach",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Hank",
+          "role": "地图候选",
+          "sourceId": "brawlplanet-map-super-beach",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Shade",
+          "role": "地图候选",
+          "sourceId": "brawlplanet-map-super-beach",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Juju",
+          "role": "地图候选",
+          "sourceId": "brawlplanet-map-super-beach",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Trunk",
+          "role": "地图候选",
+          "sourceId": "brawlplanet-map-super-beach",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Wendy",
+          "role": "地图候选",
+          "sourceId": "brawlplanet-map-super-beach",
+          "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        }
+      ],
+      "mechanismEvidence": [
+        {
+          "sourceId": "brawlplanet-map-super-beach",
+          "startSeconds": null,
+          "url": "https://www.brawlplanet.com/maps/superbeach_brawlball",
+          "claim": "1,341,911 trophy-ladder Brawl Ball matches. Amber, Ash and Wendy are among the top individual results; Gus and Shade also have map data. The 95.3% Rico · Hank · Juju ladder trio has no visible sample count and is not used as a dependable win-rate claim.",
+          "completeTeamObserved": false,
+          "evidenceType": "map_statistics"
+        },
+        {
+          "sourceId": "brawlzone-map-super-beach",
+          "startSeconds": null,
+          "url": "https://brawlzone.net/maps/brawl-ball/super-beach",
+          "claim": "BrawlZone says Super Beach has too few map-specific Ranked battles to rank; it instead provides Brawl Ball-wide ranked trio samples (including Rico · Shade · Wendy, 64 games/30 players) and map-structure notes. The trio is mode-wide, not proven specifically on Super Beach.",
+          "completeTeamObserved": false,
+          "evidenceType": "ranked_mode_map_statistics"
+        }
+      ]
+    },
+    {
+      "mapId": 15000022,
+      "nameEn": "Hideout",
+      "nameZh": "草丛迷踪",
+      "mode": "Bounty",
+      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "completeTeamObserved": false,
+      "teamEvidenceNotice": null,
+      "tags": [
+        "远程与推进搭配",
+        "避免三狙被动",
+        "回复射线"
+      ],
+      "terrain": "教学强调远程英雄需要中距离压力位创造空间；全队狙击可能陷入被动。墙体与草区限制视线，推进者必须留在队友能支援的位置。",
+      "objective": "用中距离威胁改善远程射线，争取安全的击杀交换；领先后保持支援距离，不为追击拆散阵形。",
+      "teams": [
+        {
+          "title": "回复支援与中距离压力",
+          "synergy": "科莱特提供中距离压力，为布洛克争取射线；拜伦在能兼顾自保和支援的位置维持队友血线。破墙用于打开布洛克的射击角度，不能把科莱特的接近路线全部暴露。",
+          "risk": "三个单英雄候选来自9月历史教学，完整组合由工具推导。缺少稳定范围防突进；科莱特面对低血量远程的收益下降，拜伦被切入时不能依赖回复硬顶。",
+          "loadout": "科莱特推进前确认拜伦视线，布洛克先沟通破墙目标。技能与妙具当前国服版本待核验。",
+          "cooperationBand": 2,
+          "id": "15000022-1",
+          "members": [
+            {
+              "heroId": 16000039,
+              "role": "中距离压力／处理高血量"
+            },
+            {
+              "heroId": 16000042,
+              "role": "回复与远程支援"
+            },
+            {
+              "heroId": 16000003,
+              "role": "远程火力与选择性破墙"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "status": "待版本与实战复核",
+          "mapFitBand": 1,
+          "evidenceRefs": [
+            "youtube:5iHVKzN0c5M"
+          ],
+          "substitutions": [],
+          "teamStats": null,
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "以下协作流程由工具根据已整理职责推导，不是视频作者逐字建议，也不是职业实战验证。技能可用性与国服当前版本仍需核验。",
+            "steps": [
+              "科莱特承担中距离压力，布洛克保持独立远程射线，拜伦避免被前线推进拉出安全区。",
+              "科莱特报推进方向，拜伦确认能支援的距离；布洛克选择性破墙，让中距离威胁与远程火力同时作用。",
+              "拜伦失去支援射线就停止深入；前排血线不足时回收回复，避免为了救一个人连续损失人数。"
+            ]
+          }
+        }
+      ],
+      "candidates": [
+        {
+          "heroEn": "Brock",
+          "role": "远程输出",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 154,
+          "condition": "同上；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Piper",
+          "role": "远程输出",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 154,
+          "condition": "同上；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Colette",
+          "role": "中距离压力",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 163,
+          "condition": "自动字幕Klette归一，原文推进让后方狙击收割；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Byron",
+          "role": "远程/支援",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 154,
+          "condition": "远程候选之一，非整个队都用狙击；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Charlie",
+          "role": "中距离压力/控制",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 163,
+          "condition": "原文明示中间类型角色；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        }
+      ],
+      "mechanismEvidence": [
+        {
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 125,
+          "url": "https://www.youtube.com/watch?v=5iHVKzN0c5M&t=125s",
+          "claim": "作者建议远程与中距离压力搭配，可按条件增加狙击或侵略角色。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        }
+      ]
+    },
+    {
+      "mapId": 15000292,
+      "nameEn": "Open Business",
+      "nameZh": "开门营业",
+      "mode": "Hot Zone",
+      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "completeTeamObserved": false,
+      "teamEvidenceNotice": null,
+      "tags": [
+        "耐久持区",
+        "控制错开",
+        "保护回复位"
+      ],
+      "terrain": "墙区让中区交火和区域限制更重要。教学偏好能持续争区的阵容，并提醒纯机动不能替代持区、伤害与回复。",
+      "objective": "用区域威胁争取连续占区时间，控制技能错开，回复者保持支援范围；逼退敌人后及时转化为进度。",
+      "teams": [
+        {
+          "title": "回复支持的区域交火",
+          "synergy": "艾魅利用区域威胁限制入口，麦茜处理靠近的敌人并保护后排，波克维持两人的可战血线。艾魅的封锁与麦茜的反突进错开使用，让回复换成实际占区时间。",
+          "risk": "缺少破墙与超远程能力，面对长射程或墙后持续消耗可能难以接近。回复不是前排，三人不能挤在一点承受范围伤害；艾魅的价值受敌方破墙影响。完整组合为机制推导。",
+          "loadout": "波克站在能覆盖队友又不与其一起被集火的位置。麦茜隔墙或侦察效果依赖具体配置，不默认存在。",
+          "cooperationBand": 2,
+          "id": "15000292-1",
+          "members": [
+            {
+              "heroId": 16000030,
+              "role": "区域封锁与持续火力"
+            },
+            {
+              "heroId": 16000068,
+              "role": "中区交火与反突进"
+            },
+            {
+              "heroId": 16000013,
+              "role": "团队回复与持续占区"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "status": "待版本与实战复核",
+          "mapFitBand": 1,
+          "evidenceRefs": [
+            "youtube:5iHVKzN0c5M",
+            "bilibili:BV1wGgfz1Eoa"
+          ],
+          "substitutions": [],
+          "teamStats": null,
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "以下协作流程由工具根据已整理职责推导，不是视频作者逐字建议，也不是职业实战验证。技能可用性与国服当前版本仍需核验。",
+            "steps": [
+              "艾魅建立封入口的角度，麦茜观察进区敌人，波克保持能支援两人又不被一起命中的位置。",
+              "艾魅区域限制与麦茜反突进错开；波克回复帮助队友留在争区距离，安全者站区，其余限制敌人回场。",
+              "被破墙或长射程压退时先换角度；不要三人同时硬站热区耗尽回复，先恢复交叉火力再进场。"
+            ]
+          }
+        }
+      ],
+      "candidates": [
+        {
+          "heroEn": "Poco",
+          "role": "耐久与回复",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 1495,
+          "condition": "原文偏好耐久持区；不是精确配置或完整阵容；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Emz",
+          "role": "墙后推进/区域控制",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 1466,
+          "condition": "有超级技能后难处理；破墙环境会影响价值；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Maisie",
+          "role": "墙后威胁/中区交火",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 1462,
+          "condition": "自动字幕mazes归一，未核验画面；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Kenji",
+          "role": "有条件进攻",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 1483,
+          "condition": "原文后期选人语境；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Mina",
+          "role": "持续施压",
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 1472,
+          "condition": "原文提到存在不利反制，模糊专名不补猜；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        }
+      ],
+      "mechanismEvidence": [
+        {
+          "sourceId": "youtube:5iHVKzN0c5M",
+          "startSeconds": 1431,
+          "url": "https://www.youtube.com/watch?v=5iHVKzN0c5M&t=1431s",
+          "claim": "持区需要能在墙后产生威胁和维持区域存在的角色；Max在此图被作者明确认为高估。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        },
+        {
+          "sourceId": "bilibili:BV1wGgfz1Eoa",
+          "startSeconds": 83,
+          "url": "https://www.bilibili.com/video/BV1wGgfz1Eoa?t=83",
+          "claim": "作者字幕明确提出用格里夫针对健次，并通过破墙削弱其依托掩体贴近的条件。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        },
+        {
+          "sourceId": "bilibili:BV1wGgfz1Eoa",
+          "startSeconds": 103,
+          "url": "https://www.bilibili.com/video/BV1wGgfz1Eoa?t=103",
+          "claim": "作者看完对方选择后选贝亚，字幕强调给敌方施加持续减速；展示的是针对性选择与配置，不是无条件先手。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        }
+      ]
+    },
+    {
+      "mapId": 15000010,
+      "nameEn": "Gem Fort",
+      "nameZh": "宝石要塞",
+      "mode": "Gem Grab",
+      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "completeTeamObserved": false,
+      "teamEvidenceNotice": null,
+      "tags": [
+        "分路",
+        "草丛",
+        "宝石持有",
+        "转中支援"
+      ],
+      "terrain": "本批视频实战画面显示中央宝石区、两侧草丛与短墙形成分路；该视频重点讨论走边打法。",
+      "objective": "宝石争霸：两名队员争取分路与草丛信息，另一名队员承担宝石获取与持有；局势允许时再从侧路转中。",
+      "teams": [
+        {
+          "title": "黑鸦边路压迫 + 布洛克开草转中 + 弗兰肯持宝（研究推导）",
+          "synergy": "黑鸦和布洛克从两条边线分别制造压力，布洛克可以处理草丛并转中帮助争夺；弗兰肯在敌方火力允许时专注拿宝石，避免三个人都离开边线去抢宝石。这样把视频分别提到的边路压迫、布洛克推进和弗兰肯持宝职责组合成一套三人方案。",
+          "risk": "这是研究者推导，视频没有展示这组三人同队，也没有提供排位胜率。弗兰肯遇到高爆发、击退或持续控制时可能无法可靠持宝；黑鸦与布洛克若同时被压回，缺乏保护持宝者的前排空间。阵容应根据敌方前排/控制调整。",
+          "loadout": "来源未提供可复用的完整三人配置；推荐前应在当前补丁复核各自星徽、妙具和装备。",
+          "cooperationBand": 1,
+          "id": "15000010-1",
+          "members": [
+            {
+              "heroId": 16000012,
+              "role": "边路骚扰/侦察"
+            },
+            {
+              "heroId": 16000003,
+              "role": "远程压线/草丛处理"
+            },
+            {
+              "heroId": 16000020,
+              "role": "条件式持宝/前排"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "status": "待版本与实战复核",
+          "mapFitBand": 1,
+          "evidenceRefs": [
+            "bilibili:BV1a8Tp6qEb3"
+          ],
+          "substitutions": [],
+          "teamStats": null,
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "以下协作流程由工具根据已整理职责推导，不是视频作者逐字建议，也不是职业实战验证。技能可用性与国服当前版本仍需核验。",
+            "steps": [
+              "黑鸦和布洛克分压两侧；布洛克确认左侧草丛后报点再转中，弗兰肯先评估敌方爆发与控制，决定是否拿宝。",
+              "边路出现优势后弗兰肯再接宝石；黑鸦和布洛克从两侧收缩护送，避免三人同时离线抢中。",
+              "敌方控制或爆发能快速处理弗兰肯时，不把他固定成持宝人；布洛克与黑鸦回到能互相支援的路线，重新建立边线压力。"
+            ]
+          }
+        }
+      ],
+      "candidates": [
+        {
+          "heroEn": "Brock",
+          "role": "远程边线施压与草丛处理",
+          "sourceId": "bilibili:BV1a8Tp6qEb3",
+          "startSeconds": 35,
+          "condition": "视频举例己方布洛克沿左线推进并转中压草；对线能力与对手射程有关。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Crow",
+          "role": "边路机动与持续骚扰",
+          "sourceId": "bilibili:BV1a8Tp6qEb3",
+          "startSeconds": 6,
+          "condition": "作者将黑鸦列为适合走边的选择；单独的打法建议，未证明任何对局中强势。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Frank",
+          "role": "条件式宝石持有者 / 前排",
+          "sourceId": "bilibili:BV1a8Tp6qEb3",
+          "startSeconds": 60,
+          "condition": "作者建议该局让弗兰肯拿宝石；只有敌方爆发与控制不足、弗兰肯能活到撤退时才考虑。",
+          "status": "历史地图候选 · 当前版本待核验"
+        }
+      ],
+      "mechanismEvidence": [
+        {
+          "sourceId": "bilibili:BV1a8Tp6qEb3",
+          "startSeconds": 6,
+          "url": "https://www.bilibili.com/video/BV1a8Tp6qEb3?t=6",
+          "claim": "边路机动与持续骚扰。作者将黑鸦列为适合走边的选择；单独的打法建议，未证明任何对局中强势。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        },
+        {
+          "sourceId": "bilibili:BV1a8Tp6qEb3",
+          "startSeconds": 60,
+          "url": "https://www.bilibili.com/video/BV1a8Tp6qEb3?t=60",
+          "claim": "条件式宝石持有者 / 前排。作者建议该局让弗兰肯拿宝石；只有敌方爆发与控制不足、弗兰肯能活到撤退时才考虑。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        },
+        {
+          "sourceId": "bilibili:BV1a8Tp6qEb3",
+          "startSeconds": 0,
+          "url": "https://www.bilibili.com/video/BV1a8Tp6qEb3?t=0",
+          "claim": "作者在片头明确说明不是排位赛，只讲地图打法；不要把本视频当成排位阵容或当前版本胜率证据。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        },
+        {
+          "sourceId": "bilibili:BV1a8Tp6qEb3",
+          "startSeconds": 35,
+          "url": "https://www.bilibili.com/video/BV1a8Tp6qEb3?t=35",
+          "claim": "远程边线施压与草丛处理。视频举例己方布洛克沿左线推进并转中压草；对线能力与对手射程有关。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        }
+      ]
+    }
+  ]
+}

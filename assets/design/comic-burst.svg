@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" fill="none">
+ <defs>
+  <radialGradient id="fire" cx=".65" cy=".5" r=".8"><stop stop-color="#ffb737"/><stop offset=".4" stop-color="#ff7624"/><stop offset="1" stop-color="#d92e25"/></radialGradient>
+  <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="5" cy="5" r="3.5" fill="#65151f" opacity=".19"/></pattern>
+ </defs>
+ <path fill="url(#fire)" d="M0 0h1600v900H0z"/>
+ <g fill="#ffdd6a" opacity=".2">
+  <path d="m1030 485-970-485H0v91Z"/><path d="M1030 485 494 0H330Z"/><path d="M1030 485 825 0H712Z"/><path d="M1030 485 1104 0h-84Z"/><path d="m1030 485 408-485h-166Z"/><path d="m1030 485 570-219V112Z"/><path d="m1030 485 570 48v-87Z"/><path d="m1030 485 570 295V658Z"/><path d="m1030 485 335 415h141Z"/><path d="m1030 485 15 415h133Z"/><path d="m1030 485-322 415h136Z"/><path d="M1030 485 310 900h230Z"/><path d="M1030 485 0 609v199Z"/><path d="M1030 485 0 294v118Z"/>
+ </g>
+ <path fill="url(#dots)" d="M0 0h340v900H0zM1360 0h240v900h-240z"/>
+ <g stroke="#7b1f25" stroke-width="8" opacity=".13" fill="#ffb340">
+  <path d="M-60 830c-80-83 28-179 95-121-9-87 109-126 151-52 49-67 144-31 139 41 111-35 153 97 70 137l-14 95H-60Z"/>
+  <path d="M1410 913c-61-24-98-107-43-141-54-71 8-147 74-127 4-101 145-104 161-13 89-25 140 89 67 137l25 144Z"/>
+ </g>
+ <g stroke="#642027" stroke-width="10" stroke-linecap="square" opacity=".22"><path d="m66 180 104 37m-96-4 45 15M1430 107l90-34m-64 58 60-24M153 475l96 4M1285 799l79 43"/></g>
+</svg>

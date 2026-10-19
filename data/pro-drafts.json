@@ -1,0 +1,281 @@
+{
+  "asOf": "2026-10-19",
+  "notice": "来自2026年10月17–18日广州LCQ的官方第二日回放。两例均来自同一系列赛，不代表全赛事统计；最终阵容已看画面，完整禁用与逐手顺序未全部核验。解说判断和工具推论不等于选手意图。",
+  "cases": [
+    {
+      "id": "lcq2026-day2-skc-loud-belles-rock",
+      "eventDate": "2026-10-18",
+      "stage": "B组败者组决赛 · SKCalalas vs LOUD",
+      "teams": [
+        {
+          "name": "LOUD",
+          "heroesEn": [
+            "Najia",
+            "Gus",
+            "Mina"
+          ],
+          "heroIds": [
+            16000103,
+            16000061,
+            16000097
+          ],
+          "players": [
+            {
+              "player": "KaioDog",
+              "heroEn": "Najia"
+            },
+            {
+              "player": "Edinho",
+              "heroEn": "Gus"
+            },
+            {
+              "player": "FireCrow",
+              "heroEn": "Mina"
+            }
+          ],
+          "rosterEvidence": "visually inspected final broadcast draft overlay"
+        },
+        {
+          "name": "SKCalalas",
+          "heroesEn": [
+            "Amber",
+            "Belle",
+            "Darryl"
+          ],
+          "heroIds": [
+            16000040,
+            16000046,
+            16000018
+          ],
+          "players": [
+            {
+              "player": "Ghost T",
+              "heroEn": "Amber"
+            },
+            {
+              "player": "Kuru",
+              "heroEn": "Belle"
+            },
+            {
+              "player": "Naipishu",
+              "heroEn": "Darryl"
+            }
+          ],
+          "rosterEvidence": "visually inspected final broadcast draft overlay"
+        }
+      ],
+      "mapId": 15000368,
+      "mode": "Knockout",
+      "startSeconds": 2891,
+      "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=2891s",
+      "bans": null,
+      "pickOrder": null,
+      "lessons": [
+        "解说称Mina能提供分路交换主动权，Gus提供支援与自保；这是解说对LOUD阵容功能的解释。",
+        "Darryl的被动大招积累提供后期进场威胁；解说据此描述队友争取时间的计划。",
+        "不能把三个看起来各司其职的英雄自动称作有强协同：3550秒后解说回顾SK的Belle/Amber/Darryl时明确质疑其协同，只认为各自承担某种角色。"
+      ],
+      "conditions": [
+        "职业国际服赛事在广州举办，不等于国服客户端或国服统计样本。",
+        "案例是一次有对手、禁用与先后手条件的职业选择，不直接证明该地图无条件最佳三人阵容。",
+        "普通玩家执行能力、英雄养成和配合不同，不能直接用职业结果推个人胜率。",
+        "完整地图禁用和逐手选择顺序未逐帧追溯；未知字段保留null。",
+        "广播名称与catalog地图匹配，但未完成与当前国服地图几何和变体的逐格比对。",
+        "Najia在自动字幕中出现Naja/Na等写法，最终英雄身份由画面确认。",
+        "候选中Amber的射程处境、Darryl的进场时机都依赖对手，不能删掉对手阵容只展示职业同款。"
+      ],
+      "partialDraftObservations": [
+        {
+          "statement": "解说称LOUD本系列global ban了Bolt。",
+          "sourceType": "caption_only",
+          "startSeconds": 2812,
+          "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=2812s",
+          "scope": "series_global_not_map_ban"
+        },
+        {
+          "statement": "解说在2903秒称LOUD以Najia开选。",
+          "sourceType": "caption; hero spelling visually confirmed at final overlay",
+          "startSeconds": 2903,
+          "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=2903s",
+          "doesNotEstablish": "完整两队逐手顺序"
+        },
+        {
+          "statement": "2970秒SK已有Amber/Belle，第三格仍为倒计时；2998秒显示Darryl，解说2988–2995秒也谈此选。",
+          "sourceType": "two inspected frames plus captions",
+          "startSeconds": 2970,
+          "endSeconds": 2998,
+          "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=2970s",
+          "doesNotEstablish": "所有前面选择的精确先后顺序"
+        }
+      ],
+      "verification": {
+        "finalTeams": "visual_verified",
+        "mapIdentity": "broadcast_label_and_catalog_match",
+        "ordinaryMap": "not_certified_against_current_game_geometry",
+        "draftOrder": "partial_observations_only",
+        "region": "international_competitive",
+        "currentPatchVerified": false,
+        "completeTeamObserved": true,
+        "screenListsRead": true
+      },
+      "finalRosterFrameSeconds": 2998,
+      "finalRosterUrl": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=2998s",
+      "event": "2026 LCQ · 广州",
+      "sourceId": "youtube:PIAPgulZPa4",
+      "lineupsVerified": true,
+      "verifiedFields": [
+        "官方回放日期与赛事阶段",
+        "地图广播名称、模式与资料ID匹配",
+        "双方最终三人阵容与选手对应（已看画面）"
+      ],
+      "unknownFields": [
+        "完整地图禁用名单",
+        "完整逐手选择顺序",
+        "国服当前地图逐格一致性",
+        "具体配装",
+        "本局最终结果未提取"
+      ]
+    },
+    {
+      "id": "lcq2026-day2-skc-loud-ring-of-fire",
+      "eventDate": "2026-10-18",
+      "stage": "B组败者组决赛 · SKCalalas vs LOUD",
+      "teams": [
+        {
+          "name": "SKCalalas",
+          "heroesEn": [
+            "Gus",
+            "8-Bit",
+            "Ash"
+          ],
+          "heroIds": [
+            16000061,
+            16000027,
+            16000051
+          ],
+          "players": [
+            {
+              "player": "Naipishu",
+              "heroEn": "Gus"
+            },
+            {
+              "player": "Ghost T",
+              "heroEn": "8-Bit"
+            },
+            {
+              "player": "Kuru",
+              "heroEn": "Ash"
+            }
+          ],
+          "rosterEvidence": "visually inspected final broadcast draft overlay"
+        },
+        {
+          "name": "LOUD",
+          "heroesEn": [
+            "Lou",
+            "Juju",
+            "Alli"
+          ],
+          "heroIds": [
+            16000041,
+            16000087,
+            16000095
+          ],
+          "players": [
+            {
+              "player": "KaioDog",
+              "heroEn": "Lou"
+            },
+            {
+              "player": "FireCrow",
+              "heroEn": "Juju"
+            },
+            {
+              "player": "Edinho",
+              "heroEn": "Alli"
+            }
+          ],
+          "rosterEvidence": "visually inspected final broadcast draft overlay"
+        }
+      ],
+      "mapId": 15000300,
+      "mode": "Hot Zone",
+      "startSeconds": 3622,
+      "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=3622s",
+      "bans": null,
+      "pickOrder": null,
+      "lessons": [
+        "解说将SK的Gus描述为强回复中路，并认为8-Bit的威胁限制对方传统坦克选项。",
+        "LOUD的Lou承担中区控制，Juju与Alli能利用地图水域；解说强调SK必须防止减速和刺杀。",
+        "解说对最后补Ash并非一味肯定：其对Alli可能有利，但面对Juju和Lou未必理想，同时猜测SK看到LOUD伤害不足，想增加前排。",
+        "这是职责、反制与地形适应同时作用的案例，不是坦克加治疗必胜的证据。"
+      ],
+      "conditions": [
+        "职业国际服赛事在广州举办，不等于国服客户端或国服统计样本。",
+        "案例是一次有对手、禁用与先后手条件的职业选择，不直接证明该地图无条件最佳三人阵容。",
+        "普通玩家执行能力、英雄养成和配合不同，不能直接用职业结果推个人胜率。",
+        "完整地图禁用和逐手选择顺序未逐帧追溯；未知字段保留null。",
+        "广播名称与catalog地图匹配，但未完成与当前国服地图几何和变体的逐格比对。",
+        "自动字幕Ali经最终英雄肖像确认为Alli，而不是靠相似读音猜英雄。",
+        "解说有关8-Bit限制选人、LOUD伤害不足属于解说战术解释，不是我方获得的选手赛前意图。"
+      ],
+      "partialDraftObservations": [
+        {
+          "statement": "解说3672秒明确称Ash是last pick；最终画面确认Ash在SK方。",
+          "sourceType": "caption plus final roster visual",
+          "startSeconds": 3672,
+          "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=3672s",
+          "doesNotEstablish": "其他5手的完整先后顺序"
+        },
+        {
+          "statement": "解说称8-Bit的选择迫使LOUD不能继续选择传统坦克。",
+          "sourceType": "commentator_interpretation",
+          "startSeconds": 3648,
+          "endSeconds": 3662,
+          "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=3648s"
+        }
+      ],
+      "verification": {
+        "finalTeams": "visual_verified",
+        "mapIdentity": "broadcast_label_and_catalog_match",
+        "ordinaryMap": "not_certified_against_current_game_geometry",
+        "draftOrder": "only_last_pick_Ash_caption_verified",
+        "region": "international_competitive",
+        "currentPatchVerified": false,
+        "completeTeamObserved": true,
+        "screenListsRead": true
+      },
+      "finalRosterFrameSeconds": 3680,
+      "finalRosterUrl": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=3680s",
+      "event": "2026 LCQ · 广州",
+      "sourceId": "youtube:PIAPgulZPa4",
+      "lineupsVerified": true,
+      "verifiedFields": [
+        "官方回放日期与赛事阶段",
+        "地图广播名称、模式与资料ID匹配",
+        "双方最终三人阵容与选手对应（已看画面）"
+      ],
+      "unknownFields": [
+        "完整地图禁用名单",
+        "完整逐手选择顺序",
+        "国服当前地图逐格一致性",
+        "具体配装",
+        "本局最终结果未提取"
+      ]
+    }
+  ],
+  "eventSources": [
+    {
+      "url": "https://supercell.com/en/games/brawlstars/blog/esports/last-chance-qualifier-format-2/",
+      "title": "Last Chance Qualifier Format",
+      "author": "Supercell / Brawl Stars",
+      "publishedAt": "2026-07-23"
+    },
+    {
+      "url": "https://navi.gg/en/publications/brawl-bsc-26-navi-world-finals",
+      "title": "Brawl Stars Championship 2026: NAVI qualify for the World Finals!",
+      "author": "Natus Vincere",
+      "publishedAt": "2026-10-18"
+    }
+  ]
+}
