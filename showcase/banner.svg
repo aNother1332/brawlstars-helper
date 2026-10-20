@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="440" viewBox="0 0 1600 440" role="img" aria-labelledby="title desc">
+<title id="title">乱斗阵容研究室 — 选好地图，带上队友。</title><desc id="desc">红橙漫画放射背景，黄色与奶白粗体文字，三个职责互补的英雄卡片图标。</desc>
+<defs><pattern id="dots" width="23" height="23" patternUnits="userSpaceOnUse"><circle cx="6" cy="6" r="2.6" fill="#7e2427" opacity=".22"/></pattern></defs>
+<path fill="#211823" d="M0 0h1600v440H0z"/><path fill="#ef4b27" stroke="#211823" stroke-width="10" d="M12 12h1576v416H12z"/>
+<g fill="#ffb42c"><path d="m1090 240-1090-150V12h240Z"/><path d="m1090 240-560-228h245Z"/><path d="m1090 240-60-228h145Z"/><path d="m1090 240 300-228h198v70Z"/><path d="m1090 240 498-64v100Z"/><path d="m1090 240 498 130v58h-170Z"/><path d="m1090 240 120 188H970Z"/><path d="m1090 240-440 188H250Z"/><path d="m1090 240-1078 180V302Z"/></g>
+<path fill="url(#dots)" d="M12 12h1576v416H12z"/>
+<g font-family="Microsoft YaHei, PingFang SC, sans-serif" font-weight="900" stroke-linejoin="round" paint-order="stroke fill">
+<g transform="translate(65 43) rotate(-2)"><path d="M6 7h370v47H6z" fill="#211823"/><path d="M0 0h370v47H0z" fill="#ffdc3c" stroke="#211823" stroke-width="4"/><text x="19" y="33" font-size="25" fill="#211823">BRAWL SQUAD LAB / 3V3</text></g>
+<text x="64" y="220" font-size="102" fill="#fff5dc" stroke="#211823" stroke-width="13">乱斗阵容研究室</text>
+<text x="69" y="324" font-size="70" fill="#ffdc3c" stroke="#211823" stroke-width="10">选好地图，带上队友。</text>
+<path d="M65 353h820v50H65z" fill="#211823"/><text x="86" y="389" font-size="26" fill="#fff5dc">搜地图 × 看阵容 × 懂配合 × 查强度</text>
+<g transform="translate(1050 102) rotate(-10)"><path d="M10 12h150v245H10z" fill="#211823"/><path d="M0 0h150v245H0z" fill="#64d9ee" stroke="#211823" stroke-width="7"/><text x="75" y="128" font-size="92" text-anchor="middle" fill="#fff5dc" stroke="#211823" stroke-width="7">01</text><text x="75" y="211" font-size="30" text-anchor="middle">控线</text></g>
+<g transform="translate(1220 118) rotate(3)"><path d="M10 12h150v245H10z" fill="#211823"/><path d="M0 0h150v245H0z" fill="#ba88e9" stroke="#211823" stroke-width="7"/><text x="75" y="128" font-size="92" text-anchor="middle" fill="#fff5dc" stroke="#211823" stroke-width="7">02</text><text x="75" y="211" font-size="30" text-anchor="middle">输出</text></g>
+<g transform="translate(1392 76) rotate(11)"><path d="M10 12h150v245H10z" fill="#211823"/><path d="M0 0h150v245H0z" fill="#ffdc3c" stroke="#211823" stroke-width="7"/><text x="75" y="128" font-size="92" text-anchor="middle" fill="#fff5dc" stroke="#211823" stroke-width="7">03</text><text x="75" y="211" font-size="30" text-anchor="middle">支援</text></g>
+</g></svg>
