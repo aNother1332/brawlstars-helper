@@ -3013,6 +3013,1042 @@
   ],
   "localizedNames": [
     {
+      "heroId": 16000110,
+      "slot": "gadget",
+      "optionEn": "Hot Coffee",
+      "nameZh": "滚烫咖啡",
+      "tid": "TID_STACKER_GADGET_1"
+    },
+    {
+      "heroId": 16000110,
+      "slot": "gadget",
+      "optionEn": "Metamothosis",
+      "nameZh": "破蛹成蛾",
+      "tid": "TID_STACKER_GADGET_2"
+    },
+    {
+      "heroId": 16000110,
+      "slot": "starPower",
+      "optionEn": "Come To Papa",
+      "nameZh": "毛虫归家",
+      "tid": "TID_STACKER_SP_1"
+    },
+    {
+      "heroId": 16000110,
+      "slot": "starPower",
+      "optionEn": "Bug Bandage",
+      "nameZh": "虫虫绷带",
+      "tid": "TID_STACKER_SP_2"
+    },
+    {
+      "heroId": 16000109,
+      "slot": "gadget",
+      "optionEn": "Planetary Pushback",
+      "nameZh": "星体撞击",
+      "tid": "TID_ATTRACTOR_GADGET_1"
+    },
+    {
+      "heroId": 16000109,
+      "slot": "gadget",
+      "optionEn": "Telescope Trap",
+      "nameZh": "观测望远镜",
+      "tid": "TID_ATTRACTOR_GADGET_2"
+    },
+    {
+      "heroId": 16000109,
+      "slot": "starPower",
+      "optionEn": "Precession",
+      "nameZh": "旋进加速",
+      "tid": "TID_ATTRACTOR_SP_1"
+    },
+    {
+      "heroId": 16000109,
+      "slot": "starPower",
+      "optionEn": "Ammo Attractor",
+      "nameZh": "磁吸装弹",
+      "tid": "TID_ATTRACTOR_SP_2"
+    },
+    {
+      "heroId": 16000108,
+      "slot": "gadget",
+      "optionEn": "Wind-Powered",
+      "nameZh": "风力驱动",
+      "tid": "TID_FUTURE_GIRL_GADGET_1"
+    },
+    {
+      "heroId": 16000108,
+      "slot": "gadget",
+      "optionEn": "Green Grenade",
+      "nameZh": "环保手雷",
+      "tid": "TID_FUTURE_GIRL_GADGET_2"
+    },
+    {
+      "heroId": 16000108,
+      "slot": "starPower",
+      "optionEn": "Slowing Shield",
+      "nameZh": "迟滞护盾",
+      "tid": "TID_FUTURE_GIRL_SP_1"
+    },
+    {
+      "heroId": 16000108,
+      "slot": "starPower",
+      "optionEn": "Solar Shield",
+      "nameZh": "太阳能盾",
+      "tid": "TID_FUTURE_GIRL_SP_2"
+    },
+    {
+      "heroId": 16000107,
+      "slot": "gadget",
+      "optionEn": "Sushi Snack",
+      "nameZh": "鲜鱼寿司",
+      "tid": "TID_KATANA_KID_GADGET_1"
+    },
+    {
+      "heroId": 16000107,
+      "slot": "gadget",
+      "optionEn": "Gonna Need A Bigger Net",
+      "nameZh": "天罗地网",
+      "tid": "TID_KATANA_KID_GADGET_2"
+    },
+    {
+      "heroId": 16000107,
+      "slot": "starPower",
+      "optionEn": "Big Haul",
+      "nameZh": "浑水摸鱼",
+      "tid": "TID_KATANA_KID_SP_1"
+    },
+    {
+      "heroId": 16000107,
+      "slot": "starPower",
+      "optionEn": "His Mothers Son",
+      "nameZh": "忍者风范",
+      "tid": "TID_KATANA_KID_SP_2"
+    },
+    {
+      "heroId": 16000106,
+      "slot": "gadget",
+      "optionEn": "Oil Change",
+      "nameZh": "高端机油",
+      "tid": "TID_ROCK_GADGET_1"
+    },
+    {
+      "heroId": 16000106,
+      "slot": "gadget",
+      "optionEn": "Bouncy Ball",
+      "nameZh": "弹球起跳",
+      "tid": "TID_ROCK_GADGET_2"
+    },
+    {
+      "heroId": 16000106,
+      "slot": "starPower",
+      "optionEn": "Toss Up",
+      "nameZh": "断线风筝",
+      "tid": "TID_ROCK_SP_1"
+    },
+    {
+      "heroId": 16000106,
+      "slot": "starPower",
+      "optionEn": "Unstoppaball",
+      "nameZh": "势不可挡",
+      "tid": "TID_ROCK_SP_2"
+    },
+    {
+      "heroId": 16000105,
+      "slot": "gadget",
+      "optionEn": "Floaty Time",
+      "nameZh": "失重领域",
+      "tid": "TID_MAGICAL_GIRL_GADGET_1"
+    },
+    {
+      "heroId": 16000105,
+      "slot": "gadget",
+      "optionEn": "Shining Starr Of Friendship And Justice",
+      "nameZh": "友谊与正义之星",
+      "tid": "TID_MAGICAL_GIRL_GADGET_2"
+    },
+    {
+      "heroId": 16000105,
+      "slot": "starPower",
+      "optionEn": "Power Level Maximum",
+      "nameZh": "神力暴涨",
+      "tid": "TID_MAGICAL_GIRL_SP_1"
+    },
+    {
+      "heroId": 16000105,
+      "slot": "starPower",
+      "optionEn": "Mystical Starr Technique",
+      "nameZh": "奇妙星能",
+      "tid": "TID_MAGICAL_GIRL_SP_2"
+    },
+    {
+      "heroId": 16000104,
+      "slot": "gadget",
+      "optionEn": "Spiritual Healing",
+      "nameZh": "抢麦疗伤",
+      "tid": "TID_GLADIATOR_GADGET_1"
+    },
+    {
+      "heroId": 16000104,
+      "slot": "gadget",
+      "optionEn": "Wall Of Sound",
+      "nameZh": "震撼音墙",
+      "tid": "TID_GLADIATOR_GADGET_2"
+    },
+    {
+      "heroId": 16000104,
+      "slot": "starPower",
+      "optionEn": "Crowdkill",
+      "nameZh": "硬核互动",
+      "tid": "TID_GLADIATOR_SP_1"
+    },
+    {
+      "heroId": 16000104,
+      "slot": "starPower",
+      "optionEn": "Vulgar Display Of Punch",
+      "nameZh": "拳拳到肉",
+      "tid": "TID_GLADIATOR_SP_2"
+    },
+    {
+      "heroId": 16000103,
+      "slot": "gadget",
+      "optionEn": "Poison Puddles",
+      "nameZh": "连锁毒潭",
+      "tid": "TID_REDIRECTER_GADGET_1"
+    },
+    {
+      "heroId": 16000103,
+      "slot": "gadget",
+      "optionEn": "Najia Jar",
+      "nameZh": "藏身瓶罐",
+      "tid": "TID_REDIRECTER_GADGET_2"
+    },
+    {
+      "heroId": 16000103,
+      "slot": "starPower",
+      "optionEn": "Poisonous Protector",
+      "nameZh": "以毒生毒",
+      "tid": "TID_REDIRECTER_SP_1"
+    },
+    {
+      "heroId": 16000103,
+      "slot": "starPower",
+      "optionEn": "Venomous",
+      "nameZh": "巨人克星",
+      "tid": "TID_REDIRECTER_SP_2"
+    },
+    {
+      "heroId": 16000102,
+      "slot": "gadget",
+      "optionEn": "A Starr Is Born",
+      "nameZh": "新星创生",
+      "tid": "TID_SHADOWDEMON_GADGET_1"
+    },
+    {
+      "heroId": 16000102,
+      "slot": "gadget",
+      "optionEn": "Master Of Shadows",
+      "nameZh": "如影随形",
+      "tid": "TID_SHADOWDEMON_GADGET_2"
+    },
+    {
+      "heroId": 16000102,
+      "slot": "starPower",
+      "optionEn": "Dusk Runners",
+      "nameZh": "黯影无踪",
+      "tid": "TID_SHADOWDEMON_SP_1"
+    },
+    {
+      "heroId": 16000102,
+      "slot": "starPower",
+      "optionEn": "The Darkest Starr",
+      "nameZh": "至暗魔星",
+      "tid": "TID_SHADOWDEMON_SP_2"
+    },
+    {
+      "heroId": 16000101,
+      "slot": "gadget",
+      "optionEn": "Slippery Savior",
+      "nameZh": "海底救援",
+      "tid": "TID_MENDER_GADGET_1"
+    },
+    {
+      "heroId": 16000101,
+      "slot": "gadget",
+      "optionEn": "More Lumens",
+      "nameZh": "双倍光路",
+      "tid": "TID_MENDER_GADGET_2"
+    },
+    {
+      "heroId": 16000101,
+      "slot": "starPower",
+      "optionEn": "Biotic Ecosystem",
+      "nameZh": "生态循环",
+      "tid": "TID_MENDER_SP_1"
+    },
+    {
+      "heroId": 16000101,
+      "slot": "starPower",
+      "optionEn": "Parasitism",
+      "nameZh": "无情寄生",
+      "tid": "TID_MENDER_SP_2"
+    },
+    {
+      "heroId": 16000100,
+      "slot": "gadget",
+      "optionEn": "Longer Strings",
+      "nameZh": "弄弦起舞",
+      "tid": "TID_DAREDEVIL_GADGET_1"
+    },
+    {
+      "heroId": 16000100,
+      "slot": "gadget",
+      "optionEn": "Disappearing Act",
+      "nameZh": "幕间休息",
+      "tid": "TID_DAREDEVIL_GADGET_2"
+    },
+    {
+      "heroId": 16000100,
+      "slot": "starPower",
+      "optionEn": "Plie Protection",
+      "nameZh": "战场芭蕾",
+      "tid": "TID_DAREDEVIL_SP_1"
+    },
+    {
+      "heroId": 16000100,
+      "slot": "starPower",
+      "optionEn": "A Helping Hand",
+      "nameZh": "援助之手",
+      "tid": "TID_DAREDEVIL_SP_2"
+    },
+    {
+      "heroId": 16000099,
+      "slot": "gadget",
+      "optionEn": "Bottomless Mags",
+      "nameZh": "无底弹匣",
+      "tid": "TID_BULLETSTORM_GADGET_1"
+    },
+    {
+      "heroId": 16000099,
+      "slot": "gadget",
+      "optionEn": "You Only Brawl Twice",
+      "nameZh": "再斗一次",
+      "tid": "TID_BULLETSTORM_GADGET_2"
+    },
+    {
+      "heroId": 16000099,
+      "slot": "starPower",
+      "optionEn": "Mission Swimpossible",
+      "nameZh": "水流阻力",
+      "tid": "TID_BULLETSTORM_SP_1"
+    },
+    {
+      "heroId": 16000099,
+      "slot": "starPower",
+      "optionEn": "Slip N Snipe",
+      "nameZh": "激流勇进",
+      "tid": "TID_BULLETSTORM_SP_2"
+    },
+    {
+      "heroId": 16000098,
+      "slot": "gadget",
+      "optionEn": "Electric Shuffle",
+      "nameZh": "电光四射",
+      "tid": "TID_FURY_GADGET_1"
+    },
+    {
+      "heroId": 16000098,
+      "slot": "gadget",
+      "optionEn": "Now You See Me...",
+      "nameZh": "\\q闪\\q亮登场",
+      "tid": "TID_FURY_GADGET_2"
+    },
+    {
+      "heroId": 16000098,
+      "slot": "starPower",
+      "optionEn": "Thunderstruck",
+      "nameZh": "浑身酥麻",
+      "tid": "TID_FURY_SP_1"
+    },
+    {
+      "heroId": 16000098,
+      "slot": "starPower",
+      "optionEn": "The Great Ziggini",
+      "nameZh": "超低电阻",
+      "tid": "TID_FURY_SP_2"
+    },
+    {
+      "heroId": 16000097,
+      "slot": "gadget",
+      "optionEn": "Windmill",
+      "nameZh": "风车回旋",
+      "tid": "TID_DANCER_GADGET_1"
+    },
+    {
+      "heroId": 16000097,
+      "slot": "gadget",
+      "optionEn": "Capo-What?",
+      "nameZh": "舞无止境",
+      "tid": "TID_DANCER_GADGET_2"
+    },
+    {
+      "heroId": 16000097,
+      "slot": "starPower",
+      "optionEn": "Zum Zum Zum",
+      "nameZh": "行云流水",
+      "tid": "TID_DANCER_SP_1"
+    },
+    {
+      "heroId": 16000097,
+      "slot": "starPower",
+      "optionEn": "Blown Away",
+      "nameZh": "技惊四座",
+      "tid": "TID_DANCER_SP_2"
+    },
+    {
+      "heroId": 16000096,
+      "slot": "gadget",
+      "optionEn": "For The Queen",
+      "nameZh": "蚁后号令",
+      "tid": "TID_DOMAIN_GADGET_1"
+    },
+    {
+      "heroId": 16000096,
+      "slot": "gadget",
+      "optionEn": "Worker Ants",
+      "nameZh": "忙碌工蚁",
+      "tid": "TID_DOMAIN_GADGET_2"
+    },
+    {
+      "heroId": 16000096,
+      "slot": "starPower",
+      "optionEn": "New Insect Overlords",
+      "nameZh": "昆虫霸主",
+      "tid": "TID_DOMAIN_SP_1"
+    },
+    {
+      "heroId": 16000096,
+      "slot": "starPower",
+      "optionEn": "Colony Scouts",
+      "nameZh": "信息中继",
+      "tid": "TID_DOMAIN_SP_2"
+    },
+    {
+      "heroId": 16000095,
+      "slot": "gadget",
+      "optionEn": "Feed The Gators",
+      "nameZh": "上门食材",
+      "tid": "TID_STALKER_GADGET_1"
+    },
+    {
+      "heroId": 16000095,
+      "slot": "gadget",
+      "optionEn": "Cold-Blooded",
+      "nameZh": "冷血寻踪",
+      "tid": "TID_STALKER_GADGET_2"
+    },
+    {
+      "heroId": 16000095,
+      "slot": "starPower",
+      "optionEn": "Lizard Limbs",
+      "nameZh": "断尾再生",
+      "tid": "TID_STALKER_SP_1"
+    },
+    {
+      "heroId": 16000095,
+      "slot": "starPower",
+      "optionEn": "You Better Run You Better Take Cover",
+      "nameZh": "凶暴猛兽",
+      "tid": "TID_STALKER_SP_2"
+    },
+    {
+      "heroId": 16000094,
+      "slot": "gadget",
+      "optionEn": "Gracious Host",
+      "nameZh": "待客有方",
+      "tid": "TID_GEISHA_GADGET_1"
+    },
+    {
+      "heroId": 16000094,
+      "slot": "gadget",
+      "optionEn": "Hensojutsu",
+      "nameZh": "百面千相",
+      "tid": "TID_GEISHA_GADGET_2"
+    },
+    {
+      "heroId": 16000094,
+      "slot": "starPower",
+      "optionEn": "Advanced Techniques",
+      "nameZh": "风华绝代",
+      "tid": "TID_GEISHA_SP_1"
+    },
+    {
+      "heroId": 16000094,
+      "slot": "starPower",
+      "optionEn": "Gratuity Included",
+      "nameZh": "风卷残云",
+      "tid": "TID_GEISHA_SP_2"
+    },
+    {
+      "heroId": 16000093,
+      "slot": "gadget",
+      "optionEn": "Weekend Warrior",
+      "nameZh": "狂欢周末",
+      "tid": "TID_ALTERNATOR_GADGET_1"
+    },
+    {
+      "heroId": 16000093,
+      "slot": "gadget",
+      "optionEn": "Time For A Slow Song",
+      "nameZh": "慢歌金曲",
+      "tid": "TID_ALTERNATOR_GADGET_2"
+    },
+    {
+      "heroId": 16000093,
+      "slot": "starPower",
+      "optionEn": "The Crowd Goes Mild",
+      "nameZh": "人来疯",
+      "tid": "TID_ALTERNATOR_SP_1"
+    },
+    {
+      "heroId": 16000093,
+      "slot": "starPower",
+      "optionEn": "Extra High Note",
+      "nameZh": "飙高音",
+      "tid": "TID_ALTERNATOR_SP_2"
+    },
+    {
+      "heroId": 16000092,
+      "slot": "gadget",
+      "optionEn": "Back To The Finxture",
+      "nameZh": "逆转未来",
+      "tid": "TID_CHRONOMANCER_GADGET_1"
+    },
+    {
+      "heroId": 16000092,
+      "slot": "gadget",
+      "optionEn": "No Escape",
+      "nameZh": "静滞放逐",
+      "tid": "TID_CHRONOMANCER_GADGET_2"
+    },
+    {
+      "heroId": 16000092,
+      "slot": "starPower",
+      "optionEn": "Hieroglyph Halt",
+      "nameZh": "漫长等待",
+      "tid": "TID_CHRONOMANCER_SP_1"
+    },
+    {
+      "heroId": 16000092,
+      "slot": "starPower",
+      "optionEn": "Primer",
+      "nameZh": "层叠时空",
+      "tid": "TID_CHRONOMANCER_SP_2"
+    },
+    {
+      "heroId": 16000091,
+      "slot": "gadget",
+      "optionEn": "Hit The Lights",
+      "nameZh": "光芒乍现",
+      "tid": "TID_MORNINGSTAR_GADGET_1"
+    },
+    {
+      "heroId": 16000091,
+      "slot": "gadget",
+      "optionEn": "Grim And Frostbitten",
+      "nameZh": "无情冰霜",
+      "tid": "TID_MORNINGSTAR_GADGET_2"
+    },
+    {
+      "heroId": 16000091,
+      "slot": "starPower",
+      "optionEn": "42% Burnt",
+      "nameZh": "燎原烈火",
+      "tid": "TID_MORNINGSTAR_SP_1"
+    },
+    {
+      "heroId": 16000091,
+      "slot": "starPower",
+      "optionEn": "Half-Time",
+      "nameZh": "半速律动",
+      "tid": "TID_MORNINGSTAR_SP_2"
+    },
+    {
+      "heroId": 16000090,
+      "slot": "gadget",
+      "optionEn": "Regulate",
+      "nameZh": "我的地盘",
+      "tid": "TID_SKATER_GADGET_1"
+    },
+    {
+      "heroId": 16000090,
+      "slot": "gadget",
+      "optionEn": "All Eyez On Me",
+      "nameZh": "万众焦点",
+      "tid": "TID_SKATER_GADGET_2"
+    },
+    {
+      "heroId": 16000090,
+      "slot": "starPower",
+      "optionEn": "Kick Push",
+      "nameZh": "踩墙速滑",
+      "tid": "TID_SKATER_SP_1"
+    },
+    {
+      "heroId": 16000090,
+      "slot": "starPower",
+      "optionEn": "Renegade",
+      "nameZh": "叛逆精神",
+      "tid": "TID_SKATER_SP_2"
+    },
+    {
+      "heroId": 16000089,
+      "slot": "gadget",
+      "optionEn": "Mansions Of Meeple",
+      "nameZh": "谜宝庄园",
+      "tid": "TID_MEEPLE_GADGET_1"
+    },
+    {
+      "heroId": 16000089,
+      "slot": "gadget",
+      "optionEn": "Ragequit",
+      "nameZh": "愤怒掀桌",
+      "tid": "TID_MEEPLE_GADGET_2"
+    },
+    {
+      "heroId": 16000089,
+      "slot": "starPower",
+      "optionEn": "Do Not Pass Go",
+      "nameZh": "直达目标",
+      "tid": "TID_MEEPLE_SP_1"
+    },
+    {
+      "heroId": 16000089,
+      "slot": "starPower",
+      "optionEn": "Rule Bending",
+      "nameZh": "最终解释权",
+      "tid": "TID_MEEPLE_SP_2"
+    },
+    {
+      "heroId": 16000088,
+      "slot": "gadget",
+      "optionEn": "Turbo Boosters",
+      "nameZh": "涡轮助推器",
+      "tid": "TID_LIGHTYEAR_GADGET_1"
+    },
+    {
+      "heroId": 16000088,
+      "slot": "starPower",
+      "optionEn": "Laser Mode",
+      "nameZh": "激光模式",
+      "tid": "TID_LIGHTYEAR_SP_1"
+    },
+    {
+      "heroId": 16000088,
+      "slot": "starPower",
+      "optionEn": "Saber Mode",
+      "nameZh": "光剑模式",
+      "tid": "TID_LIGHTYEAR_SP_2"
+    },
+    {
+      "heroId": 16000088,
+      "slot": "starPower",
+      "optionEn": "Wing Mode",
+      "nameZh": "飞行模式",
+      "tid": "TID_LIGHTYEAR_SP_3"
+    },
+    {
+      "heroId": 16000087,
+      "slot": "gadget",
+      "optionEn": "Voodoo Chile",
+      "nameZh": "巫毒秘术",
+      "tid": "TID_VOODOO_GADGET_1"
+    },
+    {
+      "heroId": 16000087,
+      "slot": "gadget",
+      "optionEn": "Elementalist",
+      "nameZh": "自然加持",
+      "tid": "TID_VOODOO_GADGET_2"
+    },
+    {
+      "heroId": 16000087,
+      "slot": "starPower",
+      "optionEn": "Guarded Gris-Gris",
+      "nameZh": "特制娃娃",
+      "tid": "TID_VOODOO_SP_1"
+    },
+    {
+      "heroId": 16000087,
+      "slot": "starPower",
+      "optionEn": "Numbing Needles",
+      "nameZh": "麻痹飞针",
+      "tid": "TID_VOODOO_SP_2"
+    },
+    {
+      "heroId": 16000086,
+      "slot": "gadget",
+      "optionEn": "Longarms",
+      "nameZh": "诡异长臂",
+      "tid": "TID_GHOST_GADGET_1"
+    },
+    {
+      "heroId": 16000086,
+      "slot": "gadget",
+      "optionEn": "Jump Scare",
+      "nameZh": "吓你一跳",
+      "tid": "TID_GHOST_GADGET_2"
+    },
+    {
+      "heroId": 16000086,
+      "slot": "starPower",
+      "optionEn": "Spooky Speedster",
+      "nameZh": "急速掠袭",
+      "tid": "TID_GHOST_SP_1"
+    },
+    {
+      "heroId": 16000086,
+      "slot": "starPower",
+      "optionEn": "Hardened Hoodie",
+      "nameZh": "加厚帽衫",
+      "tid": "TID_GHOST_SP_2"
+    },
+    {
+      "heroId": 16000085,
+      "slot": "gadget",
+      "optionEn": "Dashi Dash",
+      "nameZh": "聚气高汤",
+      "tid": "TID_SAMURAI_GADGET_1"
+    },
+    {
+      "heroId": 16000085,
+      "slot": "gadget",
+      "optionEn": "Hosomaki Healing",
+      "nameZh": "回生细卷",
+      "tid": "TID_SAMURAI_GADGET_2"
+    },
+    {
+      "heroId": 16000085,
+      "slot": "starPower",
+      "optionEn": "Studied The Blade",
+      "nameZh": "精湛刀法",
+      "tid": "TID_SAMURAI_SP_1"
+    },
+    {
+      "heroId": 16000085,
+      "slot": "starPower",
+      "optionEn": "Nigiri Nemesis",
+      "nameZh": "鱼片护身",
+      "tid": "TID_SAMURAI_SP_2"
+    },
+    {
+      "heroId": 16000084,
+      "slot": "gadget",
+      "optionEn": "Dodgy Digging",
+      "nameZh": "地下宝藏",
+      "tid": "TID_DIGGER_GADGET_1"
+    },
+    {
+      "heroId": 16000084,
+      "slot": "gadget",
+      "optionEn": "Rat Race",
+      "nameZh": "全速前进",
+      "tid": "TID_DIGGER_GADGET_2"
+    },
+    {
+      "heroId": 16000084,
+      "slot": "starPower",
+      "optionEn": "Skipping Stones",
+      "nameZh": "灵巧飞石",
+      "tid": "TID_DIGGER_SP_1"
+    },
+    {
+      "heroId": 16000084,
+      "slot": "starPower",
+      "optionEn": "Speeding Ticket",
+      "nameZh": "超速驾驶",
+      "tid": "TID_DIGGER_SP_2"
+    },
+    {
+      "heroId": 16000083,
+      "slot": "gadget",
+      "optionEn": "Snappy Shooting",
+      "nameZh": "战功赫赫",
+      "tid": "TID_CRAB_GADGET_1"
+    },
+    {
+      "heroId": 16000083,
+      "slot": "gadget",
+      "optionEn": "Tactical Retreat",
+      "nameZh": "转移阵地",
+      "tid": "TID_CRAB_GADGET_2"
+    },
+    {
+      "heroId": 16000083,
+      "slot": "starPower",
+      "optionEn": "Recon",
+      "nameZh": "善战精锐",
+      "tid": "TID_CRAB_SP_1"
+    },
+    {
+      "heroId": 16000083,
+      "slot": "starPower",
+      "optionEn": "Pumping Up",
+      "nameZh": "以战养战",
+      "tid": "TID_CRAB_SP_2"
+    },
+    {
+      "heroId": 16000082,
+      "slot": "gadget",
+      "optionEn": "Friendship Is Great",
+      "nameZh": "友谊马尾",
+      "tid": "TID_PAINTER_GADGET_1"
+    },
+    {
+      "heroId": 16000082,
+      "slot": "gadget",
+      "optionEn": "Healthy Additives",
+      "nameZh": "安全添加剂",
+      "tid": "TID_PAINTER_GADGET_2"
+    },
+    {
+      "heroId": 16000082,
+      "slot": "starPower",
+      "optionEn": "Floor Is Fine",
+      "nameZh": "快马加鞭",
+      "tid": "TID_PAINTER_SP_1"
+    },
+    {
+      "heroId": 16000082,
+      "slot": "starPower",
+      "optionEn": "Making A Mess",
+      "nameZh": "捣乱美味",
+      "tid": "TID_PAINTER_SP_2"
+    },
+    {
+      "heroId": 16000081,
+      "slot": "gadget",
+      "optionEn": "Vanish",
+      "nameZh": "藏木于林",
+      "tid": "TID_AMBUSHER_GADGET_1"
+    },
+    {
+      "heroId": 16000081,
+      "slot": "gadget",
+      "optionEn": "Repot",
+      "nameZh": "落地生根",
+      "tid": "TID_AMBUSHER_GADGET_2"
+    },
+    {
+      "heroId": 16000081,
+      "slot": "starPower",
+      "optionEn": "Spiky",
+      "nameZh": "芒刺在背",
+      "tid": "TID_AMBUSHER_SP_1"
+    },
+    {
+      "heroId": 16000081,
+      "slot": "starPower",
+      "optionEn": "Vigilance",
+      "nameZh": "草木皆兵",
+      "tid": "TID_AMBUSHER_SP_2"
+    },
+    {
+      "heroId": 16000080,
+      "slot": "gadget",
+      "optionEn": "Upper Cut",
+      "nameZh": "挑枪绝技",
+      "tid": "TID_DRAGON_RIDER_GADGET_1"
+    },
+    {
+      "heroId": 16000080,
+      "slot": "gadget",
+      "optionEn": "Last Stand",
+      "nameZh": "绝地反击",
+      "tid": "TID_DRAGON_RIDER_GADGET_2"
+    },
+    {
+      "heroId": 16000080,
+      "slot": "starPower",
+      "optionEn": "Expose",
+      "nameZh": "暴露无遗",
+      "tid": "TID_DRAGON_RIDER_SP_1"
+    },
+    {
+      "heroId": 16000080,
+      "slot": "starPower",
+      "optionEn": "Shredding",
+      "nameZh": "华丽扫拨",
+      "tid": "TID_DRAGON_RIDER_SP_2"
+    },
+    {
+      "heroId": 16000079,
+      "slot": "gadget",
+      "optionEn": "Stinging Flight",
+      "nameZh": "叮人飞虫",
+      "tid": "TID_INSECTMAN_GADGET_1"
+    },
+    {
+      "heroId": 16000079,
+      "slot": "gadget",
+      "optionEn": "Master Fletcher",
+      "nameZh": "锐利飞刺",
+      "tid": "TID_INSECTMAN_GADGET_2"
+    },
+    {
+      "heroId": 16000079,
+      "slot": "starPower",
+      "optionEn": "Empower",
+      "nameZh": "化险为夷",
+      "tid": "TID_INSECTMAN_SP_1"
+    },
+    {
+      "heroId": 16000079,
+      "slot": "starPower",
+      "optionEn": "Flow",
+      "nameZh": "顺风顺水",
+      "tid": "TID_INSECTMAN_SP_2"
+    },
+    {
+      "heroId": 16000078,
+      "slot": "gadget",
+      "optionEn": "Perfect Pitch",
+      "nameZh": "完美音高",
+      "tid": "TID_AXE_JUGGLER_GADGET_1"
+    },
+    {
+      "heroId": 16000078,
+      "slot": "gadget",
+      "optionEn": "Interlude",
+      "nameZh": "铺垫间奏",
+      "tid": "TID_AXE_JUGGLER_GADGET_2"
+    },
+    {
+      "heroId": 16000078,
+      "slot": "starPower",
+      "optionEn": "Fast Beats",
+      "nameZh": "明快节拍",
+      "tid": "TID_AXE_JUGGLER_SP_1"
+    },
+    {
+      "heroId": 16000078,
+      "slot": "starPower",
+      "optionEn": "Extended Mix",
+      "nameZh": "加长混音",
+      "tid": "TID_AXE_JUGGLER_SP_2"
+    },
+    {
+      "heroId": 16000077,
+      "slot": "gadget",
+      "optionEn": "Order Swap",
+      "nameZh": "指令：交换",
+      "tid": "TID_TWINS_GADGET_1"
+    },
+    {
+      "heroId": 16000077,
+      "slot": "gadget",
+      "optionEn": "Order Fall Back",
+      "nameZh": "指令：撤离",
+      "tid": "TID_TWINS_GADGET_2"
+    },
+    {
+      "heroId": 16000077,
+      "slot": "starPower",
+      "optionEn": "Protocol Protect",
+      "nameZh": "协议：保护",
+      "tid": "TID_TWINS_SP_1"
+    },
+    {
+      "heroId": 16000077,
+      "slot": "starPower",
+      "optionEn": "Protocol Assist",
+      "nameZh": "协议：增援",
+      "tid": "TID_TWINS_SP_2"
+    },
+    {
+      "heroId": 16000076,
+      "slot": "gadget",
+      "optionEn": "Cardboard Box",
+      "nameZh": "纸箱潜行",
+      "tid": "TID_ATTACHER_GADGET_1"
+    },
+    {
+      "heroId": 16000076,
+      "slot": "gadget",
+      "optionEn": "Cheeseburger",
+      "nameZh": "美味汉堡",
+      "tid": "TID_ATTACHER_GADGET_2"
+    },
+    {
+      "heroId": 16000076,
+      "slot": "starPower",
+      "optionEn": "Power Hungry",
+      "nameZh": "能量成双",
+      "tid": "TID_ATTACHER_SP_1"
+    },
+    {
+      "heroId": 16000076,
+      "slot": "starPower",
+      "optionEn": "Overly Attached",
+      "nameZh": "超级黏人",
+      "tid": "TID_ATTACHER_SP_2"
+    },
+    {
+      "heroId": 16000075,
+      "slot": "gadget",
+      "optionEn": "Clipping Scream",
+      "nameZh": "刺耳尖叫",
+      "tid": "TID_LEAPER_GADGET_1"
+    },
+    {
+      "heroId": 16000075,
+      "slot": "gadget",
+      "optionEn": "Presto",
+      "nameZh": "凌空一跃",
+      "tid": "TID_LEAPER_GADGET_2"
+    },
+    {
+      "heroId": 16000075,
+      "slot": "starPower",
+      "optionEn": "Monkey Business",
+      "nameZh": "就地取材",
+      "tid": "TID_LEAPER_SP_1"
+    },
+    {
+      "heroId": 16000075,
+      "slot": "starPower",
+      "optionEn": "Record Smash",
+      "nameZh": "尖锐破音",
+      "tid": "TID_LEAPER_SP_2"
+    },
+    {
+      "heroId": 16000074,
+      "slot": "gadget",
+      "optionEn": "Spiders",
+      "nameZh": "骇人蜘蛛",
+      "tid": "TID_COCOONER_GADGET_1"
+    },
+    {
+      "heroId": 16000074,
+      "slot": "gadget",
+      "optionEn": "Personal Space",
+      "nameZh": "自我修复",
+      "tid": "TID_COCOONER_GADGET_2"
+    },
+    {
+      "heroId": 16000074,
+      "slot": "starPower",
+      "optionEn": "Digestive",
+      "nameZh": "消化殆尽",
+      "tid": "TID_COCOONER_SP_1"
+    },
+    {
+      "heroId": 16000074,
+      "slot": "starPower",
+      "optionEn": "Slimy",
+      "nameZh": "超强发胶",
+      "tid": "TID_COCOONER_SP_2"
+    },
+    {
       "heroId": 16000073,
       "slot": "gadget",
       "optionEn": "Rerouting",
@@ -3967,6 +5003,17 @@
     {
       "heroId": 16000038,
       "slot": "gadget",
+      "optionEn": "Power Surge",
+      "nameZh": "能量泵",
+      "tid": "TID_ACCESSORY_POWER_LEVELER_BLINK",
+      "equivalentTids": [
+        "TID_ACCESSORY_POWER_LEVELER_BLINK",
+        "TID_ACCESSORY_POWER_LEVELER_EXTRA_LEVELS"
+      ]
+    },
+    {
+      "heroId": 16000038,
+      "slot": "gadget",
       "optionEn": "Power Shield",
       "nameZh": "能量盾",
       "tid": "TID_ACCESSORY_POWER_LEVELER_SHIELD"
@@ -4644,11 +5691,43 @@
       "tid": "TID_ACCESSORY_POCO_CLEANSE"
     },
     {
+      "heroId": 16000013,
+      "slot": "starPower",
+      "optionEn": "Da Capo",
+      "nameZh": "治愈琴音",
+      "tid": "TID_SPEC_HEAL_MAIN_ATTACK"
+    },
+    {
+      "heroId": 16000013,
+      "slot": "starPower",
+      "optionEn": "Screeching Solo",
+      "nameZh": "魔音独奏",
+      "tid": "TID_SPEC_DAMAGE_SUPER"
+    },
+    {
       "heroId": 16000012,
       "slot": "gadget",
       "optionEn": "Instapoison",
       "nameZh": "疾速毒镖",
       "tid": "TID_ACCESSORY_CROW_INSTADOT"
+    },
+    {
+      "heroId": 16000012,
+      "slot": "gadget",
+      "optionEn": "Slowing Toxin",
+      "nameZh": "减速催化剂",
+      "tid": "TID_ACCESSORY_CROW_POISON_TRIGGER",
+      "equivalentTids": [
+        "TID_ACCESSORY_CROW_POISON_TRIGGER",
+        "TID_ACCESSORY_CROW_POISON_DAGGER"
+      ]
+    },
+    {
+      "heroId": 16000012,
+      "slot": "starPower",
+      "optionEn": "Extra Toxic",
+      "nameZh": "虚弱缠身",
+      "tid": "TID_SPEC_CRIPPLE"
     },
     {
       "heroId": 16000012,
@@ -4870,6 +5949,13 @@
     {
       "heroId": 16000004,
       "slot": "starPower",
+      "optionEn": "Super Bouncy",
+      "nameZh": "超级弹射",
+      "tid": "TID_SPEC_BOUNCED_BULLETS_STRONGER"
+    },
+    {
+      "heroId": 16000004,
+      "slot": "starPower",
       "optionEn": "Robo Retreat",
       "nameZh": "战术撤退",
       "tid": "TID_SPEC_ABI_SPEED_LOW_HEALTH"
@@ -4887,6 +5973,20 @@
       "optionEn": "Rocket Fuel",
       "nameZh": "火箭燃料",
       "tid": "TID_ACCESSORY_MEGA_ROCKET"
+    },
+    {
+      "heroId": 16000003,
+      "slot": "starPower",
+      "optionEn": "More Rockets",
+      "nameZh": "火箭狂潮",
+      "tid": "TID_SPEC_BURN"
+    },
+    {
+      "heroId": 16000003,
+      "slot": "starPower",
+      "optionEn": "Rocket No. 4",
+      "nameZh": "四号火箭",
+      "tid": "TID_SPEC_EXTRA_BULLET"
     },
     {
       "heroId": 16000002,
@@ -4977,6 +6077,7 @@
     "en": "https://api.brawlapi.com/v2/raw/localization/texts",
     "zh": "https://api.brawlapi.com/v2/raw/localization/cn",
     "generatedAt": "2026-10-03T16:59:28.000Z",
-    "note": "通过同一游戏文本 TID 匹配；中文名称不表示强度证据，未匹配时保留英文。"
+    "matchedAt": "2026-10-24",
+    "note": "按游戏技能文本TID匹配中文名称，兼容新旧编号、重音及标点；同名历史编号仅在中文一致时合并，不使用机器翻译。"
   }
 }
