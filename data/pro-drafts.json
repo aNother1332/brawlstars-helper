@@ -1,6 +1,6 @@
 {
-  "asOf": "2026-10-23",
-  "notice": "来自2026年10月17–18日广州LCQ的官方第一、第二日回放。已核对20个地图对局的双方最终阵容与选手对应；仅阅读列出的选角解说片段并看关键画面，未通看两日回放，不代表全赛事统计。完整禁用、逐手顺序、具体配装和当前国服版本未全部核验；解说与工具分析不等于选手意图。",
+  "asOf": "2026-10-24",
+  "notice": "收录广州LCQ、8月四大赛区月度决赛及9月挑战者总决赛的官方回放案例。已核对34个地图对局的双方最终阵容与选手对应；只读取列出的解说范围和关键画面，未通看全部回放，不代表全赛事统计。赛事日期分别保留；完整禁用、逐手顺序、具体配装和当前国服适用性未全部核验。配合解释为工具分析，不等于选手意图。",
   "cases": [
     {
       "id": "lcq2026-day2-skc-loud-belles-rock",
@@ -2139,6 +2139,1476 @@
         "国服当前地图逐格一致性",
         "具体配装",
         "本局最终结果未提取"
+      ]
+    },
+    {
+      "id": "aug26-ea-gf-gem-fort",
+      "eventDate": "2026-08-08",
+      "stage": "决赛 · ZETA DIVISION vs Crazy Raccoon",
+      "teams": [
+        {
+          "name": "ZETA DIVISION",
+          "heroesEn": [
+            "Emz",
+            "Gray",
+            "Damian"
+          ],
+          "players": [
+            {
+              "player": "Batman",
+              "heroEn": "Emz"
+            },
+            {
+              "player": "Sizuku",
+              "heroEn": "Gray"
+            },
+            {
+              "player": "Sitetampo",
+              "heroEn": "Damian"
+            }
+          ],
+          "rosterEvidence": "official_complete_roster_overlay_visually_inspected",
+          "heroIds": [
+            16000030,
+            16000064,
+            16000104
+          ]
+        },
+        {
+          "name": "Crazy Raccoon",
+          "heroesEn": [
+            "Brock",
+            "Pearl",
+            "Crow"
+          ],
+          "players": [
+            {
+              "player": "Tensai",
+              "heroEn": "Brock"
+            },
+            {
+              "player": "Milkreo",
+              "heroEn": "Pearl"
+            },
+            {
+              "player": "Moya",
+              "heroEn": "Crow"
+            }
+          ],
+          "rosterEvidence": "official_complete_roster_overlay_visually_inspected",
+          "heroIds": [
+            16000003,
+            16000072,
+            16000012
+          ]
+        }
+      ],
+      "mapId": 15000010,
+      "mode": "Gem Grab",
+      "startSeconds": 18740,
+      "url": "https://www.youtube.com/watch?v=ZIGzQ-zJFWc",
+      "bans": null,
+      "pickOrder": null,
+      "lessons": [
+        "工具分析：艾魅守住中距离入口，戈雷用传送接应达米安向前争位；不要三人挤在同一条狭窄进场线上。",
+        "工具分析：布洛克远程压低前排血线，珀尔蓄热保护靠近矿区的路线，黑鸦用毒伤干扰恢复；破墙前先判断会不会替对方打开近身通道。"
+      ],
+      "conditions": [
+        "只核对所列选角片段和完整阵容画面，并非整场回放阅读或赛事统计。",
+        "阵容针对原对手，下面的协作解释为工具推导，不是选手原话。",
+        "该赛事早于目前已核对的9月16日维护；需复核相关英雄、国服地图布局及当前机制。",
+        "选手对应仅表示指定选角画面所示；加载后的英雄交换、实际分线、完整配装与结果未另核。"
+      ],
+      "partialDraftObservations": [],
+      "verification": {
+        "finalTeams": "visual_verified",
+        "mapAndMode": "broadcast_overlay_verified",
+        "players": "visual_verified",
+        "fullBanList": "unknown",
+        "fullPickOrder": "unknown"
+      },
+      "finalRosterFrameSeconds": 18785,
+      "finalRosterUrl": "https://www.youtube.com/watch?v=ZIGzQ-zJFWc&t=18785s",
+      "event": "2026月度决赛 · 8月东亚",
+      "sourceId": "youtube:ZIGzQ-zJFWc",
+      "lineupsVerified": true,
+      "verifiedFields": [
+        "官方回放日期与赛事阶段",
+        "地图广播名称、模式与资料ID匹配",
+        "双方完整三英雄阵容与指定选角画面当时的选手对应"
+      ],
+      "unknownFields": [
+        "完整地图禁用名单",
+        "完整逐手选择顺序",
+        "国服当前地图逐格一致性",
+        "具体配装",
+        "本局最终结果未提取",
+        "加载后的操作者交换与实际分线未另核"
+      ]
+    },
+    {
+      "id": "aug26-ea-gf-layer-cake",
+      "eventDate": "2026-08-08",
+      "stage": "决赛 · ZETA DIVISION vs Crazy Raccoon",
+      "teams": [
+        {
+          "name": "ZETA DIVISION",
+          "heroesEn": [
+            "Brock",
+            "Alli",
+            "Crow"
+          ],
+          "players": [
+            {
+              "player": "Batman",
+              "heroEn": "Brock"
+            },
+            {
+              "player": "Sizuku",
+              "heroEn": "Alli"
+            },
+            {
+              "player": "Sitetampo",
+              "heroEn": "Crow"
+            }
+          ],
+          "rosterEvidence": "official_complete_roster_overlay_visually_inspected",
+          "heroIds": [
+            16000003,
+            16000095,
+            16000012
+          ]
+        },
+        {
+          "name": "Crazy Raccoon",
+          "heroesEn": [
+            "Stu",
+            "Meeple",
+            "Sirius"
+          ],
+          "players": [
+            {
+              "player": "Tensai",
+              "heroEn": "Stu"
+            },
+            {
+              "player": "Milkreo",
+              "heroEn": "Meeple"
+            },
+            {
+              "player": "Moya",
+              "heroEn": "Sirius"
+            }
+          ],
+          "rosterEvidence": "official_complete_roster_overlay_visually_inspected",
+          "heroIds": [
+            16000045,
+            16000089,
+            16000102
+          ]
+        }
+      ],
+      "mapId": 15000082,
+      "mode": "Bounty",
+      "startSeconds": 19375,
+      "url": "https://www.youtube.com/watch?v=ZIGzQ-zJFWc",
+      "bans": null,
+      "pickOrder": null,
+      "lessons": [
+        "工具分析：布洛克与黑鸦先消耗和限制退路，阿莉等敌人分散或血量下降后从侧面切入；阿莉不能与破墙后的远程线脱节。",
+        "工具分析：斯图保持移动牵制，米宝围绕掩体支援射线，西里乌斯用影子增加交火目标；控制住中路后再拓展侧路。"
+      ],
+      "conditions": [
+        "只核对所列选角片段和完整阵容画面，并非整场回放阅读或赛事统计。",
+        "阵容针对原对手，下面的协作解释为工具推导，不是选手原话。",
+        "该赛事早于目前已核对的9月16日维护；需复核相关英雄、国服地图布局及当前机制。",
+        "选手对应仅表示指定选角画面所示；加载后的英雄交换、实际分线、完整配装与结果未另核。"
+      ],
+      "partialDraftObservations": [],
+      "verification": {
+        "finalTeams": "visual_verified",
+        "mapAndMode": "broadcast_overlay_verified",
+        "players": "visual_verified",
+        "fullBanList": "unknown",
+        "fullPickOrder": "unknown"
+      },
+      "finalRosterFrameSeconds": 19420,
+      "finalRosterUrl": "https://www.youtube.com/watch?v=ZIGzQ-zJFWc&t=19420s",
+      "event": "2026月度决赛 · 8月东亚",
+      "sourceId": "youtube:ZIGzQ-zJFWc",
+      "lineupsVerified": true,
+      "verifiedFields": [
+        "官方回放日期与赛事阶段",
+        "地图广播名称、模式与资料ID匹配",
+        "双方完整三英雄阵容与指定选角画面当时的选手对应"
+      ],
+      "unknownFields": [
+        "完整地图禁用名单",
+        "完整逐手选择顺序",
+        "国服当前地图逐格一致性",
+        "具体配装",
+        "本局最终结果未提取",
+        "加载后的操作者交换与实际分线未另核"
+      ]
+    },
+    {
+      "id": "aug26-ea-gf-pinhole",
+      "eventDate": "2026-08-08",
+      "stage": "决赛 · ZETA DIVISION vs Crazy Raccoon",
+      "teams": [
+        {
+          "name": "ZETA DIVISION",
+          "heroesEn": [
+            "Emz",
+            "Damian",
+            "Gray"
+          ],
+          "players": [
+            {
+              "player": "Batman",
+              "heroEn": "Emz"
+            },
+            {
+              "player": "Sitetampo",
+              "heroEn": "Damian"
+            },
+            {
+              "player": "Sizuku",
+              "heroEn": "Gray"
+            }
+          ],
+          "rosterEvidence": "official_complete_roster_overlay_visually_inspected",
+          "heroIds": [
+            16000030,
+            16000104,
+            16000064
+          ]
+        },
+        {
+          "name": "Crazy Raccoon",
+          "heroesEn": [
+            "Otis",
+            "8-Bit",
+            "Meeple"
+          ],
+          "players": [
+            {
+              "player": "Tensai",
+              "heroEn": "Otis"
+            },
+            {
+              "player": "Milkreo",
+              "heroEn": "8-Bit"
+            },
+            {
+              "player": "Moya",
+              "heroEn": "Meeple"
+            }
+          ],
+          "rosterEvidence": "official_complete_roster_overlay_visually_inspected",
+          "heroIds": [
+            16000059,
+            16000027,
+            16000089
+          ]
+        }
+      ],
+      "mapId": 15000026,
+      "mode": "Brawl Ball",
+      "startSeconds": 19835,
+      "url": "https://www.youtube.com/watch?v=ZIGzQ-zJFWc",
+      "bans": null,
+      "pickOrder": null,
+      "lessons": [
+        "工具分析：达米安前压制造近身威胁，艾魅把防守者挤离入口，戈雷接应位置转换；有控制窗口后再推进球。",
+        "工具分析：奥蒂斯保留沉默应对近身者，8比特提供定点输出与增幅，米宝支援掩体周围的交火；要防止阵地被侧翼绕过。"
+      ],
+      "conditions": [
+        "只核对所列选角片段和完整阵容画面，并非整场回放阅读或赛事统计。",
+        "阵容针对原对手，下面的协作解释为工具推导，不是选手原话。",
+        "该赛事早于目前已核对的9月16日维护；需复核相关英雄、国服地图布局及当前机制。",
+        "选手对应仅表示指定选角画面所示；加载后的英雄交换、实际分线、完整配装与结果未另核。"
+      ],
+      "partialDraftObservations": [],
+      "verification": {
+        "finalTeams": "visual_verified",
+        "mapAndMode": "broadcast_overlay_verified",
+        "players": "visual_verified",
+        "fullBanList": "unknown",
+        "fullPickOrder": "unknown"
+      },
+      "finalRosterFrameSeconds": 19880,
+      "finalRosterUrl": "https://www.youtube.com/watch?v=ZIGzQ-zJFWc&t=19880s",
+      "event": "2026月度决赛 · 8月东亚",
+      "sourceId": "youtube:ZIGzQ-zJFWc",
+      "lineupsVerified": true,
+      "verifiedFields": [
+        "官方回放日期与赛事阶段",
+        "地图广播名称、模式与资料ID匹配",
+        "双方完整三英雄阵容与指定选角画面当时的选手对应"
+      ],
+      "unknownFields": [
+        "完整地图禁用名单",
+        "完整逐手选择顺序",
+        "国服当前地图逐格一致性",
+        "具体配装",
+        "本局最终结果未提取",
+        "加载后的操作者交换与实际分线未另核"
+      ]
+    },
+    {
+      "id": "aug26-emea-sf-safe-zone",
+      "eventDate": "2026-08-09",
+      "stage": "半决赛 · HMBLE vs Team Heretics",
+      "teams": [
+        {
+          "name": "HMBLE",
+          "heroesEn": [
+            "Penny",
+            "Byron",
+            "Otis"
+          ],
+          "players": [
+            {
+              "player": "Symantec",
+              "heroEn": "Penny"
+            },
+            {
+              "player": "Boss",
+              "heroEn": "Byron"
+            },
+            {
+              "player": "Lukii",
+              "heroEn": "Otis"
+            }
+          ],
+          "rosterEvidence": "official_complete_roster_overlay_visually_inspected",
+          "heroIds": [
+            16000019,
+            16000042,
+            16000059
+          ]
+        },
+        {
+          "name": "Team Heretics",
+          "heroesEn": [
+            "Alli",
+            "Glowy",
+            "Colt"
+          ],
+          "players": [
+            {
+              "player": "iKaoss",
+              "heroEn": "Alli"
+            },
+            {
+              "player": "Marco",
+              "heroEn": "Glowy"
+            },
+            {
+              "player": "Subeme",
+              "heroEn": "Colt"
+            }
+          ],
+          "rosterEvidence": "official_complete_roster_overlay_visually_inspected",
+          "heroIds": [
+            16000095,
+            16000101,
+            16000001
+          ]
+        }
+      ],
+      "mapId": 15000019,
+      "mode": "Heist",
+      "startSeconds": 17205,
+      "url": "https://www.youtube.com/watch?v=HkNGnN8xFe8",
+      "bans": null,
+      "pickOrder": null,
+      "lessons": [
+        "工具分析：潘妮通过炮台持续施压，拜伦接应占线者，奥蒂斯保留沉默保护防守；不能为了追击阿莉让对方柯尔特无人处理。",
+        "工具分析：格鲁伊支援阿莉接近后排，柯尔特利用另一条射线给金库压力；治疗位不要跟切入者同时深入。"
+      ],
+      "conditions": [
+        "只核对所列选角片段和完整阵容画面，并非整场回放阅读或赛事统计。",
+        "阵容针对原对手，下面的协作解释为工具推导，不是选手原话。",
+        "该赛事早于目前已核对的9月16日维护；需复核相关英雄、国服地图布局及当前机制。",
+        "选手对应仅表示指定选角画面所示；加载后的英雄交换、实际分线、完整配装与结果未另核。"
+      ],
+      "partialDraftObservations": [],
+      "verification": {
+        "finalTeams": "visual_verified",
+        "mapAndMode": "broadcast_overlay_verified",
+        "players": "visual_verified",
+        "fullBanList": "unknown",
+        "fullPickOrder": "unknown"
+      },
+      "finalRosterFrameSeconds": 17250,
+      "finalRosterUrl": "https://www.youtube.com/watch?v=HkNGnN8xFe8&t=17250s",
+      "event": "2026月度决赛 · 8月EMEA",
+      "sourceId": "youtube:HkNGnN8xFe8",
+      "lineupsVerified": true,
+      "verifiedFields": [
+        "官方回放日期与赛事阶段",
+        "地图广播名称、模式与资料ID匹配",
+        "双方完整三英雄阵容与指定选角画面当时的选手对应"
+      ],
+      "unknownFields": [
+        "完整地图禁用名单",
+        "完整逐手选择顺序",
+        "国服当前地图逐格一致性",
+        "具体配装",
+        "本局最终结果未提取",
+        "加载后的操作者交换与实际分线未另核"
+      ]
+    },
+    {
+      "id": "aug26-emea-gf-pinball",
+      "eventDate": "2026-08-09",
+      "stage": "决赛 · FUT Esports vs HMBLE",
+      "teams": [
+        {
+          "name": "FUT Esports",
+          "heroesEn": [
+            "Stu",
+            "Meeple",
+            "Buzz"
+          ],
+          "players": [
+            {
+              "player": "Guesti",
+              "heroEn": "Stu"
+            },
+            {
+              "player": "Nob?",
+              "heroEn": "Meeple"
+            },
+            {
+              "player": "Angelboy",
+              "heroEn": "Buzz"
+            }
+          ],
+          "rosterEvidence": "official_complete_roster_overlay_visually_inspected",
+          "heroIds": [
+            16000045,
+            16000089,
+            16000049
+          ]
+        },
+        {
+          "name": "HMBLE",
+          "heroesEn": [
+            "Damian",
+            "Emz",
+            "Max"
+          ],
+          "players": [
+            {
+              "player": "Lukii",
+              "heroEn": "Damian"
+            },
+            {
+              "player": "Boss",
+              "heroEn": "Emz"
+            },
+            {
+              "player": "Symantec",
+              "heroEn": "Max"
+            }
+          ],
+          "rosterEvidence": "official_complete_roster_overlay_visually_inspected",
+          "heroIds": [
+            16000104,
+            16000030,
+            16000032
+          ]
+        }
+      ],
+      "mapId": 15000118,
+      "mode": "Brawl Ball",
+      "startSeconds": 20700,
+      "url": "https://www.youtube.com/watch?v=HkNGnN8xFe8",
+      "bans": null,
+      "pickOrder": null,
+      "lessons": [
+        "工具分析：斯图牵制一侧，米宝支援墙边射线，巴兹等防守者站位拉开后控制进场；切入目标要让队友跟得上。",
+        "工具分析：麦克斯加速带动达米安前压，艾魅保护近身推进后的区域；加速应在队友有弹药和控制技能时同步使用。"
+      ],
+      "conditions": [
+        "只核对所列选角片段和完整阵容画面，并非整场回放阅读或赛事统计。",
+        "阵容针对原对手，下面的协作解释为工具推导，不是选手原话。",
+        "该赛事早于目前已核对的9月16日维护；需复核相关英雄、国服地图布局及当前机制。",
+        "选手对应仅表示指定选角画面所示；加载后的英雄交换、实际分线、完整配装与结果未另核。"
+      ],
+      "partialDraftObservations": [],
+      "verification": {
+        "finalTeams": "visual_verified",
+        "mapAndMode": "broadcast_overlay_verified",
+        "players": "visual_verified",
+        "fullBanList": "unknown",
+        "fullPickOrder": "unknown"
+      },
+      "finalRosterFrameSeconds": 20745,
+      "finalRosterUrl": "https://www.youtube.com/watch?v=HkNGnN8xFe8&t=20745s",
+      "event": "2026月度决赛 · 8月EMEA",
+      "sourceId": "youtube:HkNGnN8xFe8",
+      "lineupsVerified": true,
+      "verifiedFields": [
+        "官方回放日期与赛事阶段",
+        "地图广播名称、模式与资料ID匹配",
+        "双方完整三英雄阵容与指定选角画面当时的选手对应"
+      ],
+      "unknownFields": [
+        "完整地图禁用名单",
+        "完整逐手选择顺序",
+        "国服当前地图逐格一致性",
+        "具体配装",
+        "本局最终结果未提取",
+        "加载后的操作者交换与实际分线未另核"
+      ]
+    },
+    {
+      "id": "aug26-na-sf-safe-zone",
+      "eventDate": "2026-08-16",
+      "stage": "半决赛 · Team Elektros vs Vatic Esports",
+      "teams": [
+        {
+          "name": "Team Elektros",
+          "heroesEn": [
+            "Ruffs",
+            "Otis",
+            "Chuck"
+          ],
+          "players": [
+            {
+              "player": "Snoiy",
+              "heroEn": "Ruffs"
+            },
+            {
+              "player": "XDO1N",
+              "heroEn": "Otis"
+            },
+            {
+              "player": "Memxn",
+              "heroEn": "Chuck"
+            }
+          ],
+          "rosterEvidence": "official_complete_roster_overlay_visually_inspected",
+          "heroIds": [
+            16000044,
+            16000059,
+            16000073
+          ]
+        },
+        {
+          "name": "Vatic Esports",
+          "heroesEn": [
+            "Grom",
+            "Bonnie",
+            "Finx"
+          ],
+          "players": [
+            {
+              "player": "Ezlivi",
+              "heroEn": "Grom"
+            },
+            {
+              "player": "Duckii",
+              "heroEn": "Bonnie"
+            },
+            {
+              "player": "Belal",
+              "heroEn": "Finx"
+            }
+          ],
+          "rosterEvidence": "official_complete_roster_overlay_visually_inspected",
+          "heroIds": [
+            16000048,
+            16000058,
+            16000092
+          ]
+        }
+      ],
+      "mapId": 15000019,
+      "mode": "Heist",
+      "startSeconds": 15295,
+      "url": "https://www.youtube.com/watch?v=d2Rvo0w8Ejo",
+      "bans": null,
+      "pickOrder": null,
+      "lessons": [
+        "工具分析：拉夫上校支援团队火力，奥蒂斯处理防守和近身威胁，查克寻找金库突入窗口；该历史查克案例早于后续重做，不能照搬当时的轨道循环。",
+        "工具分析：格罗姆用隔墙输出压迫金库，芬克斯争取区域控制，邦妮在技能到位时接入进攻；必须提前约定如何应对另一侧的查克。"
+      ],
+      "conditions": [
+        "只核对所列选角片段和完整阵容画面，并非整场回放阅读或赛事统计。",
+        "阵容针对原对手，下面的协作解释为工具推导，不是选手原话。",
+        "该赛事早于目前已核对的9月16日维护；需复核相关英雄、国服地图布局及当前机制。",
+        "选手对应仅表示指定选角画面所示；加载后的英雄交换、实际分线、完整配装与结果未另核。"
+      ],
+      "partialDraftObservations": [],
+      "verification": {
+        "finalTeams": "visual_verified",
+        "mapAndMode": "broadcast_overlay_verified",
+        "players": "visual_verified",
+        "fullBanList": "unknown",
+        "fullPickOrder": "unknown"
+      },
+      "finalRosterFrameSeconds": 15340,
+      "finalRosterUrl": "https://www.youtube.com/watch?v=d2Rvo0w8Ejo&t=15340s",
+      "event": "2026月度决赛 · 8月北美",
+      "sourceId": "youtube:d2Rvo0w8Ejo",
+      "lineupsVerified": true,
+      "verifiedFields": [
+        "官方回放日期与赛事阶段",
+        "地图广播名称、模式与资料ID匹配",
+        "双方完整三英雄阵容与指定选角画面当时的选手对应"
+      ],
+      "unknownFields": [
+        "完整地图禁用名单",
+        "完整逐手选择顺序",
+        "国服当前地图逐格一致性",
+        "具体配装",
+        "本局最终结果未提取",
+        "加载后的操作者交换与实际分线未另核"
+      ]
+    },
+    {
+      "id": "aug26-na-gf-pinhole",
+      "eventDate": "2026-08-16",
+      "stage": "决赛 · Team Elektros vs Tribe Gaming",
+      "teams": [
+        {
+          "name": "Team Elektros",
+          "heroesEn": [
+            "Emz",
+            "Poco",
+            "Frank"
+          ],
+          "players": [
+            {
+              "player": "Snoiy",
+              "heroEn": "Emz"
+            },
+            {
+              "player": "XDO1N",
+              "heroEn": "Poco"
+            },
+            {
+              "player": "Memxn",
+              "heroEn": "Frank"
+            }
+          ],
+          "rosterEvidence": "official_complete_roster_overlay_visually_inspected",
+          "heroIds": [
+            16000030,
+            16000013,
+            16000020
+          ]
+        },
+        {
+          "name": "Tribe Gaming",
+          "heroesEn": [
+            "Griff",
+            "Damian",
+            "Stu"
+          ],
+          "players": [
+            {
+              "player": "R B M",
+              "heroEn": "Griff"
+            },
+            {
+              "player": "Diegogamer",
+              "heroEn": "Damian"
+            },
+            {
+              "player": "Lxffy",
+              "heroEn": "Stu"
+            }
+          ],
+          "rosterEvidence": "official_complete_roster_overlay_visually_inspected",
+          "heroIds": [
+            16000050,
+            16000104,
+            16000045
+          ]
+        }
+      ],
+      "mapId": 15000026,
+      "mode": "Brawl Ball",
+      "startSeconds": 20155,
+      "url": "https://www.youtube.com/watch?v=d2Rvo0w8Ejo",
+      "bans": null,
+      "pickOrder": null,
+      "lessons": [
+        "工具分析：波可为弗兰肯推进提供治疗接应，艾魅限制入口和贴近的防守者；先争出安全控制窗口，再让承压位带动球的位置。",
+        "工具分析：格里夫处理高血量前排，达米安在近身区域制造压力，斯图牵制和接球；不要让三人同时被范围控制命中。"
+      ],
+      "conditions": [
+        "只核对所列选角片段和完整阵容画面，并非整场回放阅读或赛事统计。",
+        "阵容针对原对手，下面的协作解释为工具推导，不是选手原话。",
+        "该赛事早于目前已核对的9月16日维护；需复核相关英雄、国服地图布局及当前机制。",
+        "选手对应仅表示指定选角画面所示；加载后的英雄交换、实际分线、完整配装与结果未另核。"
+      ],
+      "partialDraftObservations": [],
+      "verification": {
+        "finalTeams": "visual_verified",
+        "mapAndMode": "broadcast_overlay_verified",
+        "players": "visual_verified",
+        "fullBanList": "unknown",
+        "fullPickOrder": "unknown"
+      },
+      "finalRosterFrameSeconds": 20200,
+      "finalRosterUrl": "https://www.youtube.com/watch?v=d2Rvo0w8Ejo&t=20200s",
+      "event": "2026月度决赛 · 8月北美",
+      "sourceId": "youtube:d2Rvo0w8Ejo",
+      "lineupsVerified": true,
+      "verifiedFields": [
+        "官方回放日期与赛事阶段",
+        "地图广播名称、模式与资料ID匹配",
+        "双方完整三英雄阵容与指定选角画面当时的选手对应"
+      ],
+      "unknownFields": [
+        "完整地图禁用名单",
+        "完整逐手选择顺序",
+        "国服当前地图逐格一致性",
+        "具体配装",
+        "本局最终结果未提取",
+        "加载后的操作者交换与实际分线未另核"
+      ]
+    },
+    {
+      "id": "aug26-sa-gf-gem-fort",
+      "eventDate": "2026-08-15",
+      "stage": "决赛 · Bounty Hunters vs LOUD",
+      "teams": [
+        {
+          "name": "Bounty Hunters",
+          "heroesEn": [
+            "Lou",
+            "Ash",
+            "Damian"
+          ],
+          "players": [
+            {
+              "player": "Prozy",
+              "heroEn": "Lou"
+            },
+            {
+              "player": "Portox",
+              "heroEn": "Ash"
+            },
+            {
+              "player": "Wesley",
+              "heroEn": "Damian"
+            }
+          ],
+          "rosterEvidence": "official_complete_roster_overlay_visually_inspected",
+          "heroIds": [
+            16000041,
+            16000051,
+            16000104
+          ]
+        },
+        {
+          "name": "LOUD",
+          "heroesEn": [
+            "Buzz",
+            "Meg",
+            "Rico"
+          ],
+          "players": [
+            {
+              "player": "Edinho",
+              "heroEn": "Buzz"
+            },
+            {
+              "player": "FireCrow",
+              "heroEn": "Meg"
+            },
+            {
+              "player": "KaioDog",
+              "heroEn": "Rico"
+            }
+          ],
+          "rosterEvidence": "official_complete_roster_overlay_visually_inspected",
+          "heroIds": [
+            16000049,
+            16000052,
+            16000004
+          ]
+        }
+      ],
+      "mapId": 15000010,
+      "mode": "Gem Grab",
+      "startSeconds": 19925,
+      "url": "https://www.youtube.com/watch?v=oPpaTsWQzOY",
+      "bans": null,
+      "pickOrder": null,
+      "lessons": [
+        "工具分析：小罗先限制入口，阿拾与达米安交替争前排空间，为后方留出拾宝与后撤路线；两个近身位不能同时追到视野之外。",
+        "工具分析：梅格保持正面压力，瑞科利用墙体压侧，巴兹等控场空隙后进场；不要为追击让持宝者失去支援。"
+      ],
+      "conditions": [
+        "只核对所列选角片段和完整阵容画面，并非整场回放阅读或赛事统计。",
+        "阵容针对原对手，下面的协作解释为工具推导，不是选手原话。",
+        "该赛事早于目前已核对的9月16日维护；需复核相关英雄、国服地图布局及当前机制。",
+        "选手对应仅表示指定选角画面所示；加载后的英雄交换、实际分线、完整配装与结果未另核。"
+      ],
+      "partialDraftObservations": [],
+      "verification": {
+        "finalTeams": "visual_verified",
+        "mapAndMode": "broadcast_overlay_verified",
+        "players": "visual_verified",
+        "fullBanList": "unknown",
+        "fullPickOrder": "unknown"
+      },
+      "finalRosterFrameSeconds": 19970,
+      "finalRosterUrl": "https://www.youtube.com/watch?v=oPpaTsWQzOY&t=19970s",
+      "event": "2026月度决赛 · 8月南美",
+      "sourceId": "youtube:oPpaTsWQzOY",
+      "lineupsVerified": true,
+      "verifiedFields": [
+        "官方回放日期与赛事阶段",
+        "地图广播名称、模式与资料ID匹配",
+        "双方完整三英雄阵容与指定选角画面当时的选手对应"
+      ],
+      "unknownFields": [
+        "完整地图禁用名单",
+        "完整逐手选择顺序",
+        "国服当前地图逐格一致性",
+        "具体配装",
+        "本局最终结果未提取",
+        "加载后的操作者交换与实际分线未另核"
+      ]
+    },
+    {
+      "id": "aug26-sa-gf-pinball",
+      "eventDate": "2026-08-15",
+      "stage": "决赛 · Bounty Hunters vs LOUD",
+      "teams": [
+        {
+          "name": "Bounty Hunters",
+          "heroesEn": [
+            "Rico",
+            "Edgar",
+            "Larry & Lawrie"
+          ],
+          "players": [
+            {
+              "player": "Prozy",
+              "heroEn": "Rico"
+            },
+            {
+              "player": "Wesley",
+              "heroEn": "Edgar"
+            },
+            {
+              "player": "Portox",
+              "heroEn": "Larry & Lawrie"
+            }
+          ],
+          "rosterEvidence": "official_complete_roster_overlay_visually_inspected",
+          "heroIds": [
+            16000004,
+            16000043,
+            16000077
+          ]
+        },
+        {
+          "name": "LOUD",
+          "heroesEn": [
+            "Mina",
+            "Ash",
+            "Willow"
+          ],
+          "players": [
+            {
+              "player": "FireCrow",
+              "heroEn": "Mina"
+            },
+            {
+              "player": "Edinho",
+              "heroEn": "Ash"
+            },
+            {
+              "player": "KaioDog",
+              "heroEn": "Willow"
+            }
+          ],
+          "rosterEvidence": "official_complete_roster_overlay_visually_inspected",
+          "heroIds": [
+            16000097,
+            16000051,
+            16000067
+          ]
+        }
+      ],
+      "mapId": 15000118,
+      "mode": "Brawl Ball",
+      "startSeconds": 20585,
+      "url": "https://www.youtube.com/watch?v=oPpaTsWQzOY",
+      "bans": null,
+      "pickOrder": null,
+      "lessons": [
+        "工具分析：瑞科与拉里和劳里从不同角度消耗，艾德加等对手缺少防守技能时跳入；投掷位需要有人保护，不能独自留在进攻英雄面前。",
+        "工具分析：阿拾与蜜娜交替贴近制造压力，薇洛在后侧封路并反制突入；前排不要把交火带到薇洛无法支援的位置。"
+      ],
+      "conditions": [
+        "只核对所列选角片段和完整阵容画面，并非整场回放阅读或赛事统计。",
+        "阵容针对原对手，下面的协作解释为工具推导，不是选手原话。",
+        "该赛事早于目前已核对的9月16日维护；需复核相关英雄、国服地图布局及当前机制。",
+        "选手对应仅表示指定选角画面所示；加载后的英雄交换、实际分线、完整配装与结果未另核。"
+      ],
+      "partialDraftObservations": [],
+      "verification": {
+        "finalTeams": "visual_verified",
+        "mapAndMode": "broadcast_overlay_verified",
+        "players": "visual_verified",
+        "fullBanList": "unknown",
+        "fullPickOrder": "unknown"
+      },
+      "finalRosterFrameSeconds": 20630,
+      "finalRosterUrl": "https://www.youtube.com/watch?v=oPpaTsWQzOY&t=20630s",
+      "event": "2026月度决赛 · 8月南美",
+      "sourceId": "youtube:oPpaTsWQzOY",
+      "lineupsVerified": true,
+      "verifiedFields": [
+        "官方回放日期与赛事阶段",
+        "地图广播名称、模式与资料ID匹配",
+        "双方完整三英雄阵容与指定选角画面当时的选手对应"
+      ],
+      "unknownFields": [
+        "完整地图禁用名单",
+        "完整逐手选择顺序",
+        "国服当前地图逐格一致性",
+        "具体配装",
+        "本局最终结果未提取",
+        "加载后的操作者交换与实际分线未另核"
+      ]
+    },
+    {
+      "id": "aug26-sa-gf-new-horizons",
+      "eventDate": "2026-08-15",
+      "stage": "决赛 · Bounty Hunters vs LOUD",
+      "teams": [
+        {
+          "name": "Bounty Hunters",
+          "heroesEn": [
+            "8-Bit",
+            "Najia",
+            "Chester"
+          ],
+          "players": [
+            {
+              "player": "Prozy",
+              "heroEn": "8-Bit"
+            },
+            {
+              "player": "Wesley",
+              "heroEn": "Najia"
+            },
+            {
+              "player": "Portox",
+              "heroEn": "Chester"
+            }
+          ],
+          "rosterEvidence": "official_complete_roster_overlay_visually_inspected",
+          "heroIds": [
+            16000027,
+            16000103,
+            16000063
+          ]
+        },
+        {
+          "name": "LOUD",
+          "heroesEn": [
+            "Pierce",
+            "Edgar",
+            "Starr Nova"
+          ],
+          "players": [
+            {
+              "player": "Edinho",
+              "heroEn": "Pierce"
+            },
+            {
+              "player": "FireCrow",
+              "heroEn": "Edgar"
+            },
+            {
+              "player": "KaioDog",
+              "heroEn": "Starr Nova"
+            }
+          ],
+          "rosterEvidence": "official_complete_roster_overlay_visually_inspected",
+          "heroIds": [
+            16000099,
+            16000043,
+            16000105
+          ]
+        }
+      ],
+      "mapId": 15000703,
+      "mode": "Knockout",
+      "startSeconds": 22005,
+      "url": "https://www.youtube.com/watch?v=oPpaTsWQzOY",
+      "bans": null,
+      "pickOrder": null,
+      "lessons": [
+        "工具分析：8比特形成定点火力，娜吉亚以毒伤和召唤物压缩路线，切斯特保护近中距离缺口；退路要提前规划，不能被双机动包住。",
+        "工具分析：皮尔斯先用远程射线限制阵地，艾德加与丝塔诺娃在同一目标被压低后分角度切入；进入前先确认对方的近身爆发窗口。"
+      ],
+      "conditions": [
+        "只核对所列选角片段和完整阵容画面，并非整场回放阅读或赛事统计。",
+        "阵容针对原对手，下面的协作解释为工具推导，不是选手原话。",
+        "该赛事早于目前已核对的9月16日维护；需复核相关英雄、国服地图布局及当前机制。",
+        "选手对应仅表示指定选角画面所示；加载后的英雄交换、实际分线、完整配装与结果未另核。"
+      ],
+      "partialDraftObservations": [],
+      "verification": {
+        "finalTeams": "visual_verified",
+        "mapAndMode": "broadcast_overlay_verified",
+        "players": "visual_verified",
+        "fullBanList": "unknown",
+        "fullPickOrder": "unknown"
+      },
+      "finalRosterFrameSeconds": 22050,
+      "finalRosterUrl": "https://www.youtube.com/watch?v=oPpaTsWQzOY&t=22050s",
+      "event": "2026月度决赛 · 8月南美",
+      "sourceId": "youtube:oPpaTsWQzOY",
+      "lineupsVerified": true,
+      "verifiedFields": [
+        "官方回放日期与赛事阶段",
+        "地图广播名称、模式与资料ID匹配",
+        "双方完整三英雄阵容与指定选角画面当时的选手对应"
+      ],
+      "unknownFields": [
+        "完整地图禁用名单",
+        "完整逐手选择顺序",
+        "国服当前地图逐格一致性",
+        "具体配装",
+        "本局最终结果未提取",
+        "加载后的操作者交换与实际分线未另核"
+      ]
+    },
+    {
+      "id": "chall26-gf-gem-fort",
+      "eventDate": "2026-09-06",
+      "stage": "决赛 · SK Gaming vs FUT Freezone",
+      "teams": [
+        {
+          "name": "SK Gaming",
+          "heroesEn": [
+            "Meg",
+            "Rico",
+            "Cordelius"
+          ],
+          "players": [
+            {
+              "player": "OPE",
+              "heroEn": "Meg"
+            },
+            {
+              "player": "Yoko",
+              "heroEn": "Rico"
+            },
+            {
+              "player": "Yoshi825",
+              "heroEn": "Cordelius"
+            }
+          ],
+          "rosterEvidence": "official_complete_roster_overlay_visually_inspected",
+          "heroIds": [
+            16000052,
+            16000004,
+            16000070
+          ]
+        },
+        {
+          "name": "FUT Freezone",
+          "heroesEn": [
+            "Buzz",
+            "Moe",
+            "Gus"
+          ],
+          "players": [
+            {
+              "player": "Ferissa",
+              "heroEn": "Buzz"
+            },
+            {
+              "player": "Demaster",
+              "heroEn": "Moe"
+            },
+            {
+              "player": "Zeyrox",
+              "heroEn": "Gus"
+            }
+          ],
+          "rosterEvidence": "official_complete_roster_overlay_visually_inspected",
+          "heroIds": [
+            16000049,
+            16000084,
+            16000061
+          ]
+        }
+      ],
+      "mapId": 15000010,
+      "mode": "Gem Grab",
+      "startSeconds": 30400,
+      "url": "https://www.youtube.com/watch?v=9CQQ04lg-sQ",
+      "bans": null,
+      "pickOrder": null,
+      "lessons": [
+        "工具分析：梅格正面取得空间，瑞科从墙边形成交叉火力，科迪留斯隔离关键进场者；隔离前先报目标，外面的两人不能同时失守。",
+        "工具分析：格斯给进场者护盾和远程接应，巴兹与阿萌交替切入；两名进攻英雄不要同时离开持宝路线。"
+      ],
+      "conditions": [
+        "只核对所列选角片段和完整阵容画面，并非整场回放阅读或赛事统计。",
+        "阵容针对原对手，下面的协作解释为工具推导，不是选手原话。",
+        "该赛事早于目前已核对的9月16日维护；需复核相关英雄、国服地图布局及当前机制。",
+        "选手对应仅表示指定选角画面所示；加载后的英雄交换、实际分线、完整配装与结果未另核。"
+      ],
+      "partialDraftObservations": [],
+      "verification": {
+        "finalTeams": "visual_verified",
+        "mapAndMode": "broadcast_overlay_verified",
+        "players": "visual_verified",
+        "fullBanList": "unknown",
+        "fullPickOrder": "unknown"
+      },
+      "finalRosterFrameSeconds": 30445,
+      "finalRosterUrl": "https://www.youtube.com/watch?v=9CQQ04lg-sQ&t=30445s",
+      "event": "2026挑战者总决赛 · 伊斯坦布尔",
+      "sourceId": "youtube:9CQQ04lg-sQ",
+      "lineupsVerified": true,
+      "verifiedFields": [
+        "官方回放日期与赛事阶段",
+        "地图广播名称、模式与资料ID匹配",
+        "双方完整三英雄阵容与指定选角画面当时的选手对应"
+      ],
+      "unknownFields": [
+        "完整地图禁用名单",
+        "完整逐手选择顺序",
+        "国服当前地图逐格一致性",
+        "具体配装",
+        "本局最终结果未提取",
+        "加载后的操作者交换与实际分线未另核"
+      ]
+    },
+    {
+      "id": "chall26-gf-open-business",
+      "eventDate": "2026-09-06",
+      "stage": "决赛 · SK Gaming vs FUT Freezone",
+      "teams": [
+        {
+          "name": "SK Gaming",
+          "heroesEn": [
+            "Cordelius",
+            "Ruffs",
+            "Meg"
+          ],
+          "players": [
+            {
+              "player": "OPE",
+              "heroEn": "Cordelius"
+            },
+            {
+              "player": "Yoshi825",
+              "heroEn": "Ruffs"
+            },
+            {
+              "player": "Yoko",
+              "heroEn": "Meg"
+            }
+          ],
+          "rosterEvidence": "official_complete_roster_overlay_visually_inspected",
+          "heroIds": [
+            16000070,
+            16000044,
+            16000052
+          ]
+        },
+        {
+          "name": "FUT Freezone",
+          "heroesEn": [
+            "Gus",
+            "Kenji",
+            "Colette"
+          ],
+          "players": [
+            {
+              "player": "Demaster",
+              "heroEn": "Gus"
+            },
+            {
+              "player": "Ferissa",
+              "heroEn": "Kenji"
+            },
+            {
+              "player": "Zeyrox",
+              "heroEn": "Colette"
+            }
+          ],
+          "rosterEvidence": "official_complete_roster_overlay_visually_inspected",
+          "heroIds": [
+            16000061,
+            16000085,
+            16000039
+          ]
+        }
+      ],
+      "mapId": 15000292,
+      "mode": "Hot Zone",
+      "startSeconds": 31195,
+      "url": "https://www.youtube.com/watch?v=9CQQ04lg-sQ",
+      "bans": null,
+      "pickOrder": null,
+      "lessons": [
+        "工具分析：梅格维持占区压力，拉夫上校从安全角度提供强化与射线，科迪留斯隔离关键敌人来帮助队友争区；不能为单挑把区域长时间留空。",
+        "工具分析：格斯保护进区者，健次从侧面迫使防守转向，科莱特处理高血量目标；护盾与切入时机需要同步。"
+      ],
+      "conditions": [
+        "只核对所列选角片段和完整阵容画面，并非整场回放阅读或赛事统计。",
+        "阵容针对原对手，下面的协作解释为工具推导，不是选手原话。",
+        "该赛事早于目前已核对的9月16日维护；需复核相关英雄、国服地图布局及当前机制。",
+        "选手对应仅表示指定选角画面所示；加载后的英雄交换、实际分线、完整配装与结果未另核。"
+      ],
+      "partialDraftObservations": [],
+      "verification": {
+        "finalTeams": "visual_verified",
+        "mapAndMode": "broadcast_overlay_verified",
+        "players": "visual_verified",
+        "fullBanList": "unknown",
+        "fullPickOrder": "unknown"
+      },
+      "finalRosterFrameSeconds": 31240,
+      "finalRosterUrl": "https://www.youtube.com/watch?v=9CQQ04lg-sQ&t=31240s",
+      "event": "2026挑战者总决赛 · 伊斯坦布尔",
+      "sourceId": "youtube:9CQQ04lg-sQ",
+      "lineupsVerified": true,
+      "verifiedFields": [
+        "官方回放日期与赛事阶段",
+        "地图广播名称、模式与资料ID匹配",
+        "双方完整三英雄阵容与指定选角画面当时的选手对应"
+      ],
+      "unknownFields": [
+        "完整地图禁用名单",
+        "完整逐手选择顺序",
+        "国服当前地图逐格一致性",
+        "具体配装",
+        "本局最终结果未提取",
+        "加载后的操作者交换与实际分线未另核"
+      ]
+    },
+    {
+      "id": "chall26-gf-hideout",
+      "eventDate": "2026-09-06",
+      "stage": "决赛 · SK Gaming vs FUT Freezone",
+      "teams": [
+        {
+          "name": "SK Gaming",
+          "heroesEn": [
+            "Lumi",
+            "Pearl",
+            "Gene"
+          ],
+          "players": [
+            {
+              "player": "OPE",
+              "heroEn": "Lumi"
+            },
+            {
+              "player": "Yoshi825",
+              "heroEn": "Pearl"
+            },
+            {
+              "player": "Yoko",
+              "heroEn": "Gene"
+            }
+          ],
+          "rosterEvidence": "official_complete_roster_overlay_visually_inspected",
+          "heroIds": [
+            16000091,
+            16000072,
+            16000021
+          ]
+        },
+        {
+          "name": "FUT Freezone",
+          "heroesEn": [
+            "Meg",
+            "Mina",
+            "Mr. P"
+          ],
+          "players": [
+            {
+              "player": "Demaster",
+              "heroEn": "Meg"
+            },
+            {
+              "player": "Zeyrox",
+              "heroEn": "Mina"
+            },
+            {
+              "player": "Ferissa",
+              "heroEn": "Mr. P"
+            }
+          ],
+          "rosterEvidence": "official_complete_roster_overlay_visually_inspected",
+          "heroIds": [
+            16000052,
+            16000097,
+            16000031
+          ]
+        }
+      ],
+      "mapId": 15000022,
+      "mode": "Bounty",
+      "startSeconds": 31815,
+      "url": "https://www.youtube.com/watch?v=9CQQ04lg-sQ",
+      "bans": null,
+      "pickOrder": null,
+      "lessons": [
+        "工具分析：露米用回收弹道限制走位，珀尔保留蓄热火力，吉恩拉到目标时同步集火；不要把所有输出都交在召唤物上。",
+        "工具分析：P先生的召唤物消耗对方弹药和拉人机会，梅格向前争位，蜜娜在另一角度跟进；保持能撤回支援线的距离。"
+      ],
+      "conditions": [
+        "只核对所列选角片段和完整阵容画面，并非整场回放阅读或赛事统计。",
+        "阵容针对原对手，下面的协作解释为工具推导，不是选手原话。",
+        "该赛事早于目前已核对的9月16日维护；需复核相关英雄、国服地图布局及当前机制。",
+        "选手对应仅表示指定选角画面所示；加载后的英雄交换、实际分线、完整配装与结果未另核。"
+      ],
+      "partialDraftObservations": [],
+      "verification": {
+        "finalTeams": "visual_verified",
+        "mapAndMode": "broadcast_overlay_verified",
+        "players": "visual_verified",
+        "fullBanList": "unknown",
+        "fullPickOrder": "unknown"
+      },
+      "finalRosterFrameSeconds": 31860,
+      "finalRosterUrl": "https://www.youtube.com/watch?v=9CQQ04lg-sQ&t=31860s",
+      "event": "2026挑战者总决赛 · 伊斯坦布尔",
+      "sourceId": "youtube:9CQQ04lg-sQ",
+      "lineupsVerified": true,
+      "verifiedFields": [
+        "官方回放日期与赛事阶段",
+        "地图广播名称、模式与资料ID匹配",
+        "双方完整三英雄阵容与指定选角画面当时的选手对应"
+      ],
+      "unknownFields": [
+        "完整地图禁用名单",
+        "完整逐手选择顺序",
+        "国服当前地图逐格一致性",
+        "具体配装",
+        "本局最终结果未提取",
+        "加载后的操作者交换与实际分线未另核"
+      ]
+    },
+    {
+      "id": "chall26-gf-pinball",
+      "eventDate": "2026-09-06",
+      "stage": "决赛 · SK Gaming vs FUT Freezone",
+      "teams": [
+        {
+          "name": "SK Gaming",
+          "heroesEn": [
+            "Meeple",
+            "Meg",
+            "Brock"
+          ],
+          "players": [
+            {
+              "player": "Yoko",
+              "heroEn": "Meeple"
+            },
+            {
+              "player": "Yoshi825",
+              "heroEn": "Meg"
+            },
+            {
+              "player": "OPE",
+              "heroEn": "Brock"
+            }
+          ],
+          "rosterEvidence": "official_complete_roster_overlay_visually_inspected",
+          "heroIds": [
+            16000089,
+            16000052,
+            16000003
+          ]
+        },
+        {
+          "name": "FUT Freezone",
+          "heroesEn": [
+            "Griff",
+            "Colette",
+            "Moe"
+          ],
+          "players": [
+            {
+              "player": "Zeyrox",
+              "heroEn": "Griff"
+            },
+            {
+              "player": "Ferissa",
+              "heroEn": "Colette"
+            },
+            {
+              "player": "Demaster",
+              "heroEn": "Moe"
+            }
+          ],
+          "rosterEvidence": "official_complete_roster_overlay_visually_inspected",
+          "heroIds": [
+            16000050,
+            16000039,
+            16000084
+          ]
+        }
+      ],
+      "mapId": 15000118,
+      "mode": "Brawl Ball",
+      "startSeconds": 32565,
+      "url": "https://www.youtube.com/watch?v=9CQQ04lg-sQ",
+      "bans": null,
+      "pickOrder": null,
+      "lessons": [
+        "工具分析：梅格维持正面压力，布洛克与米宝从不同射线支援；破墙前先约定球的位置和回防路线，避免只顾扩大射程。",
+        "工具分析：格里夫清线，科莱特压制高血量防守者，阿萌从侧面或地下切入；必须先有火力掩护，再用机动位推进球。"
+      ],
+      "conditions": [
+        "只核对所列选角片段和完整阵容画面，并非整场回放阅读或赛事统计。",
+        "阵容针对原对手，下面的协作解释为工具推导，不是选手原话。",
+        "该赛事早于目前已核对的9月16日维护；需复核相关英雄、国服地图布局及当前机制。",
+        "选手对应仅表示指定选角画面所示；加载后的英雄交换、实际分线、完整配装与结果未另核。"
+      ],
+      "partialDraftObservations": [],
+      "verification": {
+        "finalTeams": "visual_verified",
+        "mapAndMode": "broadcast_overlay_verified",
+        "players": "visual_verified",
+        "fullBanList": "unknown",
+        "fullPickOrder": "unknown"
+      },
+      "finalRosterFrameSeconds": 32610,
+      "finalRosterUrl": "https://www.youtube.com/watch?v=9CQQ04lg-sQ&t=32610s",
+      "event": "2026挑战者总决赛 · 伊斯坦布尔",
+      "sourceId": "youtube:9CQQ04lg-sQ",
+      "lineupsVerified": true,
+      "verifiedFields": [
+        "官方回放日期与赛事阶段",
+        "地图广播名称、模式与资料ID匹配",
+        "双方完整三英雄阵容与指定选角画面当时的选手对应"
+      ],
+      "unknownFields": [
+        "完整地图禁用名单",
+        "完整逐手选择顺序",
+        "国服当前地图逐格一致性",
+        "具体配装",
+        "本局最终结果未提取",
+        "加载后的操作者交换与实际分线未另核"
       ]
     }
   ],

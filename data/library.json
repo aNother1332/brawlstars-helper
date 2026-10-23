@@ -1,6 +1,6 @@
 {
-  "asOf": "2026-10-23",
-  "heroStrengthCutoff": "2026-07-23",
+  "asOf": "2026-10-24",
+  "heroStrengthCutoff": "2026-07-24",
   "mainRankingSourceId": "youtube:htL_pFHoW5E",
   "policy": {
     "mapFirst": true,
@@ -665,6 +665,43 @@
       "validityNotes": []
     },
     {
+      "id": "youtube:9CQQ04lg-sQ",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=9CQQ04lg-sQ",
+      "title": "Brawl Stars Challengers Finals | Day 2",
+      "author": "Brawl Stars Esports",
+      "publishedAt": "2026-09-06",
+      "dataAsOf": null,
+      "read": true,
+      "status": "official_VOD_selected_captions_and_complete_roster_frames_verified",
+      "visualChecked": true,
+      "reviewedRangesSeconds": [
+        [
+          30400,
+          30460
+        ],
+        [
+          31195,
+          31255
+        ],
+        [
+          31815,
+          31875
+        ],
+        [
+          32565,
+          32625
+        ]
+      ],
+      "region": "international_competitive",
+      "variantOnly": false,
+      "kind": "professional_match_vod",
+      "recent": true,
+      "validityNotes": [
+        "只核对本批列出的选角片段；8月与9月赛事不能当作10月补丁下的强度统计。"
+      ]
+    },
+    {
       "id": "bilibili:BV1tEbj6KEPS",
       "platform": "bilibili",
       "url": "https://www.bilibili.com/video/BV1tEbj6KEPS",
@@ -735,6 +772,68 @@
       "durationSeconds": 314
     },
     {
+      "id": "youtube:d2Rvo0w8Ejo",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=d2Rvo0w8Ejo",
+      "title": "Brawl Stars Championship 2026 | August Monthly Finals | North America",
+      "author": "Brawl Stars Esports",
+      "publishedAt": "2026-08-17",
+      "dataAsOf": null,
+      "read": true,
+      "status": "official_VOD_selected_captions_and_complete_roster_frames_verified",
+      "visualChecked": true,
+      "reviewedRangesSeconds": [
+        [
+          15295,
+          15355
+        ],
+        [
+          20155,
+          20215
+        ]
+      ],
+      "region": "international_competitive",
+      "variantOnly": false,
+      "kind": "professional_match_vod",
+      "recent": true,
+      "validityNotes": [
+        "只核对本批列出的选角片段；8月与9月赛事不能当作10月补丁下的强度统计。"
+      ]
+    },
+    {
+      "id": "youtube:oPpaTsWQzOY",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=oPpaTsWQzOY",
+      "title": "Brawl Stars Championship 2026 | August Monthly Finals | South America",
+      "author": "Brawl Stars Esports",
+      "publishedAt": "2026-08-16",
+      "dataAsOf": null,
+      "read": true,
+      "status": "official_VOD_selected_captions_and_complete_roster_frames_verified",
+      "visualChecked": true,
+      "reviewedRangesSeconds": [
+        [
+          19925,
+          19985
+        ],
+        [
+          20585,
+          20645
+        ],
+        [
+          22005,
+          22065
+        ]
+      ],
+      "region": "international_competitive",
+      "variantOnly": false,
+      "kind": "professional_match_vod",
+      "recent": true,
+      "validityNotes": [
+        "只核对本批列出的选角片段；8月与9月赛事不能当作10月补丁下的强度统计。"
+      ]
+    },
+    {
       "id": "youtube:diaxHse4hOU",
       "platform": "youtube",
       "url": "https://www.youtube.com/watch?v=diaxHse4hOU",
@@ -786,6 +885,68 @@
       "visualChecked": false,
       "recent": true,
       "reviewedRangesSeconds": []
+    },
+    {
+      "id": "youtube:HkNGnN8xFe8",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=HkNGnN8xFe8",
+      "title": "Brawl Stars Championship 2026 | August Monthly Finals | EMEA",
+      "author": "Brawl Stars Esports",
+      "publishedAt": "2026-08-09",
+      "dataAsOf": null,
+      "read": true,
+      "status": "official_VOD_selected_captions_and_complete_roster_frames_verified",
+      "visualChecked": true,
+      "reviewedRangesSeconds": [
+        [
+          17205,
+          17265
+        ],
+        [
+          20700,
+          20760
+        ]
+      ],
+      "region": "international_competitive",
+      "variantOnly": false,
+      "kind": "professional_match_vod",
+      "recent": true,
+      "validityNotes": [
+        "只核对本批列出的选角片段；8月与9月赛事不能当作10月补丁下的强度统计。"
+      ]
+    },
+    {
+      "id": "youtube:ZIGzQ-zJFWc",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=ZIGzQ-zJFWc",
+      "title": "Brawl Stars Championship 2026 | August Monthly Finals | East Asia",
+      "author": "Brawl Stars Esports",
+      "publishedAt": "2026-08-08",
+      "dataAsOf": null,
+      "read": true,
+      "status": "official_VOD_selected_captions_and_complete_roster_frames_verified",
+      "visualChecked": true,
+      "reviewedRangesSeconds": [
+        [
+          18740,
+          18800
+        ],
+        [
+          19375,
+          19435
+        ],
+        [
+          19835,
+          19895
+        ]
+      ],
+      "region": "international_competitive",
+      "variantOnly": false,
+      "kind": "professional_match_vod",
+      "recent": true,
+      "validityNotes": [
+        "只核对本批列出的选角片段；8月与9月赛事不能当作10月补丁下的强度统计。"
+      ]
     },
     {
       "id": "youtube:J8TvJVFFAxc",
@@ -8746,6 +8907,188 @@
       "startSeconds": 14980,
       "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=14980s",
       "summary": "2026 LCQ职业对局的完整阵容已核对关键画面。工具分析：草丛迷踪的侧翼收割应等待消耗窗口；标记、机动和定点输出可交错压线。双方都应保留防绕后的间距，不能把前压等同于站在一起。",
+      "conditions": [
+        "这是特定对手下的职业选择，不能当作无条件阵容推荐；逐手完整选禁仍未核验。"
+      ]
+    },
+    {
+      "sourceId": "youtube:ZIGzQ-zJFWc",
+      "mapId": 15000010,
+      "mode": "Gem Grab",
+      "heroIds": [],
+      "currentStrengthEvidence": false,
+      "startSeconds": 18740,
+      "url": "https://www.youtube.com/watch?v=ZIGzQ-zJFWc",
+      "summary": "2026月度决赛 · 8月东亚职业对局的完整阵容已核对关键画面。工具分析：艾魅守住中距离入口，戈雷用传送接应达米安向前争位；不要三人挤在同一条狭窄进场线上。 工具分析：布洛克远程压低前排血线，珀尔蓄热保护靠近矿区的路线，黑鸦用毒伤干扰恢复；破墙前先判断会不会替对方打开近身通道。",
+      "conditions": [
+        "这是特定对手下的职业选择，不能当作无条件阵容推荐；逐手完整选禁仍未核验。"
+      ]
+    },
+    {
+      "sourceId": "youtube:ZIGzQ-zJFWc",
+      "mapId": 15000082,
+      "mode": "Bounty",
+      "heroIds": [],
+      "currentStrengthEvidence": false,
+      "startSeconds": 19375,
+      "url": "https://www.youtube.com/watch?v=ZIGzQ-zJFWc",
+      "summary": "2026月度决赛 · 8月东亚职业对局的完整阵容已核对关键画面。工具分析：布洛克与黑鸦先消耗和限制退路，阿莉等敌人分散或血量下降后从侧面切入；阿莉不能与破墙后的远程线脱节。 工具分析：斯图保持移动牵制，米宝围绕掩体支援射线，西里乌斯用影子增加交火目标；控制住中路后再拓展侧路。",
+      "conditions": [
+        "这是特定对手下的职业选择，不能当作无条件阵容推荐；逐手完整选禁仍未核验。"
+      ]
+    },
+    {
+      "sourceId": "youtube:ZIGzQ-zJFWc",
+      "mapId": 15000026,
+      "mode": "Brawl Ball",
+      "heroIds": [],
+      "currentStrengthEvidence": false,
+      "startSeconds": 19835,
+      "url": "https://www.youtube.com/watch?v=ZIGzQ-zJFWc",
+      "summary": "2026月度决赛 · 8月东亚职业对局的完整阵容已核对关键画面。工具分析：达米安前压制造近身威胁，艾魅把防守者挤离入口，戈雷接应位置转换；有控制窗口后再推进球。 工具分析：奥蒂斯保留沉默应对近身者，8比特提供定点输出与增幅，米宝支援掩体周围的交火；要防止阵地被侧翼绕过。",
+      "conditions": [
+        "这是特定对手下的职业选择，不能当作无条件阵容推荐；逐手完整选禁仍未核验。"
+      ]
+    },
+    {
+      "sourceId": "youtube:HkNGnN8xFe8",
+      "mapId": 15000019,
+      "mode": "Heist",
+      "heroIds": [],
+      "currentStrengthEvidence": false,
+      "startSeconds": 17205,
+      "url": "https://www.youtube.com/watch?v=HkNGnN8xFe8",
+      "summary": "2026月度决赛 · 8月EMEA职业对局的完整阵容已核对关键画面。工具分析：潘妮通过炮台持续施压，拜伦接应占线者，奥蒂斯保留沉默保护防守；不能为了追击阿莉让对方柯尔特无人处理。 工具分析：格鲁伊支援阿莉接近后排，柯尔特利用另一条射线给金库压力；治疗位不要跟切入者同时深入。",
+      "conditions": [
+        "这是特定对手下的职业选择，不能当作无条件阵容推荐；逐手完整选禁仍未核验。"
+      ]
+    },
+    {
+      "sourceId": "youtube:HkNGnN8xFe8",
+      "mapId": 15000118,
+      "mode": "Brawl Ball",
+      "heroIds": [],
+      "currentStrengthEvidence": false,
+      "startSeconds": 20700,
+      "url": "https://www.youtube.com/watch?v=HkNGnN8xFe8",
+      "summary": "2026月度决赛 · 8月EMEA职业对局的完整阵容已核对关键画面。工具分析：斯图牵制一侧，米宝支援墙边射线，巴兹等防守者站位拉开后控制进场；切入目标要让队友跟得上。 工具分析：麦克斯加速带动达米安前压，艾魅保护近身推进后的区域；加速应在队友有弹药和控制技能时同步使用。",
+      "conditions": [
+        "这是特定对手下的职业选择，不能当作无条件阵容推荐；逐手完整选禁仍未核验。"
+      ]
+    },
+    {
+      "sourceId": "youtube:d2Rvo0w8Ejo",
+      "mapId": 15000019,
+      "mode": "Heist",
+      "heroIds": [],
+      "currentStrengthEvidence": false,
+      "startSeconds": 15295,
+      "url": "https://www.youtube.com/watch?v=d2Rvo0w8Ejo",
+      "summary": "2026月度决赛 · 8月北美职业对局的完整阵容已核对关键画面。工具分析：拉夫上校支援团队火力，奥蒂斯处理防守和近身威胁，查克寻找金库突入窗口；该历史查克案例早于后续重做，不能照搬当时的轨道循环。 工具分析：格罗姆用隔墙输出压迫金库，芬克斯争取区域控制，邦妮在技能到位时接入进攻；必须提前约定如何应对另一侧的查克。",
+      "conditions": [
+        "这是特定对手下的职业选择，不能当作无条件阵容推荐；逐手完整选禁仍未核验。"
+      ]
+    },
+    {
+      "sourceId": "youtube:d2Rvo0w8Ejo",
+      "mapId": 15000026,
+      "mode": "Brawl Ball",
+      "heroIds": [],
+      "currentStrengthEvidence": false,
+      "startSeconds": 20155,
+      "url": "https://www.youtube.com/watch?v=d2Rvo0w8Ejo",
+      "summary": "2026月度决赛 · 8月北美职业对局的完整阵容已核对关键画面。工具分析：波可为弗兰肯推进提供治疗接应，艾魅限制入口和贴近的防守者；先争出安全控制窗口，再让承压位带动球的位置。 工具分析：格里夫处理高血量前排，达米安在近身区域制造压力，斯图牵制和接球；不要让三人同时被范围控制命中。",
+      "conditions": [
+        "这是特定对手下的职业选择，不能当作无条件阵容推荐；逐手完整选禁仍未核验。"
+      ]
+    },
+    {
+      "sourceId": "youtube:oPpaTsWQzOY",
+      "mapId": 15000010,
+      "mode": "Gem Grab",
+      "heroIds": [],
+      "currentStrengthEvidence": false,
+      "startSeconds": 19925,
+      "url": "https://www.youtube.com/watch?v=oPpaTsWQzOY",
+      "summary": "2026月度决赛 · 8月南美职业对局的完整阵容已核对关键画面。工具分析：小罗先限制入口，阿拾与达米安交替争前排空间，为后方留出拾宝与后撤路线；两个近身位不能同时追到视野之外。 工具分析：梅格保持正面压力，瑞科利用墙体压侧，巴兹等控场空隙后进场；不要为追击让持宝者失去支援。",
+      "conditions": [
+        "这是特定对手下的职业选择，不能当作无条件阵容推荐；逐手完整选禁仍未核验。"
+      ]
+    },
+    {
+      "sourceId": "youtube:oPpaTsWQzOY",
+      "mapId": 15000118,
+      "mode": "Brawl Ball",
+      "heroIds": [],
+      "currentStrengthEvidence": false,
+      "startSeconds": 20585,
+      "url": "https://www.youtube.com/watch?v=oPpaTsWQzOY",
+      "summary": "2026月度决赛 · 8月南美职业对局的完整阵容已核对关键画面。工具分析：瑞科与拉里和劳里从不同角度消耗，艾德加等对手缺少防守技能时跳入；投掷位需要有人保护，不能独自留在进攻英雄面前。 工具分析：阿拾与蜜娜交替贴近制造压力，薇洛在后侧封路并反制突入；前排不要把交火带到薇洛无法支援的位置。",
+      "conditions": [
+        "这是特定对手下的职业选择，不能当作无条件阵容推荐；逐手完整选禁仍未核验。"
+      ]
+    },
+    {
+      "sourceId": "youtube:oPpaTsWQzOY",
+      "mapId": 15000703,
+      "mode": "Knockout",
+      "heroIds": [],
+      "currentStrengthEvidence": false,
+      "startSeconds": 22005,
+      "url": "https://www.youtube.com/watch?v=oPpaTsWQzOY",
+      "summary": "2026月度决赛 · 8月南美职业对局的完整阵容已核对关键画面。工具分析：8比特形成定点火力，娜吉亚以毒伤和召唤物压缩路线，切斯特保护近中距离缺口；退路要提前规划，不能被双机动包住。 工具分析：皮尔斯先用远程射线限制阵地，艾德加与丝塔诺娃在同一目标被压低后分角度切入；进入前先确认对方的近身爆发窗口。",
+      "conditions": [
+        "这是特定对手下的职业选择，不能当作无条件阵容推荐；逐手完整选禁仍未核验。"
+      ]
+    },
+    {
+      "sourceId": "youtube:9CQQ04lg-sQ",
+      "mapId": 15000010,
+      "mode": "Gem Grab",
+      "heroIds": [],
+      "currentStrengthEvidence": false,
+      "startSeconds": 30400,
+      "url": "https://www.youtube.com/watch?v=9CQQ04lg-sQ",
+      "summary": "2026挑战者总决赛 · 伊斯坦布尔职业对局的完整阵容已核对关键画面。工具分析：梅格正面取得空间，瑞科从墙边形成交叉火力，科迪留斯隔离关键进场者；隔离前先报目标，外面的两人不能同时失守。 工具分析：格斯给进场者护盾和远程接应，巴兹与阿萌交替切入；两名进攻英雄不要同时离开持宝路线。",
+      "conditions": [
+        "这是特定对手下的职业选择，不能当作无条件阵容推荐；逐手完整选禁仍未核验。"
+      ]
+    },
+    {
+      "sourceId": "youtube:9CQQ04lg-sQ",
+      "mapId": 15000292,
+      "mode": "Hot Zone",
+      "heroIds": [],
+      "currentStrengthEvidence": false,
+      "startSeconds": 31195,
+      "url": "https://www.youtube.com/watch?v=9CQQ04lg-sQ",
+      "summary": "2026挑战者总决赛 · 伊斯坦布尔职业对局的完整阵容已核对关键画面。工具分析：梅格维持占区压力，拉夫上校从安全角度提供强化与射线，科迪留斯隔离关键敌人来帮助队友争区；不能为单挑把区域长时间留空。 工具分析：格斯保护进区者，健次从侧面迫使防守转向，科莱特处理高血量目标；护盾与切入时机需要同步。",
+      "conditions": [
+        "这是特定对手下的职业选择，不能当作无条件阵容推荐；逐手完整选禁仍未核验。"
+      ]
+    },
+    {
+      "sourceId": "youtube:9CQQ04lg-sQ",
+      "mapId": 15000022,
+      "mode": "Bounty",
+      "heroIds": [],
+      "currentStrengthEvidence": false,
+      "startSeconds": 31815,
+      "url": "https://www.youtube.com/watch?v=9CQQ04lg-sQ",
+      "summary": "2026挑战者总决赛 · 伊斯坦布尔职业对局的完整阵容已核对关键画面。工具分析：露米用回收弹道限制走位，珀尔保留蓄热火力，吉恩拉到目标时同步集火；不要把所有输出都交在召唤物上。 工具分析：P先生的召唤物消耗对方弹药和拉人机会，梅格向前争位，蜜娜在另一角度跟进；保持能撤回支援线的距离。",
+      "conditions": [
+        "这是特定对手下的职业选择，不能当作无条件阵容推荐；逐手完整选禁仍未核验。"
+      ]
+    },
+    {
+      "sourceId": "youtube:9CQQ04lg-sQ",
+      "mapId": 15000118,
+      "mode": "Brawl Ball",
+      "heroIds": [],
+      "currentStrengthEvidence": false,
+      "startSeconds": 32565,
+      "url": "https://www.youtube.com/watch?v=9CQQ04lg-sQ",
+      "summary": "2026挑战者总决赛 · 伊斯坦布尔职业对局的完整阵容已核对关键画面。工具分析：梅格维持正面压力，布洛克与米宝从不同射线支援；破墙前先约定球的位置和回防路线，避免只顾扩大射程。 工具分析：格里夫清线，科莱特压制高血量防守者，阿萌从侧面或地下切入；必须先有火力掩护，再用机动位推进球。",
       "conditions": [
         "这是特定对手下的职业选择，不能当作无条件阵容推荐；逐手完整选禁仍未核验。"
       ]

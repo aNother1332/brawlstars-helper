@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-23",
-  "version": "研究试点 v0.4",
+  "updatedAt": "2026-10-24",
+  "version": "研究试点 v0.5",
   "currentPatchVerified": false,
   "notice": "组合包括机制推导与已核验职业三英雄模板，配合执行说明均为工具整理；尚未完成国服当前版本与三人实战验证，不代表当前胜率排名。职业模板保留原对手条件，缺证据的地图不补虚构阵容。",
   "sources": [
@@ -311,6 +311,40 @@
       "evidenceType": "automatic_captions"
     },
     {
+      "id": "youtube:ZIGzQ-zJFWc",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=ZIGzQ-zJFWc",
+      "title": "Brawl Stars Championship 2026 | August Monthly Finals | East Asia",
+      "author": "Brawl Stars Esports",
+      "publishedAt": "2026-08-08",
+      "dataAsOf": null,
+      "read": true,
+      "status": "historical_pending_current_patch_review",
+      "visualChecked": true,
+      "reviewedRangesSeconds": [
+        [
+          18740,
+          18800
+        ],
+        [
+          19375,
+          19435
+        ],
+        [
+          19835,
+          19895
+        ]
+      ],
+      "region": "international_competitive",
+      "variantOnly": false,
+      "kind": "professional_match_vod",
+      "recent": true,
+      "validityNotes": [
+        "只核对本批列出的选角片段；8月与9月赛事不能当作10月补丁下的强度统计。"
+      ],
+      "evidenceType": "automatic_captions"
+    },
+    {
       "id": "brawlzone-trio-snapshot-20261023-layer-cake",
       "platform": "web",
       "url": "https://brawlzone.net/maps/bounty/layer-cake",
@@ -437,6 +471,66 @@
       "visualChecked": false,
       "reviewedRangesSeconds": [],
       "evidenceType": "map_statistics"
+    },
+    {
+      "id": "youtube:HkNGnN8xFe8",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=HkNGnN8xFe8",
+      "title": "Brawl Stars Championship 2026 | August Monthly Finals | EMEA",
+      "author": "Brawl Stars Esports",
+      "publishedAt": "2026-08-09",
+      "dataAsOf": null,
+      "read": true,
+      "status": "historical_pending_current_patch_review",
+      "visualChecked": true,
+      "reviewedRangesSeconds": [
+        [
+          17205,
+          17265
+        ],
+        [
+          20700,
+          20760
+        ]
+      ],
+      "region": "international_competitive",
+      "variantOnly": false,
+      "kind": "professional_match_vod",
+      "recent": true,
+      "validityNotes": [
+        "只核对本批列出的选角片段；8月与9月赛事不能当作10月补丁下的强度统计。"
+      ],
+      "evidenceType": "automatic_captions"
+    },
+    {
+      "id": "youtube:d2Rvo0w8Ejo",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=d2Rvo0w8Ejo",
+      "title": "Brawl Stars Championship 2026 | August Monthly Finals | North America",
+      "author": "Brawl Stars Esports",
+      "publishedAt": "2026-08-17",
+      "dataAsOf": null,
+      "read": true,
+      "status": "historical_pending_current_patch_review",
+      "visualChecked": true,
+      "reviewedRangesSeconds": [
+        [
+          15295,
+          15355
+        ],
+        [
+          20155,
+          20215
+        ]
+      ],
+      "region": "international_competitive",
+      "variantOnly": false,
+      "kind": "professional_match_vod",
+      "recent": true,
+      "validityNotes": [
+        "只核对本批列出的选角片段；8月与9月赛事不能当作10月补丁下的强度统计。"
+      ],
+      "evidenceType": "automatic_captions"
     },
     {
       "id": "brawlpick-map-safe-zone",
@@ -610,6 +704,78 @@
       "recent": false,
       "validityNotes": [],
       "evidenceType": "local_asr"
+    },
+    {
+      "id": "youtube:oPpaTsWQzOY",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=oPpaTsWQzOY",
+      "title": "Brawl Stars Championship 2026 | August Monthly Finals | South America",
+      "author": "Brawl Stars Esports",
+      "publishedAt": "2026-08-16",
+      "dataAsOf": null,
+      "read": true,
+      "status": "historical_pending_current_patch_review",
+      "visualChecked": true,
+      "reviewedRangesSeconds": [
+        [
+          19925,
+          19985
+        ],
+        [
+          20585,
+          20645
+        ],
+        [
+          22005,
+          22065
+        ]
+      ],
+      "region": "international_competitive",
+      "variantOnly": false,
+      "kind": "professional_match_vod",
+      "recent": true,
+      "validityNotes": [
+        "只核对本批列出的选角片段；8月与9月赛事不能当作10月补丁下的强度统计。"
+      ],
+      "evidenceType": "automatic_captions"
+    },
+    {
+      "id": "youtube:9CQQ04lg-sQ",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=9CQQ04lg-sQ",
+      "title": "Brawl Stars Challengers Finals | Day 2",
+      "author": "Brawl Stars Esports",
+      "publishedAt": "2026-09-06",
+      "dataAsOf": null,
+      "read": true,
+      "status": "historical_pending_current_patch_review",
+      "visualChecked": true,
+      "reviewedRangesSeconds": [
+        [
+          30400,
+          30460
+        ],
+        [
+          31195,
+          31255
+        ],
+        [
+          31815,
+          31875
+        ],
+        [
+          32565,
+          32625
+        ]
+      ],
+      "region": "international_competitive",
+      "variantOnly": false,
+      "kind": "professional_match_vod",
+      "recent": true,
+      "validityNotes": [
+        "只核对本批列出的选角片段；8月与9月赛事不能当作10月补丁下的强度统计。"
+      ],
+      "evidenceType": "automatic_captions"
     },
     {
       "id": "brawlpick-map-pinball-dreams",
@@ -1292,7 +1458,7 @@
           "professionalCaseId": "lcq2026-day1-skc-toc-hard-rock",
           "startSeconds": 13520,
           "url": "https://www.youtube.com/watch?v=UWXyKZl3e_A&t=13520s",
-          "claim": "LCQ双方完整三英雄阵容已核对。工具分析：硬石矿井的持宝位需要边路争出退路。定点中路加前排与钻地压力，和蓄热中路加双侧机动，是不同的空间争夺方案。",
+          "claim": "2026 LCQ · 广州双方完整三英雄阵容已核对。工具分析：硬石矿井的持宝位需要边路争出退路。定点中路加前排与钻地压力，和蓄热中路加双侧机动，是不同的空间争夺方案。",
           "completeTeamObserved": true,
           "evidenceType": "professional_visual_roster"
         }
@@ -1962,7 +2128,7 @@
           "professionalCaseId": "lcq2026-day2-fut-kds-hot-potato",
           "startSeconds": 7218,
           "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=7218s",
-          "claim": "LCQ双方完整三英雄阵容已核对。KDS以Nori制造进攻空间，妮塔的熊提供金库压力；科迪琉斯需要处理科莱特的关键输出窗口。 FUT采用科莱特的远程金库输出、艾魅的中场控制与麦茜的防近身，展示同图两种不同的攻防结构。 解说讨论科迪琉斯对科莱特大招的打断；实际交互取决于时机和当前版本，不能自动当作必定成功的反制。",
+          "claim": "2026 LCQ · 广州双方完整三英雄阵容已核对。KDS以Nori制造进攻空间，妮塔的熊提供金库压力；科迪琉斯需要处理科莱特的关键输出窗口。 FUT采用科莱特的远程金库输出、艾魅的中场控制与麦茜的防近身，展示同图两种不同的攻防结构。 解说讨论科迪琉斯对科莱特大招的打断；实际交互取决于时机和当前版本，不能自动当作必定成功的反制。",
           "completeTeamObserved": true,
           "evidenceType": "professional_visual_roster"
         }
@@ -3326,7 +3492,7 @@
           "professionalCaseId": "lcq2026-day2-skc-loud-belles-rock",
           "startSeconds": 2998,
           "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=2998s",
-          "claim": "LCQ双方完整三英雄阵容已核对。解说称Mina能提供分路交换主动权，Gus提供支援与自保；这是解说对LOUD阵容功能的解释。 Darryl的被动大招积累提供后期进场威胁；解说据此描述队友争取时间的计划。 不能把三个看起来各司其职的英雄自动称作有强协同：3550秒后解说回顾SK的Belle/Amber/Darryl时明确质疑其协同，只认为各自承担某种角色。",
+          "claim": "2026 LCQ · 广州双方完整三英雄阵容已核对。解说称Mina能提供分路交换主动权，Gus提供支援与自保；这是解说对LOUD阵容功能的解释。 Darryl的被动大招积累提供后期进场威胁；解说据此描述队友争取时间的计划。 不能把三个看起来各司其职的英雄自动称作有强协同：3550秒后解说回顾SK的Belle/Amber/Darryl时明确质疑其协同，只认为各自承担某种角色。",
           "completeTeamObserved": true,
           "evidenceType": "professional_visual_roster"
         }
@@ -3561,6 +3727,7 @@
           "evidenceRefs": [
             "youtube:5iHVKzN0c5M",
             "youtube:UWXyKZl3e_A",
+            "youtube:ZIGzQ-zJFWc",
             "brawlzone-trio-snapshot-20261023-layer-cake"
           ],
           "substitutions": [],
@@ -3602,6 +3769,7 @@
           "evidenceRefs": [
             "youtube:5iHVKzN0c5M",
             "youtube:UWXyKZl3e_A",
+            "youtube:ZIGzQ-zJFWc",
             "brawlzone-trio-snapshot-20261023-layer-cake"
           ],
           "substitutions": [],
@@ -3698,6 +3866,90 @@
           "professionalReference": {
             "caseId": "lcq2026-day1-axr-fut-layer-cake",
             "teamName": "FUT FreeZone"
+          }
+        },
+        {
+          "title": "8月东亚 · ZETA DIVISION的赏金配合",
+          "synergy": "布洛克与黑鸦先消耗和限制退路，阿莉等敌人分散或血量下降后从侧面切入；阿莉不能与破墙后的远程线脱节。",
+          "risk": "原对手为斯图、谜宝、西里乌斯。不利交换会让整队持续追分，缺员时要及时收回射线，不能把一次职业选择当成无条件强势。",
+          "loadout": "职业三英雄已核对；妙具与星徽参考来自独立教学证据，不能认为职业选手在此局使用同一配装。原赛事机制需按后续补丁复核。",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三英雄来自官方画面；以下分工、触发与回撤是工具分析，非选手意图或实战验证。",
+            "steps": [
+              "布洛克负责远程火力与破墙；鳄梨负责草区绕侧与近身切入；黑鸦负责毒伤消耗与限制恢复。先约定能互相支援的位置。",
+              "先报目标并同步消耗，击杀后收回安全线，不因追第二个人头丢掉交换优势。",
+              "领先时优先保护血量与蓝星，失去一侧视野就收缩；别把救人变成连续送分。"
+            ]
+          },
+          "id": "aug26-ea-gf-layer-cake-side-1",
+          "kind": "mechanism_inference",
+          "status": "职业三英雄已核验 · 配合与版本待实战",
+          "members": [
+            {
+              "heroId": 16000003,
+              "role": "远程火力与破墙"
+            },
+            {
+              "heroId": 16000095,
+              "role": "草区绕侧与近身切入"
+            },
+            {
+              "heroId": 16000012,
+              "role": "毒伤消耗与限制恢复"
+            }
+          ],
+          "mapFitBand": 1,
+          "cooperationBand": 2,
+          "evidenceRefs": [
+            "youtube:ZIGzQ-zJFWc"
+          ],
+          "substitutions": [],
+          "professionalReference": {
+            "caseId": "aug26-ea-gf-layer-cake",
+            "teamName": "ZETA DIVISION"
+          }
+        },
+        {
+          "title": "8月东亚 · Crazy Raccoon的赏金配合",
+          "synergy": "斯图保持移动牵制，米宝围绕掩体支援射线，西里乌斯用影子增加交火目标；控制住中路后再拓展侧路。",
+          "risk": "原对手为布洛克、鳄梨、黑鸦。不利交换会让整队持续追分，缺员时要及时收回射线，不能把一次职业选择当成无条件强势。",
+          "loadout": "职业三英雄已核对；妙具与星徽参考来自独立教学证据，不能认为职业选手在此局使用同一配装。原赛事机制需按后续补丁复核。",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三英雄来自官方画面；以下分工、触发与回撤是工具分析，非选手意图或实战验证。",
+            "steps": [
+              "斯图负责机动拉扯与边线牵制；谜宝负责掩体周围的射线支援；西里乌斯负责影子压力与多目标牵制。先约定能互相支援的位置。",
+              "先报目标并同步消耗，击杀后收回安全线，不因追第二个人头丢掉交换优势。",
+              "领先时优先保护血量与蓝星，失去一侧视野就收缩；别把救人变成连续送分。"
+            ]
+          },
+          "id": "aug26-ea-gf-layer-cake-side-2",
+          "kind": "mechanism_inference",
+          "status": "职业三英雄已核验 · 配合与版本待实战",
+          "members": [
+            {
+              "heroId": 16000045,
+              "role": "机动拉扯与边线牵制"
+            },
+            {
+              "heroId": 16000089,
+              "role": "掩体周围的射线支援"
+            },
+            {
+              "heroId": 16000102,
+              "role": "影子压力与多目标牵制"
+            }
+          ],
+          "mapFitBand": 1,
+          "cooperationBand": 2,
+          "evidenceRefs": [
+            "youtube:ZIGzQ-zJFWc"
+          ],
+          "substitutions": [],
+          "professionalReference": {
+            "caseId": "aug26-ea-gf-layer-cake",
+            "teamName": "Crazy Raccoon"
           }
         }
       ],
@@ -3845,6 +4097,54 @@
           "startSeconds": 19665,
           "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
           "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Brock",
+          "role": "远程火力与破墙",
+          "sourceId": "youtube:ZIGzQ-zJFWc",
+          "startSeconds": 19420,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Alli",
+          "role": "草区绕侧与近身切入",
+          "sourceId": "youtube:ZIGzQ-zJFWc",
+          "startSeconds": 19420,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Crow",
+          "role": "毒伤消耗与限制恢复",
+          "sourceId": "youtube:ZIGzQ-zJFWc",
+          "startSeconds": 19420,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Stu",
+          "role": "机动拉扯与边线牵制",
+          "sourceId": "youtube:ZIGzQ-zJFWc",
+          "startSeconds": 19420,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Meeple",
+          "role": "掩体周围的射线支援",
+          "sourceId": "youtube:ZIGzQ-zJFWc",
+          "startSeconds": 19420,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Sirius",
+          "role": "影子压力与多目标牵制",
+          "sourceId": "youtube:ZIGzQ-zJFWc",
+          "startSeconds": 19420,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
         }
       ],
       "mechanismEvidence": [
@@ -3865,6 +4165,14 @@
           "evidenceType": "professional_match_vod"
         },
         {
+          "sourceId": "youtube:ZIGzQ-zJFWc",
+          "startSeconds": 19375,
+          "url": "https://www.youtube.com/watch?v=ZIGzQ-zJFWc",
+          "claim": "2026月度决赛 · 8月东亚职业对局的完整阵容已核对关键画面。工具分析：布洛克与黑鸦先消耗和限制退路，阿莉等敌人分散或血量下降后从侧面切入；阿莉不能与破墙后的远程线脱节。 工具分析：斯图保持移动牵制，米宝围绕掩体支援射线，西里乌斯用影子增加交火目标；控制住中路后再拓展侧路。",
+          "completeTeamObserved": false,
+          "evidenceType": "professional_match_vod"
+        },
+        {
           "sourceId": "brawlzone-trio-snapshot-20261023-layer-cake",
           "startSeconds": null,
           "url": "https://brawlzone.net/maps/bounty/layer-cake",
@@ -3877,7 +4185,16 @@
           "professionalCaseId": "lcq2026-day1-axr-fut-layer-cake",
           "startSeconds": 19665,
           "url": "https://www.youtube.com/watch?v=UWXyKZl3e_A&t=19665s",
-          "claim": "LCQ双方完整三英雄阵容已核对。工具分析：夹心蛋糕的跨墙消耗要转化为站位优势。机动英雄需要先等消耗与支援到位，不能把可越过墙体理解成无条件切后排。",
+          "claim": "2026 LCQ · 广州双方完整三英雄阵容已核对。工具分析：夹心蛋糕的跨墙消耗要转化为站位优势。机动英雄需要先等消耗与支援到位，不能把可越过墙体理解成无条件切后排。",
+          "completeTeamObserved": true,
+          "evidenceType": "professional_visual_roster"
+        },
+        {
+          "sourceId": "youtube:ZIGzQ-zJFWc",
+          "professionalCaseId": "aug26-ea-gf-layer-cake",
+          "startSeconds": 19420,
+          "url": "https://www.youtube.com/watch?v=ZIGzQ-zJFWc&t=19420s",
+          "claim": "2026月度决赛 · 8月东亚双方完整三英雄阵容已核对。工具分析：布洛克与黑鸦先消耗和限制退路，阿莉等敌人分散或血量下降后从侧面切入；阿莉不能与破墙后的远程线脱节。 工具分析：斯图保持移动牵制，米宝围绕掩体支援射线，西里乌斯用影子增加交火目标；控制住中路后再拓展侧路。",
           "completeTeamObserved": true,
           "evidenceType": "professional_visual_roster"
         }
@@ -4588,7 +4905,7 @@
           "professionalCaseId": "lcq2026-day2-skc-loud-kaboom",
           "startSeconds": 5730,
           "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=5730s",
-          "claim": "LCQ双方完整三英雄阵容已核对。解说把轰隆峡谷分成后排渗透与中场控制两条思路：侵入者牵制防守，队友争草区与通路。 解说认为LOUD的Nori具有后排渗透威胁，而SK缺少相应的进攻切入与足够射程；这是一场对局分析，不是全地图胜率结论。 解说提到训练赛数字，未核验其原始样本，因此不写入产品的胜率或英雄强度评分。",
+          "claim": "2026 LCQ · 广州双方完整三英雄阵容已核对。解说把轰隆峡谷分成后排渗透与中场控制两条思路：侵入者牵制防守，队友争草区与通路。 解说认为LOUD的Nori具有后排渗透威胁，而SK缺少相应的进攻切入与足够射程；这是一场对局分析，不是全地图胜率结论。 解说提到训练赛数字，未核验其原始样本，因此不写入产品的胜率或英雄强度评分。",
           "completeTeamObserved": true,
           "evidenceType": "professional_visual_roster"
         }
@@ -4636,6 +4953,8 @@
           "mapFitBand": 1,
           "evidenceRefs": [
             "youtube:UWXyKZl3e_A",
+            "youtube:HkNGnN8xFe8",
+            "youtube:d2Rvo0w8Ejo",
             "brawlpick-map-safe-zone",
             "brawlzone-trio-snapshot-20261023-safe-zone"
           ],
@@ -4902,6 +5221,174 @@
             "caseId": "lcq2026-day1-loud-navi-safe-zone",
             "teamName": "NAVI"
           }
+        },
+        {
+          "title": "8月EMEA · HMBLE的攻守配合",
+          "synergy": "潘妮通过炮台持续施压，拜伦接应占线者，奥蒂斯保留沉默保护防守；不能为了追击阿莉让对方柯尔特无人处理。",
+          "risk": "原对手为鳄梨、格鲁伊、柯尔特。守家与进攻必须交接，金库压力不能依赖对手忽略防守；查克等英雄经历后续重做，旧版路线和循环不能直接照搬。",
+          "loadout": "职业三英雄已核对；妙具与星徽参考来自独立教学证据，不能认为职业选手在此局使用同一配装。原赛事机制需按后续补丁复核。",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三英雄来自官方画面；以下分工、触发与回撤是工具分析，非选手意图或实战验证。",
+            "steps": [
+              "潘妮负责炮台压力与路线控制；拜伦负责远程治疗与消耗；奥蒂斯负责沉默反突进与持续输出。先约定能互相支援的位置。",
+              "先约定谁留守、谁压侧、谁摸金库；突破者报到位后再同步输出，避免三人各自换家。",
+              "攻势断开时立即报金库血量与防守人数；有人回防接手后，另一侧才继续压进。"
+            ]
+          },
+          "id": "aug26-emea-sf-safe-zone-side-1",
+          "kind": "mechanism_inference",
+          "status": "职业三英雄已核验 · 配合与版本待实战",
+          "members": [
+            {
+              "heroId": 16000019,
+              "role": "炮台压力与路线控制"
+            },
+            {
+              "heroId": 16000042,
+              "role": "远程治疗与消耗"
+            },
+            {
+              "heroId": 16000059,
+              "role": "沉默反突进与持续输出"
+            }
+          ],
+          "mapFitBand": 1,
+          "cooperationBand": 2,
+          "evidenceRefs": [
+            "youtube:HkNGnN8xFe8"
+          ],
+          "substitutions": [],
+          "professionalReference": {
+            "caseId": "aug26-emea-sf-safe-zone",
+            "teamName": "HMBLE"
+          }
+        },
+        {
+          "title": "8月EMEA · Team Heretics的攻守配合",
+          "synergy": "格鲁伊支援阿莉接近后排，柯尔特利用另一条射线给金库压力；治疗位不要跟切入者同时深入。",
+          "risk": "原对手为潘妮、拜伦、奥蒂斯。守家与进攻必须交接，金库压力不能依赖对手忽略防守；查克等英雄经历后续重做，旧版路线和循环不能直接照搬。",
+          "loadout": "职业三英雄已核对；妙具与星徽参考来自独立教学证据，不能认为职业选手在此局使用同一配装。原赛事机制需按后续补丁复核。",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三英雄来自官方画面；以下分工、触发与回撤是工具分析，非选手意图或实战验证。",
+            "steps": [
+              "鳄梨负责草区绕侧与近身切入；格鲁伊负责治疗接应与前线续航；柯尔特负责直线输出与金库火力。先约定能互相支援的位置。",
+              "先约定谁留守、谁压侧、谁摸金库；突破者报到位后再同步输出，避免三人各自换家。",
+              "攻势断开时立即报金库血量与防守人数；有人回防接手后，另一侧才继续压进。"
+            ]
+          },
+          "id": "aug26-emea-sf-safe-zone-side-2",
+          "kind": "mechanism_inference",
+          "status": "职业三英雄已核验 · 配合与版本待实战",
+          "members": [
+            {
+              "heroId": 16000095,
+              "role": "草区绕侧与近身切入"
+            },
+            {
+              "heroId": 16000101,
+              "role": "治疗接应与前线续航"
+            },
+            {
+              "heroId": 16000001,
+              "role": "直线输出与金库火力"
+            }
+          ],
+          "mapFitBand": 1,
+          "cooperationBand": 2,
+          "evidenceRefs": [
+            "youtube:HkNGnN8xFe8"
+          ],
+          "substitutions": [],
+          "professionalReference": {
+            "caseId": "aug26-emea-sf-safe-zone",
+            "teamName": "Team Heretics"
+          }
+        },
+        {
+          "title": "8月北美 · Team Elektros的攻守配合",
+          "synergy": "拉夫上校支援团队火力，奥蒂斯处理防守和近身威胁，查克寻找金库突入窗口；该历史查克案例早于后续重做，不能照搬当时的轨道循环。",
+          "risk": "原对手为格罗姆、邦妮、芬克斯。守家与进攻必须交接，金库压力不能依赖对手忽略防守；查克等英雄经历后续重做，旧版路线和循环不能直接照搬。",
+          "loadout": "职业三英雄已核对；妙具与星徽参考来自独立教学证据，不能认为职业选手在此局使用同一配装。原赛事机制需按后续补丁复核。",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三英雄来自官方画面；以下分工、触发与回撤是工具分析，非选手意图或实战验证。",
+            "steps": [
+              "拉夫负责团队强化与弹射掩护；奥蒂斯负责沉默反突进与持续输出；查克负责轨道突入与金库压力。先约定能互相支援的位置。",
+              "先约定谁留守、谁压侧、谁摸金库；突破者报到位后再同步输出，避免三人各自换家。",
+              "攻势断开时立即报金库血量与防守人数；有人回防接手后，另一侧才继续压进。"
+            ]
+          },
+          "id": "aug26-na-sf-safe-zone-side-1",
+          "kind": "mechanism_inference",
+          "status": "职业三英雄已核验 · 配合与版本待实战",
+          "members": [
+            {
+              "heroId": 16000044,
+              "role": "团队强化与弹射掩护"
+            },
+            {
+              "heroId": 16000059,
+              "role": "沉默反突进与持续输出"
+            },
+            {
+              "heroId": 16000073,
+              "role": "轨道突入与金库压力"
+            }
+          ],
+          "mapFitBand": 1,
+          "cooperationBand": 2,
+          "evidenceRefs": [
+            "youtube:d2Rvo0w8Ejo"
+          ],
+          "substitutions": [],
+          "professionalReference": {
+            "caseId": "aug26-na-sf-safe-zone",
+            "teamName": "Team Elektros"
+          }
+        },
+        {
+          "title": "8月北美 · Vatic Esports的攻守配合",
+          "synergy": "格罗姆用隔墙输出压迫金库，芬克斯争取区域控制，邦妮在技能到位时接入进攻；必须提前约定如何应对另一侧的查克。",
+          "risk": "原对手为拉夫、奥蒂斯、查克。守家与进攻必须交接，金库压力不能依赖对手忽略防守；查克等英雄经历后续重做，旧版路线和循环不能直接照搬。",
+          "loadout": "职业三英雄已核对；妙具与星徽参考来自独立教学证据，不能认为职业选手在此局使用同一配装。原赛事机制需按后续补丁复核。",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三英雄来自官方画面；以下分工、触发与回撤是工具分析，非选手意图或实战验证。",
+            "steps": [
+              "格罗姆负责隔墙火力与定点压制；邦妮负责远程蓄势与跳跃切入；芬克斯负责时间区域控制与射线支援。先约定能互相支援的位置。",
+              "先约定谁留守、谁压侧、谁摸金库；突破者报到位后再同步输出，避免三人各自换家。",
+              "攻势断开时立即报金库血量与防守人数；有人回防接手后，另一侧才继续压进。"
+            ]
+          },
+          "id": "aug26-na-sf-safe-zone-side-2",
+          "kind": "mechanism_inference",
+          "status": "职业三英雄已核验 · 配合与版本待实战",
+          "members": [
+            {
+              "heroId": 16000048,
+              "role": "隔墙火力与定点压制"
+            },
+            {
+              "heroId": 16000058,
+              "role": "远程蓄势与跳跃切入"
+            },
+            {
+              "heroId": 16000092,
+              "role": "时间区域控制与射线支援"
+            }
+          ],
+          "mapFitBand": 1,
+          "cooperationBand": 2,
+          "evidenceRefs": [
+            "youtube:d2Rvo0w8Ejo"
+          ],
+          "substitutions": [],
+          "professionalReference": {
+            "caseId": "aug26-na-sf-safe-zone",
+            "teamName": "Vatic Esports"
+          }
         }
       ],
       "candidates": [
@@ -5112,6 +5599,102 @@
           "startSeconds": 16510,
           "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
           "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Penny",
+          "role": "炮台压力与路线控制",
+          "sourceId": "youtube:HkNGnN8xFe8",
+          "startSeconds": 17250,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Byron",
+          "role": "远程治疗与消耗",
+          "sourceId": "youtube:HkNGnN8xFe8",
+          "startSeconds": 17250,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Otis",
+          "role": "沉默反突进与持续输出",
+          "sourceId": "youtube:HkNGnN8xFe8",
+          "startSeconds": 17250,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Alli",
+          "role": "草区绕侧与近身切入",
+          "sourceId": "youtube:HkNGnN8xFe8",
+          "startSeconds": 17250,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Glowy",
+          "role": "治疗接应与前线续航",
+          "sourceId": "youtube:HkNGnN8xFe8",
+          "startSeconds": 17250,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Colt",
+          "role": "直线输出与金库火力",
+          "sourceId": "youtube:HkNGnN8xFe8",
+          "startSeconds": 17250,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Ruffs",
+          "role": "团队强化与弹射掩护",
+          "sourceId": "youtube:d2Rvo0w8Ejo",
+          "startSeconds": 15340,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Otis",
+          "role": "沉默反突进与持续输出",
+          "sourceId": "youtube:d2Rvo0w8Ejo",
+          "startSeconds": 15340,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Chuck",
+          "role": "轨道突入与金库压力",
+          "sourceId": "youtube:d2Rvo0w8Ejo",
+          "startSeconds": 15340,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Grom",
+          "role": "隔墙火力与定点压制",
+          "sourceId": "youtube:d2Rvo0w8Ejo",
+          "startSeconds": 15340,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Bonnie",
+          "role": "远程蓄势与跳跃切入",
+          "sourceId": "youtube:d2Rvo0w8Ejo",
+          "startSeconds": 15340,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Finx",
+          "role": "时间区域控制与射线支援",
+          "sourceId": "youtube:d2Rvo0w8Ejo",
+          "startSeconds": 15340,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
         }
       ],
       "mechanismEvidence": [
@@ -5140,6 +5723,22 @@
           "evidenceType": "professional_match_vod"
         },
         {
+          "sourceId": "youtube:HkNGnN8xFe8",
+          "startSeconds": 17205,
+          "url": "https://www.youtube.com/watch?v=HkNGnN8xFe8",
+          "claim": "2026月度决赛 · 8月EMEA职业对局的完整阵容已核对关键画面。工具分析：潘妮通过炮台持续施压，拜伦接应占线者，奥蒂斯保留沉默保护防守；不能为了追击阿莉让对方柯尔特无人处理。 工具分析：格鲁伊支援阿莉接近后排，柯尔特利用另一条射线给金库压力；治疗位不要跟切入者同时深入。",
+          "completeTeamObserved": false,
+          "evidenceType": "professional_match_vod"
+        },
+        {
+          "sourceId": "youtube:d2Rvo0w8Ejo",
+          "startSeconds": 15295,
+          "url": "https://www.youtube.com/watch?v=d2Rvo0w8Ejo",
+          "claim": "2026月度决赛 · 8月北美职业对局的完整阵容已核对关键画面。工具分析：拉夫上校支援团队火力，奥蒂斯处理防守和近身威胁，查克寻找金库突入窗口；该历史查克案例早于后续重做，不能照搬当时的轨道循环。 工具分析：格罗姆用隔墙输出压迫金库，芬克斯争取区域控制，邦妮在技能到位时接入进攻；必须提前约定如何应对另一侧的查克。",
+          "completeTeamObserved": false,
+          "evidenceType": "professional_match_vod"
+        },
+        {
           "sourceId": "brawlpick-map-safe-zone",
           "startSeconds": null,
           "url": "https://www.brawlpick.app/map-stats/safe-zone",
@@ -5160,7 +5759,7 @@
           "professionalCaseId": "lcq2026-day1-skc-toc-safe-zone",
           "startSeconds": 12900,
           "url": "https://www.youtube.com/watch?v=UWXyKZl3e_A&t=12900s",
-          "claim": "LCQ双方完整三英雄阵容已核对。工具分析：安全区域需要区分中路火力、渗透与守家。回复可支持中线维持，渗透与火车路线则需要队友先压住入口，不能三人同时离家。",
+          "claim": "2026 LCQ · 广州双方完整三英雄阵容已核对。工具分析：安全区域需要区分中路火力、渗透与守家。回复可支持中线维持，渗透与火车路线则需要队友先压住入口，不能三人同时离家。",
           "completeTeamObserved": true,
           "evidenceType": "professional_visual_roster"
         },
@@ -5169,7 +5768,7 @@
           "professionalCaseId": "lcq2026-day1-toc-loud-safe-zone",
           "startSeconds": 25700,
           "url": "https://www.youtube.com/watch?v=UWXyKZl3e_A&t=25700s",
-          "claim": "LCQ双方完整三英雄阵容已核对。工具分析：双持续火力与绕侧控制需要先创造压库路线；护盾加反突进则能支持渗透者牵制。两者都需要在进攻和守家之间交接职责。",
+          "claim": "2026 LCQ · 广州双方完整三英雄阵容已核对。工具分析：双持续火力与绕侧控制需要先创造压库路线；护盾加反突进则能支持渗透者牵制。两者都需要在进攻和守家之间交接职责。",
           "completeTeamObserved": true,
           "evidenceType": "professional_visual_roster"
         },
@@ -5178,7 +5777,25 @@
           "professionalCaseId": "lcq2026-day1-loud-navi-safe-zone",
           "startSeconds": 16510,
           "url": "https://www.youtube.com/watch?v=UWXyKZl3e_A&t=16510s",
-          "claim": "LCQ双方完整三英雄阵容已核对。工具分析：安全区域可以围绕定点爆发与侧翼渗透，也可以由回复支援中距弹射和机动推进。墙体的保留与拆除必须服务于整队射线。",
+          "claim": "2026 LCQ · 广州双方完整三英雄阵容已核对。工具分析：安全区域可以围绕定点爆发与侧翼渗透，也可以由回复支援中距弹射和机动推进。墙体的保留与拆除必须服务于整队射线。",
+          "completeTeamObserved": true,
+          "evidenceType": "professional_visual_roster"
+        },
+        {
+          "sourceId": "youtube:HkNGnN8xFe8",
+          "professionalCaseId": "aug26-emea-sf-safe-zone",
+          "startSeconds": 17250,
+          "url": "https://www.youtube.com/watch?v=HkNGnN8xFe8&t=17250s",
+          "claim": "2026月度决赛 · 8月EMEA双方完整三英雄阵容已核对。工具分析：潘妮通过炮台持续施压，拜伦接应占线者，奥蒂斯保留沉默保护防守；不能为了追击阿莉让对方柯尔特无人处理。 工具分析：格鲁伊支援阿莉接近后排，柯尔特利用另一条射线给金库压力；治疗位不要跟切入者同时深入。",
+          "completeTeamObserved": true,
+          "evidenceType": "professional_visual_roster"
+        },
+        {
+          "sourceId": "youtube:d2Rvo0w8Ejo",
+          "professionalCaseId": "aug26-na-sf-safe-zone",
+          "startSeconds": 15340,
+          "url": "https://www.youtube.com/watch?v=d2Rvo0w8Ejo&t=15340s",
+          "claim": "2026月度决赛 · 8月北美双方完整三英雄阵容已核对。工具分析：拉夫上校支援团队火力，奥蒂斯处理防守和近身威胁，查克寻找金库突入窗口；该历史查克案例早于后续重做，不能照搬当时的轨道循环。 工具分析：格罗姆用隔墙输出压迫金库，芬克斯争取区域控制，邦妮在技能到位时接入进攻；必须提前约定如何应对另一侧的查克。",
           "completeTeamObserved": true,
           "evidenceType": "professional_visual_roster"
         }
@@ -5735,7 +6352,7 @@
           "professionalCaseId": "lcq2026-day2-fut-kds-triple-dribble",
           "startSeconds": 7835,
           "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=7835s",
-          "claim": "LCQ双方完整三英雄阵容已核对。瑞科利用侧墙，拉里和劳里从墙后压低血线，健次提供近身威胁；对面若用投掷反压瑞科，也要顾忌健次的切入。 解说认为FUT过早拿出斯派克后，KDS的投掷能利用其无法隔墙攻击的弱点；属于这次选角的具体对位分析。 解说对FUT末补Melodie的练习基础和通用性提出疑问，不能因为职业选过就把该组合列为稳健推荐。",
+          "claim": "2026 LCQ · 广州双方完整三英雄阵容已核对。瑞科利用侧墙，拉里和劳里从墙后压低血线，健次提供近身威胁；对面若用投掷反压瑞科，也要顾忌健次的切入。 解说认为FUT过早拿出斯派克后，KDS的投掷能利用其无法隔墙攻击的弱点；属于这次选角的具体对位分析。 解说对FUT末补Melodie的练习基础和通用性提出疑问，不能因为职业选过就把该组合列为稳健推荐。",
           "completeTeamObserved": true,
           "evidenceType": "professional_visual_roster"
         },
@@ -5744,7 +6361,7 @@
           "professionalCaseId": "lcq2026-day1-axr-fut-triple-dribble",
           "startSeconds": 17770,
           "url": "https://www.youtube.com/watch?v=UWXyKZl3e_A&t=17770s",
-          "claim": "LCQ双方完整三英雄阵容已核对。工具分析：三重威胁的绕墙入口可用近身争球或隔墙封锁处理。进攻前确认球权、弹药和队友跟进，防守阵容也要在逼退后及时转控球。",
+          "claim": "2026 LCQ · 广州双方完整三英雄阵容已核对。工具分析：三重威胁的绕墙入口可用近身争球或隔墙封锁处理。进攻前确认球权、弹药和队友跟进，防守阵容也要在逼退后及时转控球。",
           "completeTeamObserved": true,
           "evidenceType": "professional_visual_roster"
         }
@@ -6124,6 +6741,9 @@
           "evidenceRefs": [
             "youtube:5iHVKzN0c5M",
             "bilibili:BV1npQAYjE98",
+            "youtube:HkNGnN8xFe8",
+            "youtube:oPpaTsWQzOY",
+            "youtube:9CQQ04lg-sQ",
             "brawlpick-map-pinball-dreams",
             "brawlzone-trio-snapshot-20261023-pinball-dreams"
           ],
@@ -6238,6 +6858,258 @@
           "status": "地图组合样本快照 · 配合与版本待验证",
           "mapFitBand": 1,
           "substitutions": []
+        },
+        {
+          "title": "8月EMEA · FUT Esports的球场配合",
+          "synergy": "斯图牵制一侧，米宝支援墙边射线，巴兹等防守者站位拉开后控制进场；切入目标要让队友跟得上。",
+          "risk": "原对手为达米安、艾魅、麦克斯。近身推进与远程火力必须同一时间到位；破墙会同时改变双方的射门与防守路线。",
+          "loadout": "职业三英雄已核对；妙具与星徽参考来自独立教学证据，不能认为职业选手在此局使用同一配装。原赛事机制需按后续补丁复核。",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三英雄来自官方画面；以下分工、触发与回撤是工具分析，非选手意图或实战验证。",
+            "steps": [
+              "斯图负责机动拉扯与边线牵制；谜宝负责掩体周围的射线支援；巴兹负责控制进场与跟进击杀。先约定能互相支援的位置。",
+              "先让防守者交出关键技能，再传球或切入；控住球后推进，避免三人同时越过中线。",
+              "进攻失败先保住球门侧路线，一人拦球、两人阻断传球；等人齐再发起下一波。"
+            ]
+          },
+          "id": "aug26-emea-gf-pinball-side-1",
+          "kind": "mechanism_inference",
+          "status": "职业三英雄已核验 · 配合与版本待实战",
+          "members": [
+            {
+              "heroId": 16000045,
+              "role": "机动拉扯与边线牵制"
+            },
+            {
+              "heroId": 16000089,
+              "role": "掩体周围的射线支援"
+            },
+            {
+              "heroId": 16000049,
+              "role": "控制进场与跟进击杀"
+            }
+          ],
+          "mapFitBand": 1,
+          "cooperationBand": 2,
+          "evidenceRefs": [
+            "youtube:HkNGnN8xFe8"
+          ],
+          "substitutions": [],
+          "professionalReference": {
+            "caseId": "aug26-emea-gf-pinball",
+            "teamName": "FUT Esports"
+          }
+        },
+        {
+          "title": "8月EMEA · HMBLE的球场配合",
+          "synergy": "麦克斯加速带动达米安前压，艾魅保护近身推进后的区域；加速应在队友有弹药和控制技能时同步使用。",
+          "risk": "原对手为斯图、谜宝、巴兹。近身推进与远程火力必须同一时间到位；破墙会同时改变双方的射门与防守路线。",
+          "loadout": "职业三英雄已核对；妙具与星徽参考来自独立教学证据，不能认为职业选手在此局使用同一配装。原赛事机制需按后续补丁复核。",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三英雄来自官方画面；以下分工、触发与回撤是工具分析，非选手意图或实战验证。",
+            "steps": [
+              "达米安负责前排推进与近身压迫；艾魅负责中距离封路与反近身；麦克斯负责团队加速与轮转。先约定能互相支援的位置。",
+              "先让防守者交出关键技能，再传球或切入；控住球后推进，避免三人同时越过中线。",
+              "进攻失败先保住球门侧路线，一人拦球、两人阻断传球；等人齐再发起下一波。"
+            ]
+          },
+          "id": "aug26-emea-gf-pinball-side-2",
+          "kind": "mechanism_inference",
+          "status": "职业三英雄已核验 · 配合与版本待实战",
+          "members": [
+            {
+              "heroId": 16000104,
+              "role": "前排推进与近身压迫"
+            },
+            {
+              "heroId": 16000030,
+              "role": "中距离封路与反近身"
+            },
+            {
+              "heroId": 16000032,
+              "role": "团队加速与轮转"
+            }
+          ],
+          "mapFitBand": 1,
+          "cooperationBand": 2,
+          "evidenceRefs": [
+            "youtube:HkNGnN8xFe8"
+          ],
+          "substitutions": [],
+          "professionalReference": {
+            "caseId": "aug26-emea-gf-pinball",
+            "teamName": "HMBLE"
+          }
+        },
+        {
+          "title": "8月南美 · Bounty Hunters的球场配合",
+          "synergy": "瑞科与拉里和劳里从不同角度消耗，艾德加等对手缺少防守技能时跳入；投掷位需要有人保护，不能独自留在进攻英雄面前。",
+          "risk": "原对手为蜜娜、阿拾、薇洛。近身推进与远程火力必须同一时间到位；破墙会同时改变双方的射门与防守路线。",
+          "loadout": "职业三英雄已核对；妙具与星徽参考来自独立教学证据，不能认为职业选手在此局使用同一配装。原赛事机制需按后续补丁复核。",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三英雄来自官方画面；以下分工、触发与回撤是工具分析，非选手意图或实战验证。",
+            "steps": [
+              "瑞科负责墙体弹射与边线压制；艾德加负责跳跃切入与残局追击；拉里和劳里负责隔墙输出与双体牵制。先约定能互相支援的位置。",
+              "先让防守者交出关键技能，再传球或切入；控住球后推进，避免三人同时越过中线。",
+              "进攻失败先保住球门侧路线，一人拦球、两人阻断传球；等人齐再发起下一波。"
+            ]
+          },
+          "id": "aug26-sa-gf-pinball-side-1",
+          "kind": "mechanism_inference",
+          "status": "职业三英雄已核验 · 配合与版本待实战",
+          "members": [
+            {
+              "heroId": 16000004,
+              "role": "墙体弹射与边线压制"
+            },
+            {
+              "heroId": 16000043,
+              "role": "跳跃切入与残局追击"
+            },
+            {
+              "heroId": 16000077,
+              "role": "隔墙输出与双体牵制"
+            }
+          ],
+          "mapFitBand": 1,
+          "cooperationBand": 2,
+          "evidenceRefs": [
+            "youtube:oPpaTsWQzOY"
+          ],
+          "substitutions": [],
+          "professionalReference": {
+            "caseId": "aug26-sa-gf-pinball",
+            "teamName": "Bounty Hunters"
+          }
+        },
+        {
+          "title": "8月南美 · LOUD的球场配合",
+          "synergy": "阿拾与蜜娜交替贴近制造压力，薇洛在后侧封路并反制突入；前排不要把交火带到薇洛无法支援的位置。",
+          "risk": "原对手为瑞科、艾德加、拉里和劳里。近身推进与远程火力必须同一时间到位；破墙会同时改变双方的射门与防守路线。",
+          "loadout": "职业三英雄已核对；妙具与星徽参考来自独立教学证据，不能认为职业选手在此局使用同一配装。原赛事机制需按后续补丁复核。",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三英雄来自官方画面；以下分工、触发与回撤是工具分析，非选手意图或实战验证。",
+            "steps": [
+              "蜜娜负责机动贴近与连段压迫；阿拾负责怒气前排与持续推进；薇洛负责隔墙封路与进场反制。先约定能互相支援的位置。",
+              "先让防守者交出关键技能，再传球或切入；控住球后推进，避免三人同时越过中线。",
+              "进攻失败先保住球门侧路线，一人拦球、两人阻断传球；等人齐再发起下一波。"
+            ]
+          },
+          "id": "aug26-sa-gf-pinball-side-2",
+          "kind": "mechanism_inference",
+          "status": "职业三英雄已核验 · 配合与版本待实战",
+          "members": [
+            {
+              "heroId": 16000097,
+              "role": "机动贴近与连段压迫"
+            },
+            {
+              "heroId": 16000051,
+              "role": "怒气前排与持续推进"
+            },
+            {
+              "heroId": 16000067,
+              "role": "隔墙封路与进场反制"
+            }
+          ],
+          "mapFitBand": 1,
+          "cooperationBand": 2,
+          "evidenceRefs": [
+            "youtube:oPpaTsWQzOY"
+          ],
+          "substitutions": [],
+          "professionalReference": {
+            "caseId": "aug26-sa-gf-pinball",
+            "teamName": "LOUD"
+          }
+        },
+        {
+          "title": "伊斯坦布尔 · SK Gaming的球场配合",
+          "synergy": "梅格维持正面压力，布洛克与米宝从不同射线支援；破墙前先约定球的位置和回防路线，避免只顾扩大射程。",
+          "risk": "原对手为格里夫、科莱特、阿萌。近身推进与远程火力必须同一时间到位；破墙会同时改变双方的射门与防守路线。",
+          "loadout": "职业三英雄已核对；妙具与星徽参考来自独立教学证据，不能认为职业选手在此局使用同一配装。原赛事机制需按后续补丁复核。",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三英雄来自官方画面；以下分工、触发与回撤是工具分析，非选手意图或实战验证。",
+            "steps": [
+              "谜宝负责掩体周围的射线支援；梅格负责持续火力与前线空间；布洛克负责远程火力与破墙。先约定能互相支援的位置。",
+              "先让防守者交出关键技能，再传球或切入；控住球后推进，避免三人同时越过中线。",
+              "进攻失败先保住球门侧路线，一人拦球、两人阻断传球；等人齐再发起下一波。"
+            ]
+          },
+          "id": "chall26-gf-pinball-side-1",
+          "kind": "mechanism_inference",
+          "status": "职业三英雄已核验 · 配合与版本待实战",
+          "members": [
+            {
+              "heroId": 16000089,
+              "role": "掩体周围的射线支援"
+            },
+            {
+              "heroId": 16000052,
+              "role": "持续火力与前线空间"
+            },
+            {
+              "heroId": 16000003,
+              "role": "远程火力与破墙"
+            }
+          ],
+          "mapFitBand": 1,
+          "cooperationBand": 2,
+          "evidenceRefs": [
+            "youtube:9CQQ04lg-sQ"
+          ],
+          "substitutions": [],
+          "professionalReference": {
+            "caseId": "chall26-gf-pinball",
+            "teamName": "SK Gaming"
+          }
+        },
+        {
+          "title": "伊斯坦布尔 · FUT Freezone的球场配合",
+          "synergy": "格里夫清线，科莱特压制高血量防守者，阿萌从侧面或地下切入；必须先有火力掩护，再用机动位推进球。",
+          "risk": "原对手为谜宝、梅格、布洛克。近身推进与远程火力必须同一时间到位；破墙会同时改变双方的射门与防守路线。",
+          "loadout": "职业三英雄已核对；妙具与星徽参考来自独立教学证据，不能认为职业选手在此局使用同一配装。原赛事机制需按后续补丁复核。",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三英雄来自官方画面；以下分工、触发与回撤是工具分析，非选手意图或实战验证。",
+            "steps": [
+              "格里夫负责清线与高血量压制；科莱特负责高血量压制与回撤；阿萌负责边路消耗与钻地切入。先约定能互相支援的位置。",
+              "先让防守者交出关键技能，再传球或切入；控住球后推进，避免三人同时越过中线。",
+              "进攻失败先保住球门侧路线，一人拦球、两人阻断传球；等人齐再发起下一波。"
+            ]
+          },
+          "id": "chall26-gf-pinball-side-2",
+          "kind": "mechanism_inference",
+          "status": "职业三英雄已核验 · 配合与版本待实战",
+          "members": [
+            {
+              "heroId": 16000050,
+              "role": "清线与高血量压制"
+            },
+            {
+              "heroId": 16000039,
+              "role": "高血量压制与回撤"
+            },
+            {
+              "heroId": 16000084,
+              "role": "边路消耗与钻地切入"
+            }
+          ],
+          "mapFitBand": 1,
+          "cooperationBand": 2,
+          "evidenceRefs": [
+            "youtube:9CQQ04lg-sQ"
+          ],
+          "substitutions": [],
+          "professionalReference": {
+            "caseId": "chall26-gf-pinball",
+            "teamName": "FUT Freezone"
+          }
         }
       ],
       "candidates": [
@@ -6416,6 +7288,150 @@
           "startSeconds": null,
           "condition": "精确地图三人组索引样本，窗口截止日未知；不是实时强度或职业选角证据。",
           "status": "地图组合样本快照 · 非职业原阵容"
+        },
+        {
+          "heroEn": "Stu",
+          "role": "机动拉扯与边线牵制",
+          "sourceId": "youtube:HkNGnN8xFe8",
+          "startSeconds": 20745,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Meeple",
+          "role": "掩体周围的射线支援",
+          "sourceId": "youtube:HkNGnN8xFe8",
+          "startSeconds": 20745,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Buzz",
+          "role": "控制进场与跟进击杀",
+          "sourceId": "youtube:HkNGnN8xFe8",
+          "startSeconds": 20745,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Damian",
+          "role": "前排推进与近身压迫",
+          "sourceId": "youtube:HkNGnN8xFe8",
+          "startSeconds": 20745,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Emz",
+          "role": "中距离封路与反近身",
+          "sourceId": "youtube:HkNGnN8xFe8",
+          "startSeconds": 20745,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Max",
+          "role": "团队加速与轮转",
+          "sourceId": "youtube:HkNGnN8xFe8",
+          "startSeconds": 20745,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Rico",
+          "role": "墙体弹射与边线压制",
+          "sourceId": "youtube:oPpaTsWQzOY",
+          "startSeconds": 20630,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Edgar",
+          "role": "跳跃切入与残局追击",
+          "sourceId": "youtube:oPpaTsWQzOY",
+          "startSeconds": 20630,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Larry & Lawrie",
+          "role": "隔墙输出与双体牵制",
+          "sourceId": "youtube:oPpaTsWQzOY",
+          "startSeconds": 20630,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Mina",
+          "role": "机动贴近与连段压迫",
+          "sourceId": "youtube:oPpaTsWQzOY",
+          "startSeconds": 20630,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Ash",
+          "role": "怒气前排与持续推进",
+          "sourceId": "youtube:oPpaTsWQzOY",
+          "startSeconds": 20630,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Willow",
+          "role": "隔墙封路与进场反制",
+          "sourceId": "youtube:oPpaTsWQzOY",
+          "startSeconds": 20630,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Meeple",
+          "role": "掩体周围的射线支援",
+          "sourceId": "youtube:9CQQ04lg-sQ",
+          "startSeconds": 32610,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Meg",
+          "role": "持续火力与前线空间",
+          "sourceId": "youtube:9CQQ04lg-sQ",
+          "startSeconds": 32610,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Brock",
+          "role": "远程火力与破墙",
+          "sourceId": "youtube:9CQQ04lg-sQ",
+          "startSeconds": 32610,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Griff",
+          "role": "清线与高血量压制",
+          "sourceId": "youtube:9CQQ04lg-sQ",
+          "startSeconds": 32610,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Colette",
+          "role": "高血量压制与回撤",
+          "sourceId": "youtube:9CQQ04lg-sQ",
+          "startSeconds": 32610,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Moe",
+          "role": "边路消耗与钻地切入",
+          "sourceId": "youtube:9CQQ04lg-sQ",
+          "startSeconds": 32610,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
         }
       ],
       "mechanismEvidence": [
@@ -6460,6 +7476,30 @@
           "evidenceType": "map_guide"
         },
         {
+          "sourceId": "youtube:HkNGnN8xFe8",
+          "startSeconds": 20700,
+          "url": "https://www.youtube.com/watch?v=HkNGnN8xFe8",
+          "claim": "2026月度决赛 · 8月EMEA职业对局的完整阵容已核对关键画面。工具分析：斯图牵制一侧，米宝支援墙边射线，巴兹等防守者站位拉开后控制进场；切入目标要让队友跟得上。 工具分析：麦克斯加速带动达米安前压，艾魅保护近身推进后的区域；加速应在队友有弹药和控制技能时同步使用。",
+          "completeTeamObserved": false,
+          "evidenceType": "professional_match_vod"
+        },
+        {
+          "sourceId": "youtube:oPpaTsWQzOY",
+          "startSeconds": 20585,
+          "url": "https://www.youtube.com/watch?v=oPpaTsWQzOY",
+          "claim": "2026月度决赛 · 8月南美职业对局的完整阵容已核对关键画面。工具分析：瑞科与拉里和劳里从不同角度消耗，艾德加等对手缺少防守技能时跳入；投掷位需要有人保护，不能独自留在进攻英雄面前。 工具分析：阿拾与蜜娜交替贴近制造压力，薇洛在后侧封路并反制突入；前排不要把交火带到薇洛无法支援的位置。",
+          "completeTeamObserved": false,
+          "evidenceType": "professional_match_vod"
+        },
+        {
+          "sourceId": "youtube:9CQQ04lg-sQ",
+          "startSeconds": 32565,
+          "url": "https://www.youtube.com/watch?v=9CQQ04lg-sQ",
+          "claim": "2026挑战者总决赛 · 伊斯坦布尔职业对局的完整阵容已核对关键画面。工具分析：梅格维持正面压力，布洛克与米宝从不同射线支援；破墙前先约定球的位置和回防路线，避免只顾扩大射程。 工具分析：格里夫清线，科莱特压制高血量防守者，阿萌从侧面或地下切入；必须先有火力掩护，再用机动位推进球。",
+          "completeTeamObserved": false,
+          "evidenceType": "professional_match_vod"
+        },
+        {
           "sourceId": "brawlpick-map-pinball-dreams",
           "startSeconds": null,
           "url": "https://www.brawlpick.app/map-stats/pinball-dreams",
@@ -6474,6 +7514,33 @@
           "claim": "已读取5套完整三英雄的地图排位组合样本及场数；组合与统计为索引快照，战术配合由工具另行推导。",
           "completeTeamObserved": true,
           "evidenceType": "ranked_trio_index_snapshot"
+        },
+        {
+          "sourceId": "youtube:HkNGnN8xFe8",
+          "professionalCaseId": "aug26-emea-gf-pinball",
+          "startSeconds": 20745,
+          "url": "https://www.youtube.com/watch?v=HkNGnN8xFe8&t=20745s",
+          "claim": "2026月度决赛 · 8月EMEA双方完整三英雄阵容已核对。工具分析：斯图牵制一侧，米宝支援墙边射线，巴兹等防守者站位拉开后控制进场；切入目标要让队友跟得上。 工具分析：麦克斯加速带动达米安前压，艾魅保护近身推进后的区域；加速应在队友有弹药和控制技能时同步使用。",
+          "completeTeamObserved": true,
+          "evidenceType": "professional_visual_roster"
+        },
+        {
+          "sourceId": "youtube:oPpaTsWQzOY",
+          "professionalCaseId": "aug26-sa-gf-pinball",
+          "startSeconds": 20630,
+          "url": "https://www.youtube.com/watch?v=oPpaTsWQzOY&t=20630s",
+          "claim": "2026月度决赛 · 8月南美双方完整三英雄阵容已核对。工具分析：瑞科与拉里和劳里从不同角度消耗，艾德加等对手缺少防守技能时跳入；投掷位需要有人保护，不能独自留在进攻英雄面前。 工具分析：阿拾与蜜娜交替贴近制造压力，薇洛在后侧封路并反制突入；前排不要把交火带到薇洛无法支援的位置。",
+          "completeTeamObserved": true,
+          "evidenceType": "professional_visual_roster"
+        },
+        {
+          "sourceId": "youtube:9CQQ04lg-sQ",
+          "professionalCaseId": "chall26-gf-pinball",
+          "startSeconds": 32610,
+          "url": "https://www.youtube.com/watch?v=9CQQ04lg-sQ&t=32610s",
+          "claim": "2026挑战者总决赛 · 伊斯坦布尔双方完整三英雄阵容已核对。工具分析：梅格维持正面压力，布洛克与米宝从不同射线支援；破墙前先约定球的位置和回防路线，避免只顾扩大射程。 工具分析：格里夫清线，科莱特压制高血量防守者，阿萌从侧面或地下切入；必须先有火力掩护，再用机动位推进球。",
+          "completeTeamObserved": true,
+          "evidenceType": "professional_visual_roster"
         }
       ]
     },
@@ -7645,7 +8712,7 @@
           "professionalCaseId": "lcq2026-day2-skc-loud-ring-of-fire",
           "startSeconds": 3680,
           "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=3680s",
-          "claim": "LCQ双方完整三英雄阵容已核对。解说将SK的Gus描述为强回复中路，并认为8-Bit的威胁限制对方传统坦克选项。 LOUD的Lou承担中区控制，Juju与Alli能利用地图水域；解说强调SK必须防止减速和刺杀。 解说对最后补Ash并非一味肯定：其对Alli可能有利，但面对Juju和Lou未必理想，同时猜测SK看到LOUD伤害不足，想增加前排。 这是职责、反制与地形适应同时作用的案例，不是坦克加治疗必胜的证据。",
+          "claim": "2026 LCQ · 广州双方完整三英雄阵容已核对。解说将SK的Gus描述为强回复中路，并认为8-Bit的威胁限制对方传统坦克选项。 LOUD的Lou承担中区控制，Juju与Alli能利用地图水域；解说强调SK必须防止减速和刺杀。 解说对最后补Ash并非一味肯定：其对Alli可能有利，但面对Juju和Lou未必理想，同时猜测SK看到LOUD伤害不足，想增加前排。 这是职责、反制与地形适应同时作用的案例，不是坦克加治疗必胜的证据。",
           "completeTeamObserved": true,
           "evidenceType": "professional_visual_roster"
         },
@@ -7654,7 +8721,7 @@
           "professionalCaseId": "lcq2026-day1-axr-fut-ring-of-fire",
           "startSeconds": 19035,
           "url": "https://www.youtube.com/watch?v=UWXyKZl3e_A&t=19035s",
-          "claim": "LCQ双方完整三英雄阵容已核对。工具分析：灼热火圈的高血量驻点必须有入口控制或火力掩护；反高血量组合则应交错消耗和反突进，别在追击时让热区空转。",
+          "claim": "2026 LCQ · 广州双方完整三英雄阵容已核对。工具分析：灼热火圈的高血量驻点必须有入口控制或火力掩护；反高血量组合则应交错消耗和反突进，别在追击时让热区空转。",
           "completeTeamObserved": true,
           "evidenceType": "professional_visual_roster"
         }
@@ -8411,7 +9478,7 @@
           "professionalCaseId": "lcq2026-day2-th-loud-open",
           "startSeconds": 12300,
           "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=12300s",
-          "claim": "LCQ双方完整三英雄阵容已核对。工具分析：空旷荒野的水侧角度和掩体入口会改变交火线。远程治疗或近身反打分别提供容错，不能让主火力与支援同时被一条射线命中。",
+          "claim": "2026 LCQ · 广州双方完整三英雄阵容已核对。工具分析：空旷荒野的水侧角度和掩体入口会改变交火线。远程治疗或近身反打分别提供容错，不能让主火力与支援同时被一条射线命中。",
           "completeTeamObserved": true,
           "evidenceType": "professional_visual_roster"
         },
@@ -8420,7 +9487,7 @@
           "professionalCaseId": "lcq2026-day2-loud-kds-open",
           "startSeconds": 19530,
           "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=19530s",
-          "claim": "LCQ双方完整三英雄阵容已核对。工具分析：空旷荒野的破墙、回复与蓄热可以支持稳步消耗；长射程加机动换线则依赖报点和命中，不可让机动位提前脱离火力覆盖。",
+          "claim": "2026 LCQ · 广州双方完整三英雄阵容已核对。工具分析：空旷荒野的破墙、回复与蓄热可以支持稳步消耗；长射程加机动换线则依赖报点和命中，不可让机动位提前脱离火力覆盖。",
           "completeTeamObserved": true,
           "evidenceType": "professional_visual_roster"
         },
@@ -8429,7 +9496,7 @@
           "professionalCaseId": "lcq2026-day2-th-kds-open",
           "startSeconds": 25410,
           "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=25410s",
-          "claim": "LCQ双方完整三英雄阵容已核对。工具分析：护盾与定点火力能支持机动换线，回复和远程对枪则更依赖节奏重置。一次职业选择只证明当场选过，不能据此推断胜率。",
+          "claim": "2026 LCQ · 广州双方完整三英雄阵容已核对。工具分析：护盾与定点火力能支持机动换线，回复和远程对枪则更依赖节奏重置。一次职业选择只证明当场选过，不能据此推断胜率。",
           "completeTeamObserved": true,
           "evidenceType": "professional_visual_roster"
         }
@@ -8485,6 +9552,7 @@
           "status": "待版本与实战复核",
           "mapFitBand": 1,
           "evidenceRefs": [
+            "youtube:oPpaTsWQzOY",
             "brawlzone-ranked-new-horizons",
             "bilibili:BV15RmQBWELU",
             "brawlzone-trio-snapshot-20261023-new-horizons"
@@ -8599,6 +9667,90 @@
           "status": "地图组合样本快照 · 配合与版本待验证",
           "mapFitBand": 1,
           "substitutions": []
+        },
+        {
+          "title": "8月南美 · Bounty Hunters的回合配合",
+          "synergy": "8比特形成定点火力，娜吉亚以毒伤和召唤物压缩路线，切斯特保护近中距离缺口；退路要提前规划，不能被双机动包住。",
+          "risk": "原对手为皮尔斯、艾德加、丝塔诺娃。一人被隔离就可能直接丢回合；控制和位移不能同时用于无保护的主动追击。",
+          "loadout": "职业三英雄已核对；妙具与星徽参考来自独立教学证据，不能认为职业选手在此局使用同一配装。原赛事机制需按后续补丁复核。",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三英雄来自官方画面；以下分工、触发与回撤是工具分析，非选手意图或实战验证。",
+            "steps": [
+              "8比特负责定点火力与团队增幅；娜吉亚负责毒伤与召唤物持续施压；切斯特负责近中距离爆发与护侧。先约定能互相支援的位置。",
+              "先用射线和控制压缩安全区，等对方交掉进场或防守技能后再同步集中火力。",
+              "有人被逼退就一起调整角度，避免留下孤立目标；毒圈收缩前保留至少一种退路。"
+            ]
+          },
+          "id": "aug26-sa-gf-new-horizons-side-1",
+          "kind": "mechanism_inference",
+          "status": "职业三英雄已核验 · 配合与版本待实战",
+          "members": [
+            {
+              "heroId": 16000027,
+              "role": "定点火力与团队增幅"
+            },
+            {
+              "heroId": 16000103,
+              "role": "毒伤与召唤物持续施压"
+            },
+            {
+              "heroId": 16000063,
+              "role": "近中距离爆发与护侧"
+            }
+          ],
+          "mapFitBand": 1,
+          "cooperationBand": 2,
+          "evidenceRefs": [
+            "youtube:oPpaTsWQzOY"
+          ],
+          "substitutions": [],
+          "professionalReference": {
+            "caseId": "aug26-sa-gf-new-horizons",
+            "teamName": "Bounty Hunters"
+          }
+        },
+        {
+          "title": "8月南美 · LOUD的回合配合",
+          "synergy": "皮尔斯先用远程射线限制阵地，艾德加与丝塔诺娃在同一目标被压低后分角度切入；进入前先确认对方的近身爆发窗口。",
+          "risk": "原对手为8比特、娜吉亚、切斯特。一人被隔离就可能直接丢回合；控制和位移不能同时用于无保护的主动追击。",
+          "loadout": "职业三英雄已核对；妙具与星徽参考来自独立教学证据，不能认为职业选手在此局使用同一配装。原赛事机制需按后续补丁复核。",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三英雄来自官方画面；以下分工、触发与回撤是工具分析，非选手意图或实战验证。",
+            "steps": [
+              "皮尔斯负责远程压制与弹药循环；艾德加负责跳跃切入与残局追击；丝塔诺娃负责机动进场与形态转换。先约定能互相支援的位置。",
+              "先用射线和控制压缩安全区，等对方交掉进场或防守技能后再同步集中火力。",
+              "有人被逼退就一起调整角度，避免留下孤立目标；毒圈收缩前保留至少一种退路。"
+            ]
+          },
+          "id": "aug26-sa-gf-new-horizons-side-2",
+          "kind": "mechanism_inference",
+          "status": "职业三英雄已核验 · 配合与版本待实战",
+          "members": [
+            {
+              "heroId": 16000099,
+              "role": "远程压制与弹药循环"
+            },
+            {
+              "heroId": 16000043,
+              "role": "跳跃切入与残局追击"
+            },
+            {
+              "heroId": 16000105,
+              "role": "机动进场与形态转换"
+            }
+          ],
+          "mapFitBand": 1,
+          "cooperationBand": 2,
+          "evidenceRefs": [
+            "youtube:oPpaTsWQzOY"
+          ],
+          "substitutions": [],
+          "professionalReference": {
+            "caseId": "aug26-sa-gf-new-horizons",
+            "teamName": "LOUD"
+          }
         }
       ],
       "candidates": [
@@ -8705,9 +9857,65 @@
           "startSeconds": null,
           "condition": "精确地图三人组索引样本，窗口截止日未知；不是实时强度或职业选角证据。",
           "status": "地图组合样本快照 · 非职业原阵容"
+        },
+        {
+          "heroEn": "8-Bit",
+          "role": "定点火力与团队增幅",
+          "sourceId": "youtube:oPpaTsWQzOY",
+          "startSeconds": 22050,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Najia",
+          "role": "毒伤与召唤物持续施压",
+          "sourceId": "youtube:oPpaTsWQzOY",
+          "startSeconds": 22050,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Chester",
+          "role": "近中距离爆发与护侧",
+          "sourceId": "youtube:oPpaTsWQzOY",
+          "startSeconds": 22050,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Pierce",
+          "role": "远程压制与弹药循环",
+          "sourceId": "youtube:oPpaTsWQzOY",
+          "startSeconds": 22050,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Edgar",
+          "role": "跳跃切入与残局追击",
+          "sourceId": "youtube:oPpaTsWQzOY",
+          "startSeconds": 22050,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Starr Nova",
+          "role": "机动进场与形态转换",
+          "sourceId": "youtube:oPpaTsWQzOY",
+          "startSeconds": 22050,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
         }
       ],
       "mechanismEvidence": [
+        {
+          "sourceId": "youtube:oPpaTsWQzOY",
+          "startSeconds": 22005,
+          "url": "https://www.youtube.com/watch?v=oPpaTsWQzOY",
+          "claim": "2026月度决赛 · 8月南美职业对局的完整阵容已核对关键画面。工具分析：8比特形成定点火力，娜吉亚以毒伤和召唤物压缩路线，切斯特保护近中距离缺口；退路要提前规划，不能被双机动包住。 工具分析：皮尔斯先用远程射线限制阵地，艾德加与丝塔诺娃在同一目标被压低后分角度切入；进入前先确认对方的近身爆发窗口。",
+          "completeTeamObserved": false,
+          "evidenceType": "professional_match_vod"
+        },
         {
           "sourceId": "brawlzone-ranked-new-horizons",
           "startSeconds": null,
@@ -8731,6 +9939,15 @@
           "claim": "已读取5套完整三英雄的地图排位组合样本及场数；组合与统计为索引快照，战术配合由工具另行推导。",
           "completeTeamObserved": true,
           "evidenceType": "ranked_trio_index_snapshot"
+        },
+        {
+          "sourceId": "youtube:oPpaTsWQzOY",
+          "professionalCaseId": "aug26-sa-gf-new-horizons",
+          "startSeconds": 22050,
+          "url": "https://www.youtube.com/watch?v=oPpaTsWQzOY&t=22050s",
+          "claim": "2026月度决赛 · 8月南美双方完整三英雄阵容已核对。工具分析：8比特形成定点火力，娜吉亚以毒伤和召唤物压缩路线，切斯特保护近中距离缺口；退路要提前规划，不能被双机动包住。 工具分析：皮尔斯先用远程射线限制阵地，艾德加与丝塔诺娃在同一目标被压低后分角度切入；进入前先确认对方的近身爆发窗口。",
+          "completeTeamObserved": true,
+          "evidenceType": "professional_visual_roster"
         }
       ]
     },
@@ -8969,6 +10186,8 @@
           "mapFitBand": 1,
           "evidenceRefs": [
             "youtube:PIAPgulZPa4",
+            "youtube:ZIGzQ-zJFWc",
+            "youtube:d2Rvo0w8Ejo",
             "brawlplanet-map-pinhole-punt",
             "brawlmetrics-map-pinhole-punt"
           ],
@@ -9066,6 +10285,174 @@
           "professionalReference": {
             "caseId": "lcq2026-day2-th-loud-pinhole",
             "teamName": "LOUD"
+          }
+        },
+        {
+          "title": "8月东亚 · ZETA DIVISION的球场配合",
+          "synergy": "达米安前压制造近身威胁，艾魅把防守者挤离入口，戈雷接应位置转换；有控制窗口后再推进球。",
+          "risk": "原对手为奥蒂斯、8比特、谜宝。近身推进与远程火力必须同一时间到位；破墙会同时改变双方的射门与防守路线。",
+          "loadout": "职业三英雄已核对；妙具与星徽参考来自独立教学证据，不能认为职业选手在此局使用同一配装。原赛事机制需按后续补丁复核。",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三英雄来自官方画面；以下分工、触发与回撤是工具分析，非选手意图或实战验证。",
+            "steps": [
+              "艾魅负责中距离封路与反近身；达米安负责前排推进与近身压迫；戈雷负责传送接应与角度转换。先约定能互相支援的位置。",
+              "先让防守者交出关键技能，再传球或切入；控住球后推进，避免三人同时越过中线。",
+              "进攻失败先保住球门侧路线，一人拦球、两人阻断传球；等人齐再发起下一波。"
+            ]
+          },
+          "id": "aug26-ea-gf-pinhole-side-1",
+          "kind": "mechanism_inference",
+          "status": "职业三英雄已核验 · 配合与版本待实战",
+          "members": [
+            {
+              "heroId": 16000030,
+              "role": "中距离封路与反近身"
+            },
+            {
+              "heroId": 16000104,
+              "role": "前排推进与近身压迫"
+            },
+            {
+              "heroId": 16000064,
+              "role": "传送接应与角度转换"
+            }
+          ],
+          "mapFitBand": 1,
+          "cooperationBand": 2,
+          "evidenceRefs": [
+            "youtube:ZIGzQ-zJFWc"
+          ],
+          "substitutions": [],
+          "professionalReference": {
+            "caseId": "aug26-ea-gf-pinhole",
+            "teamName": "ZETA DIVISION"
+          }
+        },
+        {
+          "title": "8月东亚 · Crazy Raccoon的球场配合",
+          "synergy": "奥蒂斯保留沉默应对近身者，8比特提供定点输出与增幅，米宝支援掩体周围的交火；要防止阵地被侧翼绕过。",
+          "risk": "原对手为艾魅、达米安、戈雷。近身推进与远程火力必须同一时间到位；破墙会同时改变双方的射门与防守路线。",
+          "loadout": "职业三英雄已核对；妙具与星徽参考来自独立教学证据，不能认为职业选手在此局使用同一配装。原赛事机制需按后续补丁复核。",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三英雄来自官方画面；以下分工、触发与回撤是工具分析，非选手意图或实战验证。",
+            "steps": [
+              "奥蒂斯负责沉默反突进与持续输出；8比特负责定点火力与团队增幅；谜宝负责掩体周围的射线支援。先约定能互相支援的位置。",
+              "先让防守者交出关键技能，再传球或切入；控住球后推进，避免三人同时越过中线。",
+              "进攻失败先保住球门侧路线，一人拦球、两人阻断传球；等人齐再发起下一波。"
+            ]
+          },
+          "id": "aug26-ea-gf-pinhole-side-2",
+          "kind": "mechanism_inference",
+          "status": "职业三英雄已核验 · 配合与版本待实战",
+          "members": [
+            {
+              "heroId": 16000059,
+              "role": "沉默反突进与持续输出"
+            },
+            {
+              "heroId": 16000027,
+              "role": "定点火力与团队增幅"
+            },
+            {
+              "heroId": 16000089,
+              "role": "掩体周围的射线支援"
+            }
+          ],
+          "mapFitBand": 1,
+          "cooperationBand": 2,
+          "evidenceRefs": [
+            "youtube:ZIGzQ-zJFWc"
+          ],
+          "substitutions": [],
+          "professionalReference": {
+            "caseId": "aug26-ea-gf-pinhole",
+            "teamName": "Crazy Raccoon"
+          }
+        },
+        {
+          "title": "8月北美 · Team Elektros的球场配合",
+          "synergy": "波可为弗兰肯推进提供治疗接应，艾魅限制入口和贴近的防守者；先争出安全控制窗口，再让承压位带动球的位置。",
+          "risk": "原对手为格里夫、达米安、斯图。近身推进与远程火力必须同一时间到位；破墙会同时改变双方的射门与防守路线。",
+          "loadout": "职业三英雄已核对；妙具与星徽参考来自独立教学证据，不能认为职业选手在此局使用同一配装。原赛事机制需按后续补丁复核。",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三英雄来自官方画面；以下分工、触发与回撤是工具分析，非选手意图或实战验证。",
+            "steps": [
+              "艾魅负责中距离封路与反近身；波克负责团队治疗与推进接应；弗兰肯负责前排承压与范围控制。先约定能互相支援的位置。",
+              "先让防守者交出关键技能，再传球或切入；控住球后推进，避免三人同时越过中线。",
+              "进攻失败先保住球门侧路线，一人拦球、两人阻断传球；等人齐再发起下一波。"
+            ]
+          },
+          "id": "aug26-na-gf-pinhole-side-1",
+          "kind": "mechanism_inference",
+          "status": "职业三英雄已核验 · 配合与版本待实战",
+          "members": [
+            {
+              "heroId": 16000030,
+              "role": "中距离封路与反近身"
+            },
+            {
+              "heroId": 16000013,
+              "role": "团队治疗与推进接应"
+            },
+            {
+              "heroId": 16000020,
+              "role": "前排承压与范围控制"
+            }
+          ],
+          "mapFitBand": 1,
+          "cooperationBand": 2,
+          "evidenceRefs": [
+            "youtube:d2Rvo0w8Ejo"
+          ],
+          "substitutions": [],
+          "professionalReference": {
+            "caseId": "aug26-na-gf-pinhole",
+            "teamName": "Team Elektros"
+          }
+        },
+        {
+          "title": "8月北美 · Tribe Gaming的球场配合",
+          "synergy": "格里夫处理高血量前排，达米安在近身区域制造压力，斯图牵制和接球；不要让三人同时被范围控制命中。",
+          "risk": "原对手为艾魅、波克、弗兰肯。近身推进与远程火力必须同一时间到位；破墙会同时改变双方的射门与防守路线。",
+          "loadout": "职业三英雄已核对；妙具与星徽参考来自独立教学证据，不能认为职业选手在此局使用同一配装。原赛事机制需按后续补丁复核。",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三英雄来自官方画面；以下分工、触发与回撤是工具分析，非选手意图或实战验证。",
+            "steps": [
+              "格里夫负责清线与高血量压制；达米安负责前排推进与近身压迫；斯图负责机动拉扯与边线牵制。先约定能互相支援的位置。",
+              "先让防守者交出关键技能，再传球或切入；控住球后推进，避免三人同时越过中线。",
+              "进攻失败先保住球门侧路线，一人拦球、两人阻断传球；等人齐再发起下一波。"
+            ]
+          },
+          "id": "aug26-na-gf-pinhole-side-2",
+          "kind": "mechanism_inference",
+          "status": "职业三英雄已核验 · 配合与版本待实战",
+          "members": [
+            {
+              "heroId": 16000050,
+              "role": "清线与高血量压制"
+            },
+            {
+              "heroId": 16000104,
+              "role": "前排推进与近身压迫"
+            },
+            {
+              "heroId": 16000045,
+              "role": "机动拉扯与边线牵制"
+            }
+          ],
+          "mapFitBand": 1,
+          "cooperationBand": 2,
+          "evidenceRefs": [
+            "youtube:d2Rvo0w8Ejo"
+          ],
+          "substitutions": [],
+          "professionalReference": {
+            "caseId": "aug26-na-gf-pinhole",
+            "teamName": "Tribe Gaming"
           }
         }
       ],
@@ -9165,6 +10552,102 @@
           "startSeconds": 11710,
           "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
           "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Emz",
+          "role": "中距离封路与反近身",
+          "sourceId": "youtube:ZIGzQ-zJFWc",
+          "startSeconds": 19880,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Damian",
+          "role": "前排推进与近身压迫",
+          "sourceId": "youtube:ZIGzQ-zJFWc",
+          "startSeconds": 19880,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Gray",
+          "role": "传送接应与角度转换",
+          "sourceId": "youtube:ZIGzQ-zJFWc",
+          "startSeconds": 19880,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Otis",
+          "role": "沉默反突进与持续输出",
+          "sourceId": "youtube:ZIGzQ-zJFWc",
+          "startSeconds": 19880,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "8-Bit",
+          "role": "定点火力与团队增幅",
+          "sourceId": "youtube:ZIGzQ-zJFWc",
+          "startSeconds": 19880,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Meeple",
+          "role": "掩体周围的射线支援",
+          "sourceId": "youtube:ZIGzQ-zJFWc",
+          "startSeconds": 19880,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Emz",
+          "role": "中距离封路与反近身",
+          "sourceId": "youtube:d2Rvo0w8Ejo",
+          "startSeconds": 20200,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Poco",
+          "role": "团队治疗与推进接应",
+          "sourceId": "youtube:d2Rvo0w8Ejo",
+          "startSeconds": 20200,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Frank",
+          "role": "前排承压与范围控制",
+          "sourceId": "youtube:d2Rvo0w8Ejo",
+          "startSeconds": 20200,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Griff",
+          "role": "清线与高血量压制",
+          "sourceId": "youtube:d2Rvo0w8Ejo",
+          "startSeconds": 20200,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Damian",
+          "role": "前排推进与近身压迫",
+          "sourceId": "youtube:d2Rvo0w8Ejo",
+          "startSeconds": 20200,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Stu",
+          "role": "机动拉扯与边线牵制",
+          "sourceId": "youtube:d2Rvo0w8Ejo",
+          "startSeconds": 20200,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
         }
       ],
       "mechanismEvidence": [
@@ -9173,6 +10656,22 @@
           "startSeconds": 11560,
           "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=11560s",
           "claim": "2026 LCQ职业对局的完整阵容已核对关键画面。工具分析：精准射门的中草入口需要先被打开或夺取。机动位带动近中距封锁，或由破墙与护盾支持推进，是不同的进区方法。",
+          "completeTeamObserved": false,
+          "evidenceType": "professional_match_vod"
+        },
+        {
+          "sourceId": "youtube:ZIGzQ-zJFWc",
+          "startSeconds": 19835,
+          "url": "https://www.youtube.com/watch?v=ZIGzQ-zJFWc",
+          "claim": "2026月度决赛 · 8月东亚职业对局的完整阵容已核对关键画面。工具分析：达米安前压制造近身威胁，艾魅把防守者挤离入口，戈雷接应位置转换；有控制窗口后再推进球。 工具分析：奥蒂斯保留沉默应对近身者，8比特提供定点输出与增幅，米宝支援掩体周围的交火；要防止阵地被侧翼绕过。",
+          "completeTeamObserved": false,
+          "evidenceType": "professional_match_vod"
+        },
+        {
+          "sourceId": "youtube:d2Rvo0w8Ejo",
+          "startSeconds": 20155,
+          "url": "https://www.youtube.com/watch?v=d2Rvo0w8Ejo",
+          "claim": "2026月度决赛 · 8月北美职业对局的完整阵容已核对关键画面。工具分析：波可为弗兰肯推进提供治疗接应，艾魅限制入口和贴近的防守者；先争出安全控制窗口，再让承压位带动球的位置。 工具分析：格里夫处理高血量前排，达米安在近身区域制造压力，斯图牵制和接球；不要让三人同时被范围控制命中。",
           "completeTeamObserved": false,
           "evidenceType": "professional_match_vod"
         },
@@ -9197,7 +10696,25 @@
           "professionalCaseId": "lcq2026-day2-th-loud-pinhole",
           "startSeconds": 11710,
           "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=11710s",
-          "claim": "LCQ双方完整三英雄阵容已核对。工具分析：精准射门的中草入口需要先被打开或夺取。机动位带动近中距封锁，或由破墙与护盾支持推进，是不同的进区方法。",
+          "claim": "2026 LCQ · 广州双方完整三英雄阵容已核对。工具分析：精准射门的中草入口需要先被打开或夺取。机动位带动近中距封锁，或由破墙与护盾支持推进，是不同的进区方法。",
+          "completeTeamObserved": true,
+          "evidenceType": "professional_visual_roster"
+        },
+        {
+          "sourceId": "youtube:ZIGzQ-zJFWc",
+          "professionalCaseId": "aug26-ea-gf-pinhole",
+          "startSeconds": 19880,
+          "url": "https://www.youtube.com/watch?v=ZIGzQ-zJFWc&t=19880s",
+          "claim": "2026月度决赛 · 8月东亚双方完整三英雄阵容已核对。工具分析：达米安前压制造近身威胁，艾魅把防守者挤离入口，戈雷接应位置转换；有控制窗口后再推进球。 工具分析：奥蒂斯保留沉默应对近身者，8比特提供定点输出与增幅，米宝支援掩体周围的交火；要防止阵地被侧翼绕过。",
+          "completeTeamObserved": true,
+          "evidenceType": "professional_visual_roster"
+        },
+        {
+          "sourceId": "youtube:d2Rvo0w8Ejo",
+          "professionalCaseId": "aug26-na-gf-pinhole",
+          "startSeconds": 20200,
+          "url": "https://www.youtube.com/watch?v=d2Rvo0w8Ejo&t=20200s",
+          "claim": "2026月度决赛 · 8月北美双方完整三英雄阵容已核对。工具分析：波可为弗兰肯推进提供治疗接应，艾魅限制入口和贴近的防守者；先争出安全控制窗口，再让承压位带动球的位置。 工具分析：格里夫处理高血量前排，达米安在近身区域制造压力，斯图牵制和接球；不要让三人同时被范围控制命中。",
           "completeTeamObserved": true,
           "evidenceType": "professional_visual_roster"
         }
@@ -9817,6 +11334,7 @@
           "evidenceRefs": [
             "youtube:5iHVKzN0c5M",
             "youtube:PIAPgulZPa4",
+            "youtube:9CQQ04lg-sQ",
             "brawlzone-trio-snapshot-20261023-hideout"
           ],
           "substitutions": [],
@@ -10082,6 +11600,90 @@
             "caseId": "lcq2026-day2-th-loud-hideout",
             "teamName": "LOUD"
           }
+        },
+        {
+          "title": "伊斯坦布尔 · SK Gaming的赏金配合",
+          "synergy": "露米用回收弹道限制走位，珀尔保留蓄热火力，吉恩拉到目标时同步集火；不要把所有输出都交在召唤物上。",
+          "risk": "原对手为梅格、蜜娜、P先生。不利交换会让整队持续追分，缺员时要及时收回射线，不能把一次职业选择当成无条件强势。",
+          "loadout": "职业三英雄已核对；妙具与星徽参考来自独立教学证据，不能认为职业选手在此局使用同一配装。原赛事机制需按后续补丁复核。",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三英雄来自官方画面；以下分工、触发与回撤是工具分析，非选手意图或实战验证。",
+            "steps": [
+              "露米负责回收弹道与区域压制；珀尔负责蓄热火力与近身防线；吉恩负责拉人集火与中路牵制。先约定能互相支援的位置。",
+              "先报目标并同步消耗，击杀后收回安全线，不因追第二个人头丢掉交换优势。",
+              "领先时优先保护血量与蓝星，失去一侧视野就收缩；别把救人变成连续送分。"
+            ]
+          },
+          "id": "chall26-gf-hideout-side-1",
+          "kind": "mechanism_inference",
+          "status": "职业三英雄已核验 · 配合与版本待实战",
+          "members": [
+            {
+              "heroId": 16000091,
+              "role": "回收弹道与区域压制"
+            },
+            {
+              "heroId": 16000072,
+              "role": "蓄热火力与近身防线"
+            },
+            {
+              "heroId": 16000021,
+              "role": "拉人集火与中路牵制"
+            }
+          ],
+          "mapFitBand": 1,
+          "cooperationBand": 2,
+          "evidenceRefs": [
+            "youtube:9CQQ04lg-sQ"
+          ],
+          "substitutions": [],
+          "professionalReference": {
+            "caseId": "chall26-gf-hideout",
+            "teamName": "SK Gaming"
+          }
+        },
+        {
+          "title": "伊斯坦布尔 · FUT Freezone的赏金配合",
+          "synergy": "P先生的召唤物消耗对方弹药和拉人机会，梅格向前争位，蜜娜在另一角度跟进；保持能撤回支援线的距离。",
+          "risk": "原对手为露米、珀尔、吉恩。不利交换会让整队持续追分，缺员时要及时收回射线，不能把一次职业选择当成无条件强势。",
+          "loadout": "职业三英雄已核对；妙具与星徽参考来自独立教学证据，不能认为职业选手在此局使用同一配装。原赛事机制需按后续补丁复核。",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三英雄来自官方画面；以下分工、触发与回撤是工具分析，非选手意图或实战验证。",
+            "steps": [
+              "梅格负责持续火力与前线空间；蜜娜负责机动贴近与连段压迫；P先生负责召唤物干扰与弹药消耗。先约定能互相支援的位置。",
+              "先报目标并同步消耗，击杀后收回安全线，不因追第二个人头丢掉交换优势。",
+              "领先时优先保护血量与蓝星，失去一侧视野就收缩；别把救人变成连续送分。"
+            ]
+          },
+          "id": "chall26-gf-hideout-side-2",
+          "kind": "mechanism_inference",
+          "status": "职业三英雄已核验 · 配合与版本待实战",
+          "members": [
+            {
+              "heroId": 16000052,
+              "role": "持续火力与前线空间"
+            },
+            {
+              "heroId": 16000097,
+              "role": "机动贴近与连段压迫"
+            },
+            {
+              "heroId": 16000031,
+              "role": "召唤物干扰与弹药消耗"
+            }
+          ],
+          "mapFitBand": 1,
+          "cooperationBand": 2,
+          "evidenceRefs": [
+            "youtube:9CQQ04lg-sQ"
+          ],
+          "substitutions": [],
+          "professionalReference": {
+            "caseId": "chall26-gf-hideout",
+            "teamName": "FUT Freezone"
+          }
         }
       ],
       "candidates": [
@@ -10300,6 +11902,54 @@
           "startSeconds": 10525,
           "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
           "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Lumi",
+          "role": "回收弹道与区域压制",
+          "sourceId": "youtube:9CQQ04lg-sQ",
+          "startSeconds": 31860,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Pearl",
+          "role": "蓄热火力与近身防线",
+          "sourceId": "youtube:9CQQ04lg-sQ",
+          "startSeconds": 31860,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Gene",
+          "role": "拉人集火与中路牵制",
+          "sourceId": "youtube:9CQQ04lg-sQ",
+          "startSeconds": 31860,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Meg",
+          "role": "持续火力与前线空间",
+          "sourceId": "youtube:9CQQ04lg-sQ",
+          "startSeconds": 31860,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Mina",
+          "role": "机动贴近与连段压迫",
+          "sourceId": "youtube:9CQQ04lg-sQ",
+          "startSeconds": 31860,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Mr. P",
+          "role": "召唤物干扰与弹药消耗",
+          "sourceId": "youtube:9CQQ04lg-sQ",
+          "startSeconds": 31860,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
         }
       ],
       "mechanismEvidence": [
@@ -10336,6 +11986,14 @@
           "evidenceType": "professional_match_vod"
         },
         {
+          "sourceId": "youtube:9CQQ04lg-sQ",
+          "startSeconds": 31815,
+          "url": "https://www.youtube.com/watch?v=9CQQ04lg-sQ",
+          "claim": "2026挑战者总决赛 · 伊斯坦布尔职业对局的完整阵容已核对关键画面。工具分析：露米用回收弹道限制走位，珀尔保留蓄热火力，吉恩拉到目标时同步集火；不要把所有输出都交在召唤物上。 工具分析：P先生的召唤物消耗对方弹药和拉人机会，梅格向前争位，蜜娜在另一角度跟进；保持能撤回支援线的距离。",
+          "completeTeamObserved": false,
+          "evidenceType": "professional_match_vod"
+        },
+        {
           "sourceId": "brawlzone-trio-snapshot-20261023-hideout",
           "startSeconds": null,
           "url": "https://brawlzone.net/maps/bounty/hideout",
@@ -10348,7 +12006,7 @@
           "professionalCaseId": "lcq2026-day2-th-loud-hideout",
           "startSeconds": 10525,
           "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=10525s",
-          "claim": "LCQ双方完整三英雄阵容已核对。解说将莫提斯争蓝星、珀尔防守和载勇的速度与回复联系起来，尤其指出载勇可以弥补珀尔速度方面的短板。 这是针对LOUD格斯、布洛克、里昂的阵容结构：解说认为速度有助于应对布洛克，同时强调珀尔对近身的防守能力。 解说对LOUD布洛克面对莫提斯的风险有疑问；是否携带脱身或破墙妙具并未由本批次逐帧核验。",
+          "claim": "2026 LCQ · 广州双方完整三英雄阵容已核对。解说将莫提斯争蓝星、珀尔防守和载勇的速度与回复联系起来，尤其指出载勇可以弥补珀尔速度方面的短板。 这是针对LOUD格斯、布洛克、里昂的阵容结构：解说认为速度有助于应对布洛克，同时强调珀尔对近身的防守能力。 解说对LOUD布洛克面对莫提斯的风险有疑问；是否携带脱身或破墙妙具并未由本批次逐帧核验。",
           "completeTeamObserved": true,
           "evidenceType": "professional_visual_roster"
         },
@@ -10357,7 +12015,7 @@
           "professionalCaseId": "lcq2026-day2-th-navi-hideout",
           "startSeconds": 22215,
           "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=22215s",
-          "claim": "LCQ双方完整三英雄阵容已核对。工具分析：草丛迷踪的远程消耗需要与侧路换线形成夹角。机动者进入前要确认支援和退路；反打技能的价值不应被无准备冲脸耗掉。",
+          "claim": "2026 LCQ · 广州双方完整三英雄阵容已核对。工具分析：草丛迷踪的远程消耗需要与侧路换线形成夹角。机动者进入前要确认支援和退路；反打技能的价值不应被无准备冲脸耗掉。",
           "completeTeamObserved": true,
           "evidenceType": "professional_visual_roster"
         },
@@ -10366,7 +12024,16 @@
           "professionalCaseId": "lcq2026-day2-navi-kds-hideout",
           "startSeconds": 15130,
           "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=15130s",
-          "claim": "LCQ双方完整三英雄阵容已核对。工具分析：草丛迷踪的侧翼收割应等待消耗窗口；标记、机动和定点输出可交错压线。双方都应保留防绕后的间距，不能把前压等同于站在一起。",
+          "claim": "2026 LCQ · 广州双方完整三英雄阵容已核对。工具分析：草丛迷踪的侧翼收割应等待消耗窗口；标记、机动和定点输出可交错压线。双方都应保留防绕后的间距，不能把前压等同于站在一起。",
+          "completeTeamObserved": true,
+          "evidenceType": "professional_visual_roster"
+        },
+        {
+          "sourceId": "youtube:9CQQ04lg-sQ",
+          "professionalCaseId": "chall26-gf-hideout",
+          "startSeconds": 31860,
+          "url": "https://www.youtube.com/watch?v=9CQQ04lg-sQ&t=31860s",
+          "claim": "2026挑战者总决赛 · 伊斯坦布尔双方完整三英雄阵容已核对。工具分析：露米用回收弹道限制走位，珀尔保留蓄热火力，吉恩拉到目标时同步集火；不要把所有输出都交在召唤物上。 工具分析：P先生的召唤物消耗对方弹药和拉人机会，梅格向前争位，蜜娜在另一角度跟进；保持能撤回支援线的距离。",
           "completeTeamObserved": true,
           "evidenceType": "professional_visual_roster"
         }
@@ -10416,6 +12083,7 @@
             "youtube:5iHVKzN0c5M",
             "bilibili:BV1wGgfz1Eoa",
             "youtube:PIAPgulZPa4",
+            "youtube:9CQQ04lg-sQ",
             "brawlzone-trio-snapshot-20261023-open-business"
           ],
           "substitutions": [],
@@ -10512,6 +12180,90 @@
           "professionalReference": {
             "caseId": "lcq2026-day2-fut-kds-open-business",
             "teamName": "FUT FreeZone"
+          }
+        },
+        {
+          "title": "伊斯坦布尔 · SK Gaming的占区配合",
+          "synergy": "梅格维持占区压力，拉夫上校从安全角度提供强化与射线，科迪留斯隔离关键敌人来帮助队友争区；不能为单挑把区域长时间留空。",
+          "risk": "原对手为格斯、健次、科莱特。治疗和增幅不能替代安全站位；两侧同时丢线时应重组进区节奏。",
+          "loadout": "职业三英雄已核对；妙具与星徽参考来自独立教学证据，不能认为职业选手在此局使用同一配装。原赛事机制需按后续补丁复核。",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三英雄来自官方画面；以下分工、触发与回撤是工具分析，非选手意图或实战验证。",
+            "steps": [
+              "科迪琉斯负责隔离目标与单点对抗；拉夫负责团队强化与弹射掩护；梅格负责持续火力与前线空间。先约定能互相支援的位置。",
+              "两条路线交替施压，站区者报血量和撤退窗口；击退对手后立即交接占区。",
+              "低血量者后退，由队友接区；丢掉一条入口时先重建射线，不逐个冲进区域。"
+            ]
+          },
+          "id": "chall26-gf-open-business-side-1",
+          "kind": "mechanism_inference",
+          "status": "职业三英雄已核验 · 配合与版本待实战",
+          "members": [
+            {
+              "heroId": 16000070,
+              "role": "隔离目标与单点对抗"
+            },
+            {
+              "heroId": 16000044,
+              "role": "团队强化与弹射掩护"
+            },
+            {
+              "heroId": 16000052,
+              "role": "持续火力与前线空间"
+            }
+          ],
+          "mapFitBand": 1,
+          "cooperationBand": 2,
+          "evidenceRefs": [
+            "youtube:9CQQ04lg-sQ"
+          ],
+          "substitutions": [],
+          "professionalReference": {
+            "caseId": "chall26-gf-open-business",
+            "teamName": "SK Gaming"
+          }
+        },
+        {
+          "title": "伊斯坦布尔 · FUT Freezone的占区配合",
+          "synergy": "格斯保护进区者，健次从侧面迫使防守转向，科莱特处理高血量目标；护盾与切入时机需要同步。",
+          "risk": "原对手为科迪琉斯、拉夫、梅格。治疗和增幅不能替代安全站位；两侧同时丢线时应重组进区节奏。",
+          "loadout": "职业三英雄已核对；妙具与星徽参考来自独立教学证据，不能认为职业选手在此局使用同一配装。原赛事机制需按后续补丁复核。",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三英雄来自官方画面；以下分工、触发与回撤是工具分析，非选手意图或实战验证。",
+            "steps": [
+              "格斯负责护盾支援与远程接应；健次负责机动切入与近身输出；科莱特负责高血量压制与回撤。先约定能互相支援的位置。",
+              "两条路线交替施压，站区者报血量和撤退窗口；击退对手后立即交接占区。",
+              "低血量者后退，由队友接区；丢掉一条入口时先重建射线，不逐个冲进区域。"
+            ]
+          },
+          "id": "chall26-gf-open-business-side-2",
+          "kind": "mechanism_inference",
+          "status": "职业三英雄已核验 · 配合与版本待实战",
+          "members": [
+            {
+              "heroId": 16000061,
+              "role": "护盾支援与远程接应"
+            },
+            {
+              "heroId": 16000085,
+              "role": "机动切入与近身输出"
+            },
+            {
+              "heroId": 16000039,
+              "role": "高血量压制与回撤"
+            }
+          ],
+          "mapFitBand": 1,
+          "cooperationBand": 2,
+          "evidenceRefs": [
+            "youtube:9CQQ04lg-sQ"
+          ],
+          "substitutions": [],
+          "professionalReference": {
+            "caseId": "chall26-gf-open-business",
+            "teamName": "FUT Freezone"
           }
         }
       ],
@@ -10667,6 +12419,54 @@
           "startSeconds": 8530,
           "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
           "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Cordelius",
+          "role": "隔离目标与单点对抗",
+          "sourceId": "youtube:9CQQ04lg-sQ",
+          "startSeconds": 31240,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Ruffs",
+          "role": "团队强化与弹射掩护",
+          "sourceId": "youtube:9CQQ04lg-sQ",
+          "startSeconds": 31240,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Meg",
+          "role": "持续火力与前线空间",
+          "sourceId": "youtube:9CQQ04lg-sQ",
+          "startSeconds": 31240,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Gus",
+          "role": "护盾支援与远程接应",
+          "sourceId": "youtube:9CQQ04lg-sQ",
+          "startSeconds": 31240,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Kenji",
+          "role": "机动切入与近身输出",
+          "sourceId": "youtube:9CQQ04lg-sQ",
+          "startSeconds": 31240,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Colette",
+          "role": "高血量压制与回撤",
+          "sourceId": "youtube:9CQQ04lg-sQ",
+          "startSeconds": 31240,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
         }
       ],
       "mechanismEvidence": [
@@ -10703,6 +12503,14 @@
           "evidenceType": "professional_match_vod"
         },
         {
+          "sourceId": "youtube:9CQQ04lg-sQ",
+          "startSeconds": 31195,
+          "url": "https://www.youtube.com/watch?v=9CQQ04lg-sQ",
+          "claim": "2026挑战者总决赛 · 伊斯坦布尔职业对局的完整阵容已核对关键画面。工具分析：梅格维持占区压力，拉夫上校从安全角度提供强化与射线，科迪留斯隔离关键敌人来帮助队友争区；不能为单挑把区域长时间留空。 工具分析：格斯保护进区者，健次从侧面迫使防守转向，科莱特处理高血量目标；护盾与切入时机需要同步。",
+          "completeTeamObserved": false,
+          "evidenceType": "professional_match_vod"
+        },
+        {
           "sourceId": "brawlzone-trio-snapshot-20261023-open-business",
           "startSeconds": null,
           "url": "https://brawlzone.net/maps/hot-zone/open-business",
@@ -10715,7 +12523,16 @@
           "professionalCaseId": "lcq2026-day2-fut-kds-open-business",
           "startSeconds": 8530,
           "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=8530s",
-          "claim": "LCQ双方完整三英雄阵容已核对。KDS围绕格鲁伊的连接支援、艾魅的入口控制和拉里和劳里的隔墙攻击组成控区体系。 解说明确指出双方没有破墙，拉里能长期利用保留下来的墙；若普通对局出现破墙英雄，原有优势需要重新判断。 FUT由格斯支援，露米限制接近路线，健次承担近身压力；解说同时指出拉里末补面对健次仍有风险。",
+          "claim": "2026 LCQ · 广州双方完整三英雄阵容已核对。KDS围绕格鲁伊的连接支援、艾魅的入口控制和拉里和劳里的隔墙攻击组成控区体系。 解说明确指出双方没有破墙，拉里能长期利用保留下来的墙；若普通对局出现破墙英雄，原有优势需要重新判断。 FUT由格斯支援，露米限制接近路线，健次承担近身压力；解说同时指出拉里末补面对健次仍有风险。",
+          "completeTeamObserved": true,
+          "evidenceType": "professional_visual_roster"
+        },
+        {
+          "sourceId": "youtube:9CQQ04lg-sQ",
+          "professionalCaseId": "chall26-gf-open-business",
+          "startSeconds": 31240,
+          "url": "https://www.youtube.com/watch?v=9CQQ04lg-sQ&t=31240s",
+          "claim": "2026挑战者总决赛 · 伊斯坦布尔双方完整三英雄阵容已核对。工具分析：梅格维持占区压力，拉夫上校从安全角度提供强化与射线，科迪留斯隔离关键敌人来帮助队友争区；不能为单挑把区域长时间留空。 工具分析：格斯保护进区者，健次从侧面迫使防守转向，科莱特处理高血量目标；护盾与切入时机需要同步。",
           "completeTeamObserved": true,
           "evidenceType": "professional_visual_roster"
         }
@@ -10763,6 +12580,9 @@
           "status": "待版本与实战复核",
           "mapFitBand": 1,
           "evidenceRefs": [
+            "youtube:ZIGzQ-zJFWc",
+            "youtube:oPpaTsWQzOY",
+            "youtube:9CQQ04lg-sQ",
             "bilibili:BV1a8Tp6qEb3",
             "brawlzone-trio-snapshot-20261023-gem-fort"
           ],
@@ -10877,6 +12697,258 @@
           "status": "地图组合样本快照 · 配合与版本待验证",
           "mapFitBand": 1,
           "substitutions": []
+        },
+        {
+          "title": "8月东亚 · ZETA DIVISION的矿区配合",
+          "synergy": "艾魅守住中距离入口，戈雷用传送接应达米安向前争位；不要三人挤在同一条狭窄进场线上。",
+          "risk": "原对手为布洛克、珀尔、黑鸦。进场英雄深追会让持宝路线失去保护；缺少退路时不要把机动能力当成必然能撤走。",
+          "loadout": "职业三英雄已核对；妙具与星徽参考来自独立教学证据，不能认为职业选手在此局使用同一配装。原赛事机制需按后续补丁复核。",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三英雄来自官方画面；以下分工、触发与回撤是工具分析，非选手意图或实战验证。",
+            "steps": [
+              "艾魅负责中距离封路与反近身；戈雷负责传送接应与角度转换；达米安负责前排推进与近身压迫。先约定能互相支援的位置。",
+              "先由边路创造人数或站位优势，再让位置安全的一人拾宝；不预设某英雄必须全程持宝。",
+              "持宝者先后撤，另外两人交替掩护；缺员时停止追击，保住宝石再重建边线。"
+            ]
+          },
+          "id": "aug26-ea-gf-gem-fort-side-1",
+          "kind": "mechanism_inference",
+          "status": "职业三英雄已核验 · 配合与版本待实战",
+          "members": [
+            {
+              "heroId": 16000030,
+              "role": "中距离封路与反近身"
+            },
+            {
+              "heroId": 16000064,
+              "role": "传送接应与角度转换"
+            },
+            {
+              "heroId": 16000104,
+              "role": "前排推进与近身压迫"
+            }
+          ],
+          "mapFitBand": 1,
+          "cooperationBand": 2,
+          "evidenceRefs": [
+            "youtube:ZIGzQ-zJFWc"
+          ],
+          "substitutions": [],
+          "professionalReference": {
+            "caseId": "aug26-ea-gf-gem-fort",
+            "teamName": "ZETA DIVISION"
+          }
+        },
+        {
+          "title": "8月东亚 · Crazy Raccoon的矿区配合",
+          "synergy": "布洛克远程压低前排血线，珀尔蓄热保护靠近矿区的路线，黑鸦用毒伤干扰恢复；破墙前先判断会不会替对方打开近身通道。",
+          "risk": "原对手为艾魅、戈雷、达米安。进场英雄深追会让持宝路线失去保护；缺少退路时不要把机动能力当成必然能撤走。",
+          "loadout": "职业三英雄已核对；妙具与星徽参考来自独立教学证据，不能认为职业选手在此局使用同一配装。原赛事机制需按后续补丁复核。",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三英雄来自官方画面；以下分工、触发与回撤是工具分析，非选手意图或实战验证。",
+            "steps": [
+              "布洛克负责远程火力与破墙；珀尔负责蓄热火力与近身防线；黑鸦负责毒伤消耗与限制恢复。先约定能互相支援的位置。",
+              "先由边路创造人数或站位优势，再让位置安全的一人拾宝；不预设某英雄必须全程持宝。",
+              "持宝者先后撤，另外两人交替掩护；缺员时停止追击，保住宝石再重建边线。"
+            ]
+          },
+          "id": "aug26-ea-gf-gem-fort-side-2",
+          "kind": "mechanism_inference",
+          "status": "职业三英雄已核验 · 配合与版本待实战",
+          "members": [
+            {
+              "heroId": 16000003,
+              "role": "远程火力与破墙"
+            },
+            {
+              "heroId": 16000072,
+              "role": "蓄热火力与近身防线"
+            },
+            {
+              "heroId": 16000012,
+              "role": "毒伤消耗与限制恢复"
+            }
+          ],
+          "mapFitBand": 1,
+          "cooperationBand": 2,
+          "evidenceRefs": [
+            "youtube:ZIGzQ-zJFWc"
+          ],
+          "substitutions": [],
+          "professionalReference": {
+            "caseId": "aug26-ea-gf-gem-fort",
+            "teamName": "Crazy Raccoon"
+          }
+        },
+        {
+          "title": "8月南美 · Bounty Hunters的矿区配合",
+          "synergy": "小罗先限制入口，阿拾与达米安交替争前排空间，为后方留出拾宝与后撤路线；两个近身位不能同时追到视野之外。",
+          "risk": "原对手为巴兹、梅格、瑞科。进场英雄深追会让持宝路线失去保护；缺少退路时不要把机动能力当成必然能撤走。",
+          "loadout": "职业三英雄已核对；妙具与星徽参考来自独立教学证据，不能认为职业选手在此局使用同一配装。原赛事机制需按后续补丁复核。",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三英雄来自官方画面；以下分工、触发与回撤是工具分析，非选手意图或实战验证。",
+            "steps": [
+              "小罗负责冻结威胁与区域封锁；阿拾负责怒气前排与持续推进；达米安负责前排推进与近身压迫。先约定能互相支援的位置。",
+              "先由边路创造人数或站位优势，再让位置安全的一人拾宝；不预设某英雄必须全程持宝。",
+              "持宝者先后撤，另外两人交替掩护；缺员时停止追击，保住宝石再重建边线。"
+            ]
+          },
+          "id": "aug26-sa-gf-gem-fort-side-1",
+          "kind": "mechanism_inference",
+          "status": "职业三英雄已核验 · 配合与版本待实战",
+          "members": [
+            {
+              "heroId": 16000041,
+              "role": "冻结威胁与区域封锁"
+            },
+            {
+              "heroId": 16000051,
+              "role": "怒气前排与持续推进"
+            },
+            {
+              "heroId": 16000104,
+              "role": "前排推进与近身压迫"
+            }
+          ],
+          "mapFitBand": 1,
+          "cooperationBand": 2,
+          "evidenceRefs": [
+            "youtube:oPpaTsWQzOY"
+          ],
+          "substitutions": [],
+          "professionalReference": {
+            "caseId": "aug26-sa-gf-gem-fort",
+            "teamName": "Bounty Hunters"
+          }
+        },
+        {
+          "title": "8月南美 · LOUD的矿区配合",
+          "synergy": "梅格保持正面压力，瑞科利用墙体压侧，巴兹等控场空隙后进场；不要为追击让持宝者失去支援。",
+          "risk": "原对手为小罗、阿拾、达米安。进场英雄深追会让持宝路线失去保护；缺少退路时不要把机动能力当成必然能撤走。",
+          "loadout": "职业三英雄已核对；妙具与星徽参考来自独立教学证据，不能认为职业选手在此局使用同一配装。原赛事机制需按后续补丁复核。",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三英雄来自官方画面；以下分工、触发与回撤是工具分析，非选手意图或实战验证。",
+            "steps": [
+              "巴兹负责控制进场与跟进击杀；梅格负责持续火力与前线空间；瑞科负责墙体弹射与边线压制。先约定能互相支援的位置。",
+              "先由边路创造人数或站位优势，再让位置安全的一人拾宝；不预设某英雄必须全程持宝。",
+              "持宝者先后撤，另外两人交替掩护；缺员时停止追击，保住宝石再重建边线。"
+            ]
+          },
+          "id": "aug26-sa-gf-gem-fort-side-2",
+          "kind": "mechanism_inference",
+          "status": "职业三英雄已核验 · 配合与版本待实战",
+          "members": [
+            {
+              "heroId": 16000049,
+              "role": "控制进场与跟进击杀"
+            },
+            {
+              "heroId": 16000052,
+              "role": "持续火力与前线空间"
+            },
+            {
+              "heroId": 16000004,
+              "role": "墙体弹射与边线压制"
+            }
+          ],
+          "mapFitBand": 1,
+          "cooperationBand": 2,
+          "evidenceRefs": [
+            "youtube:oPpaTsWQzOY"
+          ],
+          "substitutions": [],
+          "professionalReference": {
+            "caseId": "aug26-sa-gf-gem-fort",
+            "teamName": "LOUD"
+          }
+        },
+        {
+          "title": "伊斯坦布尔 · SK Gaming的矿区配合",
+          "synergy": "梅格正面取得空间，瑞科从墙边形成交叉火力，科迪留斯隔离关键进场者；隔离前先报目标，外面的两人不能同时失守。",
+          "risk": "原对手为巴兹、阿萌、格斯。进场英雄深追会让持宝路线失去保护；缺少退路时不要把机动能力当成必然能撤走。",
+          "loadout": "职业三英雄已核对；妙具与星徽参考来自独立教学证据，不能认为职业选手在此局使用同一配装。原赛事机制需按后续补丁复核。",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三英雄来自官方画面；以下分工、触发与回撤是工具分析，非选手意图或实战验证。",
+            "steps": [
+              "梅格负责持续火力与前线空间；瑞科负责墙体弹射与边线压制；科迪琉斯负责隔离目标与单点对抗。先约定能互相支援的位置。",
+              "先由边路创造人数或站位优势，再让位置安全的一人拾宝；不预设某英雄必须全程持宝。",
+              "持宝者先后撤，另外两人交替掩护；缺员时停止追击，保住宝石再重建边线。"
+            ]
+          },
+          "id": "chall26-gf-gem-fort-side-1",
+          "kind": "mechanism_inference",
+          "status": "职业三英雄已核验 · 配合与版本待实战",
+          "members": [
+            {
+              "heroId": 16000052,
+              "role": "持续火力与前线空间"
+            },
+            {
+              "heroId": 16000004,
+              "role": "墙体弹射与边线压制"
+            },
+            {
+              "heroId": 16000070,
+              "role": "隔离目标与单点对抗"
+            }
+          ],
+          "mapFitBand": 1,
+          "cooperationBand": 2,
+          "evidenceRefs": [
+            "youtube:9CQQ04lg-sQ"
+          ],
+          "substitutions": [],
+          "professionalReference": {
+            "caseId": "chall26-gf-gem-fort",
+            "teamName": "SK Gaming"
+          }
+        },
+        {
+          "title": "伊斯坦布尔 · FUT Freezone的矿区配合",
+          "synergy": "格斯给进场者护盾和远程接应，巴兹与阿萌交替切入；两名进攻英雄不要同时离开持宝路线。",
+          "risk": "原对手为梅格、瑞科、科迪琉斯。进场英雄深追会让持宝路线失去保护；缺少退路时不要把机动能力当成必然能撤走。",
+          "loadout": "职业三英雄已核对；妙具与星徽参考来自独立教学证据，不能认为职业选手在此局使用同一配装。原赛事机制需按后续补丁复核。",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三英雄来自官方画面；以下分工、触发与回撤是工具分析，非选手意图或实战验证。",
+            "steps": [
+              "巴兹负责控制进场与跟进击杀；阿萌负责边路消耗与钻地切入；格斯负责护盾支援与远程接应。先约定能互相支援的位置。",
+              "先由边路创造人数或站位优势，再让位置安全的一人拾宝；不预设某英雄必须全程持宝。",
+              "持宝者先后撤，另外两人交替掩护；缺员时停止追击，保住宝石再重建边线。"
+            ]
+          },
+          "id": "chall26-gf-gem-fort-side-2",
+          "kind": "mechanism_inference",
+          "status": "职业三英雄已核验 · 配合与版本待实战",
+          "members": [
+            {
+              "heroId": 16000049,
+              "role": "控制进场与跟进击杀"
+            },
+            {
+              "heroId": 16000084,
+              "role": "边路消耗与钻地切入"
+            },
+            {
+              "heroId": 16000061,
+              "role": "护盾支援与远程接应"
+            }
+          ],
+          "mapFitBand": 1,
+          "cooperationBand": 2,
+          "evidenceRefs": [
+            "youtube:9CQQ04lg-sQ"
+          ],
+          "substitutions": [],
+          "professionalReference": {
+            "caseId": "chall26-gf-gem-fort",
+            "teamName": "FUT Freezone"
+          }
         }
       ],
       "candidates": [
@@ -10967,9 +13039,177 @@
           "startSeconds": null,
           "condition": "具体条件见原视频；版本与国服适用性待核验。",
           "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Emz",
+          "role": "中距离封路与反近身",
+          "sourceId": "youtube:ZIGzQ-zJFWc",
+          "startSeconds": 18785,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Gray",
+          "role": "传送接应与角度转换",
+          "sourceId": "youtube:ZIGzQ-zJFWc",
+          "startSeconds": 18785,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Damian",
+          "role": "前排推进与近身压迫",
+          "sourceId": "youtube:ZIGzQ-zJFWc",
+          "startSeconds": 18785,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Brock",
+          "role": "远程火力与破墙",
+          "sourceId": "youtube:ZIGzQ-zJFWc",
+          "startSeconds": 18785,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Pearl",
+          "role": "蓄热火力与近身防线",
+          "sourceId": "youtube:ZIGzQ-zJFWc",
+          "startSeconds": 18785,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Crow",
+          "role": "毒伤消耗与限制恢复",
+          "sourceId": "youtube:ZIGzQ-zJFWc",
+          "startSeconds": 18785,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Lou",
+          "role": "冻结威胁与区域封锁",
+          "sourceId": "youtube:oPpaTsWQzOY",
+          "startSeconds": 19970,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Ash",
+          "role": "怒气前排与持续推进",
+          "sourceId": "youtube:oPpaTsWQzOY",
+          "startSeconds": 19970,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Damian",
+          "role": "前排推进与近身压迫",
+          "sourceId": "youtube:oPpaTsWQzOY",
+          "startSeconds": 19970,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Buzz",
+          "role": "控制进场与跟进击杀",
+          "sourceId": "youtube:oPpaTsWQzOY",
+          "startSeconds": 19970,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Meg",
+          "role": "持续火力与前线空间",
+          "sourceId": "youtube:oPpaTsWQzOY",
+          "startSeconds": 19970,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Rico",
+          "role": "墙体弹射与边线压制",
+          "sourceId": "youtube:oPpaTsWQzOY",
+          "startSeconds": 19970,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Meg",
+          "role": "持续火力与前线空间",
+          "sourceId": "youtube:9CQQ04lg-sQ",
+          "startSeconds": 30445,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Rico",
+          "role": "墙体弹射与边线压制",
+          "sourceId": "youtube:9CQQ04lg-sQ",
+          "startSeconds": 30445,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Cordelius",
+          "role": "隔离目标与单点对抗",
+          "sourceId": "youtube:9CQQ04lg-sQ",
+          "startSeconds": 30445,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Buzz",
+          "role": "控制进场与跟进击杀",
+          "sourceId": "youtube:9CQQ04lg-sQ",
+          "startSeconds": 30445,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Moe",
+          "role": "边路消耗与钻地切入",
+          "sourceId": "youtube:9CQQ04lg-sQ",
+          "startSeconds": 30445,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Gus",
+          "role": "护盾支援与远程接应",
+          "sourceId": "youtube:9CQQ04lg-sQ",
+          "startSeconds": 30445,
+          "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
+          "status": "职业选角已看最终画面 · 当前版本待核验"
         }
       ],
       "mechanismEvidence": [
+        {
+          "sourceId": "youtube:ZIGzQ-zJFWc",
+          "startSeconds": 18740,
+          "url": "https://www.youtube.com/watch?v=ZIGzQ-zJFWc",
+          "claim": "2026月度决赛 · 8月东亚职业对局的完整阵容已核对关键画面。工具分析：艾魅守住中距离入口，戈雷用传送接应达米安向前争位；不要三人挤在同一条狭窄进场线上。 工具分析：布洛克远程压低前排血线，珀尔蓄热保护靠近矿区的路线，黑鸦用毒伤干扰恢复；破墙前先判断会不会替对方打开近身通道。",
+          "completeTeamObserved": false,
+          "evidenceType": "professional_match_vod"
+        },
+        {
+          "sourceId": "youtube:oPpaTsWQzOY",
+          "startSeconds": 19925,
+          "url": "https://www.youtube.com/watch?v=oPpaTsWQzOY",
+          "claim": "2026月度决赛 · 8月南美职业对局的完整阵容已核对关键画面。工具分析：小罗先限制入口，阿拾与达米安交替争前排空间，为后方留出拾宝与后撤路线；两个近身位不能同时追到视野之外。 工具分析：梅格保持正面压力，瑞科利用墙体压侧，巴兹等控场空隙后进场；不要为追击让持宝者失去支援。",
+          "completeTeamObserved": false,
+          "evidenceType": "professional_match_vod"
+        },
+        {
+          "sourceId": "youtube:9CQQ04lg-sQ",
+          "startSeconds": 30400,
+          "url": "https://www.youtube.com/watch?v=9CQQ04lg-sQ",
+          "claim": "2026挑战者总决赛 · 伊斯坦布尔职业对局的完整阵容已核对关键画面。工具分析：梅格正面取得空间，瑞科从墙边形成交叉火力，科迪留斯隔离关键进场者；隔离前先报目标，外面的两人不能同时失守。 工具分析：格斯给进场者护盾和远程接应，巴兹与阿萌交替切入；两名进攻英雄不要同时离开持宝路线。",
+          "completeTeamObserved": false,
+          "evidenceType": "professional_match_vod"
+        },
         {
           "sourceId": "bilibili:BV1a8Tp6qEb3",
           "startSeconds": 6,
@@ -11009,6 +13249,33 @@
           "claim": "已读取5套完整三英雄的地图排位组合样本及场数；组合与统计为索引快照，战术配合由工具另行推导。",
           "completeTeamObserved": true,
           "evidenceType": "ranked_trio_index_snapshot"
+        },
+        {
+          "sourceId": "youtube:ZIGzQ-zJFWc",
+          "professionalCaseId": "aug26-ea-gf-gem-fort",
+          "startSeconds": 18785,
+          "url": "https://www.youtube.com/watch?v=ZIGzQ-zJFWc&t=18785s",
+          "claim": "2026月度决赛 · 8月东亚双方完整三英雄阵容已核对。工具分析：艾魅守住中距离入口，戈雷用传送接应达米安向前争位；不要三人挤在同一条狭窄进场线上。 工具分析：布洛克远程压低前排血线，珀尔蓄热保护靠近矿区的路线，黑鸦用毒伤干扰恢复；破墙前先判断会不会替对方打开近身通道。",
+          "completeTeamObserved": true,
+          "evidenceType": "professional_visual_roster"
+        },
+        {
+          "sourceId": "youtube:oPpaTsWQzOY",
+          "professionalCaseId": "aug26-sa-gf-gem-fort",
+          "startSeconds": 19970,
+          "url": "https://www.youtube.com/watch?v=oPpaTsWQzOY&t=19970s",
+          "claim": "2026月度决赛 · 8月南美双方完整三英雄阵容已核对。工具分析：小罗先限制入口，阿拾与达米安交替争前排空间，为后方留出拾宝与后撤路线；两个近身位不能同时追到视野之外。 工具分析：梅格保持正面压力，瑞科利用墙体压侧，巴兹等控场空隙后进场；不要为追击让持宝者失去支援。",
+          "completeTeamObserved": true,
+          "evidenceType": "professional_visual_roster"
+        },
+        {
+          "sourceId": "youtube:9CQQ04lg-sQ",
+          "professionalCaseId": "chall26-gf-gem-fort",
+          "startSeconds": 30445,
+          "url": "https://www.youtube.com/watch?v=9CQQ04lg-sQ&t=30445s",
+          "claim": "2026挑战者总决赛 · 伊斯坦布尔双方完整三英雄阵容已核对。工具分析：梅格正面取得空间，瑞科从墙边形成交叉火力，科迪留斯隔离关键进场者；隔离前先报目标，外面的两人不能同时失守。 工具分析：格斯给进场者护盾和远程接应，巴兹与阿萌交替切入；两名进攻英雄不要同时离开持宝路线。",
+          "completeTeamObserved": true,
+          "evidenceType": "professional_visual_roster"
         }
       ]
     }

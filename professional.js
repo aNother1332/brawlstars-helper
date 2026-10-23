@@ -5,13 +5,16 @@ export function casesForMap(data,catalog,mapId) {
  return (data.cases||[]).filter(c=>c.mapId===map.id&&c.mode===map.mode&&c.lineupsVerified===true);
 }
 
-export function professionalReferenceForTeam(team,data,catalog,mapId) {
- const ref=team.professionalReference;
- if(!ref)return null;
- const c=casesForMap(data,catalog,mapId).find(c=>c.id===ref.caseId&&c.verification?.finalTeams==='visual_verified');
- if(!c)return null;
- const side=c.teams.find(t=>t.name===ref.teamName);
- const selected=team.members.map(m=>m.heroId);
- if(!side||selected.length!==3||new Set(selected).size!==3||side.heroIds.length!==3||new Set(side.heroIds).size!==3||!selected.every(id=>side.heroIds.includes(id)))return null;
- return {case:c,side,opponent:c.teams.find(t=>t.name!==side.name)};
+export function professionalReferenceForTeam(team,data,catalog,mapId,caseId=null) {
+ const refs=[team.professionalReference,...team.additionalProfessionalReferences||[]].filter(Boolean);
+ for(const ref of refs){
+  if(caseId&&ref.caseId!==caseId)continue;
+  const c=casesForMap(data,catalog,mapId).find(c=>c.id===ref.caseId&&c.verification?.finalTeams==='visual_verified');
+  if(!c)continue;
+  const side=c.teams.find(t=>t.name===ref.teamName);
+  const selected=team.members.map(m=>m.heroId);
+  if(!side||selected.length!==3||new Set(selected).size!==3||side.heroIds.length!==3||new Set(side.heroIds).size!==3||!selected.every(id=>side.heroIds.includes(id)))continue;
+  return {case:c,side,opponent:c.teams.find(t=>t.name!==side.name)};
+ }
+ return null;
 }

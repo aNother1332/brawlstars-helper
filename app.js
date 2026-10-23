@@ -40,7 +40,7 @@ function renderList() {
 }
 function selectMap(id, updateUrl=true) {
   if(!state.catalog.maps.some(m=>m.id===id))return;
-  state.mapId=id;state.team=0;
+  state.mapId=id;state.team=0;state.professionalCaseId=null;
   if(updateUrl){const url=new URL(location.href);url.searchParams.set('map',id);history.replaceState(null,'',url);}
   renderList();renderContent();renderRankingRows();
 }
@@ -120,9 +120,9 @@ function renderTactics(ref){
 }
 function proCaseCard(c){
  const heroNames=team=>team.heroIds.map(id=>e(heroById.get(id)?.name||id)).join(' / ');
- const templates=(pilotById.get(c.mapId)?.teams||[]).map((t,index)=>({t,index})).filter(({t})=>t.professionalReference?.caseId===c.id);
- const actions=templates.map(({t,index})=>`<button class="action pro-template-link" data-pro-team="${index}">选择 ${e(t.professionalReference.teamName)} 职业模板 ↑</button>`).join('');
- return `<article class="pro-card"><span class="eyebrow">${e(c.event)} · ${e(c.eventDate)}</span><h4>${e(c.stage)} · ${e(c.mapName||state.catalog.maps.find(m=>m.id===c.mapId)?.name)}</h4><div class="pro-sides">${c.teams.map(team=>`<div class="pro-side"><strong>${e(team.name)}</strong>${heroNames(team)}</div>`).join('')}</div><p><strong>已核验：</strong>${e(c.verifiedFields.join('；'))}</p><p class="review-alert"><strong>未核验：</strong>${e(c.unknownFields.join('；')||'无额外字段')}。未确认的选禁信息不补猜。</p>${c.bans?.length?`<p>已确认禁用：${c.bans.map(b=>e(typeof b==='string'?b:JSON.stringify(b))).join(' / ')}</p>`:''}<p><strong>解说观点与协作启发：</strong></p><ul>${c.lessons.map(text=>`<li>${e(text)}</li>`).join('')}</ul>${renderDraftObservations(c)}<p><strong>应用条件：</strong>${e(c.conditions.join('；'))}</p><p class="form-note">画面核对的是这场比赛的最终阵容；配合启发是解说观点或工具整理，职业模板保留对手条件，比赛结果不作为阵容因果证明。</p>${actions}<a href="${e(timestampUrl(c.url,c.startSeconds))}" target="_blank" rel="noopener noreferrer">官方回放 · ${formatTime(c.startSeconds)} ↗</a></article>`;
+ const templates=(pilotById.get(c.mapId)?.teams||[]).map((t,index)=>({t,index,ref:professionalReferenceForTeam(t,state.pro,state.catalog,c.mapId,c.id)})).filter(({ref})=>ref);
+ const actions=templates.map(({index,ref})=>`<button class="action pro-template-link" data-pro-team="${index}" data-pro-case="${e(c.id)}" data-pro-side="${e(ref.side.name)}">选择 ${e(ref.side.name)} 职业模板 ↑</button>`).join('');
+ return `<article class="pro-card" data-pro-case-id="${e(c.id)}"><span class="eyebrow">${e(c.event)} · ${e(c.eventDate)}</span><h4>${e(c.stage)} · ${e(c.mapName||state.catalog.maps.find(m=>m.id===c.mapId)?.name)}</h4><div class="pro-sides">${c.teams.map(team=>`<div class="pro-side"><strong>${e(team.name)}</strong>${heroNames(team)}</div>`).join('')}</div><p><strong>已核验：</strong>${e(c.verifiedFields.join('；'))}</p><p class="review-alert"><strong>未核验：</strong>${e(c.unknownFields.join('；')||'无额外字段')}。未确认的选禁信息不补猜。</p>${c.bans?.length?`<p>已确认禁用：${c.bans.map(b=>e(typeof b==='string'?b:JSON.stringify(b))).join(' / ')}</p>`:''}<p><strong>解说观点与协作启发：</strong></p><ul>${c.lessons.map(text=>`<li>${e(text)}</li>`).join('')}</ul>${renderDraftObservations(c)}<p><strong>应用条件：</strong>${e(c.conditions.join('；'))}</p><p class="form-note">画面核对的是这场比赛的最终阵容；配合启发是解说观点或工具整理，职业模板保留对手条件，比赛结果不作为阵容因果证明。</p>${actions}<a href="${e(timestampUrl(c.url,c.startSeconds))}" target="_blank" rel="noopener noreferrer">官方回放 · ${formatTime(c.startSeconds)} ↗</a></article>`;
 }
 function renderProCases(map){
  const cases=casesForMap(state.pro,state.catalog,map.id);if(!cases.length)return;
@@ -130,14 +130,21 @@ function renderProCases(map){
  section.innerHTML=`<div class="section-heading"><div><h3>从职业选禁学习配合<small>PRO DRAFT STUDIES</small></h3><p>看职责如何衔接，也看对手会怎样拆解。职业队伍选择不是通用强度结论。</p></div></div>${cases.map(proCaseCard).join('')}`;
  $('#content').append(section);
  section.querySelectorAll('[data-pro-team]').forEach(button=>button.addEventListener('click',()=>{
-  changeTeam(Number(button.dataset.proTeam),pilotById.get(map.id),true);
+  changeTeam(Number(button.dataset.proTeam),pilotById.get(map.id),true,button.dataset.proCase);
   $('#team-panel').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});
  }));
 }
 function renderProHub(){
  const cases=state.pro.cases.filter(c=>casesForMap(state.pro,state.catalog,c.mapId).includes(c));
- $('#pro-hub').innerHTML=`<details class="pro-hub"><summary>职业选禁研究 · ${cases.length} 个已核验阵容案例 · ${[...pilotById.values()].reduce((sum,m)=>sum+m.teams.filter(t=>professionalReferenceForTeam(t,state.pro,state.catalog,m.mapId)).length,0)} 套职业模板 · 2026 LCQ</summary><p class="form-note">${e(state.pro.notice)}</p>${cases.map(c=>`<p><button class="map-link" data-pro-map="${c.mapId}">${e(state.catalog.maps.find(m=>m.id===c.mapId)?.name)} · ${e(c.teams.map(t=>t.name).join(' vs '))} →</button></p>`).join('')}</details>`;
+ $('#pro-hub').innerHTML=`<details class="pro-hub"><summary>职业选禁研究 · ${cases.length} 个已核验阵容案例 · ${[...pilotById.values()].reduce((sum,m)=>sum+m.teams.filter(t=>professionalReferenceForTeam(t,state.pro,state.catalog,m.mapId)).length,0)} 套不同三英雄职业模板 · ${new Set(cases.map(c=>c.event)).size} 场赛事</summary><p class="form-note">${e(state.pro.notice)}</p>${renderProEventGroups(cases)}</details>`;
  $('#pro-hub').querySelectorAll('[data-pro-map]').forEach(b=>b.addEventListener('click',()=>{selectMap(Number(b.dataset.proMap));$('.pro-section')?.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});}));
+}
+function renderProEventGroups(cases){
+ const ordered=[...cases].sort((a,b)=>b.eventDate.localeCompare(a.eventDate));
+ return [...new Set(ordered.map(c=>c.event))].map(event=>{
+  const rows=cases.filter(c=>c.event===event).sort((a,b)=>b.eventDate.localeCompare(a.eventDate));
+  return `<details class="pro-event-group"><summary>${e(event)} · ${rows.length} 个对局</summary>${rows.map(c=>`<p><button class="map-link" data-pro-map="${c.mapId}">${e(c.eventDate)} · ${e(state.catalog.maps.find(m=>m.id===c.mapId)?.name)} · ${e(c.teams.map(t=>t.name).join(' vs '))} →</button></p>`).join('')}</details>`;
+ }).join('');
 }
 function renderKnowledge(map,knowledge){
  const block=document.createElement('section');block.className='knowledge-section';
@@ -158,13 +165,21 @@ function renderRecentContext(p){
  block.innerHTML=`<summary>近期英雄与配合观点 · ${relevant.length} 条（综合观点，不代替地图判断）</summary>${relevant.map(c=>{const s=sources.get(c.sourceId);return `<div class="source-card"><span class="source-icon">${s.platform==='bilibili'?'B':'▶'}</span><div class="source-body"><a href="${e(safeUrl(c.url))}" target="_blank" rel="noopener noreferrer">${e(s.author)} · ${e(s.publishedAt.slice(0,10))} · ${formatTime(c.startSeconds)} ↗</a><p>${e(c.summary)}</p><small>${e(c.condition||'保留原视频的适用条件。')}</small></div></div>`;}).join('')}`;
  $('.evidence-section').append(block);
 }
-function changeTeam(index,p,animate=false){state.team=index;document.querySelectorAll('[data-team]').forEach(b=>{const active=Number(b.dataset.team)===index;b.classList.toggle('active',active);b.setAttribute('aria-selected',active);b.tabIndex=active?0:-1;});renderTeam(p);if(animate&&!matchMedia('(prefers-reduced-motion: reduce)').matches)$('#team-panel').animate([{opacity:.35,transform:'translateY(7px) scale(.985)'},{opacity:1,transform:'translateY(0) scale(1)'}],{duration:200,easing:'cubic-bezier(0.23,1,0.32,1)'});}
+function changeTeam(index,p,animate=false,caseId=null){state.team=index;state.professionalCaseId=caseId;document.querySelectorAll('[data-team]').forEach(b=>{const active=Number(b.dataset.team)===index;b.classList.toggle('active',active);b.setAttribute('aria-selected',active);b.tabIndex=active?0:-1;});renderTeam(p);if(animate&&!matchMedia('(prefers-reduced-motion: reduce)').matches)$('#team-panel').animate([{opacity:.35,transform:'translateY(7px) scale(.985)'},{opacity:1,transform:'translateY(0) scale(1)'}],{duration:200,easing:'cubic-bezier(0.23,1,0.32,1)'});}
 function renderProfessionalTeamEvidence(ref){
  const c=ref.case;
  const names=side=>side.heroIds.map(id=>heroById.get(id)?.name||id).join(' / ');
- return `<div class="team-evidence professional-team-evidence"><strong>职业三人选角 · ${e(ref.side.name)} · ${e(c.eventDate)}</strong><span>${e(c.stage)}</span><p><b>当时对手：</b>${e(ref.opponent.name)} · ${e(names(ref.opponent))}</p><p><b>选手对应：</b>${ref.side.players.map(p=>`${e(p.player)} → ${e(state.catalog.heroes.find(h=>h.en===p.heroEn)?.name||p.heroEn)}`).join('；')}</p><small>最终三英雄已核对官方画面；下方配合方案由工具整理。完整选禁与职业配装未核验，不把一次选角当作当前最佳阵容。</small><a href="${e(safeUrl(c.finalRosterUrl))}" target="_blank" rel="noopener noreferrer">看最终选角画面 · ${formatTime(c.finalRosterFrameSeconds)} ↗</a></div>`;
+ return `<div class="team-evidence professional-team-evidence"><strong>${e(c.event)} · ${e(ref.side.name)} · ${e(c.eventDate)}</strong><span>${e(c.stage)}</span><p><b>当时对手：</b>${e(ref.opponent.name)} · ${e(names(ref.opponent))}</p><p><b>选手对应：</b>${ref.side.players.map(p=>`${e(p.player)} → ${e(state.catalog.heroes.find(h=>h.en===p.heroEn)?.name||p.heroEn)}`).join('；')}</p><small>最终三英雄已核对官方画面；下方配合方案由工具整理。完整选禁与职业配装未核验，不把一次选角当作当前最佳阵容。</small><a href="${e(safeUrl(c.finalRosterUrl))}" target="_blank" rel="noopener noreferrer">看最终选角画面 · ${formatTime(c.finalRosterFrameSeconds)} ↗</a></div>`;
 }
 function loadoutScope(row){return row.mapId!=null?'地图建议':row.mode?'模式建议':'通用建议';}
+function renderOtherProEvidence(team,selected){
+ const refs=[team.professionalReference,...team.additionalProfessionalReferences||[]].filter(Boolean).filter(r=>r.caseId!==selected?.case.id);
+ if(!refs.length)return '';
+ return `<details><summary>这组三英雄的其他职业出处 · ${refs.length} 条</summary>${refs.map(r=>{
+  const ref=professionalReferenceForTeam(team,state.pro,state.catalog,state.mapId,r.caseId);
+  return ref?`<p><a href="${e(safeUrl(ref.case.finalRosterUrl))}" target="_blank" rel="noopener noreferrer">${e(ref.case.event)} · ${e(ref.case.eventDate)} · ${e(ref.side.name)} ↗</a><br>原对手：${e(ref.opponent.name)} · ${ref.opponent.heroIds.map(id=>e(heroById.get(id).name)).join(' / ')}</p>`:'';
+ }).join('')}<p class="form-note">同一组合可有多个赛事出处；各场对手和版本分别保留，不代表配置相同或形成通用胜率结论。</p></details>`;
+}
 function loadoutEvidence(row){
  const url=new URL(row.source.url);url.searchParams.set('t',Math.floor(row.startSeconds));
  return `<div class="loadout-evidence"><strong>${e(row.name)} <small>${e(row.optionEn)}</small></strong><p>${e(row.reason)}</p>${row.condition?`<p class="loadout-condition">适用条件：${e(row.condition)}</p>`:''}<a href="${e(safeUrl(url.href))}" target="_blank" rel="noopener noreferrer">${e(row.source.author)} · ${formatTime(row.startSeconds)}–${formatTime(row.endSeconds)} ↗</a><small>依据发布 ${e(row.source.originalPublishedAt||row.source.publishedAt)} · 最近核对 ${e(row.reviewedAt)} · ${loadoutScope(row)}</small></div>`;
@@ -185,10 +200,10 @@ function renderLoadout(h,compact=true){
 }
 function renderTeam(p) {
   const t=p.teams[state.team];
-  const proRef=professionalReferenceForTeam(t,state.pro,state.catalog,state.mapId);
+  const proRef=professionalReferenceForTeam(t,state.pro,state.catalog,state.mapId,state.professionalCaseId);
   const observedStats=t.teamStats;
   const teamEvidence=proRef?renderProfessionalTeamEvidence(proRef):observedStats?`<div class="team-evidence"><strong>${observedStats.indexedSnapshot?'地图排位组合样本 · 索引快照':'近期排位三人组记录'}</strong><span>${observedStats.indexedSnapshot?'来源记录 ':''}${(observedStats.winRate*100).toFixed(1)}% ${observedStats.games===null?'· 组合场数未公开':`· ${observedStats.games} 场 / ${observedStats.players} 名玩家 / ${observedStats.indexedSnapshot?'来源标注':'近 '}${observedStats.periodDays} 天${observedStats.indexedSnapshot?'窗口':''}`}</span><small>${e(observedStats.note||'群体描述数据，不代表你们的预期胜率。')}</small></div>`:'';
-  $('#team-container').innerHTML=`<article class="team-panel" id="team-panel" role="tabpanel" aria-labelledby="tab-${state.team}"><div class="team-header"><div><h4>${e(t.title)}</h4><p>三人组队 · 基本沟通 · 中等偏上水平</p></div><span class="inference-badge">${proRef?'职业实选 · 配合为推导':observedStats?(observedStats.indexedSnapshot?'组合样本快照 · 配合为推导':'排位实测组合 · 配合解释为推导'):'机制推导 · 待验证'}</span></div><div class="hero-grid">${t.members.map(member=>{const h=heroById.get(member.heroId);return `<div class="hero-unit"><button class="hero-card" data-hero="${h.id}" aria-label="查看${e(h.name)}资料"><span class="hero-info-hint">↗</span>${picture(h.image,h.name,'','eager')}<strong>${e(h.name)}</strong><span class="hero-en">${e(h.en)}</span><span class="role">${e(member.role)}</span></button>${renderLoadout(h)}</div>`;}).join('')}</div><div class="team-body"><p class="loadout-policy">✚ 妙具与星徽分别查证 · 仅用近三个月资料 · 地图／模式建议优先，其次通用建议。没有无条件首选时保留暂缺或条件备选。来源涉及巴菲等强化时，请先查看条件；当前版本与国服同步尚未完整核实。</p>${teamEvidence}<div class="detail-label">↗ 怎么配合<span class="line"></span></div><p>${e(t.synergy)}</p><div class="risk-box"><strong>△ 需要注意</strong><p>${e(t.risk)}</p></div><details><summary>关键配置与使用条件</summary><p>${e(t.loadout)}</p><p>上方英雄卡新增有来源的妙具、星徽参考；此处为原阵容的使用条件，部分旧配装备注尚待更新。技能数值及当前版本适用性仍待核实。</p></details>${t.substitutions.length?`<details><summary>可选替补 · 替换会改变什么</summary>${t.substitutions.map(s=>`<p>${e(heroById.get(t.members[s.position].heroId).name)} → ${e(heroById.get(s.heroId).name)}：${e(s.tradeoff)}</p>`).join('')}</details>`:''}<div class="team-bottom"><button class="action" id="copy-team">⧉ 复制阵容</button><button class="action" id="feedback-button">＋ 记录实战反馈</button><span>整理于 ${e(state.data.updatedAt)} · 尚未验证当前版本</span></div></div></article>`;
+  $('#team-container').innerHTML=`<article class="team-panel" id="team-panel" role="tabpanel" aria-labelledby="tab-${state.team}"><div class="team-header"><div><h4>${e(t.title)}</h4><p>三人组队 · 基本沟通 · 中等偏上水平</p></div><span class="inference-badge">${proRef?'职业实选 · 配合为推导':observedStats?(observedStats.indexedSnapshot?'组合样本快照 · 配合为推导':'排位实测组合 · 配合解释为推导'):'机制推导 · 待验证'}</span></div><div class="hero-grid">${t.members.map(member=>{const h=heroById.get(member.heroId);return `<div class="hero-unit"><button class="hero-card" data-hero="${h.id}" aria-label="查看${e(h.name)}资料"><span class="hero-info-hint">↗</span>${picture(h.image,h.name,'','eager')}<strong>${e(h.name)}</strong><span class="hero-en">${e(h.en)}</span><span class="role">${e(member.role)}</span></button>${renderLoadout(h)}</div>`;}).join('')}</div><div class="team-body"><p class="loadout-policy">✚ 妙具与星徽分别查证 · 仅用近三个月资料 · 地图／模式建议优先，其次通用建议。没有无条件首选时保留暂缺或条件备选。来源涉及巴菲等强化时，请先查看条件；当前版本与国服同步尚未完整核实。</p>${teamEvidence}${renderOtherProEvidence(t,proRef)}<div class="detail-label">↗ 怎么配合<span class="line"></span></div><p>${e(t.synergy)}</p><div class="risk-box"><strong>△ 需要注意</strong><p>${e(t.risk)}</p></div><details><summary>关键配置与使用条件</summary><p>${e(t.loadout)}</p><p>上方英雄卡新增有来源的妙具、星徽参考；此处为原阵容的使用条件，部分旧配装备注尚待更新。技能数值及当前版本适用性仍待核实。</p></details>${t.substitutions.length?`<details><summary>可选替补 · 替换会改变什么</summary>${t.substitutions.map(s=>`<p>${e(heroById.get(t.members[s.position].heroId).name)} → ${e(heroById.get(s.heroId).name)}：${e(s.tradeoff)}</p>`).join('')}</details>`:''}<div class="team-bottom"><button class="action" id="copy-team">⧉ 复制阵容</button><button class="action" id="feedback-button">＋ 记录实战反馈</button><span>整理于 ${e(state.data.updatedAt)} · 尚未验证当前版本</span></div></div></article>`;
   attachImageFallbacks($('#team-container'));
   $('#team-container').querySelectorAll('[data-loadout-hero] details').forEach(details=>details.addEventListener('toggle',()=>{
     if(details.open&&matchMedia('(max-width:600px)').matches){
