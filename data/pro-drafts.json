@@ -1,6 +1,6 @@
 {
-  "asOf": "2026-10-19",
-  "notice": "来自2026年10月17–18日广州LCQ的官方第二日回放。已核对7个地图对局、3场系列赛的双方最终阵容；仅阅读相关选角与解说片段，未通看整场回放，不代表全赛事统计。完整禁用与逐手顺序未全部核验；解说判断和工具推论不等于选手意图。",
+  "asOf": "2026-10-23",
+  "notice": "来自2026年10月17–18日广州LCQ的官方第一、第二日回放。已核对20个地图对局的双方最终阵容与选手对应；仅阅读列出的选角解说片段并看关键画面，未通看两日回放，不代表全赛事统计。完整禁用、逐手顺序、具体配装和当前国服版本未全部核验；解说与工具分析不等于选手意图。",
   "cases": [
     {
       "id": "lcq2026-day2-skc-loud-belles-rock",
@@ -799,6 +799,1332 @@
       },
       "finalRosterFrameSeconds": 10525,
       "finalRosterUrl": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=10525s",
+      "event": "2026 LCQ · 广州",
+      "sourceId": "youtube:PIAPgulZPa4",
+      "lineupsVerified": true,
+      "verifiedFields": [
+        "官方回放日期与赛事阶段",
+        "地图广播名称、模式与资料ID匹配",
+        "双方最终三人阵容与选手对应（已看画面）"
+      ],
+      "unknownFields": [
+        "完整地图禁用名单",
+        "完整逐手选择顺序",
+        "国服当前地图逐格一致性",
+        "具体配装",
+        "本局最终结果未提取"
+      ]
+    },
+    {
+      "id": "lcq2026-day1-skc-toc-hard-rock",
+      "eventDate": "2026-10-17",
+      "stage": "B组胜者组 · SKCalalas vs Trick of China",
+      "teams": [
+        {
+          "name": "SKCalalas",
+          "heroesEn": [
+            "8-Bit",
+            "Ash",
+            "Moe"
+          ],
+          "players": [
+            {
+              "player": "Naipishu",
+              "heroEn": "8-Bit"
+            },
+            {
+              "player": "Ghost T",
+              "heroEn": "Ash"
+            },
+            {
+              "player": "Kuru",
+              "heroEn": "Moe"
+            }
+          ],
+          "rosterEvidence": "official_final_draft_overlay_visually_inspected",
+          "heroIds": [
+            16000027,
+            16000051,
+            16000084
+          ]
+        },
+        {
+          "name": "Trick of China",
+          "heroesEn": [
+            "Pearl",
+            "Starr Nova",
+            "Buzz"
+          ],
+          "players": [
+            {
+              "player": "XPR",
+              "heroEn": "Pearl"
+            },
+            {
+              "player": "DynaMike",
+              "heroEn": "Starr Nova"
+            },
+            {
+              "player": "JiangzeLove",
+              "heroEn": "Buzz"
+            }
+          ],
+          "rosterEvidence": "official_final_draft_overlay_visually_inspected",
+          "heroIds": [
+            16000072,
+            16000105,
+            16000049
+          ]
+        }
+      ],
+      "mapId": 15000007,
+      "mode": "Gem Grab",
+      "startSeconds": 13370,
+      "url": "https://www.youtube.com/watch?v=UWXyKZl3e_A&t=13370s",
+      "bans": null,
+      "pickOrder": null,
+      "lessons": [
+        "工具分析：硬石矿井的持宝位需要边路争出退路。定点中路加前排与钻地压力，和蓄热中路加双侧机动，是不同的空间争夺方案。"
+      ],
+      "conditions": [
+        "完整三英雄与选手对应来自指定官方画面；并未通看整场赛事。",
+        "阵容针对原对手选择；完整禁用与逐手顺序未核验，配合方案为工具推导。",
+        "需核对国服地图布局、可用英雄与当前平衡；职业选角不等于三排通用最优解。"
+      ],
+      "partialDraftObservations": [],
+      "verification": {
+        "finalTeams": "visual_verified",
+        "mapAndMode": "broadcast_overlay_verified",
+        "players": "visual_verified",
+        "fullBanList": "unknown",
+        "fullPickOrder": "unknown"
+      },
+      "finalRosterFrameSeconds": 13520,
+      "finalRosterUrl": "https://www.youtube.com/watch?v=UWXyKZl3e_A&t=13520s",
+      "event": "2026 LCQ · 广州",
+      "sourceId": "youtube:UWXyKZl3e_A",
+      "lineupsVerified": true,
+      "verifiedFields": [
+        "官方回放日期与赛事阶段",
+        "地图广播名称、模式与资料ID匹配",
+        "双方最终三人阵容与选手对应（已看画面）"
+      ],
+      "unknownFields": [
+        "完整地图禁用名单",
+        "完整逐手选择顺序",
+        "国服当前地图逐格一致性",
+        "具体配装",
+        "本局最终结果未提取"
+      ]
+    },
+    {
+      "id": "lcq2026-day1-skc-toc-safe-zone",
+      "eventDate": "2026-10-17",
+      "stage": "B组胜者组 · SKCalalas vs Trick of China",
+      "teams": [
+        {
+          "name": "SKCalalas",
+          "heroesEn": [
+            "8-Bit",
+            "Glowy",
+            "Kaze"
+          ],
+          "players": [
+            {
+              "player": "Naipishu",
+              "heroEn": "8-Bit"
+            },
+            {
+              "player": "Ghost T",
+              "heroEn": "Glowy"
+            },
+            {
+              "player": "Kuru",
+              "heroEn": "Kaze"
+            }
+          ],
+          "rosterEvidence": "official_final_draft_overlay_visually_inspected",
+          "heroIds": [
+            16000027,
+            16000101,
+            16000094
+          ]
+        },
+        {
+          "name": "Trick of China",
+          "heroesEn": [
+            "Nori",
+            "Maisie",
+            "Chuck"
+          ],
+          "players": [
+            {
+              "player": "XPR",
+              "heroEn": "Nori"
+            },
+            {
+              "player": "DynaMike",
+              "heroEn": "Maisie"
+            },
+            {
+              "player": "JiangzeLove",
+              "heroEn": "Chuck"
+            }
+          ],
+          "rosterEvidence": "official_final_draft_overlay_visually_inspected",
+          "heroIds": [
+            16000107,
+            16000068,
+            16000073
+          ]
+        }
+      ],
+      "mapId": 15000019,
+      "mode": "Heist",
+      "startSeconds": 12750,
+      "url": "https://www.youtube.com/watch?v=UWXyKZl3e_A&t=12750s",
+      "bans": null,
+      "pickOrder": null,
+      "lessons": [
+        "工具分析：安全区域需要区分中路火力、渗透与守家。回复可支持中线维持，渗透与火车路线则需要队友先压住入口，不能三人同时离家。"
+      ],
+      "conditions": [
+        "完整三英雄与选手对应来自指定官方画面；并未通看整场赛事。",
+        "阵容针对原对手选择；完整禁用与逐手顺序未核验，配合方案为工具推导。",
+        "需核对国服地图布局、可用英雄与当前平衡；职业选角不等于三排通用最优解。"
+      ],
+      "partialDraftObservations": [],
+      "verification": {
+        "finalTeams": "visual_verified",
+        "mapAndMode": "broadcast_overlay_verified",
+        "players": "visual_verified",
+        "fullBanList": "unknown",
+        "fullPickOrder": "unknown"
+      },
+      "finalRosterFrameSeconds": 12900,
+      "finalRosterUrl": "https://www.youtube.com/watch?v=UWXyKZl3e_A&t=12900s",
+      "event": "2026 LCQ · 广州",
+      "sourceId": "youtube:UWXyKZl3e_A",
+      "lineupsVerified": true,
+      "verifiedFields": [
+        "官方回放日期与赛事阶段",
+        "地图广播名称、模式与资料ID匹配",
+        "双方最终三人阵容与选手对应（已看画面）"
+      ],
+      "unknownFields": [
+        "完整地图禁用名单",
+        "完整逐手选择顺序",
+        "国服当前地图逐格一致性",
+        "具体配装",
+        "本局最终结果未提取"
+      ]
+    },
+    {
+      "id": "lcq2026-day1-axr-fut-layer-cake",
+      "eventDate": "2026-10-17",
+      "stage": "A组败者组 · Ace Xero vs FUT FreeZone",
+      "teams": [
+        {
+          "name": "Ace Xero",
+          "heroesEn": [
+            "Wendy",
+            "Sirius",
+            "Starr Nova"
+          ],
+          "players": [
+            {
+              "player": "Galaxy",
+              "heroEn": "Wendy"
+            },
+            {
+              "player": "David",
+              "heroEn": "Sirius"
+            },
+            {
+              "player": "Coldrink",
+              "heroEn": "Starr Nova"
+            }
+          ],
+          "rosterEvidence": "official_final_draft_overlay_visually_inspected",
+          "heroIds": [
+            16000108,
+            16000102,
+            16000105
+          ]
+        },
+        {
+          "name": "FUT FreeZone",
+          "heroesEn": [
+            "Najia",
+            "Carl",
+            "Gus"
+          ],
+          "players": [
+            {
+              "player": "DeMaster",
+              "heroEn": "Najia"
+            },
+            {
+              "player": "ZeyroX",
+              "heroEn": "Carl"
+            },
+            {
+              "player": "Ferissa",
+              "heroEn": "Gus"
+            }
+          ],
+          "rosterEvidence": "official_final_draft_overlay_visually_inspected",
+          "heroIds": [
+            16000103,
+            16000025,
+            16000061
+          ]
+        }
+      ],
+      "mapId": 15000082,
+      "mode": "Bounty",
+      "startSeconds": 19515,
+      "url": "https://www.youtube.com/watch?v=UWXyKZl3e_A&t=19515s",
+      "bans": null,
+      "pickOrder": null,
+      "lessons": [
+        "工具分析：夹心蛋糕的跨墙消耗要转化为站位优势。机动英雄需要先等消耗与支援到位，不能把可越过墙体理解成无条件切后排。"
+      ],
+      "conditions": [
+        "完整三英雄与选手对应来自指定官方画面；并未通看整场赛事。",
+        "阵容针对原对手选择；完整禁用与逐手顺序未核验，配合方案为工具推导。",
+        "需核对国服地图布局、可用英雄与当前平衡；职业选角不等于三排通用最优解。"
+      ],
+      "partialDraftObservations": [],
+      "verification": {
+        "finalTeams": "visual_verified",
+        "mapAndMode": "broadcast_overlay_verified",
+        "players": "visual_verified",
+        "fullBanList": "unknown",
+        "fullPickOrder": "unknown"
+      },
+      "finalRosterFrameSeconds": 19665,
+      "finalRosterUrl": "https://www.youtube.com/watch?v=UWXyKZl3e_A&t=19665s",
+      "event": "2026 LCQ · 广州",
+      "sourceId": "youtube:UWXyKZl3e_A",
+      "lineupsVerified": true,
+      "verifiedFields": [
+        "官方回放日期与赛事阶段",
+        "地图广播名称、模式与资料ID匹配",
+        "双方最终三人阵容与选手对应（已看画面）"
+      ],
+      "unknownFields": [
+        "完整地图禁用名单",
+        "完整逐手选择顺序",
+        "国服当前地图逐格一致性",
+        "具体配装",
+        "本局最终结果未提取"
+      ]
+    },
+    {
+      "id": "lcq2026-day1-toc-loud-safe-zone",
+      "eventDate": "2026-10-17",
+      "stage": "B组败者组 · Trick of China vs LOUD",
+      "teams": [
+        {
+          "name": "Trick of China",
+          "heroesEn": [
+            "8-Bit",
+            "Colt",
+            "Buzz"
+          ],
+          "players": [
+            {
+              "player": "XPR",
+              "heroEn": "8-Bit"
+            },
+            {
+              "player": "DynaMike",
+              "heroEn": "Colt"
+            },
+            {
+              "player": "JiangzeLove",
+              "heroEn": "Buzz"
+            }
+          ],
+          "rosterEvidence": "official_final_draft_overlay_visually_inspected",
+          "heroIds": [
+            16000027,
+            16000001,
+            16000049
+          ]
+        },
+        {
+          "name": "LOUD",
+          "heroesEn": [
+            "Nori",
+            "Gus",
+            "Surge"
+          ],
+          "players": [
+            {
+              "player": "KaioDog",
+              "heroEn": "Nori"
+            },
+            {
+              "player": "Edinho",
+              "heroEn": "Gus"
+            },
+            {
+              "player": "FireCrow",
+              "heroEn": "Surge"
+            }
+          ],
+          "rosterEvidence": "official_final_draft_overlay_visually_inspected",
+          "heroIds": [
+            16000107,
+            16000061,
+            16000038
+          ]
+        }
+      ],
+      "mapId": 15000019,
+      "mode": "Heist",
+      "startSeconds": 25550,
+      "url": "https://www.youtube.com/watch?v=UWXyKZl3e_A&t=25550s",
+      "bans": null,
+      "pickOrder": null,
+      "lessons": [
+        "工具分析：双持续火力与绕侧控制需要先创造压库路线；护盾加反突进则能支持渗透者牵制。两者都需要在进攻和守家之间交接职责。"
+      ],
+      "conditions": [
+        "完整三英雄与选手对应来自指定官方画面；并未通看整场赛事。",
+        "阵容针对原对手选择；完整禁用与逐手顺序未核验，配合方案为工具推导。",
+        "需核对国服地图布局、可用英雄与当前平衡；职业选角不等于三排通用最优解。"
+      ],
+      "partialDraftObservations": [],
+      "verification": {
+        "finalTeams": "visual_verified",
+        "mapAndMode": "broadcast_overlay_verified",
+        "players": "visual_verified",
+        "fullBanList": "unknown",
+        "fullPickOrder": "unknown"
+      },
+      "finalRosterFrameSeconds": 25700,
+      "finalRosterUrl": "https://www.youtube.com/watch?v=UWXyKZl3e_A&t=25700s",
+      "event": "2026 LCQ · 广州",
+      "sourceId": "youtube:UWXyKZl3e_A",
+      "lineupsVerified": true,
+      "verifiedFields": [
+        "官方回放日期与赛事阶段",
+        "地图广播名称、模式与资料ID匹配",
+        "双方最终三人阵容与选手对应（已看画面）"
+      ],
+      "unknownFields": [
+        "完整地图禁用名单",
+        "完整逐手选择顺序",
+        "国服当前地图逐格一致性",
+        "具体配装",
+        "本局最终结果未提取"
+      ]
+    },
+    {
+      "id": "lcq2026-day1-loud-navi-safe-zone",
+      "eventDate": "2026-10-17",
+      "stage": "B组胜者组 · LOUD vs NAVI",
+      "teams": [
+        {
+          "name": "LOUD",
+          "heroesEn": [
+            "8-Bit",
+            "Griff",
+            "Kaze"
+          ],
+          "players": [
+            {
+              "player": "KaioDog",
+              "heroEn": "8-Bit"
+            },
+            {
+              "player": "Edinho",
+              "heroEn": "Griff"
+            },
+            {
+              "player": "FireCrow",
+              "heroEn": "Kaze"
+            }
+          ],
+          "rosterEvidence": "official_final_draft_overlay_visually_inspected",
+          "heroIds": [
+            16000027,
+            16000050,
+            16000094
+          ]
+        },
+        {
+          "name": "NAVI",
+          "heroesEn": [
+            "Rico",
+            "Byron",
+            "Carl"
+          ],
+          "players": [
+            {
+              "player": "GeRo",
+              "heroEn": "Rico"
+            },
+            {
+              "player": "Enraged",
+              "heroEn": "Byron"
+            },
+            {
+              "player": "Nowy297",
+              "heroEn": "Carl"
+            }
+          ],
+          "rosterEvidence": "official_final_draft_overlay_visually_inspected",
+          "heroIds": [
+            16000004,
+            16000042,
+            16000025
+          ]
+        }
+      ],
+      "mapId": 15000019,
+      "mode": "Heist",
+      "startSeconds": 16360,
+      "url": "https://www.youtube.com/watch?v=UWXyKZl3e_A&t=16360s",
+      "bans": null,
+      "pickOrder": null,
+      "lessons": [
+        "工具分析：安全区域可以围绕定点爆发与侧翼渗透，也可以由回复支援中距弹射和机动推进。墙体的保留与拆除必须服务于整队射线。"
+      ],
+      "conditions": [
+        "完整三英雄与选手对应来自指定官方画面；并未通看整场赛事。",
+        "阵容针对原对手选择；完整禁用与逐手顺序未核验，配合方案为工具推导。",
+        "需核对国服地图布局、可用英雄与当前平衡；职业选角不等于三排通用最优解。"
+      ],
+      "partialDraftObservations": [],
+      "verification": {
+        "finalTeams": "visual_verified",
+        "mapAndMode": "broadcast_overlay_verified",
+        "players": "visual_verified",
+        "fullBanList": "unknown",
+        "fullPickOrder": "unknown"
+      },
+      "finalRosterFrameSeconds": 16510,
+      "finalRosterUrl": "https://www.youtube.com/watch?v=UWXyKZl3e_A&t=16510s",
+      "event": "2026 LCQ · 广州",
+      "sourceId": "youtube:UWXyKZl3e_A",
+      "lineupsVerified": true,
+      "verifiedFields": [
+        "官方回放日期与赛事阶段",
+        "地图广播名称、模式与资料ID匹配",
+        "双方最终三人阵容与选手对应（已看画面）"
+      ],
+      "unknownFields": [
+        "完整地图禁用名单",
+        "完整逐手选择顺序",
+        "国服当前地图逐格一致性",
+        "具体配装",
+        "本局最终结果未提取"
+      ]
+    },
+    {
+      "id": "lcq2026-day1-axr-fut-triple-dribble",
+      "eventDate": "2026-10-17",
+      "stage": "A组败者组 · Ace Xero vs FUT FreeZone",
+      "teams": [
+        {
+          "name": "Ace Xero",
+          "heroesEn": [
+            "Colette",
+            "Surge",
+            "Bibi"
+          ],
+          "players": [
+            {
+              "player": "Galaxy",
+              "heroEn": "Colette"
+            },
+            {
+              "player": "Coldrink",
+              "heroEn": "Surge"
+            },
+            {
+              "player": "David",
+              "heroEn": "Bibi"
+            }
+          ],
+          "rosterEvidence": "official_final_draft_overlay_visually_inspected",
+          "heroIds": [
+            16000039,
+            16000038,
+            16000026
+          ]
+        },
+        {
+          "name": "FUT FreeZone",
+          "heroesEn": [
+            "Wendy",
+            "Larry & Lawrie",
+            "Spike"
+          ],
+          "players": [
+            {
+              "player": "Ferissa",
+              "heroEn": "Wendy"
+            },
+            {
+              "player": "DeMaster",
+              "heroEn": "Larry & Lawrie"
+            },
+            {
+              "player": "ZeyroX",
+              "heroEn": "Spike"
+            }
+          ],
+          "rosterEvidence": "official_final_draft_overlay_visually_inspected",
+          "heroIds": [
+            16000108,
+            16000077,
+            16000005
+          ]
+        }
+      ],
+      "mapId": 15000025,
+      "mode": "Brawl Ball",
+      "startSeconds": 17620,
+      "url": "https://www.youtube.com/watch?v=UWXyKZl3e_A&t=17620s",
+      "bans": null,
+      "pickOrder": null,
+      "lessons": [
+        "工具分析：三重威胁的绕墙入口可用近身争球或隔墙封锁处理。进攻前确认球权、弹药和队友跟进，防守阵容也要在逼退后及时转控球。"
+      ],
+      "conditions": [
+        "完整三英雄与选手对应来自指定官方画面；并未通看整场赛事。",
+        "阵容针对原对手选择；完整禁用与逐手顺序未核验，配合方案为工具推导。",
+        "需核对国服地图布局、可用英雄与当前平衡；职业选角不等于三排通用最优解。"
+      ],
+      "partialDraftObservations": [],
+      "verification": {
+        "finalTeams": "visual_verified",
+        "mapAndMode": "broadcast_overlay_verified",
+        "players": "visual_verified",
+        "fullBanList": "unknown",
+        "fullPickOrder": "unknown"
+      },
+      "finalRosterFrameSeconds": 17770,
+      "finalRosterUrl": "https://www.youtube.com/watch?v=UWXyKZl3e_A&t=17770s",
+      "event": "2026 LCQ · 广州",
+      "sourceId": "youtube:UWXyKZl3e_A",
+      "lineupsVerified": true,
+      "verifiedFields": [
+        "官方回放日期与赛事阶段",
+        "地图广播名称、模式与资料ID匹配",
+        "双方最终三人阵容与选手对应（已看画面）"
+      ],
+      "unknownFields": [
+        "完整地图禁用名单",
+        "完整逐手选择顺序",
+        "国服当前地图逐格一致性",
+        "具体配装",
+        "本局最终结果未提取"
+      ]
+    },
+    {
+      "id": "lcq2026-day1-axr-fut-ring-of-fire",
+      "eventDate": "2026-10-17",
+      "stage": "A组败者组 · Ace Xero vs FUT FreeZone",
+      "teams": [
+        {
+          "name": "Ace Xero",
+          "heroesEn": [
+            "Wendy",
+            "Surge",
+            "Colette"
+          ],
+          "players": [
+            {
+              "player": "Galaxy",
+              "heroEn": "Wendy"
+            },
+            {
+              "player": "David",
+              "heroEn": "Surge"
+            },
+            {
+              "player": "Coldrink",
+              "heroEn": "Colette"
+            }
+          ],
+          "rosterEvidence": "official_final_draft_overlay_visually_inspected",
+          "heroIds": [
+            16000108,
+            16000038,
+            16000039
+          ]
+        },
+        {
+          "name": "FUT FreeZone",
+          "heroesEn": [
+            "Lou",
+            "Draco",
+            "Lumi"
+          ],
+          "players": [
+            {
+              "player": "DeMaster",
+              "heroEn": "Lou"
+            },
+            {
+              "player": "ZeyroX",
+              "heroEn": "Draco"
+            },
+            {
+              "player": "Ferissa",
+              "heroEn": "Lumi"
+            }
+          ],
+          "rosterEvidence": "official_final_draft_overlay_visually_inspected",
+          "heroIds": [
+            16000041,
+            16000080,
+            16000091
+          ]
+        }
+      ],
+      "mapId": 15000300,
+      "mode": "Hot Zone",
+      "startSeconds": 18885,
+      "url": "https://www.youtube.com/watch?v=UWXyKZl3e_A&t=18885s",
+      "bans": null,
+      "pickOrder": null,
+      "lessons": [
+        "工具分析：灼热火圈的高血量驻点必须有入口控制或火力掩护；反高血量组合则应交错消耗和反突进，别在追击时让热区空转。"
+      ],
+      "conditions": [
+        "完整三英雄与选手对应来自指定官方画面；并未通看整场赛事。",
+        "阵容针对原对手选择；完整禁用与逐手顺序未核验，配合方案为工具推导。",
+        "需核对国服地图布局、可用英雄与当前平衡；职业选角不等于三排通用最优解。"
+      ],
+      "partialDraftObservations": [],
+      "verification": {
+        "finalTeams": "visual_verified",
+        "mapAndMode": "broadcast_overlay_verified",
+        "players": "visual_verified",
+        "fullBanList": "unknown",
+        "fullPickOrder": "unknown"
+      },
+      "finalRosterFrameSeconds": 19035,
+      "finalRosterUrl": "https://www.youtube.com/watch?v=UWXyKZl3e_A&t=19035s",
+      "event": "2026 LCQ · 广州",
+      "sourceId": "youtube:UWXyKZl3e_A",
+      "lineupsVerified": true,
+      "verifiedFields": [
+        "官方回放日期与赛事阶段",
+        "地图广播名称、模式与资料ID匹配",
+        "双方最终三人阵容与选手对应（已看画面）"
+      ],
+      "unknownFields": [
+        "完整地图禁用名单",
+        "完整逐手选择顺序",
+        "国服当前地图逐格一致性",
+        "具体配装",
+        "本局最终结果未提取"
+      ]
+    },
+    {
+      "id": "lcq2026-day2-th-loud-pinhole",
+      "eventDate": "2026-10-18",
+      "stage": "淘汰赛胜者组 · Team Heretics vs LOUD",
+      "teams": [
+        {
+          "name": "Team Heretics",
+          "heroesEn": [
+            "Emz",
+            "Mina",
+            "Maisie"
+          ],
+          "players": [
+            {
+              "player": "Subeme",
+              "heroEn": "Emz"
+            },
+            {
+              "player": "Marco",
+              "heroEn": "Mina"
+            },
+            {
+              "player": "iKaoss",
+              "heroEn": "Maisie"
+            }
+          ],
+          "rosterEvidence": "official_final_draft_overlay_visually_inspected",
+          "heroIds": [
+            16000030,
+            16000097,
+            16000068
+          ]
+        },
+        {
+          "name": "LOUD",
+          "heroesEn": [
+            "Colette",
+            "Griff",
+            "Gus"
+          ],
+          "players": [
+            {
+              "player": "KaioDog",
+              "heroEn": "Colette"
+            },
+            {
+              "player": "FireCrow",
+              "heroEn": "Griff"
+            },
+            {
+              "player": "Edinho",
+              "heroEn": "Gus"
+            }
+          ],
+          "rosterEvidence": "official_final_draft_overlay_visually_inspected",
+          "heroIds": [
+            16000039,
+            16000050,
+            16000061
+          ]
+        }
+      ],
+      "mapId": 15000026,
+      "mode": "Brawl Ball",
+      "startSeconds": 11560,
+      "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=11560s",
+      "bans": null,
+      "pickOrder": null,
+      "lessons": [
+        "工具分析：精准射门的中草入口需要先被打开或夺取。机动位带动近中距封锁，或由破墙与护盾支持推进，是不同的进区方法。"
+      ],
+      "conditions": [
+        "完整三英雄与选手对应来自指定官方画面；并未通看整场赛事。",
+        "阵容针对原对手选择；完整禁用与逐手顺序未核验，配合方案为工具推导。",
+        "需核对国服地图布局、可用英雄与当前平衡；职业选角不等于三排通用最优解。"
+      ],
+      "partialDraftObservations": [],
+      "verification": {
+        "finalTeams": "visual_verified",
+        "mapAndMode": "broadcast_overlay_verified",
+        "players": "visual_verified",
+        "fullBanList": "unknown",
+        "fullPickOrder": "unknown"
+      },
+      "finalRosterFrameSeconds": 11710,
+      "finalRosterUrl": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=11710s",
+      "event": "2026 LCQ · 广州",
+      "sourceId": "youtube:PIAPgulZPa4",
+      "lineupsVerified": true,
+      "verifiedFields": [
+        "官方回放日期与赛事阶段",
+        "地图广播名称、模式与资料ID匹配",
+        "双方最终三人阵容与选手对应（已看画面）"
+      ],
+      "unknownFields": [
+        "完整地图禁用名单",
+        "完整逐手选择顺序",
+        "国服当前地图逐格一致性",
+        "具体配装",
+        "本局最终结果未提取"
+      ]
+    },
+    {
+      "id": "lcq2026-day2-th-loud-open",
+      "eventDate": "2026-10-18",
+      "stage": "淘汰赛胜者组 · Team Heretics vs LOUD",
+      "teams": [
+        {
+          "name": "Team Heretics",
+          "heroesEn": [
+            "Pearl",
+            "R-T",
+            "Eve"
+          ],
+          "players": [
+            {
+              "player": "Subeme",
+              "heroEn": "Pearl"
+            },
+            {
+              "player": "Marco",
+              "heroEn": "R-T"
+            },
+            {
+              "player": "iKaoss",
+              "heroEn": "Eve"
+            }
+          ],
+          "rosterEvidence": "official_final_draft_overlay_visually_inspected",
+          "heroIds": [
+            16000072,
+            16000066,
+            16000056
+          ]
+        },
+        {
+          "name": "LOUD",
+          "heroesEn": [
+            "Angelo",
+            "Byron",
+            "8-Bit"
+          ],
+          "players": [
+            {
+              "player": "KaioDog",
+              "heroEn": "Angelo"
+            },
+            {
+              "player": "FireCrow",
+              "heroEn": "Byron"
+            },
+            {
+              "player": "Edinho",
+              "heroEn": "8-Bit"
+            }
+          ],
+          "rosterEvidence": "official_final_draft_overlay_visually_inspected",
+          "heroIds": [
+            16000079,
+            16000042,
+            16000027
+          ]
+        }
+      ],
+      "mapId": 15000548,
+      "mode": "Knockout",
+      "startSeconds": 12150,
+      "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=12150s",
+      "bans": null,
+      "pickOrder": null,
+      "lessons": [
+        "工具分析：空旷荒野的水侧角度和掩体入口会改变交火线。远程治疗或近身反打分别提供容错，不能让主火力与支援同时被一条射线命中。"
+      ],
+      "conditions": [
+        "完整三英雄与选手对应来自指定官方画面；并未通看整场赛事。",
+        "阵容针对原对手选择；完整禁用与逐手顺序未核验，配合方案为工具推导。",
+        "需核对国服地图布局、可用英雄与当前平衡；职业选角不等于三排通用最优解。"
+      ],
+      "partialDraftObservations": [],
+      "verification": {
+        "finalTeams": "visual_verified",
+        "mapAndMode": "broadcast_overlay_verified",
+        "players": "visual_verified",
+        "fullBanList": "unknown",
+        "fullPickOrder": "unknown"
+      },
+      "finalRosterFrameSeconds": 12300,
+      "finalRosterUrl": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=12300s",
+      "event": "2026 LCQ · 广州",
+      "sourceId": "youtube:PIAPgulZPa4",
+      "lineupsVerified": true,
+      "verifiedFields": [
+        "官方回放日期与赛事阶段",
+        "地图广播名称、模式与资料ID匹配",
+        "双方最终三人阵容与选手对应（已看画面）"
+      ],
+      "unknownFields": [
+        "完整地图禁用名单",
+        "完整逐手选择顺序",
+        "国服当前地图逐格一致性",
+        "具体配装",
+        "本局最终结果未提取"
+      ]
+    },
+    {
+      "id": "lcq2026-day2-th-navi-hideout",
+      "eventDate": "2026-10-18",
+      "stage": "淘汰赛胜者组决赛 · Team Heretics vs NAVI",
+      "teams": [
+        {
+          "name": "Team Heretics",
+          "heroesEn": [
+            "Belle",
+            "Kaze",
+            "R-T"
+          ],
+          "players": [
+            {
+              "player": "Subeme",
+              "heroEn": "Belle"
+            },
+            {
+              "player": "Marco",
+              "heroEn": "Kaze"
+            },
+            {
+              "player": "iKaoss",
+              "heroEn": "R-T"
+            }
+          ],
+          "rosterEvidence": "official_final_draft_overlay_visually_inspected",
+          "heroIds": [
+            16000046,
+            16000094,
+            16000066
+          ]
+        },
+        {
+          "name": "NAVI",
+          "heroesEn": [
+            "Wendy",
+            "Mina",
+            "Pierce"
+          ],
+          "players": [
+            {
+              "player": "GeRo",
+              "heroEn": "Wendy"
+            },
+            {
+              "player": "Enraged",
+              "heroEn": "Mina"
+            },
+            {
+              "player": "Nowy297",
+              "heroEn": "Pierce"
+            }
+          ],
+          "rosterEvidence": "official_final_draft_overlay_visually_inspected",
+          "heroIds": [
+            16000108,
+            16000097,
+            16000099
+          ]
+        }
+      ],
+      "mapId": 15000022,
+      "mode": "Bounty",
+      "startSeconds": 22065,
+      "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=22065s",
+      "bans": null,
+      "pickOrder": null,
+      "lessons": [
+        "工具分析：草丛迷踪的远程消耗需要与侧路换线形成夹角。机动者进入前要确认支援和退路；反打技能的价值不应被无准备冲脸耗掉。"
+      ],
+      "conditions": [
+        "完整三英雄与选手对应来自指定官方画面；并未通看整场赛事。",
+        "阵容针对原对手选择；完整禁用与逐手顺序未核验，配合方案为工具推导。",
+        "需核对国服地图布局、可用英雄与当前平衡；职业选角不等于三排通用最优解。"
+      ],
+      "partialDraftObservations": [],
+      "verification": {
+        "finalTeams": "visual_verified",
+        "mapAndMode": "broadcast_overlay_verified",
+        "players": "visual_verified",
+        "fullBanList": "unknown",
+        "fullPickOrder": "unknown"
+      },
+      "finalRosterFrameSeconds": 22215,
+      "finalRosterUrl": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=22215s",
+      "event": "2026 LCQ · 广州",
+      "sourceId": "youtube:PIAPgulZPa4",
+      "lineupsVerified": true,
+      "verifiedFields": [
+        "官方回放日期与赛事阶段",
+        "地图广播名称、模式与资料ID匹配",
+        "双方最终三人阵容与选手对应（已看画面）"
+      ],
+      "unknownFields": [
+        "完整地图禁用名单",
+        "完整逐手选择顺序",
+        "国服当前地图逐格一致性",
+        "具体配装",
+        "本局最终结果未提取"
+      ]
+    },
+    {
+      "id": "lcq2026-day2-loud-kds-open",
+      "eventDate": "2026-10-18",
+      "stage": "淘汰赛败者组 · LOUD vs KDS",
+      "teams": [
+        {
+          "name": "LOUD",
+          "heroesEn": [
+            "Pearl",
+            "Brock",
+            "Glowy"
+          ],
+          "players": [
+            {
+              "player": "KaioDog",
+              "heroEn": "Pearl"
+            },
+            {
+              "player": "Edinho",
+              "heroEn": "Brock"
+            },
+            {
+              "player": "FireCrow",
+              "heroEn": "Glowy"
+            }
+          ],
+          "rosterEvidence": "official_final_draft_overlay_visually_inspected",
+          "heroIds": [
+            16000072,
+            16000003,
+            16000101
+          ]
+        },
+        {
+          "name": "KDS",
+          "heroesEn": [
+            "Mina",
+            "Pierce",
+            "Mandy"
+          ],
+          "players": [
+            {
+              "player": "duckie",
+              "heroEn": "Mina"
+            },
+            {
+              "player": "Sans",
+              "heroEn": "Pierce"
+            },
+            {
+              "player": "bobby",
+              "heroEn": "Mandy"
+            }
+          ],
+          "rosterEvidence": "official_final_draft_overlay_visually_inspected",
+          "heroIds": [
+            16000097,
+            16000099,
+            16000065
+          ]
+        }
+      ],
+      "mapId": 15000548,
+      "mode": "Knockout",
+      "startSeconds": 19380,
+      "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=19380s",
+      "bans": null,
+      "pickOrder": null,
+      "lessons": [
+        "工具分析：空旷荒野的破墙、回复与蓄热可以支持稳步消耗；长射程加机动换线则依赖报点和命中，不可让机动位提前脱离火力覆盖。"
+      ],
+      "conditions": [
+        "完整三英雄与选手对应来自指定官方画面；并未通看整场赛事。",
+        "阵容针对原对手选择；完整禁用与逐手顺序未核验，配合方案为工具推导。",
+        "需核对国服地图布局、可用英雄与当前平衡；职业选角不等于三排通用最优解。"
+      ],
+      "partialDraftObservations": [],
+      "verification": {
+        "finalTeams": "visual_verified",
+        "mapAndMode": "broadcast_overlay_verified",
+        "players": "visual_verified",
+        "fullBanList": "unknown",
+        "fullPickOrder": "unknown"
+      },
+      "finalRosterFrameSeconds": 19530,
+      "finalRosterUrl": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=19530s",
+      "event": "2026 LCQ · 广州",
+      "sourceId": "youtube:PIAPgulZPa4",
+      "lineupsVerified": true,
+      "verifiedFields": [
+        "官方回放日期与赛事阶段",
+        "地图广播名称、模式与资料ID匹配",
+        "双方最终三人阵容与选手对应（已看画面）"
+      ],
+      "unknownFields": [
+        "完整地图禁用名单",
+        "完整逐手选择顺序",
+        "国服当前地图逐格一致性",
+        "具体配装",
+        "本局最终结果未提取"
+      ]
+    },
+    {
+      "id": "lcq2026-day2-th-kds-open",
+      "eventDate": "2026-10-18",
+      "stage": "淘汰赛败者组决赛 · Team Heretics vs KDS",
+      "teams": [
+        {
+          "name": "Team Heretics",
+          "heroesEn": [
+            "Gus",
+            "Mina",
+            "8-Bit"
+          ],
+          "players": [
+            {
+              "player": "Subeme",
+              "heroEn": "Gus"
+            },
+            {
+              "player": "Marco",
+              "heroEn": "Mina"
+            },
+            {
+              "player": "iKaoss",
+              "heroEn": "8-Bit"
+            }
+          ],
+          "rosterEvidence": "official_final_draft_overlay_visually_inspected",
+          "heroIds": [
+            16000061,
+            16000097,
+            16000027
+          ]
+        },
+        {
+          "name": "KDS",
+          "heroesEn": [
+            "Pearl",
+            "Glowy",
+            "Piper"
+          ],
+          "players": [
+            {
+              "player": "duckie",
+              "heroEn": "Pearl"
+            },
+            {
+              "player": "bobby",
+              "heroEn": "Glowy"
+            },
+            {
+              "player": "Sans",
+              "heroEn": "Piper"
+            }
+          ],
+          "rosterEvidence": "official_final_draft_overlay_visually_inspected",
+          "heroIds": [
+            16000072,
+            16000101,
+            16000015
+          ]
+        }
+      ],
+      "mapId": 15000548,
+      "mode": "Knockout",
+      "startSeconds": 25260,
+      "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=25260s",
+      "bans": null,
+      "pickOrder": null,
+      "lessons": [
+        "工具分析：护盾与定点火力能支持机动换线，回复和远程对枪则更依赖节奏重置。一次职业选择只证明当场选过，不能据此推断胜率。"
+      ],
+      "conditions": [
+        "完整三英雄与选手对应来自指定官方画面；并未通看整场赛事。",
+        "阵容针对原对手选择；完整禁用与逐手顺序未核验，配合方案为工具推导。",
+        "需核对国服地图布局、可用英雄与当前平衡；职业选角不等于三排通用最优解。"
+      ],
+      "partialDraftObservations": [],
+      "verification": {
+        "finalTeams": "visual_verified",
+        "mapAndMode": "broadcast_overlay_verified",
+        "players": "visual_verified",
+        "fullBanList": "unknown",
+        "fullPickOrder": "unknown"
+      },
+      "finalRosterFrameSeconds": 25410,
+      "finalRosterUrl": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=25410s",
+      "event": "2026 LCQ · 广州",
+      "sourceId": "youtube:PIAPgulZPa4",
+      "lineupsVerified": true,
+      "verifiedFields": [
+        "官方回放日期与赛事阶段",
+        "地图广播名称、模式与资料ID匹配",
+        "双方最终三人阵容与选手对应（已看画面）"
+      ],
+      "unknownFields": [
+        "完整地图禁用名单",
+        "完整逐手选择顺序",
+        "国服当前地图逐格一致性",
+        "具体配装",
+        "本局最终结果未提取"
+      ]
+    },
+    {
+      "id": "lcq2026-day2-navi-kds-hideout",
+      "eventDate": "2026-10-18",
+      "stage": "淘汰赛胜者组 · NAVI vs KDS",
+      "teams": [
+        {
+          "name": "NAVI",
+          "heroesEn": [
+            "Mortis",
+            "Pearl",
+            "Pierce"
+          ],
+          "players": [
+            {
+              "player": "GeRo",
+              "heroEn": "Mortis"
+            },
+            {
+              "player": "Enraged",
+              "heroEn": "Pearl"
+            },
+            {
+              "player": "Nowy297",
+              "heroEn": "Pierce"
+            }
+          ],
+          "rosterEvidence": "official_final_draft_overlay_visually_inspected",
+          "heroIds": [
+            16000011,
+            16000072,
+            16000099
+          ]
+        },
+        {
+          "name": "KDS",
+          "heroesEn": [
+            "Belle",
+            "Stu",
+            "8-Bit"
+          ],
+          "players": [
+            {
+              "player": "bobby",
+              "heroEn": "Belle"
+            },
+            {
+              "player": "duckie",
+              "heroEn": "Stu"
+            },
+            {
+              "player": "Sans",
+              "heroEn": "8-Bit"
+            }
+          ],
+          "rosterEvidence": "official_final_draft_overlay_visually_inspected",
+          "heroIds": [
+            16000046,
+            16000045,
+            16000027
+          ]
+        }
+      ],
+      "mapId": 15000022,
+      "mode": "Bounty",
+      "startSeconds": 14980,
+      "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=14980s",
+      "bans": null,
+      "pickOrder": null,
+      "lessons": [
+        "工具分析：草丛迷踪的侧翼收割应等待消耗窗口；标记、机动和定点输出可交错压线。双方都应保留防绕后的间距，不能把前压等同于站在一起。"
+      ],
+      "conditions": [
+        "完整三英雄与选手对应来自指定官方画面；并未通看整场赛事。",
+        "阵容针对原对手选择；完整禁用与逐手顺序未核验，配合方案为工具推导。",
+        "需核对国服地图布局、可用英雄与当前平衡；职业选角不等于三排通用最优解。"
+      ],
+      "partialDraftObservations": [],
+      "verification": {
+        "finalTeams": "visual_verified",
+        "mapAndMode": "broadcast_overlay_verified",
+        "players": "visual_verified",
+        "fullBanList": "unknown",
+        "fullPickOrder": "unknown"
+      },
+      "finalRosterFrameSeconds": 15130,
+      "finalRosterUrl": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=15130s",
       "event": "2026 LCQ · 广州",
       "sourceId": "youtube:PIAPgulZPa4",
       "lineupsVerified": true,

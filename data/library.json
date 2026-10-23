@@ -1,6 +1,6 @@
 {
-  "asOf": "2026-10-19",
-  "heroStrengthCutoff": "2026-07-19",
+  "asOf": "2026-10-23",
+  "heroStrengthCutoff": "2026-07-23",
   "mainRankingSourceId": "youtube:htL_pFHoW5E",
   "policy": {
     "mapFirst": true,
@@ -49,7 +49,7 @@
       "publishedAt": "2026-10-18",
       "dataAsOf": null,
       "read": true,
-      "status": "official_VOD_caption_and_final_roster_frame_verified",
+      "status": "official_VOD_selected_captions_and_final_roster_frames_verified",
       "visualChecked": true,
       "reviewedRangesSeconds": [
         [
@@ -79,11 +79,70 @@
         [
           10305,
           10600
+        ],
+        [
+          11570,
+          11690
+        ],
+        [
+          12100,
+          12270
+        ],
+        [
+          13770,
+          13850
+        ],
+        [
+          19350,
+          19430
+        ],
+        [
+          22050,
+          22205
+        ],
+        [
+          24690,
+          24750
         ]
       ],
       "region": "international_competitive_event_in_China",
       "variantOnly": false,
-      "kind": "map_guide",
+      "kind": "professional_match_vod",
+      "recent": true,
+      "validityNotes": []
+    },
+    {
+      "id": "youtube:UWXyKZl3e_A",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=UWXyKZl3e_A",
+      "title": "Brawl Stars Championship 2026 | Last Chance Qualifier | Day 1",
+      "author": "Brawl Stars Esports",
+      "publishedAt": "2026-10-17",
+      "dataAsOf": null,
+      "read": true,
+      "status": "official_VOD_selected_captions_and_final_roster_frames_verified",
+      "visualChecked": true,
+      "reviewedRangesSeconds": [
+        [
+          12720,
+          12875
+        ],
+        [
+          13410,
+          13565
+        ],
+        [
+          19500,
+          19655
+        ],
+        [
+          25500,
+          25655
+        ]
+      ],
+      "region": "international_competitive_event_in_China",
+      "variantOnly": false,
+      "kind": "professional_match_vod",
       "recent": true,
       "validityNotes": []
     },
@@ -1596,6 +1655,426 @@
         "Dashboard reports Brock · Piper · Wendy at 76.0%, but does not expose that trio's game count on the overview; treat as a weak signal, not expected win rate."
       ],
       "durationSeconds": null
+    },
+    {
+      "id": "brawlzone-trio-snapshot-20261023-hard-rock-mine",
+      "platform": "web",
+      "url": "https://brawlzone.net/maps/gem-grab/hard-rock-mine",
+      "title": "Hard Rock Mine · 地图三人组样本（搜索索引快照）",
+      "author": "BrawlZone",
+      "retrievedAt": "2026-10-23",
+      "dataAsOf": null,
+      "publishedAt": null,
+      "kind": "ranked_trio_index_snapshot",
+      "read": true,
+      "status": "exact-map indexed trio section read; live update/window end not verified",
+      "validityNotes": [
+        "读取的是搜索索引返回的该精确地图页面片段，不声称已实时抓取原站。",
+        "来源标注近14天排位样本，但索引更新时间和样本窗口截止日未知；检索日期不当作数据日期。",
+        "小样本和组队水平影响明显；仅提供组合线索，不代表你们的预期胜率，也不参与英雄综合强度投票。"
+      ],
+      "recent": false,
+      "visualChecked": false,
+      "reviewedRangesSeconds": []
+    },
+    {
+      "id": "brawlzone-trio-snapshot-20261023-hot-potato",
+      "platform": "web",
+      "url": "https://brawlzone.net/maps/heist/hot-potato",
+      "title": "Hot Potato · 地图三人组样本（搜索索引快照）",
+      "author": "BrawlZone",
+      "retrievedAt": "2026-10-23",
+      "dataAsOf": null,
+      "publishedAt": null,
+      "kind": "ranked_trio_index_snapshot",
+      "read": true,
+      "status": "exact-map indexed trio section read; live update/window end not verified",
+      "validityNotes": [
+        "读取的是搜索索引返回的该精确地图页面片段，不声称已实时抓取原站。",
+        "来源标注近14天排位样本，但索引更新时间和样本窗口截止日未知；检索日期不当作数据日期。",
+        "小样本和组队水平影响明显；仅提供组合线索，不代表你们的预期胜率，也不参与英雄综合强度投票。"
+      ],
+      "recent": false,
+      "visualChecked": false,
+      "reviewedRangesSeconds": []
+    },
+    {
+      "id": "brawlzone-trio-snapshot-20261023-dueling-beetles",
+      "platform": "web",
+      "url": "https://brawlzone.net/maps/hot-zone/dueling-beetles",
+      "title": "Dueling Beetles · 地图三人组样本（搜索索引快照）",
+      "author": "BrawlZone",
+      "retrievedAt": "2026-10-23",
+      "dataAsOf": null,
+      "publishedAt": null,
+      "kind": "ranked_trio_index_snapshot",
+      "read": true,
+      "status": "exact-map indexed trio section read; live update/window end not verified",
+      "validityNotes": [
+        "读取的是搜索索引返回的该精确地图页面片段，不声称已实时抓取原站。",
+        "来源标注近14天排位样本，但索引更新时间和样本窗口截止日未知；检索日期不当作数据日期。",
+        "小样本和组队水平影响明显；仅提供组合线索，不代表你们的预期胜率，也不参与英雄综合强度投票。"
+      ],
+      "recent": false,
+      "visualChecked": false,
+      "reviewedRangesSeconds": []
+    },
+    {
+      "id": "brawlzone-trio-snapshot-20261023-double-swoosh",
+      "platform": "web",
+      "url": "https://brawlzone.net/maps/gem-grab/double-swoosh",
+      "title": "Double Swoosh · 地图三人组样本（搜索索引快照）",
+      "author": "BrawlZone",
+      "retrievedAt": "2026-10-23",
+      "dataAsOf": null,
+      "publishedAt": null,
+      "kind": "ranked_trio_index_snapshot",
+      "read": true,
+      "status": "exact-map indexed trio section read; live update/window end not verified",
+      "validityNotes": [
+        "读取的是搜索索引返回的该精确地图页面片段，不声称已实时抓取原站。",
+        "来源标注近14天排位样本，但索引更新时间和样本窗口截止日未知；检索日期不当作数据日期。",
+        "小样本和组队水平影响明显；仅提供组合线索，不代表你们的预期胜率，也不参与英雄综合强度投票。"
+      ],
+      "recent": false,
+      "visualChecked": false,
+      "reviewedRangesSeconds": []
+    },
+    {
+      "id": "brawlzone-trio-snapshot-20261023-belles-rock",
+      "platform": "web",
+      "url": "https://brawlzone.net/maps/knockout/belles-rock",
+      "title": "Belles Rock · 地图三人组样本（搜索索引快照）",
+      "author": "BrawlZone",
+      "retrievedAt": "2026-10-23",
+      "dataAsOf": null,
+      "publishedAt": null,
+      "kind": "ranked_trio_index_snapshot",
+      "read": true,
+      "status": "exact-map indexed trio section read; live update/window end not verified",
+      "validityNotes": [
+        "读取的是搜索索引返回的该精确地图页面片段，不声称已实时抓取原站。",
+        "来源标注近14天排位样本，但索引更新时间和样本窗口截止日未知；检索日期不当作数据日期。",
+        "小样本和组队水平影响明显；仅提供组合线索，不代表你们的预期胜率，也不参与英雄综合强度投票。"
+      ],
+      "recent": false,
+      "visualChecked": false,
+      "reviewedRangesSeconds": []
+    },
+    {
+      "id": "brawlzone-trio-snapshot-20261023-layer-cake",
+      "platform": "web",
+      "url": "https://brawlzone.net/maps/bounty/layer-cake",
+      "title": "Layer Cake · 地图三人组样本（搜索索引快照）",
+      "author": "BrawlZone",
+      "retrievedAt": "2026-10-23",
+      "dataAsOf": null,
+      "publishedAt": null,
+      "kind": "ranked_trio_index_snapshot",
+      "read": true,
+      "status": "exact-map indexed trio section read; live update/window end not verified",
+      "validityNotes": [
+        "读取的是搜索索引返回的该精确地图页面片段，不声称已实时抓取原站。",
+        "来源标注近14天排位样本，但索引更新时间和样本窗口截止日未知；检索日期不当作数据日期。",
+        "小样本和组队水平影响明显；仅提供组合线索，不代表你们的预期胜率，也不参与英雄综合强度投票。"
+      ],
+      "recent": false,
+      "visualChecked": false,
+      "reviewedRangesSeconds": []
+    },
+    {
+      "id": "brawlzone-trio-snapshot-20261023-undermine",
+      "platform": "web",
+      "url": "https://brawlzone.net/maps/gem-grab/undermine",
+      "title": "Undermine · 地图三人组样本（搜索索引快照）",
+      "author": "BrawlZone",
+      "retrievedAt": "2026-10-23",
+      "dataAsOf": null,
+      "publishedAt": null,
+      "kind": "ranked_trio_index_snapshot",
+      "read": true,
+      "status": "exact-map indexed trio section read; live update/window end not verified",
+      "validityNotes": [
+        "读取的是搜索索引返回的该精确地图页面片段，不声称已实时抓取原站。",
+        "来源标注近14天排位样本，但索引更新时间和样本窗口截止日未知；检索日期不当作数据日期。",
+        "小样本和组队水平影响明显；仅提供组合线索，不代表你们的预期胜率，也不参与英雄综合强度投票。"
+      ],
+      "recent": false,
+      "visualChecked": false,
+      "reviewedRangesSeconds": []
+    },
+    {
+      "id": "brawlzone-trio-snapshot-20261023-kaboom-canyon",
+      "platform": "web",
+      "url": "https://brawlzone.net/maps/heist/kaboom-canyon",
+      "title": "Kaboom Canyon · 地图三人组样本（搜索索引快照）",
+      "author": "BrawlZone",
+      "retrievedAt": "2026-10-23",
+      "dataAsOf": null,
+      "publishedAt": null,
+      "kind": "ranked_trio_index_snapshot",
+      "read": true,
+      "status": "exact-map indexed trio section read; live update/window end not verified",
+      "validityNotes": [
+        "读取的是搜索索引返回的该精确地图页面片段，不声称已实时抓取原站。",
+        "来源标注近14天排位样本，但索引更新时间和样本窗口截止日未知；检索日期不当作数据日期。",
+        "小样本和组队水平影响明显；仅提供组合线索，不代表你们的预期胜率，也不参与英雄综合强度投票。"
+      ],
+      "recent": false,
+      "visualChecked": false,
+      "reviewedRangesSeconds": []
+    },
+    {
+      "id": "brawlzone-trio-snapshot-20261023-safe-zone",
+      "platform": "web",
+      "url": "https://brawlzone.net/maps/heist/safe-zone",
+      "title": "Safe Zone · 地图三人组样本（搜索索引快照）",
+      "author": "BrawlZone",
+      "retrievedAt": "2026-10-23",
+      "dataAsOf": null,
+      "publishedAt": null,
+      "kind": "ranked_trio_index_snapshot",
+      "read": true,
+      "status": "exact-map indexed trio section read; live update/window end not verified",
+      "validityNotes": [
+        "读取的是搜索索引返回的该精确地图页面片段，不声称已实时抓取原站。",
+        "来源标注近14天排位样本，但索引更新时间和样本窗口截止日未知；检索日期不当作数据日期。",
+        "小样本和组队水平影响明显；仅提供组合线索，不代表你们的预期胜率，也不参与英雄综合强度投票。"
+      ],
+      "recent": false,
+      "visualChecked": false,
+      "reviewedRangesSeconds": []
+    },
+    {
+      "id": "brawlzone-trio-snapshot-20261023-triple-dribble",
+      "platform": "web",
+      "url": "https://brawlzone.net/maps/brawl-ball/triple-dribble",
+      "title": "Triple Dribble · 地图三人组样本（搜索索引快照）",
+      "author": "BrawlZone",
+      "retrievedAt": "2026-10-23",
+      "dataAsOf": null,
+      "publishedAt": null,
+      "kind": "ranked_trio_index_snapshot",
+      "read": true,
+      "status": "exact-map indexed trio section read; live update/window end not verified",
+      "validityNotes": [
+        "读取的是搜索索引返回的该精确地图页面片段，不声称已实时抓取原站。",
+        "来源标注近14天排位样本，但索引更新时间和样本窗口截止日未知；检索日期不当作数据日期。",
+        "小样本和组队水平影响明显；仅提供组合线索，不代表你们的预期胜率，也不参与英雄综合强度投票。"
+      ],
+      "recent": false,
+      "visualChecked": false,
+      "reviewedRangesSeconds": []
+    },
+    {
+      "id": "brawlzone-trio-snapshot-20261023-bridge-too-far",
+      "platform": "web",
+      "url": "https://brawlzone.net/maps/heist/bridge-too-far",
+      "title": "Bridge Too Far · 地图三人组样本（搜索索引快照）",
+      "author": "BrawlZone",
+      "retrievedAt": "2026-10-23",
+      "dataAsOf": null,
+      "publishedAt": null,
+      "kind": "ranked_trio_index_snapshot",
+      "read": true,
+      "status": "exact-map indexed trio section read; live update/window end not verified",
+      "validityNotes": [
+        "读取的是搜索索引返回的该精确地图页面片段，不声称已实时抓取原站。",
+        "来源标注近14天排位样本，但索引更新时间和样本窗口截止日未知；检索日期不当作数据日期。",
+        "小样本和组队水平影响明显；仅提供组合线索，不代表你们的预期胜率，也不参与英雄综合强度投票。"
+      ],
+      "recent": false,
+      "visualChecked": false,
+      "reviewedRangesSeconds": []
+    },
+    {
+      "id": "brawlzone-trio-snapshot-20261023-pinball-dreams",
+      "platform": "web",
+      "url": "https://brawlzone.net/maps/brawl-ball/pinball-dreams",
+      "title": "Pinball Dreams · 地图三人组样本（搜索索引快照）",
+      "author": "BrawlZone",
+      "retrievedAt": "2026-10-23",
+      "dataAsOf": null,
+      "publishedAt": null,
+      "kind": "ranked_trio_index_snapshot",
+      "read": true,
+      "status": "exact-map indexed trio section read; live update/window end not verified",
+      "validityNotes": [
+        "读取的是搜索索引返回的该精确地图页面片段，不声称已实时抓取原站。",
+        "来源标注近14天排位样本，但索引更新时间和样本窗口截止日未知；检索日期不当作数据日期。",
+        "小样本和组队水平影响明显；仅提供组合线索，不代表你们的预期胜率，也不参与英雄综合强度投票。"
+      ],
+      "recent": false,
+      "visualChecked": false,
+      "reviewedRangesSeconds": []
+    },
+    {
+      "id": "brawlzone-trio-snapshot-20261023-center-stage",
+      "platform": "web",
+      "url": "https://brawlzone.net/maps/brawl-ball/center-stage",
+      "title": "Center Stage · 地图三人组样本（搜索索引快照）",
+      "author": "BrawlZone",
+      "retrievedAt": "2026-10-23",
+      "dataAsOf": null,
+      "publishedAt": null,
+      "kind": "ranked_trio_index_snapshot",
+      "read": true,
+      "status": "exact-map indexed trio section read; live update/window end not verified",
+      "validityNotes": [
+        "读取的是搜索索引返回的该精确地图页面片段，不声称已实时抓取原站。",
+        "来源标注近14天排位样本，但索引更新时间和样本窗口截止日未知；检索日期不当作数据日期。",
+        "小样本和组队水平影响明显；仅提供组合线索，不代表你们的预期胜率，也不参与英雄综合强度投票。"
+      ],
+      "recent": false,
+      "visualChecked": false,
+      "reviewedRangesSeconds": []
+    },
+    {
+      "id": "brawlzone-trio-snapshot-20261023-parallel-plays",
+      "platform": "web",
+      "url": "https://brawlzone.net/maps/hot-zone/parallel-plays",
+      "title": "Parallel Plays · 地图三人组样本（搜索索引快照）",
+      "author": "BrawlZone",
+      "retrievedAt": "2026-10-23",
+      "dataAsOf": null,
+      "publishedAt": null,
+      "kind": "ranked_trio_index_snapshot",
+      "read": true,
+      "status": "exact-map indexed trio section read; live update/window end not verified",
+      "validityNotes": [
+        "读取的是搜索索引返回的该精确地图页面片段，不声称已实时抓取原站。",
+        "来源标注近14天排位样本，但索引更新时间和样本窗口截止日未知；检索日期不当作数据日期。",
+        "小样本和组队水平影响明显；仅提供组合线索，不代表你们的预期胜率，也不参与英雄综合强度投票。"
+      ],
+      "recent": false,
+      "visualChecked": false,
+      "reviewedRangesSeconds": []
+    },
+    {
+      "id": "brawlzone-trio-snapshot-20261023-ring-of-fire",
+      "platform": "web",
+      "url": "https://brawlzone.net/maps/hot-zone/ring-of-fire",
+      "title": "Ring Of Fire · 地图三人组样本（搜索索引快照）",
+      "author": "BrawlZone",
+      "retrievedAt": "2026-10-23",
+      "dataAsOf": null,
+      "publishedAt": null,
+      "kind": "ranked_trio_index_snapshot",
+      "read": true,
+      "status": "exact-map indexed trio section read; live update/window end not verified",
+      "validityNotes": [
+        "读取的是搜索索引返回的该精确地图页面片段，不声称已实时抓取原站。",
+        "来源标注近14天排位样本，但索引更新时间和样本窗口截止日未知；检索日期不当作数据日期。",
+        "小样本和组队水平影响明显；仅提供组合线索，不代表你们的预期胜率，也不参与英雄综合强度投票。"
+      ],
+      "recent": false,
+      "visualChecked": false,
+      "reviewedRangesSeconds": []
+    },
+    {
+      "id": "brawlzone-trio-snapshot-20261023-new-horizons",
+      "platform": "web",
+      "url": "https://brawlzone.net/maps/knockout/new-horizons",
+      "title": "New Horizons · 地图三人组样本（搜索索引快照）",
+      "author": "BrawlZone",
+      "retrievedAt": "2026-10-23",
+      "dataAsOf": null,
+      "publishedAt": null,
+      "kind": "ranked_trio_index_snapshot",
+      "read": true,
+      "status": "exact-map indexed trio section read; live update/window end not verified",
+      "validityNotes": [
+        "读取的是搜索索引返回的该精确地图页面片段，不声称已实时抓取原站。",
+        "来源标注近14天排位样本，但索引更新时间和样本窗口截止日未知；检索日期不当作数据日期。",
+        "小样本和组队水平影响明显；仅提供组合线索，不代表你们的预期胜率，也不参与英雄综合强度投票。"
+      ],
+      "recent": false,
+      "visualChecked": false,
+      "reviewedRangesSeconds": []
+    },
+    {
+      "id": "brawlzone-trio-snapshot-20261023-sneaky-fields",
+      "platform": "web",
+      "url": "https://brawlzone.net/maps/brawl-ball/sneaky-fields",
+      "title": "Sneaky Fields · 地图三人组样本（搜索索引快照）",
+      "author": "BrawlZone",
+      "retrievedAt": "2026-10-23",
+      "dataAsOf": null,
+      "publishedAt": null,
+      "kind": "ranked_trio_index_snapshot",
+      "read": true,
+      "status": "exact-map indexed trio section read; live update/window end not verified",
+      "validityNotes": [
+        "读取的是搜索索引返回的该精确地图页面片段，不声称已实时抓取原站。",
+        "来源标注近14天排位样本，但索引更新时间和样本窗口截止日未知；检索日期不当作数据日期。",
+        "小样本和组队水平影响明显；仅提供组合线索，不代表你们的预期胜率，也不参与英雄综合强度投票。"
+      ],
+      "recent": false,
+      "visualChecked": false,
+      "reviewedRangesSeconds": []
+    },
+    {
+      "id": "brawlzone-trio-snapshot-20261023-hideout",
+      "platform": "web",
+      "url": "https://brawlzone.net/maps/bounty/hideout",
+      "title": "Hideout · 地图三人组样本（搜索索引快照）",
+      "author": "BrawlZone",
+      "retrievedAt": "2026-10-23",
+      "dataAsOf": null,
+      "publishedAt": null,
+      "kind": "ranked_trio_index_snapshot",
+      "read": true,
+      "status": "exact-map indexed trio section read; live update/window end not verified",
+      "validityNotes": [
+        "读取的是搜索索引返回的该精确地图页面片段，不声称已实时抓取原站。",
+        "来源标注近14天排位样本，但索引更新时间和样本窗口截止日未知；检索日期不当作数据日期。",
+        "小样本和组队水平影响明显；仅提供组合线索，不代表你们的预期胜率，也不参与英雄综合强度投票。"
+      ],
+      "recent": false,
+      "visualChecked": false,
+      "reviewedRangesSeconds": []
+    },
+    {
+      "id": "brawlzone-trio-snapshot-20261023-open-business",
+      "platform": "web",
+      "url": "https://brawlzone.net/maps/hot-zone/open-business",
+      "title": "Open Business · 地图三人组样本（搜索索引快照）",
+      "author": "BrawlZone",
+      "retrievedAt": "2026-10-23",
+      "dataAsOf": null,
+      "publishedAt": null,
+      "kind": "ranked_trio_index_snapshot",
+      "read": true,
+      "status": "exact-map indexed trio section read; live update/window end not verified",
+      "validityNotes": [
+        "读取的是搜索索引返回的该精确地图页面片段，不声称已实时抓取原站。",
+        "来源标注近14天排位样本，但索引更新时间和样本窗口截止日未知；检索日期不当作数据日期。",
+        "小样本和组队水平影响明显；仅提供组合线索，不代表你们的预期胜率，也不参与英雄综合强度投票。"
+      ],
+      "recent": false,
+      "visualChecked": false,
+      "reviewedRangesSeconds": []
+    },
+    {
+      "id": "brawlzone-trio-snapshot-20261023-gem-fort",
+      "platform": "web",
+      "url": "https://brawlzone.net/maps/gem-grab/gem-fort",
+      "title": "Gem Fort · 地图三人组样本（搜索索引快照）",
+      "author": "BrawlZone",
+      "retrievedAt": "2026-10-23",
+      "dataAsOf": null,
+      "publishedAt": null,
+      "kind": "ranked_trio_index_snapshot",
+      "read": true,
+      "status": "exact-map indexed trio section read; live update/window end not verified",
+      "validityNotes": [
+        "读取的是搜索索引返回的该精确地图页面片段，不声称已实时抓取原站。",
+        "来源标注近14天排位样本，但索引更新时间和样本窗口截止日未知；检索日期不当作数据日期。",
+        "小样本和组队水平影响明显；仅提供组合线索，不代表你们的预期胜率，也不参与英雄综合强度投票。"
+      ],
+      "recent": false,
+      "visualChecked": false,
+      "reviewedRangesSeconds": []
     }
   ],
   "claims": [
@@ -5553,6 +6032,175 @@
       ]
     },
     {
+      "sourceId": "youtube:UWXyKZl3e_A",
+      "mapId": 15000007,
+      "mode": "Gem Grab",
+      "heroIds": [],
+      "currentStrengthEvidence": false,
+      "startSeconds": 13370,
+      "url": "https://www.youtube.com/watch?v=UWXyKZl3e_A&t=13370s",
+      "summary": "2026 LCQ职业对局的完整阵容已核对关键画面。工具分析：硬石矿井的持宝位需要边路争出退路。定点中路加前排与钻地压力，和蓄热中路加双侧机动，是不同的空间争夺方案。",
+      "conditions": [
+        "这是特定对手下的职业选择，不能当作无条件阵容推荐；逐手完整选禁仍未核验。"
+      ]
+    },
+    {
+      "sourceId": "youtube:UWXyKZl3e_A",
+      "mapId": 15000019,
+      "mode": "Heist",
+      "heroIds": [],
+      "currentStrengthEvidence": false,
+      "startSeconds": 12750,
+      "url": "https://www.youtube.com/watch?v=UWXyKZl3e_A&t=12750s",
+      "summary": "2026 LCQ职业对局的完整阵容已核对关键画面。工具分析：安全区域需要区分中路火力、渗透与守家。回复可支持中线维持，渗透与火车路线则需要队友先压住入口，不能三人同时离家。",
+      "conditions": [
+        "这是特定对手下的职业选择，不能当作无条件阵容推荐；逐手完整选禁仍未核验。"
+      ]
+    },
+    {
+      "sourceId": "youtube:UWXyKZl3e_A",
+      "mapId": 15000082,
+      "mode": "Bounty",
+      "heroIds": [],
+      "currentStrengthEvidence": false,
+      "startSeconds": 19515,
+      "url": "https://www.youtube.com/watch?v=UWXyKZl3e_A&t=19515s",
+      "summary": "2026 LCQ职业对局的完整阵容已核对关键画面。工具分析：夹心蛋糕的跨墙消耗要转化为站位优势。机动英雄需要先等消耗与支援到位，不能把可越过墙体理解成无条件切后排。",
+      "conditions": [
+        "这是特定对手下的职业选择，不能当作无条件阵容推荐；逐手完整选禁仍未核验。"
+      ]
+    },
+    {
+      "sourceId": "youtube:UWXyKZl3e_A",
+      "mapId": 15000019,
+      "mode": "Heist",
+      "heroIds": [],
+      "currentStrengthEvidence": false,
+      "startSeconds": 25550,
+      "url": "https://www.youtube.com/watch?v=UWXyKZl3e_A&t=25550s",
+      "summary": "2026 LCQ职业对局的完整阵容已核对关键画面。工具分析：双持续火力与绕侧控制需要先创造压库路线；护盾加反突进则能支持渗透者牵制。两者都需要在进攻和守家之间交接职责。",
+      "conditions": [
+        "这是特定对手下的职业选择，不能当作无条件阵容推荐；逐手完整选禁仍未核验。"
+      ]
+    },
+    {
+      "sourceId": "youtube:UWXyKZl3e_A",
+      "mapId": 15000019,
+      "mode": "Heist",
+      "heroIds": [],
+      "currentStrengthEvidence": false,
+      "startSeconds": 16360,
+      "url": "https://www.youtube.com/watch?v=UWXyKZl3e_A&t=16360s",
+      "summary": "2026 LCQ职业对局的完整阵容已核对关键画面。工具分析：安全区域可以围绕定点爆发与侧翼渗透，也可以由回复支援中距弹射和机动推进。墙体的保留与拆除必须服务于整队射线。",
+      "conditions": [
+        "这是特定对手下的职业选择，不能当作无条件阵容推荐；逐手完整选禁仍未核验。"
+      ]
+    },
+    {
+      "sourceId": "youtube:UWXyKZl3e_A",
+      "mapId": 15000025,
+      "mode": "Brawl Ball",
+      "heroIds": [],
+      "currentStrengthEvidence": false,
+      "startSeconds": 17620,
+      "url": "https://www.youtube.com/watch?v=UWXyKZl3e_A&t=17620s",
+      "summary": "2026 LCQ职业对局的完整阵容已核对关键画面。工具分析：三重威胁的绕墙入口可用近身争球或隔墙封锁处理。进攻前确认球权、弹药和队友跟进，防守阵容也要在逼退后及时转控球。",
+      "conditions": [
+        "这是特定对手下的职业选择，不能当作无条件阵容推荐；逐手完整选禁仍未核验。"
+      ]
+    },
+    {
+      "sourceId": "youtube:UWXyKZl3e_A",
+      "mapId": 15000300,
+      "mode": "Hot Zone",
+      "heroIds": [],
+      "currentStrengthEvidence": false,
+      "startSeconds": 18885,
+      "url": "https://www.youtube.com/watch?v=UWXyKZl3e_A&t=18885s",
+      "summary": "2026 LCQ职业对局的完整阵容已核对关键画面。工具分析：灼热火圈的高血量驻点必须有入口控制或火力掩护；反高血量组合则应交错消耗和反突进，别在追击时让热区空转。",
+      "conditions": [
+        "这是特定对手下的职业选择，不能当作无条件阵容推荐；逐手完整选禁仍未核验。"
+      ]
+    },
+    {
+      "sourceId": "youtube:PIAPgulZPa4",
+      "mapId": 15000026,
+      "mode": "Brawl Ball",
+      "heroIds": [],
+      "currentStrengthEvidence": false,
+      "startSeconds": 11560,
+      "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=11560s",
+      "summary": "2026 LCQ职业对局的完整阵容已核对关键画面。工具分析：精准射门的中草入口需要先被打开或夺取。机动位带动近中距封锁，或由破墙与护盾支持推进，是不同的进区方法。",
+      "conditions": [
+        "这是特定对手下的职业选择，不能当作无条件阵容推荐；逐手完整选禁仍未核验。"
+      ]
+    },
+    {
+      "sourceId": "youtube:PIAPgulZPa4",
+      "mapId": 15000548,
+      "mode": "Knockout",
+      "heroIds": [],
+      "currentStrengthEvidence": false,
+      "startSeconds": 12150,
+      "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=12150s",
+      "summary": "2026 LCQ职业对局的完整阵容已核对关键画面。工具分析：空旷荒野的水侧角度和掩体入口会改变交火线。远程治疗或近身反打分别提供容错，不能让主火力与支援同时被一条射线命中。",
+      "conditions": [
+        "这是特定对手下的职业选择，不能当作无条件阵容推荐；逐手完整选禁仍未核验。"
+      ]
+    },
+    {
+      "sourceId": "youtube:PIAPgulZPa4",
+      "mapId": 15000022,
+      "mode": "Bounty",
+      "heroIds": [],
+      "currentStrengthEvidence": false,
+      "startSeconds": 22065,
+      "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=22065s",
+      "summary": "2026 LCQ职业对局的完整阵容已核对关键画面。工具分析：草丛迷踪的远程消耗需要与侧路换线形成夹角。机动者进入前要确认支援和退路；反打技能的价值不应被无准备冲脸耗掉。",
+      "conditions": [
+        "这是特定对手下的职业选择，不能当作无条件阵容推荐；逐手完整选禁仍未核验。"
+      ]
+    },
+    {
+      "sourceId": "youtube:PIAPgulZPa4",
+      "mapId": 15000548,
+      "mode": "Knockout",
+      "heroIds": [],
+      "currentStrengthEvidence": false,
+      "startSeconds": 19380,
+      "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=19380s",
+      "summary": "2026 LCQ职业对局的完整阵容已核对关键画面。工具分析：空旷荒野的破墙、回复与蓄热可以支持稳步消耗；长射程加机动换线则依赖报点和命中，不可让机动位提前脱离火力覆盖。",
+      "conditions": [
+        "这是特定对手下的职业选择，不能当作无条件阵容推荐；逐手完整选禁仍未核验。"
+      ]
+    },
+    {
+      "sourceId": "youtube:PIAPgulZPa4",
+      "mapId": 15000548,
+      "mode": "Knockout",
+      "heroIds": [],
+      "currentStrengthEvidence": false,
+      "startSeconds": 25260,
+      "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=25260s",
+      "summary": "2026 LCQ职业对局的完整阵容已核对关键画面。工具分析：护盾与定点火力能支持机动换线，回复和远程对枪则更依赖节奏重置。一次职业选择只证明当场选过，不能据此推断胜率。",
+      "conditions": [
+        "这是特定对手下的职业选择，不能当作无条件阵容推荐；逐手完整选禁仍未核验。"
+      ]
+    },
+    {
+      "sourceId": "youtube:PIAPgulZPa4",
+      "mapId": 15000022,
+      "mode": "Bounty",
+      "heroIds": [],
+      "currentStrengthEvidence": false,
+      "startSeconds": 14980,
+      "url": "https://www.youtube.com/watch?v=PIAPgulZPa4&t=14980s",
+      "summary": "2026 LCQ职业对局的完整阵容已核对关键画面。工具分析：草丛迷踪的侧翼收割应等待消耗窗口；标记、机动和定点输出可交错压线。双方都应保留防绕后的间距，不能把前压等同于站在一起。",
+      "conditions": [
+        "这是特定对手下的职业选择，不能当作无条件阵容推荐；逐手完整选禁仍未核验。"
+      ]
+    },
+    {
       "sourceId": "bilibili:BV11FEJzfEG4",
       "mapId": 15000025,
       "mode": "Brawl Ball",
@@ -6155,6 +6803,486 @@
       "conditions": [
         "Ranked composition evidence is mode-wide and must not be presented as a Super Beach map-specific sample."
       ]
+    },
+    {
+      "sourceId": "brawlzone-trio-snapshot-20261023-hard-rock-mine",
+      "mapId": 15000007,
+      "mode": "Gem Grab",
+      "heroIds": [
+        16000004,
+        16000051,
+        16000108,
+        16000002,
+        16000040,
+        16000038,
+        16000086,
+        16000025,
+        16000061,
+        16000014,
+        16000026,
+        16000050
+      ],
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": true,
+      "evidenceType": "indexed_ranked_trio_snapshot",
+      "url": "https://brawlzone.net/maps/gem-grab/hard-rock-mine",
+      "startSeconds": null,
+      "summary": "已读取5套完整三英雄的地图排位组合样本及场数；组合与统计为索引快照，战术配合由工具另行推导。",
+      "confidence": "medium"
+    },
+    {
+      "sourceId": "brawlzone-trio-snapshot-20261023-hot-potato",
+      "mapId": 15000053,
+      "mode": "Heist",
+      "heroIds": [
+        16000027,
+        16000040,
+        16000107,
+        16000039,
+        16000050,
+        16000086,
+        16000061,
+        16000004,
+        16000078,
+        16000001
+      ],
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": true,
+      "evidenceType": "indexed_ranked_trio_snapshot",
+      "url": "https://brawlzone.net/maps/heist/hot-potato",
+      "startSeconds": null,
+      "summary": "已读取5套完整三英雄的地图排位组合样本及场数；组合与统计为索引快照，战术配合由工具另行推导。",
+      "confidence": "medium"
+    },
+    {
+      "sourceId": "brawlzone-trio-snapshot-20261023-dueling-beetles",
+      "mapId": 15000306,
+      "mode": "Hot Zone",
+      "heroIds": [
+        16000040,
+        16000045,
+        16000061,
+        16000011,
+        16000039,
+        16000108,
+        16000014,
+        16000026,
+        16000050
+      ],
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": true,
+      "evidenceType": "indexed_ranked_trio_snapshot",
+      "url": "https://brawlzone.net/maps/hot-zone/dueling-beetles",
+      "startSeconds": null,
+      "summary": "已读取5套完整三英雄的地图排位组合样本及场数；组合与统计为索引快照，战术配合由工具另行推导。",
+      "confidence": "medium"
+    },
+    {
+      "sourceId": "brawlzone-trio-snapshot-20261023-double-swoosh",
+      "mapId": 15000115,
+      "mode": "Gem Grab",
+      "heroIds": [
+        16000039,
+        16000040,
+        16000050,
+        16000005,
+        16000014,
+        16000061,
+        16000030,
+        16000011,
+        16000017
+      ],
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": true,
+      "evidenceType": "indexed_ranked_trio_snapshot",
+      "url": "https://brawlzone.net/maps/gem-grab/double-swoosh",
+      "startSeconds": null,
+      "summary": "已读取5套完整三英雄的地图排位组合样本及场数；组合与统计为索引快照，战术配合由工具另行推导。",
+      "confidence": "medium"
+    },
+    {
+      "sourceId": "brawlzone-trio-snapshot-20261023-belles-rock",
+      "mapId": 15000368,
+      "mode": "Knockout",
+      "heroIds": [
+        16000003,
+        16000061,
+        16000103,
+        16000072,
+        16000086,
+        16000037,
+        16000097,
+        16000004,
+        16000075,
+        16000023
+      ],
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": true,
+      "evidenceType": "indexed_ranked_trio_snapshot",
+      "url": "https://brawlzone.net/maps/knockout/belles-rock",
+      "startSeconds": null,
+      "summary": "已读取5套完整三英雄的地图排位组合样本及场数；组合与统计为索引快照，战术配合由工具另行推导。",
+      "confidence": "medium"
+    },
+    {
+      "sourceId": "brawlzone-trio-snapshot-20261023-layer-cake",
+      "mapId": 15000082,
+      "mode": "Bounty",
+      "heroIds": [
+        16000003,
+        16000040,
+        16000108,
+        16000011,
+        16000061,
+        16000043,
+        16000023,
+        16000102
+      ],
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": true,
+      "evidenceType": "indexed_ranked_trio_snapshot",
+      "url": "https://brawlzone.net/maps/bounty/layer-cake",
+      "startSeconds": null,
+      "summary": "已读取5套完整三英雄的地图排位组合样本及场数；组合与统计为索引快照，战术配合由工具另行推导。",
+      "confidence": "medium"
+    },
+    {
+      "sourceId": "brawlzone-trio-snapshot-20261023-undermine",
+      "mapId": 15000011,
+      "mode": "Gem Grab",
+      "heroIds": [
+        16000004,
+        16000038,
+        16000108,
+        16000011,
+        16000040,
+        16000014,
+        16000017,
+        16000039,
+        16000086
+      ],
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": true,
+      "evidenceType": "indexed_ranked_trio_snapshot",
+      "url": "https://brawlzone.net/maps/gem-grab/undermine",
+      "startSeconds": null,
+      "summary": "已读取5套完整三英雄的地图排位组合样本及场数；组合与统计为索引快照，战术配合由工具另行推导。",
+      "confidence": "medium"
+    },
+    {
+      "sourceId": "brawlzone-trio-snapshot-20261023-kaboom-canyon",
+      "mapId": 15000018,
+      "mode": "Heist",
+      "heroIds": [
+        16000001,
+        16000039,
+        16000107,
+        16000027,
+        16000061,
+        16000086,
+        16000099,
+        16000040,
+        16000078,
+        16000108
+      ],
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": true,
+      "evidenceType": "indexed_ranked_trio_snapshot",
+      "url": "https://brawlzone.net/maps/heist/kaboom-canyon",
+      "startSeconds": null,
+      "summary": "已读取5套完整三英雄的地图排位组合样本及场数；组合与统计为索引快照，战术配合由工具另行推导。",
+      "confidence": "medium"
+    },
+    {
+      "sourceId": "brawlzone-trio-snapshot-20261023-safe-zone",
+      "mapId": 15000019,
+      "mode": "Heist",
+      "heroIds": [
+        16000039,
+        16000086,
+        16000108,
+        16000001,
+        16000040,
+        16000107,
+        16000027
+      ],
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": true,
+      "evidenceType": "indexed_ranked_trio_snapshot",
+      "url": "https://brawlzone.net/maps/heist/safe-zone",
+      "startSeconds": null,
+      "summary": "已读取5套完整三英雄的地图排位组合样本及场数；组合与统计为索引快照，战术配合由工具另行推导。",
+      "confidence": "medium"
+    },
+    {
+      "sourceId": "brawlzone-trio-snapshot-20261023-triple-dribble",
+      "mapId": 15000025,
+      "mode": "Brawl Ball",
+      "heroIds": [
+        16000050,
+        16000061,
+        16000086,
+        16000009,
+        16000026,
+        16000043,
+        16000030,
+        16000040,
+        16000067
+      ],
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": true,
+      "evidenceType": "indexed_ranked_trio_snapshot",
+      "url": "https://brawlzone.net/maps/brawl-ball/triple-dribble",
+      "startSeconds": null,
+      "summary": "已读取5套完整三英雄的地图排位组合样本及场数；组合与统计为索引快照，战术配合由工具另行推导。",
+      "confidence": "medium"
+    },
+    {
+      "sourceId": "brawlzone-trio-snapshot-20261023-bridge-too-far",
+      "mapId": 15000072,
+      "mode": "Heist",
+      "heroIds": [
+        16000001,
+        16000027,
+        16000040,
+        16000039,
+        16000107,
+        16000108,
+        16000078
+      ],
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": true,
+      "evidenceType": "indexed_ranked_trio_snapshot",
+      "url": "https://brawlzone.net/maps/heist/bridge-too-far",
+      "startSeconds": null,
+      "summary": "已读取5套完整三英雄的地图排位组合样本及场数；组合与统计为索引快照，战术配合由工具另行推导。",
+      "confidence": "medium"
+    },
+    {
+      "sourceId": "brawlzone-trio-snapshot-20261023-pinball-dreams",
+      "mapId": 15000118,
+      "mode": "Brawl Ball",
+      "heroIds": [
+        16000004,
+        16000061,
+        16000086,
+        16000026,
+        16000005,
+        16000067,
+        16000030,
+        16000051
+      ],
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": true,
+      "evidenceType": "indexed_ranked_trio_snapshot",
+      "url": "https://brawlzone.net/maps/brawl-ball/pinball-dreams",
+      "startSeconds": null,
+      "summary": "已读取5套完整三英雄的地图排位组合样本及场数；组合与统计为索引快照，战术配合由工具另行推导。",
+      "confidence": "medium"
+    },
+    {
+      "sourceId": "brawlzone-trio-snapshot-20261023-center-stage",
+      "mapId": 15000132,
+      "mode": "Brawl Ball",
+      "heroIds": [
+        16000004,
+        16000026,
+        16000050,
+        16000010,
+        16000040,
+        16000061,
+        16000030,
+        16000049,
+        16000086
+      ],
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": true,
+      "evidenceType": "indexed_ranked_trio_snapshot",
+      "url": "https://brawlzone.net/maps/brawl-ball/center-stage",
+      "startSeconds": null,
+      "summary": "已读取5套完整三英雄的地图排位组合样本及场数；组合与统计为索引快照，战术配合由工具另行推导。",
+      "confidence": "medium"
+    },
+    {
+      "sourceId": "brawlzone-trio-snapshot-20261023-parallel-plays",
+      "mapId": 15000293,
+      "mode": "Hot Zone",
+      "heroIds": [
+        16000043,
+        16000071,
+        16000086,
+        16000061,
+        16000085,
+        16000087,
+        16000026,
+        16000102,
+        16000010
+      ],
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": true,
+      "evidenceType": "indexed_ranked_trio_snapshot",
+      "url": "https://brawlzone.net/maps/hot-zone/parallel-plays",
+      "startSeconds": null,
+      "summary": "已读取5套完整三英雄的地图排位组合样本及场数；组合与统计为索引快照，战术配合由工具另行推导。",
+      "confidence": "medium"
+    },
+    {
+      "sourceId": "brawlzone-trio-snapshot-20261023-ring-of-fire",
+      "mapId": 15000300,
+      "mode": "Hot Zone",
+      "heroIds": [
+        16000014,
+        16000039,
+        16000108,
+        16000097,
+        16000022,
+        16000043,
+        16000040,
+        16000086,
+        16000054
+      ],
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": true,
+      "evidenceType": "indexed_ranked_trio_snapshot",
+      "url": "https://brawlzone.net/maps/hot-zone/ring-of-fire",
+      "startSeconds": null,
+      "summary": "已读取5套完整三英雄的地图排位组合样本及场数；组合与统计为索引快照，战术配合由工具另行推导。",
+      "confidence": "medium"
+    },
+    {
+      "sourceId": "brawlzone-trio-snapshot-20261023-new-horizons",
+      "mapId": 15000703,
+      "mode": "Knockout",
+      "heroIds": [
+        16000003,
+        16000040,
+        16000108,
+        16000061,
+        16000011,
+        16000001,
+        16000015,
+        16000097,
+        16000072
+      ],
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": true,
+      "evidenceType": "indexed_ranked_trio_snapshot",
+      "url": "https://brawlzone.net/maps/knockout/new-horizons",
+      "startSeconds": null,
+      "summary": "已读取5套完整三英雄的地图排位组合样本及场数；组合与统计为索引快照，战术配合由工具另行推导。",
+      "confidence": "medium"
+    },
+    {
+      "sourceId": "brawlzone-trio-snapshot-20261023-sneaky-fields",
+      "mapId": 15000050,
+      "mode": "Brawl Ball",
+      "heroIds": [
+        16000040,
+        16000061,
+        16000102,
+        16000050,
+        16000030,
+        16000095,
+        16000010,
+        16000002,
+        16000086
+      ],
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": true,
+      "evidenceType": "indexed_ranked_trio_snapshot",
+      "url": "https://brawlzone.net/maps/brawl-ball/sneaky-fields",
+      "startSeconds": null,
+      "summary": "已读取5套完整三英雄的地图排位组合样本及场数；组合与统计为索引快照，战术配合由工具另行推导。",
+      "confidence": "medium"
+    },
+    {
+      "sourceId": "brawlzone-trio-snapshot-20261023-hideout",
+      "mapId": 15000022,
+      "mode": "Bounty",
+      "heroIds": [
+        16000011,
+        16000061,
+        16000072,
+        16000003,
+        16000103,
+        16000108,
+        16000040,
+        16000097,
+        16000036,
+        16000039
+      ],
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": true,
+      "evidenceType": "indexed_ranked_trio_snapshot",
+      "url": "https://brawlzone.net/maps/bounty/hideout",
+      "startSeconds": null,
+      "summary": "已读取5套完整三英雄的地图排位组合样本及场数；组合与统计为索引快照，战术配合由工具另行推导。",
+      "confidence": "medium"
+    },
+    {
+      "sourceId": "brawlzone-trio-snapshot-20261023-open-business",
+      "mapId": 15000292,
+      "mode": "Hot Zone",
+      "heroIds": [
+        16000040,
+        16000045,
+        16000061,
+        16000005,
+        16000030,
+        16000102,
+        16000108,
+        16000050,
+        16000064
+      ],
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": true,
+      "evidenceType": "indexed_ranked_trio_snapshot",
+      "url": "https://brawlzone.net/maps/hot-zone/open-business",
+      "startSeconds": null,
+      "summary": "已读取5套完整三英雄的地图排位组合样本及场数；组合与统计为索引快照，战术配合由工具另行推导。",
+      "confidence": "medium"
+    },
+    {
+      "sourceId": "brawlzone-trio-snapshot-20261023-gem-fort",
+      "mapId": 15000010,
+      "mode": "Gem Grab",
+      "heroIds": [
+        16000004,
+        16000061,
+        16000086,
+        16000017,
+        16000108,
+        16000038,
+        16000040,
+        16000051
+      ],
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": true,
+      "evidenceType": "indexed_ranked_trio_snapshot",
+      "url": "https://brawlzone.net/maps/gem-grab/gem-fort",
+      "startSeconds": null,
+      "summary": "已读取5套完整三英雄的地图排位组合样本及场数；组合与统计为索引快照，战术配合由工具另行推导。",
+      "confidence": "medium"
     }
   ],
   "metaObservations": [
