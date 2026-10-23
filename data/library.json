@@ -390,6 +390,28 @@
       "possibleSharedUpstream": "KT tier list; requires upstream deduplication against other V53 videos"
     },
     {
+      "id": "bilibili:BV13Wh26wEM7",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV13Wh26wEM7/",
+      "title": "英雄教学1——格斯",
+      "author": "林闲_Revival",
+      "publishedAt": "2026-09-25",
+      "originalPublishedAt": "2026-09-25",
+      "read": true,
+      "readMethod": "full_local_asr_and_selected_frames",
+      "reviewedRangesSeconds": [
+        [
+          0,
+          112
+        ]
+      ],
+      "note": "已完整本地转写，并核对22、35、46、58、92秒画面；讨论巴菲格斯，数值不写入推荐。",
+      "kind": "loadout_guide",
+      "status": "captions_or_local_asr_read",
+      "recent": true,
+      "visualChecked": true
+    },
+    {
       "id": "bilibili:BV1jAh66HEhk",
       "platform": "bilibili",
       "url": "https://www.bilibili.com/video/BV1jAh66HEhk",
@@ -522,12 +544,20 @@
       "title": "The Best Build For All 107 Brawlers",
       "author": "SpenLC - Brawl Stars",
       "publishedAt": "2026-09-17",
-      "kind": "guide_or_tier_or_build",
-      "read": false,
-      "status": "metadata_only",
-      "visualChecked": false,
+      "kind": "loadout_guide",
+      "read": true,
+      "status": "captions_or_local_asr_read",
+      "visualChecked": true,
       "recent": true,
-      "reviewedRangesSeconds": []
+      "reviewedRangesSeconds": [
+        [
+          0,
+          2602
+        ]
+      ],
+      "originalPublishedAt": "2026-09-17",
+      "readMethod": "full_automatic_captions_and_selected_configuration_frames",
+      "note": "已读取全片自动字幕；口播只说“这个”的配置仅在对应画面可确认时收录。主要讲解重做后和巴菲环境，未核实全部国服机制同步。"
     },
     {
       "id": "bilibili:BV178eE6NEFJ",
@@ -5091,6 +5121,2526 @@
       "url": "https://www.bilibili.com/video/BV15RmQBWELU?t=14",
       "confidence": "medium",
       "eligibleForRanking": false
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000108
+      ],
+      "heroEn": "Wendy",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Wind-Powered：作者优先选择跳跃妙具，强调移动和脱离危险的价值。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 2508,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2508"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000108
+      ],
+      "heroEn": "Wendy",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Solar Shield：作者在近期削弱后仍偏向增加护盾发生器生命的选项，同时承认减速星徽可用。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 2508,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2508"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000107
+      ],
+      "heroEn": "Nori",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Sushi Snack：作者偏好补充治疗，并指出另一妙具更依赖刺客操作熟练度。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 2022,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2022"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000105
+      ],
+      "heroEn": "Starr Nova",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Floaty Time：作者在章节中明确保留此妙具作为首选。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 2423,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2423"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000105
+      ],
+      "heroEn": "Starr Nova",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Power Level Maximum：作者认为即使另一星徽近期获得增强，此项仍更好。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 2423,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2423"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000103
+      ],
+      "heroEn": "Najia",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Poison Puddles：作者明确推荐毒池，并认为另一妙具使用生硬。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1936,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1936"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000103
+      ],
+      "heroEn": "Najia",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Venomous：作者偏向此星徽，但也说明两项星徽的影响不算突出。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1936,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1936"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000102
+      ],
+      "heroEn": "Sirius",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · A Starr Is Born：作者明确推荐此妙具，同时提醒瞄准存在操作要求。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 2355,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2355"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000102
+      ],
+      "heroEn": "Sirius",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · The Darkest Starr：作者明确将此项列为通用星徽选择。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 2355,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2355"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000099
+      ],
+      "heroEn": "Pierce",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Bottomless Mags：作者将此项列为默认；面对贴近的进攻英雄时可考虑另一妙具。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 2154,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2154"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000099
+      ],
+      "heroEn": "Pierce",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Mission Swimpossible：作者在章节中明确点名此星徽。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 2154,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2154"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000097
+      ],
+      "heroEn": "Mina",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Zum Zum Zum：作者明确将此星徽列为优先选择。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1840,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1840"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000095
+      ],
+      "heroEn": "Alli",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Cold-Blooded：作者明确列出的通用妙具。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 69,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=69"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000095
+      ],
+      "heroEn": "Alli",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · You Better Run You Better Take Cover：作者明确列出的通用星徽。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 69,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=69"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000094
+      ],
+      "heroEn": "Kaze",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Gracious Host：作者明确推荐此项，并把另一妙具描述为可出其不意的备选。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1497,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1497"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000093
+      ],
+      "heroEn": "Jae-Yong",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Weekend Warrior：作者把此妙具作为稳定选择。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1387,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1387"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000093
+      ],
+      "heroEn": "Jae-Yong",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · The Crowd Goes Mild：作者指出此星徽原本就更好，近期增强后仍优先。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1387,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1387"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000091
+      ],
+      "heroEn": "Lumi",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Half-Time：作者推荐其减速作用。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1664,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1664"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000089
+      ],
+      "heroEn": "Meeple",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Do Not Pass Go：作者认为穿墙命中后的额外伤害更稳定，并有助于超级技能循环。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1745,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1745"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000087
+      ],
+      "heroEn": "Juju",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Numbing Needles：作者推荐其控制价值，尤其面对刺客和进攻英雄时。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1457,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1457"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000086
+      ],
+      "heroEn": "Shade",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Jump Scare：作者认为恐惧范围削弱后此项仍为首选。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 2325,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2325"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000086
+      ],
+      "heroEn": "Shade",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Hardened Hoodie：作者明确推荐此星徽。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 2325,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2325"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000084
+      ],
+      "heroEn": "Moe",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Dodgy Digging：作者明确推荐此妙具。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1869,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1869"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000083
+      ],
+      "heroEn": "Clancy",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Tactical Retreat：作者认为一级阶段比以前容易度过，因此更偏向位移妙具；这是作者偏好，并非绝对结论。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 605,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=605"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000083
+      ],
+      "heroEn": "Clancy",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Recon：作者强调竞技对局需要尽快升到三级，优先采用此星徽。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 605,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=605"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000080
+      ],
+      "heroEn": "Draco",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Last Stand：作者将此项列为默认妙具。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 844,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=844"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000080
+      ],
+      "heroEn": "Draco",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Shredding：作者将此项列为一般对局的默认星徽，金库另有建议。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 844,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=844"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000079
+      ],
+      "heroEn": "Angelo",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Master Fletcher：作者明确推荐此妙具作为常用选择。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 132,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=132"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000079
+      ],
+      "heroEn": "Angelo",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Empower：作者明确推荐此星徽。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 132,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=132"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000078
+      ],
+      "heroEn": "Melodie",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Interlude：作者认为另一妙具增强后，护盾妙具仍更好。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1815,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1815"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000078
+      ],
+      "heroEn": "Melodie",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Fast Beats：作者明确推荐此星徽。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1815,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1815"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000077
+      ],
+      "heroEn": "Larry & Lawrie",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Order Fall Back：作者明确推荐回撤妙具。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1551,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1551"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000073
+      ],
+      "heroEn": "Chuck",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Ghost Train：作者认为很多地图的墙会阻断连线，因此优先选择穿墙妙具。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 570,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=570"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000073
+      ],
+      "heroEn": "Chuck",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Tickets Please：作者明确偏向此星徽，同时承认尚未充分测试增强后的另一项。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 570,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=570"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000072
+      ],
+      "heroEn": "Pearl",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Overcooked：作者明确列为通用选择。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 2125,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2125"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000072
+      ],
+      "heroEn": "Pearl",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Heat Shield：作者明确列为通用选择。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 2125,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2125"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000071
+      ],
+      "heroEn": "Doug",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Extra Mustard：作者常用的进攻妙具；即使采用后排支援打法，也指出它可用于应对近身敌人。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 821,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=821"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000071
+      ],
+      "heroEn": "Doug",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Self Service：作者明确推荐此星徽。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 821,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=821"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000070
+      ],
+      "heroEn": "Cordelius",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Replanting：作者在3v3中偏向跳跃妙具；另一项主要作为单人荒野决斗建议，不套用到这里。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 703,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=703"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000070
+      ],
+      "heroEn": "Cordelius",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Comboshrooms：作者明确推荐此星徽。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 703,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=703"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000068
+      ],
+      "heroEn": "Maisie",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Disengage：作者明确推荐位移妙具。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1680,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1680"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000068
+      ],
+      "heroEn": "Maisie",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Tremors：作者偏向震荡星徽；难以靠近施放超级技能时保留另一项备选。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1680,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1680"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000067
+      ],
+      "heroEn": "Willow",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Dive：作者优先选择潜水；承认另一妙具可以帮助收割，但仍更偏向潜水。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 2535,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2535"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000067
+      ],
+      "heroEn": "Willow",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Obsession：作者偏向控制后的加速，特别提及与R-T配合；同时对另一星徽是否修复仍有疑问。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 2535,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2535"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000066
+      ],
+      "heroEn": "R-T",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Recording：作者明确推荐此星徽；妙具口播专名有误，需另核画面。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 2211,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2211"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000065
+      ],
+      "heroEn": "Mandy",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Cookie Crumbs：作者明确推荐穿墙妙具。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1699,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1699"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000065
+      ],
+      "heroEn": "Mandy",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · In My Sights：作者明确推荐此星徽。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1699,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1699"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000064
+      ],
+      "heroEn": "Gray",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Walking Cane：作者将手杖列为常用，只有很少情景考虑钢琴。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1227,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1227"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000064
+      ],
+      "heroEn": "Gray",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Fake Injury：作者偏向此星徽，并认为传送治疗在当前机制下不如以前突出。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1227,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1227"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000062
+      ],
+      "heroEn": "Buster",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Slo-Mo Replay：作者明确推荐此妙具。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 420,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=420"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000062
+      ],
+      "heroEn": "Buster",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Kevlar Vest：作者偏向此星徽，同时坦言另一星徽增强后的职业使用样本观察不足。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 420,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=420"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000061
+      ],
+      "heroEn": "Gus",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Knockback Spirit：作者认为近期削弱后，击退并产生灵体的妙具仍很强。",
+      "condition": "视频按巴菲及重做后的格斯讲解；没有对应强化时，治疗循环价值不能直接照搬。",
+      "startSeconds": 1310,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1310"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000061
+      ],
+      "heroEn": "Gus",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Health Bonanza：作者明确推荐强化灵体治疗的星徽。",
+      "condition": "视频按巴菲及重做后的格斯讲解；没有对应强化时，治疗循环价值不能直接照搬。",
+      "startSeconds": 1310,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1310"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000059
+      ],
+      "heroEn": "Otis",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Phat Splatter：作者明确列出的妙具。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 2098,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2098"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000059
+      ],
+      "heroEn": "Otis",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Ink Refills：作者明确列出的星徽。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 2098,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2098"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000057
+      ],
+      "heroEn": "Janet",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Backstage Pass：作者优先考虑额外生存能力，草多也不自动切换探草妙具。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1418,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1418"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000057
+      ],
+      "heroEn": "Janet",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Vocal Warm Up：作者明确推荐此星徽。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1418,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1418"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000056
+      ],
+      "heroEn": "Eve",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Gotta Go：作者明确推荐此妙具。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 979,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=979"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000056
+      ],
+      "heroEn": "Eve",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Unnatural Order：作者明确推荐此星徽，并称其为职业常用搭配；这不是逐场职业配置核验。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 979,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=979"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000052
+      ],
+      "heroEn": "Meg",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Repurpose：作者指出妙具重做和削弱后仍偏向此项。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1777,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1777"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000052
+      ],
+      "heroEn": "Meg",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Force Field：作者将此项与常用妙具的玩法结合，保留为默认。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1777,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1777"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000051
+      ],
+      "heroEn": "Ash",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Chill Pill：作者在当前支援英雄环境下，更看重可主动获取的治疗。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 154,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=154"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000051
+      ],
+      "heroEn": "Ash",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · First Bash：作者明确推荐此星徽。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 154,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=154"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000050
+      ],
+      "heroEn": "Griff",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Coin Shower：作者不再默认破墙：不想替敌方打开地图时偏向持续干扰恢复的金币妙具。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1253,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1253"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000050
+      ],
+      "heroEn": "Griff",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Keep The Change：作者强调此星徽对攻击伤害的提升。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1253,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1253"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000049
+      ],
+      "heroEn": "Buzz",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Tougher Torpedo：作者认为需要限制敌方刺客或进攻英雄时，此星徽更适合竞技用途。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 437,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=437"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000046
+      ],
+      "heroEn": "Belle",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Nest Egg：作者认为地雷整体稳定，另有特定地图的反弹妙具建议。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 214,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=214"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000046
+      ],
+      "heroEn": "Belle",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Positive Feedback：作者明确推荐此星徽。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 214,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=214"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000043
+      ],
+      "heroEn": "Edgar",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Lets Fly：作者将充能妙具作为多数情形的默认。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 871,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=871"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000043
+      ],
+      "heroEn": "Edgar",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Fisticuffs：作者将续航星徽作为多数对局的默认。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 871,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=871"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000042
+      ],
+      "heroEn": "Byron",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Booster Shots：作者明确推荐此妙具。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 470,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=470"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000042
+      ],
+      "heroEn": "Byron",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Malaise：作者把削弱治疗的星徽列为常用；对召唤物另有条件备选。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 470,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=470"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000041
+      ],
+      "heroEn": "Lou",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Ice Block：作者在职业和排位语境下偏向自保，指出热区可用其争取占区时间。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1632,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1632"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000041
+      ],
+      "heroEn": "Lou",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Hypothermia：作者明确推荐此星徽。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1632,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1632"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000040
+      ],
+      "heroEn": "Amber",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Fire Starters：作者在近期削弱后仍偏向此妙具，但强调面对突进时应换环绕火焰。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 80,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=80"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000040
+      ],
+      "heroEn": "Amber",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Wild Flames：作者在近期削弱后仍保留此星徽。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 80,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=80"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000039
+      ],
+      "heroEn": "Colette",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Gotcha：作者认为另一妙具控制时间短、冷却长，当前更偏向治疗妙具。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 645,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=645"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000039
+      ],
+      "heroEn": "Colette",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Push It：作者称推人星徽为多数职业选手常用，同时认可另一项；不是唯一正确答案。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 645,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=645"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000038
+      ],
+      "heroEn": "Surge",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Power Shield：作者指出削弱后仍偏向此妙具；口播后半段出现名称重复，不据此推导备选效果。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 2448,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2448"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000038
+      ],
+      "heroEn": "Surge",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Serve Ice Cold：作者明确优先选择保持升级进度的星徽。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 2448,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2448"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000032
+      ],
+      "heroEn": "Max",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Sneaky Sneakers：作者明确认为此妙具当前优先级更高。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1713,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1713"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000032
+      ],
+      "heroEn": "Max",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Super Charged：作者以团队循环为默认，缺少输出或更独立进攻时可考虑另一项。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1713,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1713"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000030
+      ],
+      "heroEn": "Emz",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Friendzoner：作者认为当前近身进攻多，防突进妙具更稳妥。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 955,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=955"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000030
+      ],
+      "heroEn": "Emz",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Hype：作者推荐此星徽的生存价值；视频处于巴菲环境。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 955,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=955"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000029
+      ],
+      "heroEn": "Bea",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Rattled Hive：作者指出相关问题修复后此妙具更好。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 197,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=197"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000029
+      ],
+      "heroEn": "Bea",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Honeycomb：作者认为额外承伤能力有助于向前取得空间。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 197,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=197"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000028
+      ],
+      "heroEn": "Sandy",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Sweet Dreams：作者明确推荐此妙具。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 2310,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2310"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000028
+      ],
+      "heroEn": "Sandy",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Rude Sands：口播以伤害、揭露草丛和打断恢复说明推荐理由，对应此星徽；不依据排序选取。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 2310,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2310"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000027
+      ],
+      "heroEn": "8-Bit",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Extra Credits：作者在削弱后仍将此妙具列为通用首选，宝石模式可考虑传送。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 29,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=29"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000027
+      ],
+      "heroEn": "8-Bit",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Boosted Booster：作者个人偏好此星徽，并提到金库价值；也认可防守打法使用另一项，不将个人偏好写成共识。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 29,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=29"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000026
+      ],
+      "heroEn": "Bibi",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Vitamin Booster：作者明确推荐治疗妙具。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 249,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=249"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000026
+      ],
+      "heroEn": "Bibi",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Home Run：作者明确推荐此星徽。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 249,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=249"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000025
+      ],
+      "heroEn": "Carl",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Heat Ejector：结合485–511秒口播与495秒妙具名称画面：多数情形用此项，部分远程和金库地图切换飞钩。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 485,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=485"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000025
+      ],
+      "heroEn": "Carl",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Protective Pirouette：作者偏向此星徽；对另一星徽当时是否存在问题仍有疑问。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 485,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=485"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000024
+      ],
+      "heroEn": "Rosa",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Thorny Gloves：作者强调超级技能期间的额外伤害；极被动对局可考虑草丛治疗。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 2261,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2261"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000023
+      ],
+      "heroEn": "Leon",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Lollipop Drop：作者认为隐形区域是使用里昂的重要理由。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1569,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1569"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000023
+      ],
+      "heroEn": "Leon",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Smoke Trails：作者将移速作为常用，活动空间受限时可考虑治疗。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1569,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1569"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000021
+      ],
+      "heroEn": "Gene",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Magic Puffs：作者优先推荐队友续航。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1132,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1132"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000020
+      ],
+      "heroEn": "Frank",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Irresistible Attraction：作者偏向此妙具，面对大量控制时保留免控备选。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1079,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1079"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000018
+      ],
+      "heroEn": "Darryl",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Tar Barrel：作者在金库以外的常见场景偏向减速妙具；金库另有建议。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 811,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=811"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000018
+      ],
+      "heroEn": "Darryl",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Steel Hoops：作者明确推荐减伤星徽。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 811,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=811"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000016
+      ],
+      "heroEn": "Pam",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Scrapsucker：作者明确推荐削减敌方弹药的妙具。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 2105,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2105"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000016
+      ],
+      "heroEn": "Pam",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Mamas Squeeze：作者偏向此项帮助造成额外压力；非常开阔的地图另有条件备选。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 2105,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2105"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000015
+      ],
+      "heroEn": "Piper",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Homemade Recipe：作者将此妙具作为多数情况的首选，面对突进另选防近身妙具。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 2166,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2166"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000015
+      ],
+      "heroEn": "Piper",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Snappy Sniping：作者明确推荐此星徽。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 2166,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2166"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000014
+      ],
+      "heroEn": "Bo",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Super Totem：作者将图腾作为多数模式的常用，足球和金库另有建议。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 268,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=268"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000014
+      ],
+      "heroEn": "Bo",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Snare A Bear：作者明确推荐此星徽。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 268,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=268"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000013
+      ],
+      "heroEn": "Poco",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Tuning Fork：作者认为近期增强后的治疗妙具可用；面对持续伤害和控制另有备选。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 2184,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2184"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000013
+      ],
+      "heroEn": "Poco",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Screeching Solo：作者在当前环境下更看重对刺客的反制。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 2184,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2184"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000012
+      ],
+      "heroEn": "Crow",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Slowing Toxin：作者明确推荐减速妙具。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 761,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=761"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000011
+      ],
+      "heroEn": "Mortis",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Combo Spinner：作者认为另一妙具冷却较长，因此偏向此项。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1895,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1895"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000011
+      ],
+      "heroEn": "Mortis",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Coiled Snake：作者明确优先推荐此星徽。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1895,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1895"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000008
+      ],
+      "heroEn": "Nita",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Faux Fur：作者推荐熊的生存保护。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 2004,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2004"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000008
+      ],
+      "heroEn": "Nita",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Bear With Me：作者将此项作为金库以外的常用，金库另选攻击速度。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 2004,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2004"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000007
+      ],
+      "heroEn": "Jessie",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Spark Plug：作者认为减速有助于确认击杀，即使金库也偏向此项。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1439,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1439"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000007
+      ],
+      "heroEn": "Jessie",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Energize：作者明确推荐此星徽。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1439,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1439"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000006
+      ],
+      "heroEn": "Barley",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Herbal Tonic：作者在排位语境中强调治疗价值。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 178,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=178"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000005
+      ],
+      "heroEn": "Spike",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Life Plant：作者把此项作为常用，面对刺客的近身爆发另有取舍。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 2371,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2371"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000005
+      ],
+      "heroEn": "Spike",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Curveball：作者偏向此星徽，并认为另一项在当时环境下价值较低。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 2371,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2371"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000004
+      ],
+      "heroEn": "Rico",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Multiball Launcher：作者将此妙具用于多数对局，并讨论另一项名称重做的混淆；保留英文原名与中文匹配名供核对。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 2222,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2222"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000004
+      ],
+      "heroEn": "Rico",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Robo Retreat：作者在当时环境下明确更偏向低血量移速。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 2222,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2222"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000003
+      ],
+      "heroEn": "Brock",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Rocket Laces：作者将此项作为普通组队和随机匹配的通用选择；承担破墙职责时应考虑另一项。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 337,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=337"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000003
+      ],
+      "heroEn": "Brock",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · More Rockets：作者当前更偏向增加超级技能火箭，同时承认取决于对手和模式。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 337,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=337"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000001
+      ],
+      "heroEn": "Colt",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Speedloader：作者在当前机制下偏向补充弹药；需要破墙反制阵容时另选银色子弹。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 674,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=674"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000001
+      ],
+      "heroEn": "Colt",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Slick Boots：作者在另一星徽问题修复后仍偏向移速。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 674,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=674"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000108
+      ],
+      "heroEn": "Wendy",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Slowing Shield：原视频保留的条件备选。",
+      "condition": "需要用发生器减速敌人时，可考虑此项。",
+      "startSeconds": 2508,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2508"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000099
+      ],
+      "heroEn": "Pierce",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · You Only Brawl Twice：原视频保留的条件备选。",
+      "condition": "面对莫提斯、爆破麦克等需要额外机动应对的对手时。",
+      "startSeconds": 2154,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2154"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000094
+      ],
+      "heroEn": "Kaze",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Hensojutsu：原视频保留的条件备选。",
+      "condition": "作者认可可打对手措手不及的特殊用途，仍非其默认。",
+      "startSeconds": 1497,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1497"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000087
+      ],
+      "heroEn": "Juju",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Guarded Gris-Gris：原视频保留的条件备选。",
+      "condition": "对局很难接近对手、主要依靠召唤物消耗对方弹药时。",
+      "startSeconds": 1457,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1457"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000068
+      ],
+      "heroEn": "Maisie",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Pinpoint Precision：原视频保留的条件备选。",
+      "condition": "对局很难靠近敌人、难以发挥超级技能时。",
+      "startSeconds": 1680,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1680"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000042
+      ],
+      "heroEn": "Byron",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Injection：原视频保留的条件备选。",
+      "condition": "面对查莉等带有召唤物的阵容，需要穿透时。",
+      "startSeconds": 470,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=470"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000040
+      ],
+      "heroEn": "Amber",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Dancing Flames：原视频保留的条件备选。",
+      "condition": "面对会贴近的刺客或进攻英雄时，作者要求考虑换用此项。",
+      "startSeconds": 80,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=80"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000039
+      ],
+      "heroEn": "Colette",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Mass Tax：原视频保留的条件备选。",
+      "condition": "作者明确认可的另一种玩法，按操作偏好和对局选择；不声称低于首选。",
+      "startSeconds": 645,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=645"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000032
+      ],
+      "heroEn": "Max",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Run N Gun：原视频保留的条件备选。",
+      "condition": "队伍缺少输出或需要更独立、主动进攻时。",
+      "startSeconds": 1713,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1713"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000027
+      ],
+      "heroEn": "8-Bit",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Plugged In：原视频保留的条件备选。",
+      "condition": "防守和需要机动的打法；作者称很多玩家选此项，自己偏好另一项。",
+      "startSeconds": 29,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=29"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000024
+      ],
+      "heroEn": "Rosa",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Plant Life：原视频保留的条件备选。",
+      "condition": "对局非常被动、草内持续恢复能发挥价值时。",
+      "startSeconds": 2261,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2261"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000024
+      ],
+      "heroEn": "Rosa",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Grow Light：原视频保留的条件备选。",
+      "condition": "对手缺少破墙，或淘汰赛需要额外草丛时；没有无条件首选结论。",
+      "startSeconds": 2261,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2261"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000023
+      ],
+      "heroEn": "Leon",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Invisiheal：原视频保留的条件备选。",
+      "condition": "热区或活动空间受限、难以发挥隐形移速时。",
+      "startSeconds": 1569,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1569"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000020
+      ],
+      "heroEn": "Frank",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Active Noise Canceling：原视频保留的条件备选。",
+      "condition": "已知对方有大量控制，需要免控时。",
+      "startSeconds": 1079,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1079"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000016
+      ],
+      "heroEn": "Pam",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Mamas Hug：原视频保留的条件备选。",
+      "condition": "地图非常开阔，敌人难以靠近治疗炮台时。",
+      "startSeconds": 2105,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2105"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000015
+      ],
+      "heroEn": "Piper",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Auto Aimer：原视频保留的条件备选。",
+      "condition": "对手为会贴近的进攻英雄或刺客时。",
+      "startSeconds": 2166,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2166"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000013
+      ],
+      "heroEn": "Poco",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Protective Tunes：原视频保留的条件备选。",
+      "condition": "面对毒伤、琥珀、罗等需要应对负面效果的对手时。",
+      "startSeconds": 2184,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2184"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000012
+      ],
+      "heroEn": "Crow",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Extra Toxic：原视频保留的条件备选。",
+      "condition": "作者称当时环境多数人偏向此项，但自己更喜欢另一项；没有一致首选。",
+      "startSeconds": 761,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=761"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000012
+      ],
+      "heroEn": "Crow",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Carrion Crow：原视频保留的条件备选。",
+      "condition": "作者个人偏好；与其对环境通用选择的判断不同，保留分歧不强选。",
+      "startSeconds": 761,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=761"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000007
+      ],
+      "heroEn": "Jessie",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Recoil Spring：原视频保留的条件备选。",
+      "condition": "金库可考虑，但作者仍更偏向减速妙具。",
+      "startSeconds": 1439,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1439"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000006
+      ],
+      "heroEn": "Barley",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Medical Use：原视频保留的条件备选。",
+      "condition": "面对其他投掷英雄时，作者明确推荐自我恢复。",
+      "startSeconds": 178,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=178"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000003
+      ],
+      "heroEn": "Brock",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Rocket Fuel：原视频保留的条件备选。",
+      "condition": "队伍选布洛克是为了打开地图、承担破墙职责时。",
+      "startSeconds": 337,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=337"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000003
+      ],
+      "heroEn": "Brock",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Rocket No. 4：原视频保留的条件备选。",
+      "condition": "面对佩佩、纳妮等远程对手，或赏金、淘汰对局时可用。",
+      "startSeconds": 337,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=337"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000001
+      ],
+      "heroEn": "Colt",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Silver Bullet：原视频保留的条件备选。",
+      "condition": "需要通过破墙反制对方阵容时。",
+      "startSeconds": 674,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=674"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000043
+      ],
+      "heroEn": "Edgar",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Hard Landing：原视频保留的条件备选。",
+      "condition": "对方脆皮多、对位轻松，希望击杀和超级技能循环更快时。",
+      "startSeconds": 871,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=871"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000049
+      ],
+      "heroEn": "Buzz",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Eyes Sharp：原视频保留的条件备选。",
+      "condition": "普通匹配未知对手、希望更容易循环超级技能时。",
+      "startSeconds": 437,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=437"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000049
+      ],
+      "heroEn": "Buzz",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · X-Ray-Shades：原视频保留的条件备选。",
+      "condition": "草丛多且需要视野时；这不是对每张草图的独立核验。",
+      "startSeconds": 437,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=437"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000045
+      ],
+      "heroEn": "Stu",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Speed Zone：原视频保留的条件备选。",
+      "condition": "宝石或热区、队伍能利用加速区域时。",
+      "startSeconds": 2432,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2432"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000045
+      ],
+      "heroEn": "Stu",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Breakthrough：原视频保留的条件备选。",
+      "condition": "阵容需要破墙时；原视频没有无条件首选。",
+      "startSeconds": 2432,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2432"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000027
+      ],
+      "heroEn": "8-Bit",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Cheat Cartridge：作者建议宝石模式可考虑传送；不是必须覆盖原通用首选。",
+      "condition": "仅限宝石争霸的可选传送打法。",
+      "startSeconds": 29,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=29"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000080
+      ],
+      "heroEn": "Draco",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Expose：作者明确建议金库采用此星徽增加金库输出。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 844,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=844"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000043
+      ],
+      "heroEn": "Edgar",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Hardcore：作者建议淘汰赛等待毒圈后用护盾进场，保留原战术条件。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 871,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=871"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000021
+      ],
+      "heroEn": "Gene",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Vengeful Spirits：作者在淘汰模式推荐幽灵妙具。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1132,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1132"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000021
+      ],
+      "heroEn": "Gene",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Vengeful Spirits：作者在赏金模式推荐幽灵妙具。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1132,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1132"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000021
+      ],
+      "heroEn": "Gene",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Lamp Blowout：作者在宝石模式推荐击退妙具。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1132,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1132"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000014
+      ],
+      "heroEn": "Bo",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Tripwire：作者明确把足球作为绊线妙具更好的场景。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 268,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=268"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000014
+      ],
+      "heroEn": "Bo",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Tripwire：作者明确把金库作为绊线妙具更好的场景。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 268,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=268"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000008
+      ],
+      "heroEn": "Nita",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Hyper Bear：作者明确建议金库采用攻击速度星徽。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 2004,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2004"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000025
+      ],
+      "heroEn": "Carl",
+      "kind": "loadout_reference",
+      "mapId": 15000019,
+      "summary": "妙具 · Flying Hook：作者明确点名此地图，用飞钩到达敌方后排；保留其切入打法条件。",
+      "condition": "需要用飞钩跨越地形或切入敌方后排；原视频讨论金库打法。",
+      "startSeconds": 485,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=485"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000025
+      ],
+      "heroEn": "Carl",
+      "kind": "loadout_reference",
+      "mapId": 15000018,
+      "summary": "妙具 · Flying Hook：作者明确点名此地图，用飞钩到达敌方后排；保留其切入打法条件。",
+      "condition": "需要用飞钩跨越地形或切入敌方后排；原视频讨论金库打法。",
+      "startSeconds": 485,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=485"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000101
+      ],
+      "heroEn": "Glowy",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Slippery Savior：1194–1204秒口播对比增益与治疗冲刺，1202秒画面确认治疗冲刺的名称。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1190,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1190"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000101
+      ],
+      "heroEn": "Glowy",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Parasitism：1206–1218秒讨论两项星徽，作者偏向提供自我恢复的一项；1217秒名称画面已核对。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1190,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1190"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000094
+      ],
+      "heroEn": "Kaze",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Gratuity Included：1512秒口播明确称当前指向星徽更好，1514秒名称画面已核对。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1497,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1497"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000085
+      ],
+      "heroEn": "Kenji",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Nigiri Nemesis：作者明确说第二星徽，1524秒画面核对名称；不是从数据数组次序推断。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1520,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1520"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000097
+      ],
+      "heroEn": "Mina",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Windmill：1843秒名称画面与本章默认妙具口播相互核对；面对高血量近身对手另有备选。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1840,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1840"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000077
+      ],
+      "heroEn": "Larry & Lawrie",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Protocol Assist：1555–1557秒口播推荐时，1556秒名称画面为Protocol Assist；随后切换到另一项并说明不再优先。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1551,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1551"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000107
+      ],
+      "heroEn": "Nori",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · His Mothers Son：2039和2053秒推荐的名称画面相互核对；作者仍认为两项星徽都不算特别突出。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 2022,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2022"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000045
+      ],
+      "heroEn": "Stu",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Gaso-Heal：2442秒明确推荐当前星徽，2443秒名称画面为Gaso-Heal。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 2432,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2432"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000066
+      ],
+      "heroEn": "R-T",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Out Of Line：2211秒本章口播专名误识别，2212秒名称画面核对为Out Of Line。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 2211,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=2211"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000091
+      ],
+      "heroEn": "Lumi",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Grim And Frostbitten：1664秒口播明确说第二妙具并描述冰面，1666秒名称画面核对。",
+      "condition": "仅保留原教学范围；通用或模式建议不冒充地图专属建议。",
+      "startSeconds": 1664,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1664"
+    },
+    {
+      "sourceId": "youtube:cAc7zvvNxmI",
+      "heroIds": [
+        16000097
+      ],
+      "heroEn": "Mina",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Capo-What?：1853秒名称画面与近身高血量对手的口播条件相互核对。",
+      "condition": "面对莫提斯、弗兰肯、普里莫等能利用连续超级技能的对局。",
+      "startSeconds": 1840,
+      "confidence": "high",
+      "url": "https://www.youtube.com/watch?v=cAc7zvvNxmI?t=1840"
+    },
+    {
+      "sourceId": "bilibili:BV13Wh26wEM7",
+      "heroIds": [
+        16000061
+      ],
+      "heroEn": "Gus",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Knockback Spirit：作者把二妙具与一星徽的续航搭配称为巴菲后格斯强势的原因。",
+      "condition": "巴菲格斯；推荐两项一起用于续航搭配，不能假定未持有强化时收益相同。",
+      "startSeconds": 40,
+      "confidence": "high",
+      "url": "https://www.bilibili.com/video/BV13Wh26wEM7/?t=40"
+    },
+    {
+      "sourceId": "bilibili:BV13Wh26wEM7",
+      "heroIds": [
+        16000061
+      ],
+      "heroEn": "Gus",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Health Bonanza：作者将强化灵体恢复与二妙具一起作为巴菲后的续航搭配。",
+      "condition": "巴菲格斯；推荐两项一起用于续航搭配，不能假定未持有强化时收益相同。",
+      "startSeconds": 40,
+      "confidence": "high",
+      "url": "https://www.bilibili.com/video/BV13Wh26wEM7/?t=40"
+    },
+    {
+      "sourceId": "bilibili:BV13Wh26wEM7",
+      "heroIds": [
+        16000061
+      ],
+      "heroEn": "Gus",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Kooky Popper：作者展示的另一套爆发玩法，两项配套使用。",
+      "condition": "爆发搭配：Kooky Popper ＋ Spirit Animal；利用护盾增伤与妙具收割。不是通用续航首选。",
+      "startSeconds": 22,
+      "confidence": "high",
+      "url": "https://www.bilibili.com/video/BV13Wh26wEM7/?t=22"
+    },
+    {
+      "sourceId": "bilibili:BV13Wh26wEM7",
+      "heroIds": [
+        16000061
+      ],
+      "heroEn": "Gus",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Spirit Animal：作者展示的另一套爆发玩法，两项配套使用。",
+      "condition": "爆发搭配：Kooky Popper ＋ Spirit Animal；利用护盾增伤与妙具收割。不是通用续航首选。",
+      "startSeconds": 22,
+      "confidence": "high",
+      "url": "https://www.bilibili.com/video/BV13Wh26wEM7/?t=22"
     }
   ],
   "mapEvidence": [
