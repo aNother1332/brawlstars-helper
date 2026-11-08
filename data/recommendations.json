@@ -1427,7 +1427,7 @@
       "nameEn": "Hard Rock Mine",
       "nameZh": "硬石矿井",
       "mode": "Gem Grab",
-      "overallStatus": "候选待国服当前版本复核",
+      "overallStatus": "S56逐图复核 · 本新增阵容为机制推演；未声称新版本职业实选",
       "mechanismEvidence": [
         {
           "sourceId": "spen54",
@@ -1740,15 +1740,65 @@
             "caseId": "lcq2026-day1-skc-toc-hard-rock",
             "teamName": "Trick of China"
           }
+        },
+        {
+          "id": "15000007-s56-review",
+          "title": "S56版本复核 · 机制推演",
+          "kind": "mechanism_inference",
+          "status": "2026-11-08复核 · 机制推演 · 中置信度",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "members": [
+            {
+              "heroId": 16000014,
+              "role": "主控／中线"
+            },
+            {
+              "heroId": 16000051,
+              "role": "侧翼／推进"
+            },
+            {
+              "heroId": 16000031,
+              "role": "支援／压制"
+            }
+          ],
+          "synergy": "Bo 侦测并限制草区与中线，Mr. P 从掩体后持续施压；Ash 承担近区接战与侧翼反打。三人分别覆盖侦测、远程压制和近战空间。",
+          "risk": "Ash 本次被削弱，怒气与超级循环更慢，需避免把他当作无条件强开核心。",
+          "loadout": "本轮只复核英雄与阵容职责，没有足够的新版本地图专属配置证据；妙具与星徽请按已收录来源条件选择。",
+          "evidenceRefs": [
+            "spen54",
+            "spen50",
+            "bili-hardrock-local",
+            "youtube:UWXyKZl3e_A"
+          ],
+          "substitutions": [],
+          "refreshBasis": "mechanism_inference",
+          "confidence": "中",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "团队配合为机制推演，非实战验证。",
+            "steps": [
+              "开局先由主控位确认中路与关键掩体，避免同时暴露。",
+              "取得信息或压出对方关键技能后，侧翼位与支援位同步推进，保留互相支援距离。",
+              "拿到目标后优先重整站位与保护撤退路线；失败时恢复分线，不连续单人强进。"
+            ]
+          }
         }
-      ]
+      ],
+      "patchReview": {
+        "version": "S56 / Nov 3 2026 patch review",
+        "reviewedAt": "2026-11-08",
+        "basis": "mechanism_inference",
+        "confidence": "中",
+        "caveat": "Ash 本次被削弱，怒气与超级循环更慢，需避免把他当作无条件强开核心。"
+      }
     },
     {
       "mapId": 15000005,
       "nameEn": "Shooting Star",
       "nameZh": "神秘流星",
       "mode": "Bounty",
-      "overallStatus": "9月口播候选待国服当前版本复核",
+      "overallStatus": "S56逐图复核 · 本新增阵容为机制推演；未声称新版本职业实选",
       "mechanismEvidence": [
         {
           "sourceId": "spen54",
@@ -1932,15 +1982,62 @@
           "status": "已有地图候选推导 · 待版本与实战复核",
           "mapFitBand": 1,
           "substitutions": []
+        },
+        {
+          "id": "15000005-s56-review",
+          "title": "S56版本复核 · 机制推演",
+          "kind": "mechanism_inference",
+          "status": "2026-11-08复核 · 机制推演 · 中置信度",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "members": [
+            {
+              "heroId": 16000031,
+              "role": "主控／中线"
+            },
+            {
+              "heroId": 16000108,
+              "role": "侧翼／推进"
+            },
+            {
+              "heroId": 16000003,
+              "role": "支援／压制"
+            }
+          ],
+          "synergy": "开阔长线由 Brock 与 Wendy 交叉压制，Mr. P 以召唤物干扰对方瞄准并保护推进窗口。",
+          "risk": "Wendy 弹体与减速被削弱，先验证命中稳定性；更依赖 Brock 的远距离命中。",
+          "loadout": "本轮只复核英雄与阵容职责，没有足够的新版本地图专属配置证据；妙具与星徽请按已收录来源条件选择。",
+          "evidenceRefs": [
+            "spen54"
+          ],
+          "substitutions": [],
+          "refreshBasis": "mechanism_inference",
+          "confidence": "中",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "团队配合为机制推演，非实战验证。",
+            "steps": [
+              "开局先由主控位确认中路与关键掩体，避免同时暴露。",
+              "取得信息或压出对方关键技能后，侧翼位与支援位同步推进，保留互相支援距离。",
+              "拿到目标后优先重整站位与保护撤退路线；失败时恢复分线，不连续单人强进。"
+            ]
+          }
         }
-      ]
+      ],
+      "patchReview": {
+        "version": "S56 / Nov 3 2026 patch review",
+        "reviewedAt": "2026-11-08",
+        "basis": "mechanism_inference",
+        "confidence": "中",
+        "caveat": "Wendy 弹体与减速被削弱，先验证命中稳定性；更依赖 Brock 的远距离命中。"
+      }
     },
     {
       "mapId": 15000024,
       "nameEn": "Backyard Bowl",
       "nameZh": "后院球场",
       "mode": "Brawl Ball",
-      "overallStatus": "仅Wiki机制候选，证据等级较低；无已读地图视频字幕",
+      "overallStatus": "S56逐图复核 · 本新增阵容为机制推演；未声称新版本职业实选",
       "mechanismEvidence": [
         {
           "sourceId": "wiki-backyard",
@@ -2105,15 +2202,62 @@
           "status": "已有地图候选推导 · 待版本与实战复核",
           "mapFitBand": 1,
           "substitutions": []
+        },
+        {
+          "id": "15000024-s56-review",
+          "title": "S56版本复核 · 机制推演",
+          "kind": "mechanism_inference",
+          "status": "2026-11-08复核 · 机制推演 · 低置信度",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "members": [
+            {
+              "heroId": 16000040,
+              "role": "主控／中线"
+            },
+            {
+              "heroId": 16000067,
+              "role": "侧翼／推进"
+            },
+            {
+              "heroId": 16000034,
+              "role": "支援／压制"
+            }
+          ],
+          "synergy": "Amber 控制开阔中路并限制接球路线，Willow 从掩体后打断推进，Jacky 利用短通道和掩体推进拿球。",
+          "risk": "非当前排位池，缺少近期该图直接阵容证据；作为机制推演。",
+          "loadout": "本轮只复核英雄与阵容职责，没有足够的新版本地图专属配置证据；妙具与星徽请按已收录来源条件选择。",
+          "evidenceRefs": [
+            "wiki-backyard"
+          ],
+          "substitutions": [],
+          "refreshBasis": "mechanism_inference",
+          "confidence": "低",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "团队配合为机制推演，非实战验证。",
+            "steps": [
+              "开局先由主控位确认中路与关键掩体，避免同时暴露。",
+              "取得信息或压出对方关键技能后，侧翼位与支援位同步推进，保留互相支援距离。",
+              "拿到目标后优先重整站位与保护撤退路线；失败时恢复分线，不连续单人强进。"
+            ]
+          }
         }
-      ]
+      ],
+      "patchReview": {
+        "version": "S56 / Nov 3 2026 patch review",
+        "reviewedAt": "2026-11-08",
+        "basis": "mechanism_inference",
+        "confidence": "低",
+        "caveat": "非当前排位池，缺少近期该图直接阵容证据；作为机制推演。"
+      }
     },
     {
       "mapId": 15000053,
       "nameEn": "Hot Potato",
       "nameZh": "烫手山芋",
       "mode": "Heist",
-      "overallStatus": "9月机制证据与5月候选，待国服当前版本复核",
+      "overallStatus": "S56逐图复核 · 本新增阵容为机制推演；未声称新版本职业实选",
       "mechanismEvidence": [
         {
           "sourceId": "spen54",
@@ -2402,15 +2546,63 @@
             "caseId": "lcq2026-day2-fut-kds-hot-potato",
             "teamName": "FUT FreeZone"
           }
+        },
+        {
+          "id": "15000053-s56-review",
+          "title": "S56版本复核 · 机制推演",
+          "kind": "mechanism_inference",
+          "status": "2026-11-08复核 · 机制推演 · 低置信度",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "members": [
+            {
+              "heroId": 16000008,
+              "role": "主控／中线"
+            },
+            {
+              "heroId": 16000078,
+              "role": "侧翼／推进"
+            },
+            {
+              "heroId": 16000107,
+              "role": "支援／压制"
+            }
+          ],
+          "synergy": "Nita 以熊压迫金库附近空间，Melodie 利用机动窗口打金库，Nori 提供侧翼威胁并牵制防守。",
+          "risk": "金库模式中的具体比赛证据不足；Melodie 增强后攻速和音符输出提升，但不等于稳定打家。",
+          "loadout": "本轮只复核英雄与阵容职责，没有足够的新版本地图专属配置证据；妙具与星徽请按已收录来源条件选择。",
+          "evidenceRefs": [
+            "spen54",
+            "youtube:PIAPgulZPa4"
+          ],
+          "substitutions": [],
+          "refreshBasis": "mechanism_inference",
+          "confidence": "低",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "团队配合为机制推演，非实战验证。",
+            "steps": [
+              "开局先由主控位确认中路与关键掩体，避免同时暴露。",
+              "取得信息或压出对方关键技能后，侧翼位与支援位同步推进，保留互相支援距离。",
+              "拿到目标后优先重整站位与保护撤退路线；失败时恢复分线，不连续单人强进。"
+            ]
+          }
         }
-      ]
+      ],
+      "patchReview": {
+        "version": "S56 / Nov 3 2026 patch review",
+        "reviewedAt": "2026-11-08",
+        "basis": "mechanism_inference",
+        "confidence": "低",
+        "caveat": "金库模式中的具体比赛证据不足；Melodie 增强后攻速和音符输出提升，但不等于稳定打家。"
+      }
     },
     {
       "mapId": 15000306,
       "nameEn": "Dueling Beetles",
       "nameZh": "甲虫决斗",
       "mode": "Hot Zone",
-      "overallStatus": "9月口播候选待国服当前版本复核",
+      "overallStatus": "S56逐图复核 · 本新增阵容为机制推演；未声称新版本职业实选",
       "mechanismEvidence": [
         {
           "sourceId": "spen54",
@@ -2639,15 +2831,62 @@
           "status": "地图组合样本快照 · 配合与版本待验证",
           "mapFitBand": 1,
           "substitutions": []
+        },
+        {
+          "id": "15000306-s56-review",
+          "title": "S56版本复核 · 机制推演",
+          "kind": "mechanism_inference",
+          "status": "2026-11-08复核 · 机制推演 · 中置信度",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "members": [
+            {
+              "heroId": 16000040,
+              "role": "主控／中线"
+            },
+            {
+              "heroId": 16000026,
+              "role": "侧翼／推进"
+            },
+            {
+              "heroId": 16000069,
+              "role": "支援／压制"
+            }
+          ],
+          "synergy": "Amber 控制热区入口，Bibi 击退近身对手并争夺站区空间，Hank 用高生命值顶住封闭区域火力。",
+          "risk": "Hank 得到生命增强；Amber 被削弱后控制资源更珍贵，避免提前交技能。",
+          "loadout": "本轮只复核英雄与阵容职责，没有足够的新版本地图专属配置证据；妙具与星徽请按已收录来源条件选择。",
+          "evidenceRefs": [
+            "spen54"
+          ],
+          "substitutions": [],
+          "refreshBasis": "mechanism_inference",
+          "confidence": "中",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "团队配合为机制推演，非实战验证。",
+            "steps": [
+              "开局先由主控位确认中路与关键掩体，避免同时暴露。",
+              "取得信息或压出对方关键技能后，侧翼位与支援位同步推进，保留互相支援距离。",
+              "拿到目标后优先重整站位与保护撤退路线；失败时恢复分线，不连续单人强进。"
+            ]
+          }
         }
-      ]
+      ],
+      "patchReview": {
+        "version": "S56 / Nov 3 2026 patch review",
+        "reviewedAt": "2026-11-08",
+        "basis": "mechanism_inference",
+        "confidence": "中",
+        "caveat": "Hank 得到生命增强；Amber 被削弱后控制资源更珍贵，避免提前交技能。"
+      }
     },
     {
       "mapId": 15000143,
       "nameEn": "Beach Ball",
       "nameZh": "沙滩足球",
       "mode": "Brawl Ball",
-      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "overallStatus": "S56逐图复核 · 本新增阵容为机制推演；未声称新版本职业实选",
       "completeTeamObserved": false,
       "teamEvidenceNotice": null,
       "tags": [
@@ -2772,6 +3011,46 @@
           "status": "已有地图候选推导 · 待版本与实战复核",
           "mapFitBand": 1,
           "substitutions": []
+        },
+        {
+          "id": "15000143-s56-review",
+          "title": "S56版本复核 · 机制推演",
+          "kind": "mechanism_inference",
+          "status": "2026-11-08复核 · 机制推演 · 低置信度",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "members": [
+            {
+              "heroId": 16000031,
+              "role": "主控／中线"
+            },
+            {
+              "heroId": 16000026,
+              "role": "侧翼／推进"
+            },
+            {
+              "heroId": 16000041,
+              "role": "支援／压制"
+            }
+          ],
+          "synergy": "Mr. P 干扰远程站位，Bibi 清理中路并争夺球权，Lou 用冻结威胁封锁窄口和射门线。",
+          "risk": "该地图无直接新阵容证据，属地图结构推演。",
+          "loadout": "本轮只复核英雄与阵容职责，没有足够的新版本地图专属配置证据；妙具与星徽请按已收录来源条件选择。",
+          "evidenceRefs": [
+            "youtube:5iHVKzN0c5M"
+          ],
+          "substitutions": [],
+          "refreshBasis": "mechanism_inference",
+          "confidence": "低",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "团队配合为机制推演，非实战验证。",
+            "steps": [
+              "开局先由主控位确认中路与关键掩体，避免同时暴露。",
+              "取得信息或压出对方关键技能后，侧翼位与支援位同步推进，保留互相支援距离。",
+              "拿到目标后优先重整站位与保护撤退路线；失败时恢复分线，不连续单人强进。"
+            ]
+          }
         }
       ],
       "candidates": [
@@ -2817,14 +3096,21 @@
           "completeTeamObserved": false,
           "evidenceType": "map_guide"
         }
-      ]
+      ],
+      "patchReview": {
+        "version": "S56 / Nov 3 2026 patch review",
+        "reviewedAt": "2026-11-08",
+        "basis": "mechanism_inference",
+        "confidence": "低",
+        "caveat": "该地图无直接新阵容证据，属地图结构推演。"
+      }
     },
     {
       "mapId": 15000115,
       "nameEn": "Double Swoosh",
       "nameZh": "嗖嗖作响",
       "mode": "Gem Grab",
-      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "overallStatus": "S56逐图复核 · 本新增阵容为机制推演；未声称新版本职业实选",
       "completeTeamObserved": false,
       "teamEvidenceNotice": null,
       "tags": [
@@ -2964,6 +3250,47 @@
           "status": "地图组合样本快照 · 配合与版本待验证",
           "mapFitBand": 1,
           "substitutions": []
+        },
+        {
+          "id": "15000115-s56-review",
+          "title": "S56版本复核 · 机制推演",
+          "kind": "mechanism_inference",
+          "status": "2026-11-08复核 · 机制推演 · 中置信度",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "members": [
+            {
+              "heroId": 16000031,
+              "role": "主控／中线"
+            },
+            {
+              "heroId": 16000040,
+              "role": "侧翼／推进"
+            },
+            {
+              "heroId": 16000014,
+              "role": "支援／压制"
+            }
+          ],
+          "synergy": "Bo 提供草丛侦测，Amber 控制侧翼通道，Mr. P 在中路安全压制并迫使敌方分散。",
+          "risk": "Amber 技能冷却与持续伤害下调，控制覆盖有间隙。",
+          "loadout": "本轮只复核英雄与阵容职责，没有足够的新版本地图专属配置证据；妙具与星徽请按已收录来源条件选择。",
+          "evidenceRefs": [
+            "youtube:5iHVKzN0c5M",
+            "brawlzone-trio-snapshot-20261023-double-swoosh"
+          ],
+          "substitutions": [],
+          "refreshBasis": "mechanism_inference",
+          "confidence": "中",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "团队配合为机制推演，非实战验证。",
+            "steps": [
+              "开局先由主控位确认中路与关键掩体，避免同时暴露。",
+              "取得信息或压出对方关键技能后，侧翼位与支援位同步推进，保留互相支援距离。",
+              "拿到目标后优先重整站位与保护撤退路线；失败时恢复分线，不连续单人强进。"
+            ]
+          }
         }
       ],
       "candidates": [
@@ -3097,14 +3424,21 @@
           "completeTeamObserved": true,
           "evidenceType": "ranked_trio_index_snapshot"
         }
-      ]
+      ],
+      "patchReview": {
+        "version": "S56 / Nov 3 2026 patch review",
+        "reviewedAt": "2026-11-08",
+        "basis": "mechanism_inference",
+        "confidence": "中",
+        "caveat": "Amber 技能冷却与持续伤害下调，控制覆盖有间隙。"
+      }
     },
     {
       "mapId": 15000368,
       "nameEn": "Belles Rock",
       "nameZh": "摇滚贝尔",
       "mode": "Knockout",
-      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "overallStatus": "S56逐图复核 · 本新增阵容为机制推演；未声称新版本职业实选",
       "completeTeamObserved": false,
       "teamEvidenceNotice": null,
       "tags": [
@@ -3281,6 +3615,53 @@
           "professionalReference": {
             "caseId": "lcq2026-day2-skc-loud-belles-rock",
             "teamName": "SKCalalas"
+          }
+        },
+        {
+          "id": "15000368-s56-review",
+          "title": "S56版本复核 · 机制推演",
+          "kind": "mechanism_inference",
+          "status": "2026-11-08复核 · 机制推演 · 中置信度",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "members": [
+            {
+              "heroId": 16000031,
+              "role": "主控／中线"
+            },
+            {
+              "heroId": 16000003,
+              "role": "侧翼／推进"
+            },
+            {
+              "heroId": 16000037,
+              "role": "支援／压制"
+            }
+          ],
+          "synergy": "Brock 与 Mr. P 建立远距离交叉火力，Sprout 利用墙体切割路线并限制侧翼接近。",
+          "risk": "破墙后阵容收益变化显著；根据地图墙体是否保留调整 Sprout。",
+          "loadout": "本轮只复核英雄与阵容职责，没有足够的新版本地图专属配置证据；妙具与星徽请按已收录来源条件选择。",
+          "evidenceRefs": [
+            "youtube:5iHVKzN0c5M",
+            "bilibili:BV1Tsn2zLEUU",
+            "bilibili:BV1Tsn2zLEUU",
+            "bilibili:BV1Tsn2zLEUU",
+            "bilibili:BV1Tsn2zLEUU",
+            "youtube:PIAPgulZPa4",
+            "brawlzone-trio-snapshot-20261023-belles-rock",
+            "youtube:PIAPgulZPa4"
+          ],
+          "substitutions": [],
+          "refreshBasis": "mechanism_inference",
+          "confidence": "中",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "团队配合为机制推演，非实战验证。",
+            "steps": [
+              "开局先由主控位确认中路与关键掩体，避免同时暴露。",
+              "取得信息或压出对方关键技能后，侧翼位与支援位同步推进，保留互相支援距离。",
+              "拿到目标后优先重整站位与保护撤退路线；失败时恢复分线，不连续单人强进。"
+            ]
           }
         }
       ],
@@ -3496,14 +3877,21 @@
           "completeTeamObserved": true,
           "evidenceType": "professional_visual_roster"
         }
-      ]
+      ],
+      "patchReview": {
+        "version": "S56 / Nov 3 2026 patch review",
+        "reviewedAt": "2026-11-08",
+        "basis": "mechanism_inference",
+        "confidence": "中",
+        "caveat": "破墙后阵容收益变化显著；根据地图墙体是否保留调整 Sprout。"
+      }
     },
     {
       "mapId": 15000083,
       "nameEn": "Dry Season",
       "nameZh": "酷热地带",
       "mode": "Bounty",
-      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "overallStatus": "S56逐图复核 · 本新增阵容为机制推演；未声称新版本职业实选",
       "completeTeamObserved": false,
       "teamEvidenceNotice": null,
       "tags": [
@@ -3629,6 +4017,46 @@
           "status": "已有地图候选推导 · 待版本与实战复核",
           "mapFitBand": 1,
           "substitutions": []
+        },
+        {
+          "id": "15000083-s56-review",
+          "title": "S56版本复核 · 机制推演",
+          "kind": "mechanism_inference",
+          "status": "2026-11-08复核 · 机制推演 · 低置信度",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "members": [
+            {
+              "heroId": 16000031,
+              "role": "主控／中线"
+            },
+            {
+              "heroId": 16000040,
+              "role": "侧翼／推进"
+            },
+            {
+              "heroId": 16000037,
+              "role": "支援／压制"
+            }
+          ],
+          "synergy": "用召唤物与火焰持续压缩两条通道，Sprout 在掩体和草线附近隔断轮转，形成控场而非单点对枪。",
+          "risk": "开放地图中投掷位风险较高，须依赖队友先取得射线优势。",
+          "loadout": "本轮只复核英雄与阵容职责，没有足够的新版本地图专属配置证据；妙具与星徽请按已收录来源条件选择。",
+          "evidenceRefs": [
+            "youtube:5iHVKzN0c5M"
+          ],
+          "substitutions": [],
+          "refreshBasis": "mechanism_inference",
+          "confidence": "低",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "团队配合为机制推演，非实战验证。",
+            "steps": [
+              "开局先由主控位确认中路与关键掩体，避免同时暴露。",
+              "取得信息或压出对方关键技能后，侧翼位与支援位同步推进，保留互相支援距离。",
+              "拿到目标后优先重整站位与保护撤退路线；失败时恢复分线，不连续单人强进。"
+            ]
+          }
         }
       ],
       "candidates": [
@@ -3682,14 +4110,21 @@
           "completeTeamObserved": false,
           "evidenceType": "map_guide"
         }
-      ]
+      ],
+      "patchReview": {
+        "version": "S56 / Nov 3 2026 patch review",
+        "reviewedAt": "2026-11-08",
+        "basis": "mechanism_inference",
+        "confidence": "低",
+        "caveat": "开放地图中投掷位风险较高，须依赖队友先取得射线优势。"
+      }
     },
     {
       "mapId": 15000082,
       "nameEn": "Layer Cake",
       "nameZh": "夹心蛋糕",
       "mode": "Bounty",
-      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "overallStatus": "S56逐图复核 · 本新增阵容为机制推演；未声称新版本职业实选",
       "completeTeamObserved": false,
       "teamEvidenceNotice": null,
       "tags": [
@@ -3951,6 +4386,51 @@
             "caseId": "aug26-ea-gf-layer-cake",
             "teamName": "Crazy Raccoon"
           }
+        },
+        {
+          "id": "15000082-s56-review",
+          "title": "S56版本复核 · 机制推演",
+          "kind": "mechanism_inference",
+          "status": "2026-11-08复核 · 机制推演 · 中置信度",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "members": [
+            {
+              "heroId": 16000031,
+              "role": "主控／中线"
+            },
+            {
+              "heroId": 16000040,
+              "role": "侧翼／推进"
+            },
+            {
+              "heroId": 16000014,
+              "role": "支援／压制"
+            }
+          ],
+          "synergy": "Bo 探草，Amber 清理草区，Mr. P 从中远距离持续消耗并牵制侧路。",
+          "risk": "Amber 削弱后草区覆盖下降；不要把火焰覆盖视为持续封锁。",
+          "loadout": "本轮只复核英雄与阵容职责，没有足够的新版本地图专属配置证据；妙具与星徽请按已收录来源条件选择。",
+          "evidenceRefs": [
+            "youtube:5iHVKzN0c5M",
+            "youtube:UWXyKZl3e_A",
+            "youtube:ZIGzQ-zJFWc",
+            "brawlzone-trio-snapshot-20261023-layer-cake",
+            "youtube:UWXyKZl3e_A",
+            "youtube:ZIGzQ-zJFWc"
+          ],
+          "substitutions": [],
+          "refreshBasis": "mechanism_inference",
+          "confidence": "中",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "团队配合为机制推演，非实战验证。",
+            "steps": [
+              "开局先由主控位确认中路与关键掩体，避免同时暴露。",
+              "取得信息或压出对方关键技能后，侧翼位与支援位同步推进，保留互相支援距离。",
+              "拿到目标后优先重整站位与保护撤退路线；失败时恢复分线，不连续单人强进。"
+            ]
+          }
         }
       ],
       "candidates": [
@@ -4198,14 +4678,21 @@
           "completeTeamObserved": true,
           "evidenceType": "professional_visual_roster"
         }
-      ]
+      ],
+      "patchReview": {
+        "version": "S56 / Nov 3 2026 patch review",
+        "reviewedAt": "2026-11-08",
+        "basis": "mechanism_inference",
+        "confidence": "中",
+        "caveat": "Amber 削弱后草区覆盖下降；不要把火焰覆盖视为持续封锁。"
+      }
     },
     {
       "mapId": 15000011,
       "nameEn": "Undermine",
       "nameZh": "十面埋伏",
       "mode": "Gem Grab",
-      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "overallStatus": "S56逐图复核 · 本新增阵容为机制推演；未声称新版本职业实选",
       "completeTeamObserved": false,
       "teamEvidenceNotice": "地图候选按地图结构与近期适配筛选。新增地图的队友组合优先引用排位实测三人样本；样本与时间窗展示在阵容卡片上。没有实测样本数的排位主页组合明确标记为低置信度。三人胜率是群体描述数据，不是玩家个人胜率或未来表现保证。 新增的经典地图不在当前排位轮换，数据卡片分别注明排位、奖杯赛和历史范围；机制阵容不视作实时强度榜。",
       "tags": [
@@ -4355,6 +4842,47 @@
           "status": "地图组合样本快照 · 配合与版本待验证",
           "mapFitBand": 1,
           "substitutions": []
+        },
+        {
+          "id": "15000011-s56-review",
+          "title": "S56版本复核 · 机制推演",
+          "kind": "mechanism_inference",
+          "status": "2026-11-08复核 · 机制推演 · 中置信度",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "members": [
+            {
+              "heroId": 16000031,
+              "role": "主控／中线"
+            },
+            {
+              "heroId": 16000040,
+              "role": "侧翼／推进"
+            },
+            {
+              "heroId": 16000014,
+              "role": "支援／压制"
+            }
+          ],
+          "synergy": "围绕中央宝石区进行侦测与封锁：Bo 降低草丛信息差，Amber 清退争夺者，Mr. P 支援中线并保护持宝撤退。",
+          "risk": "Amber 削弱后控制有空档，宝石持有者应优先保命。",
+          "loadout": "本轮只复核英雄与阵容职责，没有足够的新版本地图专属配置证据；妙具与星徽请按已收录来源条件选择。",
+          "evidenceRefs": [
+            "brawlpick-map-undermine",
+            "brawlzone-trio-snapshot-20261023-undermine"
+          ],
+          "substitutions": [],
+          "refreshBasis": "mechanism_inference",
+          "confidence": "中",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "团队配合为机制推演，非实战验证。",
+            "steps": [
+              "开局先由主控位确认中路与关键掩体，避免同时暴露。",
+              "取得信息或压出对方关键技能后，侧翼位与支援位同步推进，保留互相支援距离。",
+              "拿到目标后优先重整站位与保护撤退路线；失败时恢复分线，不连续单人强进。"
+            ]
+          }
         }
       ],
       "candidates": [
@@ -4520,14 +5048,21 @@
           "completeTeamObserved": true,
           "evidenceType": "ranked_trio_index_snapshot"
         }
-      ]
+      ],
+      "patchReview": {
+        "version": "S56 / Nov 3 2026 patch review",
+        "reviewedAt": "2026-11-08",
+        "basis": "mechanism_inference",
+        "confidence": "中",
+        "caveat": "Amber 削弱后控制有空档，宝石持有者应优先保命。"
+      }
     },
     {
       "mapId": 15000018,
       "nameEn": "Kaboom Canyon",
       "nameZh": "轰隆峡谷",
       "mode": "Heist",
-      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "overallStatus": "S56逐图复核 · 本新增阵容为机制推演；未声称新版本职业实选",
       "completeTeamObserved": false,
       "teamEvidenceNotice": "地图候选按地图结构与近期适配筛选。新增地图的队友组合优先引用排位实测三人样本；样本与时间窗展示在阵容卡片上。没有实测样本数的排位主页组合明确标记为低置信度。三人胜率是群体描述数据，不是玩家个人胜率或未来表现保证。 新增的经典地图不在当前排位轮换，数据卡片分别注明排位、奖杯赛和历史范围；机制阵容不视作实时强度榜。",
       "tags": [
@@ -4662,6 +5197,52 @@
           "professionalReference": {
             "caseId": "lcq2026-day2-skc-loud-kaboom",
             "teamName": "SKCalalas"
+          }
+        },
+        {
+          "id": "15000018-s56-review",
+          "title": "S56版本复核 · 机制推演",
+          "kind": "mechanism_inference",
+          "status": "2026-11-08复核 · 机制推演 · 低置信度",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "members": [
+            {
+              "heroId": 16000007,
+              "role": "主控／中线"
+            },
+            {
+              "heroId": 16000107,
+              "role": "侧翼／推进"
+            },
+            {
+              "heroId": 16000078,
+              "role": "支援／压制"
+            }
+          ],
+          "synergy": "Jessie 兼顾金库输出与炮台牵制，Melodie 利用机动窗口攻击金库，Nori 侧翼拉扯防守并补充突进压力。",
+          "risk": "缺少新赛季此图组合样本；Chuck 等旧强点增强后也可作为待验证替代，但不作为直接推荐。",
+          "loadout": "本轮只复核英雄与阵容职责，没有足够的新版本地图专属配置证据；妙具与星徽请按已收录来源条件选择。",
+          "evidenceRefs": [
+            "youtube:PIAPgulZPa4",
+            "bilibili:BV1tH4y1A7K6",
+            "bilibili:BV1tH4y1A7K6",
+            "bilibili:BV1tH4y1A7K6",
+            "brawlpick-map-kaboom-canyon",
+            "brawlzone-trio-snapshot-20261023-kaboom-canyon",
+            "youtube:PIAPgulZPa4"
+          ],
+          "substitutions": [],
+          "refreshBasis": "mechanism_inference",
+          "confidence": "低",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "团队配合为机制推演，非实战验证。",
+            "steps": [
+              "开局先由主控位确认中路与关键掩体，避免同时暴露。",
+              "取得信息或压出对方关键技能后，侧翼位与支援位同步推进，保留互相支援距离。",
+              "拿到目标后优先重整站位与保护撤退路线；失败时恢复分线，不连续单人强进。"
+            ]
           }
         }
       ],
@@ -4909,14 +5490,21 @@
           "completeTeamObserved": true,
           "evidenceType": "professional_visual_roster"
         }
-      ]
+      ],
+      "patchReview": {
+        "version": "S56 / Nov 3 2026 patch review",
+        "reviewedAt": "2026-11-08",
+        "basis": "mechanism_inference",
+        "confidence": "低",
+        "caveat": "缺少新赛季此图组合样本；Chuck 等旧强点增强后也可作为待验证替代，但不作为直接推荐。"
+      }
     },
     {
       "mapId": 15000019,
       "nameEn": "Safe Zone",
       "nameZh": "安全区域",
       "mode": "Heist",
-      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "overallStatus": "S56逐图复核 · 本新增阵容为机制推演；未声称新版本职业实选",
       "completeTeamObserved": false,
       "teamEvidenceNotice": "地图候选按地图结构与近期适配筛选。新增地图的队友组合优先引用排位实测三人样本；样本与时间窗展示在阵容卡片上。没有实测样本数的排位主页组合明确标记为低置信度。三人胜率是群体描述数据，不是玩家个人胜率或未来表现保证。 新增的经典地图不在当前排位轮换，数据卡片分别注明排位、奖杯赛和历史范围；机制阵容不视作实时强度榜。",
       "tags": [
@@ -5389,6 +5977,57 @@
             "caseId": "aug26-na-sf-safe-zone",
             "teamName": "Vatic Esports"
           }
+        },
+        {
+          "id": "15000019-s56-review",
+          "title": "S56版本复核 · 机制推演",
+          "kind": "mechanism_inference",
+          "status": "2026-11-08复核 · 机制推演 · 低置信度",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "members": [
+            {
+              "heroId": 16000007,
+              "role": "主控／中线"
+            },
+            {
+              "heroId": 16000107,
+              "role": "侧翼／推进"
+            },
+            {
+              "heroId": 16000031,
+              "role": "支援／压制"
+            }
+          ],
+          "synergy": "Jessie 用炮台逼出防守资源并攻击金库，Mr. P 消耗并限制防守换位，Nori 负责寻找短暂侧翼输出窗口。",
+          "risk": "先保持一人防守，不应三人同步换家；组合为机制推演。",
+          "loadout": "本轮只复核英雄与阵容职责，没有足够的新版本地图专属配置证据；妙具与星徽请按已收录来源条件选择。",
+          "evidenceRefs": [
+            "youtube:UWXyKZl3e_A",
+            "youtube:UWXyKZl3e_A",
+            "youtube:UWXyKZl3e_A",
+            "youtube:HkNGnN8xFe8",
+            "youtube:d2Rvo0w8Ejo",
+            "brawlpick-map-safe-zone",
+            "brawlzone-trio-snapshot-20261023-safe-zone",
+            "youtube:UWXyKZl3e_A",
+            "youtube:UWXyKZl3e_A",
+            "youtube:UWXyKZl3e_A",
+            "youtube:HkNGnN8xFe8",
+            "youtube:d2Rvo0w8Ejo"
+          ],
+          "substitutions": [],
+          "refreshBasis": "mechanism_inference",
+          "confidence": "低",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "团队配合为机制推演，非实战验证。",
+            "steps": [
+              "开局先由主控位确认中路与关键掩体，避免同时暴露。",
+              "取得信息或压出对方关键技能后，侧翼位与支援位同步推进，保留互相支援距离。",
+              "拿到目标后优先重整站位与保护撤退路线；失败时恢复分线，不连续单人强进。"
+            ]
+          }
         }
       ],
       "candidates": [
@@ -5799,14 +6438,21 @@
           "completeTeamObserved": true,
           "evidenceType": "professional_visual_roster"
         }
-      ]
+      ],
+      "patchReview": {
+        "version": "S56 / Nov 3 2026 patch review",
+        "reviewedAt": "2026-11-08",
+        "basis": "mechanism_inference",
+        "confidence": "低",
+        "caveat": "先保持一人防守，不应三人同步换家；组合为机制推演。"
+      }
     },
     {
       "mapId": 15000025,
       "nameEn": "Triple Dribble",
       "nameZh": "三重威胁",
       "mode": "Brawl Ball",
-      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "overallStatus": "S56逐图复核 · 本新增阵容为机制推演；未声称新版本职业实选",
       "completeTeamObserved": false,
       "teamEvidenceNotice": "地图候选按地图结构与近期适配筛选。新增地图的队友组合优先引用排位实测三人样本；样本与时间窗展示在阵容卡片上。没有实测样本数的排位主页组合明确标记为低置信度。三人胜率是群体描述数据，不是玩家个人胜率或未来表现保证。 新增的经典地图不在当前排位轮换，数据卡片分别注明排位、奖杯赛和历史范围；机制阵容不视作实时强度榜。",
       "tags": [
@@ -6085,6 +6731,54 @@
           "professionalReference": {
             "caseId": "lcq2026-day2-fut-kds-triple-dribble",
             "teamName": "FUT FreeZone"
+          }
+        },
+        {
+          "id": "15000025-s56-review",
+          "title": "S56版本复核 · 机制推演",
+          "kind": "mechanism_inference",
+          "status": "2026-11-08复核 · 机制推演 · 中置信度",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "members": [
+            {
+              "heroId": 16000040,
+              "role": "主控／中线"
+            },
+            {
+              "heroId": 16000067,
+              "role": "侧翼／推进"
+            },
+            {
+              "heroId": 16000034,
+              "role": "支援／压制"
+            }
+          ],
+          "synergy": "Amber 控制中路和球路，Willow 隔墙干扰防守，Jacky 负责近距离拿球与突破。",
+          "risk": "Amber 被削弱后要更谨慎留技能；Jacky 进场需等控制技能消耗。",
+          "loadout": "本轮只复核英雄与阵容职责，没有足够的新版本地图专属配置证据；妙具与星徽请按已收录来源条件选择。",
+          "evidenceRefs": [
+            "youtube:PIAPgulZPa4",
+            "youtube:UWXyKZl3e_A",
+            "bilibili:BV11FEJzfEG4",
+            "bilibili:BV11FEJzfEG4",
+            "bilibili:BV11FEJzfEG4",
+            "brawlzone-ranked-triple-dribble",
+            "brawlzone-trio-snapshot-20261023-triple-dribble",
+            "youtube:PIAPgulZPa4",
+            "youtube:UWXyKZl3e_A"
+          ],
+          "substitutions": [],
+          "refreshBasis": "mechanism_inference",
+          "confidence": "中",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "团队配合为机制推演，非实战验证。",
+            "steps": [
+              "开局先由主控位确认中路与关键掩体，避免同时暴露。",
+              "取得信息或压出对方关键技能后，侧翼位与支援位同步推进，保留互相支援距离。",
+              "拿到目标后优先重整站位与保护撤退路线；失败时恢复分线，不连续单人强进。"
+            ]
           }
         }
       ],
@@ -6365,14 +7059,21 @@
           "completeTeamObserved": true,
           "evidenceType": "professional_visual_roster"
         }
-      ]
+      ],
+      "patchReview": {
+        "version": "S56 / Nov 3 2026 patch review",
+        "reviewedAt": "2026-11-08",
+        "basis": "mechanism_inference",
+        "confidence": "中",
+        "caveat": "Amber 被削弱后要更谨慎留技能；Jacky 进场需等控制技能消耗。"
+      }
     },
     {
       "mapId": 15000072,
       "nameEn": "Bridge Too Far",
       "nameZh": "遥远的桥",
       "mode": "Heist",
-      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "overallStatus": "S56逐图复核 · 本新增阵容为机制推演；未声称新版本职业实选",
       "completeTeamObserved": false,
       "teamEvidenceNotice": "地图候选按地图结构与近期适配筛选。新增地图的队友组合优先引用排位实测三人样本；样本与时间窗展示在阵容卡片上。没有实测样本数的排位主页组合明确标记为低置信度。三人胜率是群体描述数据，不是玩家个人胜率或未来表现保证。 新增的经典地图不在当前排位轮换，数据卡片分别注明排位、奖杯赛和历史范围；机制阵容不视作实时强度榜。",
       "tags": [
@@ -6523,6 +7224,48 @@
           "status": "地图组合样本快照 · 配合与版本待验证",
           "mapFitBand": 1,
           "substitutions": []
+        },
+        {
+          "id": "15000072-s56-review",
+          "title": "S56版本复核 · 机制推演",
+          "kind": "mechanism_inference",
+          "status": "2026-11-08复核 · 机制推演 · 低置信度",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "members": [
+            {
+              "heroId": 16000001,
+              "role": "主控／中线"
+            },
+            {
+              "heroId": 16000027,
+              "role": "侧翼／推进"
+            },
+            {
+              "heroId": 16000107,
+              "role": "支援／压制"
+            }
+          ],
+          "synergy": "Colt 负责主要金库火力与必要破墙，8-Bit 增强队伍持续输出，Nori 以机动性迫使对手回防。",
+          "risk": "队伍整体机动与脱身较弱；Nori 的地图适配仍是推演而非实证。",
+          "loadout": "本轮只复核英雄与阵容职责，没有足够的新版本地图专属配置证据；妙具与星徽请按已收录来源条件选择。",
+          "evidenceRefs": [
+            "youtube:5iHVKzN0c5M",
+            "brawlpick-map-bridge-too-far",
+            "brawlzone-trio-snapshot-20261023-bridge-too-far"
+          ],
+          "substitutions": [],
+          "refreshBasis": "mechanism_inference",
+          "confidence": "低",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "团队配合为机制推演，非实战验证。",
+            "steps": [
+              "开局先由主控位确认中路与关键掩体，避免同时暴露。",
+              "取得信息或压出对方关键技能后，侧翼位与支援位同步推进，保留互相支援距离。",
+              "拿到目标后优先重整站位与保护撤退路线；失败时恢复分线，不连续单人强进。"
+            ]
+          }
         }
       ],
       "candidates": [
@@ -6696,14 +7439,21 @@
           "completeTeamObserved": true,
           "evidenceType": "ranked_trio_index_snapshot"
         }
-      ]
+      ],
+      "patchReview": {
+        "version": "S56 / Nov 3 2026 patch review",
+        "reviewedAt": "2026-11-08",
+        "basis": "mechanism_inference",
+        "confidence": "低",
+        "caveat": "队伍整体机动与脱身较弱；Nori 的地图适配仍是推演而非实证。"
+      }
     },
     {
       "mapId": 15000118,
       "nameEn": "Pinball Dreams",
       "nameZh": "梦幻弹珠",
       "mode": "Brawl Ball",
-      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "overallStatus": "S56逐图复核 · 本新增阵容为机制推演；未声称新版本职业实选",
       "completeTeamObserved": false,
       "teamEvidenceNotice": "地图候选按地图结构与近期适配筛选。新增地图的队友组合优先引用排位实测三人样本；样本与时间窗展示在阵容卡片上。没有实测样本数的排位主页组合明确标记为低置信度。三人胜率是群体描述数据，不是玩家个人胜率或未来表现保证。 新增的经典地图不在当前排位轮换，数据卡片分别注明排位、奖杯赛和历史范围；机制阵容不视作实时强度榜。",
       "tags": [
@@ -7109,6 +7859,58 @@
           "professionalReference": {
             "caseId": "chall26-gf-pinball",
             "teamName": "FUT Freezone"
+          }
+        },
+        {
+          "id": "15000118-s56-review",
+          "title": "S56版本复核 · 机制推演",
+          "kind": "mechanism_inference",
+          "status": "2026-11-08复核 · 机制推演 · 低置信度",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "members": [
+            {
+              "heroId": 16000040,
+              "role": "主控／中线"
+            },
+            {
+              "heroId": 16000077,
+              "role": "侧翼／推进"
+            },
+            {
+              "heroId": 16000086,
+              "role": "支援／压制"
+            }
+          ],
+          "synergy": "Amber 控制球路，Larry & Lawrie 以隔墙火力压缩防守，Shade 仅在墙体与草区允许时切入。",
+          "risk": "Shade 本次削弱明显，作为情境型替换，不是默认核心。",
+          "loadout": "本轮只复核英雄与阵容职责，没有足够的新版本地图专属配置证据；妙具与星徽请按已收录来源条件选择。",
+          "evidenceRefs": [
+            "youtube:5iHVKzN0c5M",
+            "bilibili:BV1npQAYjE98",
+            "bilibili:BV1npQAYjE98",
+            "bilibili:BV1npQAYjE98",
+            "bilibili:BV1npQAYjE98",
+            "youtube:HkNGnN8xFe8",
+            "youtube:oPpaTsWQzOY",
+            "youtube:9CQQ04lg-sQ",
+            "brawlpick-map-pinball-dreams",
+            "brawlzone-trio-snapshot-20261023-pinball-dreams",
+            "youtube:HkNGnN8xFe8",
+            "youtube:oPpaTsWQzOY",
+            "youtube:9CQQ04lg-sQ"
+          ],
+          "substitutions": [],
+          "refreshBasis": "mechanism_inference",
+          "confidence": "低",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "团队配合为机制推演，非实战验证。",
+            "steps": [
+              "开局先由主控位确认中路与关键掩体，避免同时暴露。",
+              "取得信息或压出对方关键技能后，侧翼位与支援位同步推进，保留互相支援距离。",
+              "拿到目标后优先重整站位与保护撤退路线；失败时恢复分线，不连续单人强进。"
+            ]
           }
         }
       ],
@@ -7542,14 +8344,21 @@
           "completeTeamObserved": true,
           "evidenceType": "professional_visual_roster"
         }
-      ]
+      ],
+      "patchReview": {
+        "version": "S56 / Nov 3 2026 patch review",
+        "reviewedAt": "2026-11-08",
+        "basis": "mechanism_inference",
+        "confidence": "低",
+        "caveat": "Shade 本次削弱明显，作为情境型替换，不是默认核心。"
+      }
     },
     {
       "mapId": 15000132,
       "nameEn": "Center Stage",
       "nameZh": "中心舞台",
       "mode": "Brawl Ball",
-      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "overallStatus": "S56逐图复核 · 本新增阵容为机制推演；未声称新版本职业实选",
       "completeTeamObserved": false,
       "teamEvidenceNotice": "地图候选按地图结构与近期适配筛选。新增地图的队友组合优先引用排位实测三人样本；样本与时间窗展示在阵容卡片上。没有实测样本数的排位主页组合明确标记为低置信度。三人胜率是群体描述数据，不是玩家个人胜率或未来表现保证。 新增的经典地图不在当前排位轮换，数据卡片分别注明排位、奖杯赛和历史范围；机制阵容不视作实时强度榜。",
       "tags": [
@@ -7699,6 +8508,47 @@
           "status": "地图组合样本快照 · 配合与版本待验证",
           "mapFitBand": 1,
           "substitutions": []
+        },
+        {
+          "id": "15000132-s56-review",
+          "title": "S56版本复核 · 机制推演",
+          "kind": "mechanism_inference",
+          "status": "2026-11-08复核 · 机制推演 · 中置信度",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "members": [
+            {
+              "heroId": 16000026,
+              "role": "主控／中线"
+            },
+            {
+              "heroId": 16000031,
+              "role": "侧翼／推进"
+            },
+            {
+              "heroId": 16000040,
+              "role": "支援／压制"
+            }
+          ],
+          "synergy": "Bibi 承担中线推进和接球，Mr. P 持续消耗并拉开防线，Amber 控制近区入口与回防路线。",
+          "risk": "Amber 控场能力下降，队伍需要Bibi避免过早失去中线。",
+          "loadout": "本轮只复核英雄与阵容职责，没有足够的新版本地图专属配置证据；妙具与星徽请按已收录来源条件选择。",
+          "evidenceRefs": [
+            "brawlpick-map-center-stage",
+            "brawlzone-trio-snapshot-20261023-center-stage"
+          ],
+          "substitutions": [],
+          "refreshBasis": "mechanism_inference",
+          "confidence": "中",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "团队配合为机制推演，非实战验证。",
+            "steps": [
+              "开局先由主控位确认中路与关键掩体，避免同时暴露。",
+              "取得信息或压出对方关键技能后，侧翼位与支援位同步推进，保留互相支援距离。",
+              "拿到目标后优先重整站位与保护撤退路线；失败时恢复分线，不连续单人强进。"
+            ]
+          }
         }
       ],
       "candidates": [
@@ -7864,14 +8714,21 @@
           "completeTeamObserved": true,
           "evidenceType": "ranked_trio_index_snapshot"
         }
-      ]
+      ],
+      "patchReview": {
+        "version": "S56 / Nov 3 2026 patch review",
+        "reviewedAt": "2026-11-08",
+        "basis": "mechanism_inference",
+        "confidence": "中",
+        "caveat": "Amber 控场能力下降，队伍需要Bibi避免过早失去中线。"
+      }
     },
     {
       "mapId": 15000293,
       "nameEn": "Parallel Plays",
       "nameZh": "平行游戏",
       "mode": "Hot Zone",
-      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "overallStatus": "S56逐图复核 · 本新增阵容为机制推演；未声称新版本职业实选",
       "completeTeamObserved": false,
       "teamEvidenceNotice": "地图候选按地图结构与近期适配筛选。新增地图的队友组合优先引用排位实测三人样本；样本与时间窗展示在阵容卡片上。没有实测样本数的排位主页组合明确标记为低置信度。三人胜率是群体描述数据，不是玩家个人胜率或未来表现保证。 新增的经典地图不在当前排位轮换，数据卡片分别注明排位、奖杯赛和历史范围；机制阵容不视作实时强度榜。",
       "tags": [
@@ -8021,6 +8878,47 @@
           "status": "地图组合样本快照 · 配合与版本待验证",
           "mapFitBand": 1,
           "substitutions": []
+        },
+        {
+          "id": "15000293-s56-review",
+          "title": "S56版本复核 · 机制推演",
+          "kind": "mechanism_inference",
+          "status": "2026-11-08复核 · 机制推演 · 低置信度",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "members": [
+            {
+              "heroId": 16000087,
+              "role": "主控／中线"
+            },
+            {
+              "heroId": 16000073,
+              "role": "侧翼／推进"
+            },
+            {
+              "heroId": 16000026,
+              "role": "支援／压制"
+            }
+          ],
+          "synergy": "Juju 从安全角度压制站区，Chuck 利用预设路线快速轮转，Bibi 争夺近区并保护投掷位。",
+          "risk": "Chuck 增强不代表此图必然适配；本组合基于地图路径与角色职责推演。",
+          "loadout": "本轮只复核英雄与阵容职责，没有足够的新版本地图专属配置证据；妙具与星徽请按已收录来源条件选择。",
+          "evidenceRefs": [
+            "brawlpick-map-parallel-plays",
+            "brawlzone-trio-snapshot-20261023-parallel-plays"
+          ],
+          "substitutions": [],
+          "refreshBasis": "mechanism_inference",
+          "confidence": "低",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "团队配合为机制推演，非实战验证。",
+            "steps": [
+              "开局先由主控位确认中路与关键掩体，避免同时暴露。",
+              "取得信息或压出对方关键技能后，侧翼位与支援位同步推进，保留互相支援距离。",
+              "拿到目标后优先重整站位与保护撤退路线；失败时恢复分线，不连续单人强进。"
+            ]
+          }
         }
       ],
       "candidates": [
@@ -8178,14 +9076,21 @@
           "completeTeamObserved": true,
           "evidenceType": "ranked_trio_index_snapshot"
         }
-      ]
+      ],
+      "patchReview": {
+        "version": "S56 / Nov 3 2026 patch review",
+        "reviewedAt": "2026-11-08",
+        "basis": "mechanism_inference",
+        "confidence": "低",
+        "caveat": "Chuck 增强不代表此图必然适配；本组合基于地图路径与角色职责推演。"
+      }
     },
     {
       "mapId": 15000300,
       "nameEn": "Ring Of Fire",
       "nameZh": "灼热火圈",
       "mode": "Hot Zone",
-      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "overallStatus": "S56逐图复核 · 本新增阵容为机制推演；未声称新版本职业实选",
       "completeTeamObserved": false,
       "teamEvidenceNotice": "地图候选按地图结构与近期适配筛选。新增地图的队友组合优先引用排位实测三人样本；样本与时间窗展示在阵容卡片上。没有实测样本数的排位主页组合明确标记为低置信度。三人胜率是群体描述数据，不是玩家个人胜率或未来表现保证。 新增的经典地图不在当前排位轮换，数据卡片分别注明排位、奖杯赛和历史范围；机制阵容不视作实时强度榜。",
       "tags": [
@@ -8405,6 +9310,57 @@
           "professionalReference": {
             "caseId": "lcq2026-day2-skc-loud-ring-of-fire",
             "teamName": "SKCalalas"
+          }
+        },
+        {
+          "id": "15000300-s56-review",
+          "title": "S56版本复核 · 机制推演",
+          "kind": "mechanism_inference",
+          "status": "2026-11-08复核 · 机制推演 · 中置信度",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "members": [
+            {
+              "heroId": 16000014,
+              "role": "主控／中线"
+            },
+            {
+              "heroId": 16000050,
+              "role": "侧翼／推进"
+            },
+            {
+              "heroId": 16000040,
+              "role": "支援／压制"
+            }
+          ],
+          "synergy": "Bo 侦测草区，Griff 处理近身威胁并争夺区域边缘，Amber 持续限制站区入口。",
+          "risk": "Amber 削弱后需控制技能轮转；Bo 的侦测配置依具体草量选择。",
+          "loadout": "本轮只复核英雄与阵容职责，没有足够的新版本地图专属配置证据；妙具与星徽请按已收录来源条件选择。",
+          "evidenceRefs": [
+            "bilibili:BV1jU411Z7sx",
+            "bilibili:BV1jU411Z7sx",
+            "bilibili:BV1jU411Z7sx",
+            "bilibili:BV1jU411Z7sx",
+            "bilibili:BV1jU411Z7sx",
+            "bilibili:BV1jU411Z7sx",
+            "youtube:PIAPgulZPa4",
+            "youtube:UWXyKZl3e_A",
+            "brawlpick-map-ring-of-fire",
+            "brawlzone-trio-snapshot-20261023-ring-of-fire",
+            "youtube:PIAPgulZPa4",
+            "youtube:UWXyKZl3e_A"
+          ],
+          "substitutions": [],
+          "refreshBasis": "mechanism_inference",
+          "confidence": "中",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "团队配合为机制推演，非实战验证。",
+            "steps": [
+              "开局先由主控位确认中路与关键掩体，避免同时暴露。",
+              "取得信息或压出对方关键技能后，侧翼位与支援位同步推进，保留互相支援距离。",
+              "拿到目标后优先重整站位与保护撤退路线；失败时恢复分线，不连续单人强进。"
+            ]
           }
         }
       ],
@@ -8725,7 +9681,14 @@
           "completeTeamObserved": true,
           "evidenceType": "professional_visual_roster"
         }
-      ]
+      ],
+      "patchReview": {
+        "version": "S56 / Nov 3 2026 patch review",
+        "reviewedAt": "2026-11-08",
+        "basis": "mechanism_inference",
+        "confidence": "中",
+        "caveat": "Amber 削弱后需控制技能轮转；Bo 的侦测配置依具体草量选择。"
+      }
     },
     {
       "mapId": 15000440,
@@ -8943,14 +9906,22 @@
           "completeTeamObserved": true,
           "evidenceType": "ranked_map_statistics"
         }
-      ]
+      ],
+      "patchReview": {
+        "version": "S56 / Nov 3 2026 patch review",
+        "reviewedAt": "2026-11-08",
+        "basis": "mechanism_inference",
+        "confidence": "中",
+        "caveat": "沿用历史排位组合方向，非新补丁后职业案例；Edgar 切入依赖对方控制技能状态。",
+        "existingTrioRetained": true
+      }
     },
     {
       "mapId": 15000548,
       "nameEn": "Out In The Open",
       "nameZh": "空旷荒野",
       "mode": "Knockout",
-      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "overallStatus": "S56逐图复核 · 本新增阵容为机制推演；未声称新版本职业实选",
       "completeTeamObserved": false,
       "teamEvidenceNotice": "地图候选按地图结构与近期适配筛选。新增地图的队友组合优先引用排位实测三人样本；样本与时间窗展示在阵容卡片上。没有实测样本数的排位主页组合明确标记为低置信度。三人胜率是群体描述数据，不是玩家个人胜率或未来表现保证。 新增的经典地图不在当前排位轮换，数据卡片分别注明排位、奖杯赛和历史范围；机制阵容不视作实时强度榜。",
       "tags": [
@@ -9252,6 +10223,52 @@
             "caseId": "lcq2026-day2-th-kds-open",
             "teamName": "KDS"
           }
+        },
+        {
+          "id": "15000548-s56-review",
+          "title": "S56版本复核 · 机制推演",
+          "kind": "mechanism_inference",
+          "status": "2026-11-08复核 · 机制推演 · 中置信度",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "members": [
+            {
+              "heroId": 16000015,
+              "role": "主控／中线"
+            },
+            {
+              "heroId": 16000003,
+              "role": "侧翼／推进"
+            },
+            {
+              "heroId": 16000031,
+              "role": "支援／压制"
+            }
+          ],
+          "synergy": "Piper 与 Brock 通过交叉长射程压制建立优势，Mr. P 干扰瞄准并减少对方架枪稳定性。",
+          "risk": "开阔图优先命中与生存；不据此推断固定胜率。",
+          "loadout": "本轮只复核英雄与阵容职责，没有足够的新版本地图专属配置证据；妙具与星徽请按已收录来源条件选择。",
+          "evidenceRefs": [
+            "youtube:PIAPgulZPa4",
+            "youtube:PIAPgulZPa4",
+            "youtube:PIAPgulZPa4",
+            "brawlpick-map-out-in-the-open",
+            "youtube:PIAPgulZPa4",
+            "youtube:PIAPgulZPa4",
+            "youtube:PIAPgulZPa4"
+          ],
+          "substitutions": [],
+          "refreshBasis": "mechanism_inference",
+          "confidence": "中",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "团队配合为机制推演，非实战验证。",
+            "steps": [
+              "开局先由主控位确认中路与关键掩体，避免同时暴露。",
+              "取得信息或压出对方关键技能后，侧翼位与支援位同步推进，保留互相支援距离。",
+              "拿到目标后优先重整站位与保护撤退路线；失败时恢复分线，不连续单人强进。"
+            ]
+          }
         }
       ],
       "candidates": [
@@ -9500,14 +10517,21 @@
           "completeTeamObserved": true,
           "evidenceType": "professional_visual_roster"
         }
-      ]
+      ],
+      "patchReview": {
+        "version": "S56 / Nov 3 2026 patch review",
+        "reviewedAt": "2026-11-08",
+        "basis": "mechanism_inference",
+        "confidence": "中",
+        "caveat": "开阔图优先命中与生存；不据此推断固定胜率。"
+      }
     },
     {
       "mapId": 15000703,
       "nameEn": "New Horizons",
       "nameZh": "新地平线",
       "mode": "Knockout",
-      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "overallStatus": "S56逐图复核 · 本新增阵容为机制推演；未声称新版本职业实选",
       "completeTeamObserved": false,
       "teamEvidenceNotice": "地图候选按地图结构与近期适配筛选。新增地图的队友组合优先引用排位实测三人样本；样本与时间窗展示在阵容卡片上。没有实测样本数的排位主页组合明确标记为低置信度。三人胜率是群体描述数据，不是玩家个人胜率或未来表现保证。 新增的经典地图不在当前排位轮换，数据卡片分别注明排位、奖杯赛和历史范围；机制阵容不视作实时强度榜。",
       "tags": [
@@ -9751,6 +10775,50 @@
             "caseId": "aug26-sa-gf-new-horizons",
             "teamName": "LOUD"
           }
+        },
+        {
+          "id": "15000703-s56-review",
+          "title": "S56版本复核 · 机制推演",
+          "kind": "mechanism_inference",
+          "status": "2026-11-08复核 · 机制推演 · 中置信度",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "members": [
+            {
+              "heroId": 16000003,
+              "role": "主控／中线"
+            },
+            {
+              "heroId": 16000031,
+              "role": "侧翼／推进"
+            },
+            {
+              "heroId": 16000072,
+              "role": "支援／压制"
+            }
+          ],
+          "synergy": "Brock 控制长视野，Mr. P 以召唤物消耗并打乱对位，Pearl 提供稳定伤害与残局能力。",
+          "risk": "地图单英雄统计可作候选旁证，但无可靠近期完整三人组样本。",
+          "loadout": "本轮只复核英雄与阵容职责，没有足够的新版本地图专属配置证据；妙具与星徽请按已收录来源条件选择。",
+          "evidenceRefs": [
+            "youtube:oPpaTsWQzOY",
+            "brawlzone-ranked-new-horizons",
+            "bilibili:BV15RmQBWELU",
+            "brawlzone-trio-snapshot-20261023-new-horizons",
+            "youtube:oPpaTsWQzOY"
+          ],
+          "substitutions": [],
+          "refreshBasis": "mechanism_inference",
+          "confidence": "中",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "团队配合为机制推演，非实战验证。",
+            "steps": [
+              "开局先由主控位确认中路与关键掩体，避免同时暴露。",
+              "取得信息或压出对方关键技能后，侧翼位与支援位同步推进，保留互相支援距离。",
+              "拿到目标后优先重整站位与保护撤退路线；失败时恢复分线，不连续单人强进。"
+            ]
+          }
         }
       ],
       "candidates": [
@@ -9949,14 +11017,21 @@
           "completeTeamObserved": true,
           "evidenceType": "professional_visual_roster"
         }
-      ]
+      ],
+      "patchReview": {
+        "version": "S56 / Nov 3 2026 patch review",
+        "reviewedAt": "2026-11-08",
+        "basis": "mechanism_inference",
+        "confidence": "中",
+        "caveat": "地图单英雄统计可作候选旁证，但无可靠近期完整三人组样本。"
+      }
     },
     {
       "mapId": 15001021,
       "nameEn": "Spiraling Out",
       "nameZh": "盘旋而出",
       "mode": "Brawl Ball",
-      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "overallStatus": "S56逐图复核 · 本新增阵容为机制推演；未声称新版本职业实选",
       "completeTeamObserved": false,
       "teamEvidenceNotice": "地图候选按地图结构与近期适配筛选。新增地图的队友组合优先引用排位实测三人样本；样本与时间窗展示在阵容卡片上。没有实测样本数的排位主页组合明确标记为低置信度。三人胜率是群体描述数据，不是玩家个人胜率或未来表现保证。 新增的经典地图不在当前排位轮换，数据卡片分别注明排位、奖杯赛和历史范围；机制阵容不视作实时强度榜。",
       "tags": [
@@ -10089,6 +11164,46 @@
           "status": "已有地图候选推导 · 待版本与实战复核",
           "mapFitBand": 1,
           "substitutions": []
+        },
+        {
+          "id": "15001021-s56-review",
+          "title": "S56版本复核 · 机制推演",
+          "kind": "mechanism_inference",
+          "status": "2026-11-08复核 · 机制推演 · 低置信度",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "members": [
+            {
+              "heroId": 16000026,
+              "role": "主控／中线"
+            },
+            {
+              "heroId": 16000040,
+              "role": "侧翼／推进"
+            },
+            {
+              "heroId": 16000108,
+              "role": "支援／压制"
+            }
+          ],
+          "synergy": "Bibi 争夺狭窄中区并击退近身者，Amber 控制轮转通道，Wendy 在后排补充减速和持续火力。",
+          "risk": "Wendy 本次削弱弹体与减速；旧地图统计的英雄榜仅作旁证，阵容是机制推演。",
+          "loadout": "本轮只复核英雄与阵容职责，没有足够的新版本地图专属配置证据；妙具与星徽请按已收录来源条件选择。",
+          "evidenceRefs": [
+            "brawlzone-ranked-spiraling-out"
+          ],
+          "substitutions": [],
+          "refreshBasis": "mechanism_inference",
+          "confidence": "低",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "团队配合为机制推演，非实战验证。",
+            "steps": [
+              "开局先由主控位确认中路与关键掩体，避免同时暴露。",
+              "取得信息或压出对方关键技能后，侧翼位与支援位同步推进，保留互相支援距离。",
+              "拿到目标后优先重整站位与保护撤退路线；失败时恢复分线，不连续单人强进。"
+            ]
+          }
         }
       ],
       "candidates": [
@@ -10142,14 +11257,21 @@
           "completeTeamObserved": true,
           "evidenceType": "ranked_map_statistics"
         }
-      ]
+      ],
+      "patchReview": {
+        "version": "S56 / Nov 3 2026 patch review",
+        "reviewedAt": "2026-11-08",
+        "basis": "mechanism_inference",
+        "confidence": "低",
+        "caveat": "Wendy 本次削弱弹体与减速；旧地图统计的英雄榜仅作旁证，阵容是机制推演。"
+      }
     },
     {
       "mapId": 15000026,
       "nameEn": "Pinhole Punt",
       "nameZh": "精准射门",
       "mode": "Brawl Ball",
-      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "overallStatus": "S56逐图复核 · 本新增阵容为机制推演；未声称新版本职业实选",
       "completeTeamObserved": false,
       "teamEvidenceNotice": "地图候选按地图结构与近期适配筛选。新增地图的队友组合优先引用排位实测三人样本；样本与时间窗展示在阵容卡片上。没有实测样本数的排位主页组合明确标记为低置信度。三人胜率是群体描述数据，不是玩家个人胜率或未来表现保证。 新增的经典地图不在当前排位轮换，数据卡片分别注明排位、奖杯赛和历史范围；机制阵容不视作实时强度榜。",
       "tags": [
@@ -10454,6 +11576,53 @@
             "caseId": "aug26-na-gf-pinhole",
             "teamName": "Tribe Gaming"
           }
+        },
+        {
+          "id": "15000026-s56-review",
+          "title": "S56版本复核 · 机制推演",
+          "kind": "mechanism_inference",
+          "status": "2026-11-08复核 · 机制推演 · 低置信度",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "members": [
+            {
+              "heroId": 16000040,
+              "role": "主控／中线"
+            },
+            {
+              "heroId": 16000051,
+              "role": "侧翼／推进"
+            },
+            {
+              "heroId": 16000086,
+              "role": "支援／压制"
+            }
+          ],
+          "synergy": "Amber 控制通道，Ash 承担近区对抗，Shade 只在侧路草区仍安全时威胁后排。",
+          "risk": "非本赛季排位池；Ash 与 Shade 均遭削弱，建议谨慎使用。",
+          "loadout": "本轮只复核英雄与阵容职责，没有足够的新版本地图专属配置证据；妙具与星徽请按已收录来源条件选择。",
+          "evidenceRefs": [
+            "youtube:PIAPgulZPa4",
+            "youtube:ZIGzQ-zJFWc",
+            "youtube:d2Rvo0w8Ejo",
+            "brawlplanet-map-pinhole-punt",
+            "brawlmetrics-map-pinhole-punt",
+            "youtube:PIAPgulZPa4",
+            "youtube:ZIGzQ-zJFWc",
+            "youtube:d2Rvo0w8Ejo"
+          ],
+          "substitutions": [],
+          "refreshBasis": "mechanism_inference",
+          "confidence": "低",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "团队配合为机制推演，非实战验证。",
+            "steps": [
+              "开局先由主控位确认中路与关键掩体，避免同时暴露。",
+              "取得信息或压出对方关键技能后，侧翼位与支援位同步推进，保留互相支援距离。",
+              "拿到目标后优先重整站位与保护撤退路线；失败时恢复分线，不连续单人强进。"
+            ]
+          }
         }
       ],
       "candidates": [
@@ -10718,14 +11887,21 @@
           "completeTeamObserved": true,
           "evidenceType": "professional_visual_roster"
         }
-      ]
+      ],
+      "patchReview": {
+        "version": "S56 / Nov 3 2026 patch review",
+        "reviewedAt": "2026-11-08",
+        "basis": "mechanism_inference",
+        "confidence": "低",
+        "caveat": "非本赛季排位池；Ash 与 Shade 均遭削弱，建议谨慎使用。"
+      }
     },
     {
       "mapId": 15000050,
       "nameEn": "Sneaky Fields",
       "nameZh": "绿荫球场",
       "mode": "Brawl Ball",
-      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "overallStatus": "S56逐图复核 · 本新增阵容为机制推演；未声称新版本职业实选",
       "completeTeamObserved": false,
       "teamEvidenceNotice": "地图候选按地图结构与近期适配筛选。新增地图的队友组合优先引用排位实测三人样本；样本与时间窗展示在阵容卡片上。没有实测样本数的排位主页组合明确标记为低置信度。三人胜率是群体描述数据，不是玩家个人胜率或未来表现保证。 新增的经典地图不在当前排位轮换，数据卡片分别注明排位、奖杯赛和历史范围；机制阵容不视作实时强度榜。",
       "tags": [
@@ -10874,6 +12050,50 @@
           "status": "地图组合样本快照 · 配合与版本待验证",
           "mapFitBand": 1,
           "substitutions": []
+        },
+        {
+          "id": "15000050-s56-review",
+          "title": "S56版本复核 · 机制推演",
+          "kind": "mechanism_inference",
+          "status": "2026-11-08复核 · 机制推演 · 低置信度",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "members": [
+            {
+              "heroId": 16000051,
+              "role": "主控／中线"
+            },
+            {
+              "heroId": 16000040,
+              "role": "侧翼／推进"
+            },
+            {
+              "heroId": 16000031,
+              "role": "支援／压制"
+            }
+          ],
+          "synergy": "Bo/侦测类替代缺位时依靠 Amber 清理草区、Mr. P 安全施压、Ash 反制近距离推进。",
+          "risk": "Ash 被削弱，不能强行主导近战；需要对手近战较多才适用。",
+          "loadout": "本轮只复核英雄与阵容职责，没有足够的新版本地图专属配置证据；妙具与星徽请按已收录来源条件选择。",
+          "evidenceRefs": [
+            "youtube:5iHVKzN0c5M",
+            "bilibili:BV1vs4y1y7KD",
+            "brawlplanet-map-sneaky-fields",
+            "brawlmetrics-map-sneaky-fields",
+            "brawlzone-trio-snapshot-20261023-sneaky-fields"
+          ],
+          "substitutions": [],
+          "refreshBasis": "mechanism_inference",
+          "confidence": "低",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "团队配合为机制推演，非实战验证。",
+            "steps": [
+              "开局先由主控位确认中路与关键掩体，避免同时暴露。",
+              "取得信息或压出对方关键技能后，侧翼位与支援位同步推进，保留互相支援距离。",
+              "拿到目标后优先重整站位与保护撤退路线；失败时恢复分线，不连续单人强进。"
+            ]
+          }
         }
       ],
       "candidates": [
@@ -11071,14 +12291,21 @@
           "completeTeamObserved": true,
           "evidenceType": "ranked_trio_index_snapshot"
         }
-      ]
+      ],
+      "patchReview": {
+        "version": "S56 / Nov 3 2026 patch review",
+        "reviewedAt": "2026-11-08",
+        "basis": "mechanism_inference",
+        "confidence": "低",
+        "caveat": "Ash 被削弱，不能强行主导近战；需要对手近战较多才适用。"
+      }
     },
     {
       "mapId": 15000051,
       "nameEn": "Super Beach",
       "nameZh": "超级海滩",
       "mode": "Brawl Ball",
-      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "overallStatus": "S56逐图复核 · 本新增阵容为机制推演；未声称新版本职业实选",
       "completeTeamObserved": false,
       "teamEvidenceNotice": "地图候选按地图结构与近期适配筛选。新增地图的队友组合优先引用排位实测三人样本；样本与时间窗展示在阵容卡片上。没有实测样本数的排位主页组合明确标记为低置信度。三人胜率是群体描述数据，不是玩家个人胜率或未来表现保证。 新增的经典地图不在当前排位轮换，数据卡片分别注明排位、奖杯赛和历史范围；机制阵容不视作实时强度榜。",
       "tags": [
@@ -11204,6 +12431,47 @@
           "status": "已有地图候选推导 · 待版本与实战复核",
           "mapFitBand": 1,
           "substitutions": []
+        },
+        {
+          "id": "15000051-s56-review",
+          "title": "S56版本复核 · 机制推演",
+          "kind": "mechanism_inference",
+          "status": "2026-11-08复核 · 机制推演 · 低置信度",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "members": [
+            {
+              "heroId": 16000040,
+              "role": "主控／中线"
+            },
+            {
+              "heroId": 16000026,
+              "role": "侧翼／推进"
+            },
+            {
+              "heroId": 16000086,
+              "role": "支援／压制"
+            }
+          ],
+          "synergy": "Amber 控制球路，Bibi 负责中近场争夺，Shade 仅在侧翼存在安全进场窗口时补切后排。",
+          "risk": "非本赛季排位池，Shade 近期削弱后应视阵容替换。",
+          "loadout": "本轮只复核英雄与阵容职责，没有足够的新版本地图专属配置证据；妙具与星徽请按已收录来源条件选择。",
+          "evidenceRefs": [
+            "brawlplanet-map-super-beach",
+            "brawlzone-map-super-beach"
+          ],
+          "substitutions": [],
+          "refreshBasis": "mechanism_inference",
+          "confidence": "低",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "团队配合为机制推演，非实战验证。",
+            "steps": [
+              "开局先由主控位确认中路与关键掩体，避免同时暴露。",
+              "取得信息或压出对方关键技能后，侧翼位与支援位同步推进，保留互相支援距离。",
+              "拿到目标后优先重整站位与保护撤退路线；失败时恢复分线，不连续单人强进。"
+            ]
+          }
         }
       ],
       "candidates": [
@@ -11289,7 +12557,14 @@
           "completeTeamObserved": false,
           "evidenceType": "ranked_mode_map_statistics"
         }
-      ]
+      ],
+      "patchReview": {
+        "version": "S56 / Nov 3 2026 patch review",
+        "reviewedAt": "2026-11-08",
+        "basis": "mechanism_inference",
+        "confidence": "低",
+        "caveat": "非本赛季排位池，Shade 近期削弱后应视阵容替换。"
+      }
     },
     {
       "mapId": 15000022,
@@ -12037,14 +13312,22 @@
           "completeTeamObserved": true,
           "evidenceType": "professional_visual_roster"
         }
-      ]
+      ],
+      "patchReview": {
+        "version": "S56 / Nov 3 2026 patch review",
+        "reviewedAt": "2026-11-08",
+        "basis": "mechanism_inference",
+        "confidence": "中",
+        "caveat": "这是2026年9月职业实选，属于补丁前案例；用途是配合思路参考，不是当前赛季职业推荐。",
+        "existingTrioRetained": true
+      }
     },
     {
       "mapId": 15000292,
       "nameEn": "Open Business",
       "nameZh": "开门营业",
       "mode": "Hot Zone",
-      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "overallStatus": "S56逐图复核 · 本新增阵容为机制推演；未声称新版本职业实选",
       "completeTeamObserved": false,
       "teamEvidenceNotice": null,
       "tags": [
@@ -12264,6 +13547,53 @@
           "professionalReference": {
             "caseId": "chall26-gf-open-business",
             "teamName": "FUT Freezone"
+          }
+        },
+        {
+          "id": "15000292-s56-review",
+          "title": "S56版本复核 · 机制推演",
+          "kind": "mechanism_inference",
+          "status": "2026-11-08复核 · 机制推演 · 低置信度",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "members": [
+            {
+              "heroId": 16000040,
+              "role": "主控／中线"
+            },
+            {
+              "heroId": 16000031,
+              "role": "侧翼／推进"
+            },
+            {
+              "heroId": 16000069,
+              "role": "支援／压制"
+            }
+          ],
+          "synergy": "Amber 控制占区路径，Mr. P 提供安全持续压制，Hank 利用生命优势守住近区和关键入口。",
+          "risk": "Hank 增强后更适合承受区域压力；具体适配仍缺近期直接样本。",
+          "loadout": "本轮只复核英雄与阵容职责，没有足够的新版本地图专属配置证据；妙具与星徽请按已收录来源条件选择。",
+          "evidenceRefs": [
+            "youtube:5iHVKzN0c5M",
+            "bilibili:BV1wGgfz1Eoa",
+            "bilibili:BV1wGgfz1Eoa",
+            "youtube:PIAPgulZPa4",
+            "youtube:9CQQ04lg-sQ",
+            "brawlzone-trio-snapshot-20261023-open-business",
+            "youtube:PIAPgulZPa4",
+            "youtube:9CQQ04lg-sQ"
+          ],
+          "substitutions": [],
+          "refreshBasis": "mechanism_inference",
+          "confidence": "低",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "团队配合为机制推演，非实战验证。",
+            "steps": [
+              "开局先由主控位确认中路与关键掩体，避免同时暴露。",
+              "取得信息或压出对方关键技能后，侧翼位与支援位同步推进，保留互相支援距离。",
+              "拿到目标后优先重整站位与保护撤退路线；失败时恢复分线，不连续单人强进。"
+            ]
           }
         }
       ],
@@ -12536,14 +13866,21 @@
           "completeTeamObserved": true,
           "evidenceType": "professional_visual_roster"
         }
-      ]
+      ],
+      "patchReview": {
+        "version": "S56 / Nov 3 2026 patch review",
+        "reviewedAt": "2026-11-08",
+        "basis": "mechanism_inference",
+        "confidence": "低",
+        "caveat": "Hank 增强后更适合承受区域压力；具体适配仍缺近期直接样本。"
+      }
     },
     {
       "mapId": 15000010,
       "nameEn": "Gem Fort",
       "nameZh": "宝石要塞",
       "mode": "Gem Grab",
-      "overallStatus": "明确地图候选；三人组合由工具推导，非视频原阵容",
+      "overallStatus": "S56逐图复核 · 本新增阵容为机制推演；未声称新版本职业实选",
       "completeTeamObserved": false,
       "teamEvidenceNotice": null,
       "tags": [
@@ -12949,6 +14286,56 @@
             "caseId": "chall26-gf-gem-fort",
             "teamName": "FUT Freezone"
           }
+        },
+        {
+          "id": "15000010-s56-review",
+          "title": "S56版本复核 · 机制推演",
+          "kind": "mechanism_inference",
+          "status": "2026-11-08复核 · 机制推演 · 低置信度",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "members": [
+            {
+              "heroId": 16000017,
+              "role": "主控／中线"
+            },
+            {
+              "heroId": 16000004,
+              "role": "侧翼／推进"
+            },
+            {
+              "heroId": 16000031,
+              "role": "支援／压制"
+            }
+          ],
+          "synergy": "Tara 提供聚拢和反打威胁，Rico 借墙体反弹压制狭道，Mr. P 从后排消耗并牵制边线。",
+          "risk": "依赖墙体与狭道结构；敌方破墙后需重新评估Rico价值。",
+          "loadout": "本轮只复核英雄与阵容职责，没有足够的新版本地图专属配置证据；妙具与星徽请按已收录来源条件选择。",
+          "evidenceRefs": [
+            "youtube:ZIGzQ-zJFWc",
+            "youtube:oPpaTsWQzOY",
+            "youtube:9CQQ04lg-sQ",
+            "bilibili:BV1a8Tp6qEb3",
+            "bilibili:BV1a8Tp6qEb3",
+            "bilibili:BV1a8Tp6qEb3",
+            "bilibili:BV1a8Tp6qEb3",
+            "brawlzone-trio-snapshot-20261023-gem-fort",
+            "youtube:ZIGzQ-zJFWc",
+            "youtube:oPpaTsWQzOY",
+            "youtube:9CQQ04lg-sQ"
+          ],
+          "substitutions": [],
+          "refreshBasis": "mechanism_inference",
+          "confidence": "低",
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "团队配合为机制推演，非实战验证。",
+            "steps": [
+              "开局先由主控位确认中路与关键掩体，避免同时暴露。",
+              "取得信息或压出对方关键技能后，侧翼位与支援位同步推进，保留互相支援距离。",
+              "拿到目标后优先重整站位与保护撤退路线；失败时恢复分线，不连续单人强进。"
+            ]
+          }
         }
       ],
       "candidates": [
@@ -13277,7 +14664,14 @@
           "completeTeamObserved": true,
           "evidenceType": "professional_visual_roster"
         }
-      ]
+      ],
+      "patchReview": {
+        "version": "S56 / Nov 3 2026 patch review",
+        "reviewedAt": "2026-11-08",
+        "basis": "mechanism_inference",
+        "confidence": "低",
+        "caveat": "依赖墙体与狭道结构；敌方破墙后需重新评估Rico价值。"
+      }
     }
   ]
 }

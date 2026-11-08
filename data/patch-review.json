@@ -1,17 +1,171 @@
 {
-  "reviewedAt": "2026-10-19",
-  "patchDate": "2026-09-16",
+  "reviewedAt": "2026-11-08",
+  "patchDate": "2026-11-03",
+  "versionLabel": "November 2026 / S56",
   "completePatchHistoryVerified": false,
   "chinaServerSyncVerified": false,
-  "url": "https://supercell.com/en/games/brawlstars/blog/release-notes/release-notes-august-2026/",
-  "title": "官方 9月16日维护 · 晚于9月11日视频",
+  "url": "https://supercell.com/en/games/brawlstars/blog/game-updates/release-notes-november-2026/",
+  "urlZh": "https://supercell.com/en/games/brawlstars/zh-hans/blog/game-updates/2026%E5%B9%B4-11%E6%9C%88-%E6%9B%B4%E6%96%B0-%E8%AF%A6%E6%83%85/",
+  "title": "官方 2026年11月更新 · 11月3日",
+  "scope": "常规3v3与排位：官方公告中共27名英雄调整；以下不含Arena专属成长数值。地图池另有轮换更新，项目当前仍收录29张可推荐地图。",
   "changes": [
-    {"heroEn":"Gus","note":"自保妙具冷却与治疗增益调整，视频中的自保判断需要复核。"},
-    {"heroEn":"Colette","note":"特定超充强化的第二发伤害下调，旧版输出与配置判断需要复核。"},
-    {"heroEn":"Brock","note":"跳跃妙具冷却增加，超级技能充能调整，机动与技能循环需要复核。"},
-    {"heroEn":"Pam","note":"炮台生命与治疗增强；增强不直接等于某张地图排名提高。"},
-    {"heroEn":"Colt","note":"修复特定皮肤下星辉子弹速度未正确增加的问题。"},
-    {"heroEn":"Belle","note":"主攻伤害增强，Wiki无日期推荐不能直接当当前强度排序。"},
-    {"heroEn":"Chuck","note":"减速及对应强化增强，仍不能忽略原教学中的操作难度与后手条件。"}
-  ]
+    {
+      "heroEn": "Hank",
+      "changeType": "增强",
+      "note": "生命值 5500→6000。耐线与顶点争夺更稳，尤其是封闭区域。"
+    },
+    {
+      "heroEn": "Shelly",
+      "changeType": "增强",
+      "note": "普通攻击伤害 300→340；超级伤害 320→360。近距惩罚提高。"
+    },
+    {
+      "heroEn": "Ziggy",
+      "changeType": "混合调整",
+      "note": "普通攻击伤害 950→1050；Great Ziggini 星辉加成 18%→7%。"
+    },
+    {
+      "heroEn": "Draco",
+      "changeType": "增强",
+      "note": "超级技能伤害 1120→1620，减伤 20%→25%，伤害判定更稳定。"
+    },
+    {
+      "heroEn": "Chuck",
+      "changeType": "增强",
+      "note": "装填间隔 2000→1800；死亡后保留未用超级技能次数。"
+    },
+    {
+      "heroEn": "Darryl",
+      "changeType": "增强",
+      "note": "超级伤害 660→720；死亡后保留未用超级技能次数。"
+    },
+    {
+      "heroEn": "Melodie",
+      "changeType": "增强",
+      "note": "普通攻击伤害 460→500，音符伤害 920→1000；死亡后保留未用超级技能次数。"
+    },
+    {
+      "heroEn": "Buster",
+      "changeType": "增强",
+      "note": "队友附近的超级充能提高 10%。"
+    },
+    {
+      "heroEn": "Angelo",
+      "changeType": "增强",
+      "note": "蓄满普通攻击所需时间缩短 10%。"
+    },
+    {
+      "heroEn": "R-T",
+      "changeType": "增强",
+      "note": "普通攻击弹体宽度提高 15%。"
+    },
+    {
+      "heroEn": "Amber",
+      "changeType": "削弱",
+      "note": "两个妙具冷却延长；超级持续伤害 480→400；超充范围 1600→1200。"
+    },
+    {
+      "heroEn": "Shade",
+      "changeType": "削弱",
+      "note": "生命 3700→3400；超级充能及持续时间下调；Jump Scare 冷却 18→24 秒、护盾 1000→400；Hardened Hoodie 护盾 30%→20%。"
+    },
+    {
+      "heroEn": "Gus",
+      "changeType": "削弱",
+      "note": "场上精灵上限 10→3；超级充能降低 8%；Knockback Spirit 冷却 18→26 秒、伤害 540→260；Healing Bonanza 加成 75%→50%。"
+    },
+    {
+      "heroEn": "Wendy",
+      "changeType": "削弱",
+      "note": "普通攻击弹体缩小 20%；Wind-Powered 射程 15→10；Slowing Shield 减速 20%→15%。"
+    },
+    {
+      "heroEn": "Colette",
+      "changeType": "削弱",
+      "note": "超充超级技能第二发的超级充能率降低 75%。"
+    },
+    {
+      "heroEn": "Ash",
+      "changeType": "削弱",
+      "note": "超级技能带来的怒气降低 40%；超级充能率降低 15%。"
+    },
+    {
+      "heroEn": "Max",
+      "changeType": "削弱",
+      "note": "移动获得的超级充能率降低 23%；Super Charged 护盾时长 4→3 秒；Sneaky Sneakers 冷却 18→24 秒、持续 3→2 秒。"
+    },
+    {
+      "heroEn": "Pierce",
+      "changeType": "削弱",
+      "note": "普通攻击最后一发伤害 1500→1400。"
+    },
+    {
+      "heroEn": "Maisie",
+      "changeType": "削弱",
+      "note": "普通攻击伤害 1500→1360。"
+    },
+    {
+      "heroEn": "Nori",
+      "changeType": "削弱",
+      "note": "超级技能每条鱼伤害按最大生命值 4%→3%。"
+    },
+    {
+      "heroEn": "Brock",
+      "changeType": "削弱",
+      "note": "超充充能率降低 28%；两项星辉强化的移速/额外射程时长下调。"
+    },
+    {
+      "heroEn": "Rico",
+      "changeType": "削弱",
+      "note": "Multiball Buffie 减速 30%→20%；Robo Retreat 移速 35%→25%，强化上限 50%→40%。"
+    },
+    {
+      "heroEn": "Surge",
+      "changeType": "混合调整",
+      "note": "超充超级技能不再直接升至 5 级；普通攻击出手速度提高 470→400 毫秒；Power Shield 冷却 22→18 秒。"
+    },
+    {
+      "heroEn": "Cosmo",
+      "changeType": "混合调整",
+      "note": "生命 3400→3600；Telescope Trap 冷却 20→24 秒、范围 1300→1000。"
+    },
+    {
+      "heroEn": "Damian",
+      "changeType": "混合调整",
+      "note": "超级跳跃速度 3000→2400；普通拳伤害 700→800，火拳 800→880。"
+    },
+    {
+      "heroEn": "Squeak",
+      "changeType": "混合调整",
+      "note": "普通攻击伤害 1160→1280；超级伤害 1000→1100；Chain Reaction 星辉加成 15%→10%。"
+    },
+    {
+      "heroEn": "Kit",
+      "changeType": "混合调整",
+      "note": "超级技能两段伤害更早结算（0.75/1.5 秒，原 1/2 秒）。"
+    }
+  ],
+  "postPatchMeta": {
+    "url": "https://brawlhub.gg/meta/",
+    "title": "BrawlHub GG 自动Meta",
+    "asOf": "2026-11-08",
+    "window": "2026-11-03—2026-11-08（页面当前周期）",
+    "battleCount": 1355618,
+    "rankFilter": "Ranked Mythic+（页面有Legendary+、Masters+及All ranks选项）",
+    "modeFilter": "页面当前默认 All modes；不能视作纯3v3样本",
+    "method": "每小时更新。按胜率并向平均值收缩处理小样本，再加入少量选用率；英雄若在周期中有平衡改动，胜率只计改动后对局，但使用率覆盖整个周期。",
+    "limitations": [
+      "样本跨多个模式，不能直接替代地图适配判断。",
+      "选用率仍含改动前数据，故不是纯11月3日后强度观察。",
+      "榜单按自动样本计算，不是职业选手共识或固定Tier表。"
+    ],
+    "sampleScope": "页面当时默认 All modes；不是纯3v3数据，且不能直接作为单英雄具体地图的阵容依据。",
+    "displayPolicy": "独立展示为更新后动态趋势，不与SpenLC职业创作者主榜合并。"
+  },
+  "notes": [
+    "公告中的Arena Only部分不应用于普通3v3/排位。",
+    "World Finals将于11月20—22日举行；截至11月8日没有可核实的新补丁后职业赛VOD。",
+    "官方公告时间为11月3日；国服同步精确时刻未单独核实。"
+  ],
+  "arenaOnlyScope": "官方公告另列 Brawl Arena 专属数值调整；本项目不将其用于常规 3v3／排位阵容判断。名单与模式专属差异尚未逐项核对，因此不发布排除英雄名单。"
 }
