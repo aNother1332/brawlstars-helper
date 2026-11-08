@@ -74,5 +74,5 @@ export function orderTeams(teams, meta) {
   const bonus=team=>team.members.reduce((n,m)=>{const info=meta.get(m.heroId);return n+(info?.strength||0)*.045+(info?.rankSignal||0)*.005;},0)/team.members.length;
   // Lexicographic constraints: no amount of tier-list evidence can bridge a worse map or cooperation band.
   return teams.map((team,index)=>({...team,metaBonus:bonus(team),originalIndex:index}))
-    .sort((a,b)=>(b.mapFitBand||0)-(a.mapFitBand||0)||(b.cooperationBand||0)-(a.cooperationBand||0)||b.metaBonus-a.metaBonus||a.originalIndex-b.originalIndex);
+    .sort((a,b)=>(b.displayPriority||0)-(a.displayPriority||0)||(b.mapFitBand||0)-(a.mapFitBand||0)||(b.cooperationBand||0)-(a.cooperationBand||0)||b.metaBonus-a.metaBonus||a.originalIndex-b.originalIndex);
 }
