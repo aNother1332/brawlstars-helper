@@ -1,23 +1,37 @@
 {
-  "asOf": "2026-11-08",
-  "heroStrengthCutoff": "2026-07-24",
+  "asOf": "2026-11-14",
+  "heroStrengthCutoff": "2026-08-14",
   "mainRankingSourceId": "youtube:D1JH7clEP2I",
   "postPatchTrend": {
     "url": "https://brawlhub.gg/meta/",
-    "title": "BrawlHub GG 自动Meta",
-    "asOf": "2026-11-08",
-    "window": "2026-11-03—2026-11-08（页面当前周期）",
-    "battleCount": 1355618,
-    "rankFilter": "Ranked Mythic+（页面有Legendary+、Masters+及All ranks选项）",
-    "modeFilter": "页面当前默认 All modes；不能视作纯3v3样本",
-    "method": "每小时更新。按胜率并向平均值收缩处理小样本，再加入少量选用率；英雄若在周期中有平衡改动，胜率只计改动后对局，但使用率覆盖整个周期。",
+    "title": "BrawlHub GG 动态趋势",
+    "asOf": "2026-11-14",
+    "snapshotUpdatedAt": "2026-11-14T07:28:00Z",
+    "window": "2026-11-11—2026-11-14（网页当前周期）",
+    "battleCount": 1150797,
+    "rankFilter": "Ranked Mythic+",
+    "modeFilter": "All modes（网页默认）",
+    "method": "按胜率作小样本收缩并加入选用率计算自动档位；样本随页面每小时更新。",
     "limitations": [
-      "样本跨多个模式，不能直接替代地图适配判断。",
-      "选用率仍含改动前数据，故不是纯11月3日后强度观察。",
-      "榜单按自动样本计算，不是职业选手共识或固定Tier表。"
-    ],
-    "sampleScope": "页面当时默认 All modes；不是纯3v3数据，且不能直接作为单英雄具体地图的阵容依据。",
-    "displayPolicy": "独立展示为更新后动态趋势，不与SpenLC职业创作者主榜合并。"
+      "默认All modes，不能视作纯3v3地图样本。",
+      "自动样本不是职业选手共识，不与SpenLC主榜合并。",
+      "本次只核实窗口、样本规模和统计口径，不转录未能逐英雄审计的档位。"
+    ]
+  },
+  "latestPatchReview": {
+    "patchDate": "2026-11-11",
+    "reviewedAt": "2026-11-14",
+    "url": "https://supercell.com/en/games/brawlstars/blog/game-updates/release-notes-november-2026/",
+    "changedHeroIds": [
+      16000031,
+      16000035,
+      16000040,
+      16000041,
+      16000063,
+      16000065,
+      16000108,
+      16000110
+    ]
   },
   "policy": {
     "mapFirst": true,
@@ -29,6 +43,254 @@
     "predictionsEligible": false
   },
   "sources": [
+    {
+      "id": "bilibili:BV1ihWC65EMn",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1ihWC65EMn",
+      "title": "【TOC若白】《全英雄入门指南》第18期：巴利 酒保在排位赛里没有大家想象的那么弱",
+      "author": "荒野乱斗TOC若白",
+      "publishedAt": "2026-11-14",
+      "dataAsOf": "2026-11-14",
+      "read": true,
+      "status": "captions_or_local_asr_read",
+      "visualChecked": true,
+      "reviewedRangesSeconds": [
+        [
+          0,
+          183
+        ]
+      ],
+      "region": null,
+      "variantOnly": false,
+      "kind": "loadout_guide",
+      "recent": true,
+      "reviewedFrameSeconds": [
+        50,
+        59,
+        68,
+        85,
+        108,
+        124,
+        129,
+        133,
+        151
+      ],
+      "readMethod": "full_local_asr_and_selected_frames_read",
+      "validityNotes": [
+        "2026-11-14读取。自动字幕或本地转写中的不清晰专名不用于推荐；画面未显示的配置与选禁保留未知。"
+      ],
+      "durationSeconds": 183,
+      "readRangesSeconds": [
+        [
+          0,
+          183
+        ]
+      ],
+      "originalPublishedAt": "2026-11-14"
+    },
+    {
+      "id": "bilibili:BV1vyWB6FE7p",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1vyWB6FE7p",
+      "title": "【FUT&TE东京训练赛】4比6（11月13日）TEAM ELEKTROS vs FUT ESPORTS",
+      "author": "YunaYunia",
+      "publishedAt": "2026-11-13",
+      "dataAsOf": "2026-11-13",
+      "read": true,
+      "status": "selected_scrim_frames_reviewed",
+      "visualChecked": true,
+      "reviewedRangesSeconds": [],
+      "region": null,
+      "variantOnly": false,
+      "kind": "scrim_recording",
+      "recent": true,
+      "reviewedFrameSeconds": [
+        0,
+        480,
+        690,
+        895,
+        1140,
+        1800,
+        1920,
+        2101,
+        2160,
+        2405,
+        2565,
+        2710
+      ],
+      "readMethod": "selected_scrim_frames_reviewed",
+      "validityNotes": [
+        "这是训练赛转载；队伍及对局日期按录像标题/覆盖层记录，非官方正式赛事。已检查所列地图布局、英雄头像和结果/对局画面。",
+        "只检查列出的关键画面，未完整听译整段直播。英雄配装、完整Ban/Pick、选手意图与胜率均不推断。"
+      ]
+    },
+    {
+      "id": "bilibili:BV17KWY6DEdm",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV17KWY6DEdm",
+      "title": "【FUT&ZETA东京训练赛】6比4（11月12日）FUT ESPORTS VS ZETA DIVISION",
+      "author": "YunaYunia",
+      "publishedAt": "2026-11-13",
+      "dataAsOf": "2026-11-13",
+      "read": true,
+      "status": "selected_scrim_frames_reviewed",
+      "visualChecked": true,
+      "reviewedRangesSeconds": [],
+      "region": null,
+      "variantOnly": false,
+      "kind": "scrim_recording",
+      "recent": true,
+      "reviewedFrameSeconds": [
+        6,
+        15,
+        120,
+        240,
+        310,
+        555,
+        600,
+        720,
+        995,
+        1010,
+        1385
+      ],
+      "readMethod": "selected_scrim_frames_reviewed",
+      "validityNotes": [
+        "这是训练赛转载；队伍及对局日期按录像标题/覆盖层记录，非官方正式赛事。已检查所列地图布局、英雄头像和结果/对局画面。",
+        "只检查列出的关键画面，未完整听译整段直播。英雄配装、完整Ban/Pick、选手意图与胜率均不推断。",
+        "下载到约24分钟后文件中断；只采用前段已成功解码并核对的画面，后续地图不收录。"
+      ]
+    },
+    {
+      "id": "bilibili:BV1efW26QEdW",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1efW26QEdW",
+      "title": "【荒野亂鬥】11月緊急平衡性調整 Mr.P配件大砍 文斯威能削弱 雷電娃&雷伊也被削 國際服",
+      "author": "PowerTech",
+      "publishedAt": "2026-11-11",
+      "dataAsOf": "2026-11-11",
+      "read": true,
+      "status": "full_local_asr_read",
+      "visualChecked": false,
+      "reviewedRangesSeconds": [
+        [
+          0,
+          505
+        ]
+      ],
+      "region": null,
+      "variantOnly": false,
+      "kind": "map_guide",
+      "recent": true,
+      "reviewedFrameSeconds": [],
+      "readMethod": "full_local_asr_read",
+      "validityNotes": [
+        "2026-11-14读取。自动字幕或本地转写中的不清晰专名不用于推荐；画面未显示的配置与选禁保留未知。"
+      ]
+    },
+    {
+      "id": "official:maintenance-2026-11-11",
+      "platform": "web",
+      "url": "https://supercell.com/en/games/brawlstars/blog/game-updates/release-notes-november-2026/",
+      "title": "官方11月11日维护 · 含11月3日基础改动",
+      "author": "Supercell",
+      "publishedAt": "2026-11-11",
+      "retrievedAt": "2026-11-14",
+      "kind": "official_balance_notes",
+      "read": true,
+      "status": "official_maintenance_read",
+      "recent": true,
+      "visualChecked": false,
+      "reviewedRangesSeconds": [],
+      "validityNotes": [
+        "本轮核对11月11日维护，不表示所有国服同步与完整历史已验证。",
+        "新增训练赛录像按上传者标注对局日期，并与画面交叉核对；不当作官方正式赛事。",
+        "11月11日前的受改英雄分档保留显示，但停止用于阵容强度微调，等待维护后可靠分档。"
+      ]
+    },
+    {
+      "id": "bilibili:BV19MWK6eEkU",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV19MWK6eEkU",
+      "title": "近期以来算是最平衡的一个赛季，排位十五常用易上手角色推荐搭配打法【排位推荐篇】",
+      "author": "土狗帮帮主",
+      "publishedAt": "2026-11-10",
+      "dataAsOf": "2026-11-10",
+      "read": true,
+      "status": "full_local_asr_read",
+      "visualChecked": false,
+      "reviewedRangesSeconds": [
+        [
+          0,
+          1094
+        ]
+      ],
+      "region": null,
+      "variantOnly": false,
+      "kind": "map_guide",
+      "recent": true,
+      "reviewedFrameSeconds": [],
+      "readMethod": "full_local_asr_read",
+      "validityNotes": [
+        "2026-11-14读取。自动字幕或本地转写中的不清晰专名不用于推荐；画面未显示的配置与选禁保留未知。",
+        "发布早于11月11日维护；受调整的英雄只保留机制与使用条件，维护前强度或循环数值不视为最新结论。"
+      ]
+    },
+    {
+      "id": "youtube:1YTUpoEtq5M",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=1YTUpoEtq5M",
+      "title": "The 15 BEST Brawlers To MAX OUT For RANKED - Season 56",
+      "author": "SpenLC - Brawl Stars",
+      "publishedAt": "2026-11-09",
+      "dataAsOf": "2026-11-09",
+      "read": true,
+      "status": "full_captions_read",
+      "visualChecked": false,
+      "reviewedRangesSeconds": [
+        [
+          0,
+          1054
+        ]
+      ],
+      "region": null,
+      "variantOnly": false,
+      "kind": "map_guide",
+      "recent": true,
+      "reviewedFrameSeconds": [],
+      "readMethod": "full_captions_read",
+      "validityNotes": [
+        "2026-11-14读取。自动字幕或本地转写中的不清晰专名不用于推荐；画面未显示的配置与选禁保留未知。",
+        "发布早于11月11日维护；受调整的英雄只保留机制与使用条件，维护前强度或循环数值不视为最新结论。"
+      ]
+    },
+    {
+      "id": "youtube:oe1yVdeZMlY",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=oe1yVdeZMlY",
+      "title": "*NEW* Ranking 18 Buffies From Worst To Best",
+      "author": "SpenLC - Brawl Stars",
+      "publishedAt": "2026-11-07",
+      "dataAsOf": "2026-11-07",
+      "read": true,
+      "status": "full_captions_read",
+      "visualChecked": false,
+      "reviewedRangesSeconds": [
+        [
+          0,
+          809
+        ]
+      ],
+      "region": null,
+      "variantOnly": false,
+      "kind": "map_guide",
+      "recent": true,
+      "reviewedFrameSeconds": [],
+      "readMethod": "full_captions_read",
+      "validityNotes": [
+        "2026-11-14读取。自动字幕或本地转写中的不清晰专名不用于推荐；画面未显示的配置与选禁保留未知。",
+        "发布早于11月11日维护；受调整的英雄只保留机制与使用条件，维护前强度或循环数值不视为最新结论。"
+      ]
+    },
     {
       "id": "youtube:D1JH7clEP2I",
       "platform": "youtube",
@@ -152,6 +414,8 @@
       "variantOnly": false,
       "kind": "professional_match_vod",
       "recent": true,
+      "reviewedFrameSeconds": [],
+      "readMethod": null,
       "validityNotes": []
     },
     {
@@ -187,6 +451,8 @@
       "variantOnly": false,
       "kind": "professional_match_vod",
       "recent": true,
+      "reviewedFrameSeconds": [],
+      "readMethod": null,
       "validityNotes": []
     },
     {
@@ -352,6 +618,8 @@
       "variantOnly": false,
       "kind": "map_guide",
       "recent": true,
+      "reviewedFrameSeconds": [],
+      "readMethod": null,
       "validityNotes": []
     },
     {
@@ -613,7 +881,7 @@
       "read": true,
       "status": "full-machine-transcript-reviewed",
       "visualChecked": false,
-      "recent": true,
+      "recent": false,
       "durationSeconds": 174,
       "dataAsOf": "2026-07-31",
       "reviewedRangesSeconds": [
@@ -705,6 +973,7 @@
       ],
       "region": "international",
       "variantOnly": false,
+      "reviewedFrameSeconds": [],
       "validityNotes": []
     },
     {
@@ -740,6 +1009,8 @@
       "variantOnly": false,
       "kind": "professional_match_vod",
       "recent": true,
+      "reviewedFrameSeconds": [],
+      "readMethod": null,
       "validityNotes": [
         "只核对本批列出的选角片段；8月与9月赛事不能当作10月补丁下的强度统计。"
       ]
@@ -839,6 +1110,8 @@
       "variantOnly": false,
       "kind": "professional_match_vod",
       "recent": true,
+      "reviewedFrameSeconds": [],
+      "readMethod": null,
       "validityNotes": [
         "只核对本批列出的选角片段；8月与9月赛事不能当作10月补丁下的强度统计。"
       ]
@@ -872,6 +1145,8 @@
       "variantOnly": false,
       "kind": "professional_match_vod",
       "recent": true,
+      "reviewedFrameSeconds": [],
+      "readMethod": null,
       "validityNotes": [
         "只核对本批列出的选角片段；8月与9月赛事不能当作10月补丁下的强度统计。"
       ]
@@ -901,7 +1176,7 @@
       "read": true,
       "status": "full-machine-transcript-reviewed",
       "visualChecked": false,
-      "recent": true,
+      "recent": false,
       "durationSeconds": 253,
       "reviewedRangesSeconds": [
         [
@@ -926,7 +1201,7 @@
       "read": false,
       "status": "metadata_only",
       "visualChecked": false,
-      "recent": true,
+      "recent": false,
       "reviewedRangesSeconds": []
     },
     {
@@ -953,7 +1228,9 @@
       "region": "international_competitive",
       "variantOnly": false,
       "kind": "professional_match_vod",
-      "recent": true,
+      "recent": false,
+      "reviewedFrameSeconds": [],
+      "readMethod": null,
       "validityNotes": [
         "只核对本批列出的选角片段；8月与9月赛事不能当作10月补丁下的强度统计。"
       ]
@@ -986,7 +1263,9 @@
       "region": "international_competitive",
       "variantOnly": false,
       "kind": "professional_match_vod",
-      "recent": true,
+      "recent": false,
+      "reviewedFrameSeconds": [],
+      "readMethod": null,
       "validityNotes": [
         "只核对本批列出的选角片段；8月与9月赛事不能当作10月补丁下的强度统计。"
       ]
@@ -1002,7 +1281,7 @@
       "read": true,
       "status": "caption_sections_read",
       "visualChecked": false,
-      "recent": true,
+      "recent": false,
       "reviewedRangesSeconds": [
         [
           355,
@@ -1021,7 +1300,7 @@
       "read": false,
       "status": "audio-transcription-empty-visual-review-required",
       "visualChecked": false,
-      "recent": true,
+      "recent": false,
       "durationSeconds": 283,
       "reviewedRangesSeconds": [],
       "qualityDecision": "no recommendation extracted; title is not evidence",
@@ -1038,7 +1317,7 @@
       "read": true,
       "status": "caption_sections_read",
       "visualChecked": false,
-      "recent": true,
+      "recent": false,
       "reviewedRangesSeconds": [
         [
           0,
@@ -1061,7 +1340,7 @@
       "read": false,
       "status": "metadata-only",
       "visualChecked": false,
-      "recent": true,
+      "recent": false,
       "durationSeconds": 549
     },
     {
@@ -1099,6 +1378,8 @@
       "variantOnly": false,
       "kind": "map_guide",
       "recent": false,
+      "reviewedFrameSeconds": [],
+      "readMethod": null,
       "validityNotes": []
     },
     {
@@ -1190,6 +1471,8 @@
       "variantOnly": false,
       "kind": "map_guide",
       "recent": false,
+      "reviewedFrameSeconds": [],
+      "readMethod": null,
       "validityNotes": [
         "Full 3:08 audio was downloaded through bili-cli and transcribed locally with faster-whisper small; the video reports 3:08.",
         "Chinese hero proper nouns are machine-transcribed and not visually verified. Keep only the map-structure and role-level ideas as historical mechanism evidence; exclude its picks from current strength ranking.",
@@ -1213,6 +1496,13 @@
       "variantOnly": false,
       "kind": "map_guide",
       "recent": false,
+      "reviewedFrameSeconds": [
+        20,
+        64,
+        184,
+        202
+      ],
+      "readMethod": null,
       "validityNotes": [
         "historical-mechanics-only; exclude current-strength-weighting"
       ]
@@ -1262,6 +1552,27 @@
       "variantOnly": false,
       "kind": "map_guide",
       "recent": false,
+      "reviewedFrameSeconds": [
+        5,
+        45,
+        73,
+        78,
+        83,
+        85,
+        88,
+        93,
+        98,
+        103,
+        108,
+        113,
+        118,
+        125,
+        165,
+        205,
+        245,
+        285
+      ],
+      "readMethod": null,
       "validityNotes": []
     },
     {
@@ -1289,6 +1600,8 @@
       "variantOnly": false,
       "kind": "map_guide",
       "recent": false,
+      "reviewedFrameSeconds": [],
+      "readMethod": null,
       "validityNotes": []
     },
     {
@@ -1307,6 +1620,12 @@
       "variantOnly": false,
       "kind": "map_guide",
       "recent": false,
+      "reviewedFrameSeconds": [
+        155,
+        330,
+        630
+      ],
+      "readMethod": null,
       "validityNotes": []
     },
     {
@@ -1325,6 +1644,15 @@
       "variantOnly": false,
       "kind": "map_guide",
       "recent": false,
+      "reviewedFrameSeconds": [
+        5,
+        35,
+        65,
+        95,
+        125,
+        155
+      ],
+      "readMethod": null,
       "validityNotes": [
         "historical-mechanics-only; exclude current-strength-weighting"
       ]
@@ -1387,6 +1715,12 @@
       "variantOnly": false,
       "kind": "map_guide",
       "recent": false,
+      "reviewedFrameSeconds": [
+        75,
+        125,
+        157
+      ],
+      "readMethod": null,
       "validityNotes": [
         "historical-mechanics-only; exclude current-strength-weighting"
       ]
@@ -1412,6 +1746,8 @@
       "variantOnly": false,
       "kind": "map_guide",
       "recent": false,
+      "reviewedFrameSeconds": [],
+      "readMethod": null,
       "validityNotes": []
     },
     {
@@ -1472,6 +1808,11 @@
       "variantOnly": true,
       "kind": "map_guide",
       "recent": false,
+      "reviewedFrameSeconds": [
+        9,
+        47
+      ],
+      "readMethod": null,
       "validityNotes": [
         "historical-mechanics-only; exclude current-strength-weighting"
       ]
@@ -1492,6 +1833,16 @@
       "variantOnly": false,
       "kind": "map_guide",
       "recent": false,
+      "reviewedFrameSeconds": [
+        10,
+        40,
+        70,
+        100,
+        130,
+        160,
+        190
+      ],
+      "readMethod": null,
       "validityNotes": []
     },
     {
@@ -5338,6 +5689,218 @@
       "eligibleForRanking": false
     },
     {
+      "sourceId": "youtube:1YTUpoEtq5M",
+      "heroIds": [
+        16000031
+      ],
+      "startSeconds": 160,
+      "url": "https://www.youtube.com/watch?v=1YTUpoEtq5M&t=160",
+      "summary": "不应把P先生无条件放进赏金或淘汰：面对三个狙击手，可能长期没有大招可用。",
+      "condition": "要有能安全攒大招的对位；召唤物能消耗单发弹药并不意味着开局就有召唤物。",
+      "confidence": "high",
+      "kind": "matchup_warning",
+      "eligibleForRanking": false
+    },
+    {
+      "sourceId": "youtube:1YTUpoEtq5M",
+      "heroIds": [
+        16000082
+      ],
+      "startSeconds": 320,
+      "url": "https://www.youtube.com/watch?v=1YTUpoEtq5M&t=320",
+      "summary": "拜瑞依赖队友协同靠拢与治疗收益，不宜单独当作普通宝石边线英雄使用。",
+      "condition": "更适合热区或有明确抱团计划的情境；不能因为治疗就三人始终挤在一起。",
+      "confidence": "high",
+      "kind": "mechanism",
+      "eligibleForRanking": false,
+      "mode": "Hot Zone"
+    },
+    {
+      "sourceId": "youtube:1YTUpoEtq5M",
+      "heroIds": [
+        16000078
+      ],
+      "startSeconds": 40,
+      "url": "https://www.youtube.com/watch?v=1YTUpoEtq5M&t=40",
+      "summary": "麦乐迪能在队友先消耗或逼出技能后切入，适合宝石与足球的压力职责。",
+      "condition": "不是任何血量都能冲；要先确认切入和撤退路线，不把作者对训练赛选用率的口述当作已审计统计。",
+      "confidence": "high",
+      "kind": "mechanism",
+      "eligibleForRanking": false
+    },
+    {
+      "sourceId": "youtube:1YTUpoEtq5M",
+      "heroIds": [
+        16000039
+      ],
+      "startSeconds": 602,
+      "url": "https://www.youtube.com/watch?v=1YTUpoEtq5M&t=602",
+      "summary": "科莱特仍可承担处理高血量目标的职责，适用足球、热区、宝石与金库。",
+      "condition": "极充循环已被削弱；不能沿用无限循环输出的假设。",
+      "confidence": "high",
+      "kind": "mechanism",
+      "eligibleForRanking": false
+    },
+    {
+      "sourceId": "youtube:1YTUpoEtq5M",
+      "heroIds": [
+        16000027
+      ],
+      "startSeconds": 787,
+      "url": "https://www.youtube.com/watch?v=1YTUpoEtq5M&t=787",
+      "summary": "8比特能在金库提供持续火力，也可承担宝石中路；需要队友弥补机动性。",
+      "condition": "原视频对伤害比例和训练赛频率的口述不转换为本工具胜率或承诺。",
+      "confidence": "high",
+      "kind": "mechanism",
+      "eligibleForRanking": false,
+      "mode": "Heist"
+    },
+    {
+      "sourceId": "youtube:1YTUpoEtq5M",
+      "heroIds": [
+        16000097
+      ],
+      "startSeconds": 850,
+      "url": "https://www.youtube.com/watch?v=1YTUpoEtq5M&t=850",
+      "summary": "米娜可在赏金和淘汰针对长射程英雄，用走位和连招建立空间。",
+      "condition": "属于高操作要求选择；对方近身控制未交出时不能强行进场。",
+      "confidence": "high",
+      "kind": "mechanism",
+      "eligibleForRanking": false
+    },
+    {
+      "sourceId": "youtube:1YTUpoEtq5M",
+      "heroIds": [
+        16000032
+      ],
+      "startSeconds": 919,
+      "url": "https://www.youtube.com/watch?v=1YTUpoEtq5M&t=919",
+      "summary": "麦克斯通过加速和团队资源循环帮助队友推进，属于队伍协作的增幅位。",
+      "condition": "需配合队友同步推进；Sneaky Sneakers削弱后需要更精确选择时机。",
+      "confidence": "high",
+      "kind": "mechanism",
+      "eligibleForRanking": false
+    },
+    {
+      "sourceId": "youtube:1YTUpoEtq5M",
+      "heroIds": [
+        16000004
+      ],
+      "startSeconds": 386,
+      "url": "https://www.youtube.com/watch?v=1YTUpoEtq5M&t=386",
+      "summary": "瑞科可用反突进妙具保护自己；多墙地图可考虑增加反弹伤害的星徽，另一星徽仍有价值。",
+      "condition": "这是作者的通用配置与环境建议，不从字幕中出现的其他重做名字反推当前游戏文本。",
+      "confidence": "high",
+      "kind": "mechanism",
+      "eligibleForRanking": false
+    },
+    {
+      "sourceId": "youtube:oe1yVdeZMlY",
+      "heroIds": [
+        16000035
+      ],
+      "startSeconds": 756,
+      "url": "https://www.youtube.com/watch?v=oe1yVdeZMlY&t=756",
+      "summary": "格尔在墙多时可考虑撞墙眩晕星徽，较开阔时可考虑普攻减速星徽。",
+      "condition": "这两条为地形条件备选，非每图唯一首选；11月11日风墙妙具已削弱。",
+      "confidence": "high",
+      "kind": "mechanism",
+      "eligibleForRanking": false
+    },
+    {
+      "sourceId": "bilibili:BV1efW26QEdW",
+      "heroIds": [
+        16000031
+      ],
+      "startSeconds": 120,
+      "url": "https://www.bilibili.com/video/BV1efW26QEdW?t=120",
+      "summary": "维护后P先生的增援妙具需要消耗弹药，已经不能在空弹时凭妙具补第四发。",
+      "condition": "已与11月11日官方公告核对；旧攻略中三发普攻加免费妙具的循环停止适用。",
+      "confidence": "high",
+      "kind": "patch_impact",
+      "eligibleForRanking": false
+    },
+    {
+      "sourceId": "bilibili:BV1efW26QEdW",
+      "heroIds": [
+        16000040
+      ],
+      "startSeconds": 319,
+      "url": "https://www.bilibili.com/video/BV1efW26QEdW?t=319",
+      "summary": "琥珀伤害与大招循环下降，但油区限制路线的能力仍值得评估。",
+      "condition": "这是维护当日的创作者解释，不能推断仍是所有地图首选。",
+      "confidence": "high",
+      "kind": "patch_impact",
+      "eligibleForRanking": false
+    },
+    {
+      "sourceId": "bilibili:BV1efW26QEdW",
+      "heroIds": [
+        16000108
+      ],
+      "startSeconds": 154,
+      "url": "https://www.bilibili.com/video/BV1efW26QEdW?t=154",
+      "summary": "温蒂普攻伤害降低，护盾比例提高；不宜继续按原先的输出切入角色评估。",
+      "condition": "百分比提高并不直接等于护盾绝对数值明显上升。",
+      "confidence": "high",
+      "kind": "patch_impact",
+      "eligibleForRanking": false
+    },
+    {
+      "sourceId": "bilibili:BV1ihWC65EMn",
+      "heroIds": [
+        16000006
+      ],
+      "startSeconds": 48,
+      "url": "https://www.bilibili.com/video/BV1ihWC65EMn?t=48",
+      "summary": "对投掷位消耗时偏向生命之源；对笨重高血量目标且自身续航足够时可选伤害星徽。",
+      "condition": "两个星徽按对位选择，不硬分成一个始终强、一个始终弱。",
+      "confidence": "high",
+      "kind": "loadout_reference",
+      "eligibleForRanking": false
+    },
+    {
+      "sourceId": "bilibili:BV1ihWC65EMn",
+      "heroIds": [
+        16000006
+      ],
+      "startSeconds": 100,
+      "url": "https://www.bilibili.com/video/BV1ihWC65EMn?t=100",
+      "summary": "草本精粹可帮助队伍续航；甲虫决斗后手针对拜瑞体系是视频明确给出的情境。",
+      "condition": "确认没有强突进再考虑；治疗范围需要队友配合。",
+      "confidence": "high",
+      "kind": "loadout_reference",
+      "eligibleForRanking": false,
+      "mapId": 15000306
+    },
+    {
+      "sourceId": "bilibili:BV19MWK6eEkU",
+      "heroIds": [
+        16000047
+      ],
+      "startSeconds": 387,
+      "url": "https://www.bilibili.com/video/BV19MWK6eEkU?t=387",
+      "summary": "史奎克可先封锁一个方向，把对手引向队友能夹击的位置。",
+      "condition": "封路要与队友角度同步，持续命中和爆发属于对位条件；不采纳ASR中不清晰的伤害值。",
+      "confidence": "medium",
+      "kind": "mechanism",
+      "eligibleForRanking": false
+    },
+    {
+      "sourceId": "bilibili:BV19MWK6eEkU",
+      "heroIds": [
+        16000059
+      ],
+      "startSeconds": 409,
+      "url": "https://www.bilibili.com/video/BV19MWK6eEkU?t=409",
+      "summary": "奥蒂斯可在金库承担防守与限制突进职责。",
+      "condition": "队友进攻时留出守家交接；这不是金库三人组实测。",
+      "confidence": "medium",
+      "kind": "mechanism",
+      "eligibleForRanking": false,
+      "mode": "Heist"
+    },
+    {
       "sourceId": "youtube:cAc7zvvNxmI",
       "heroIds": [
         16000108
@@ -7856,6 +8419,90 @@
       "startSeconds": 22,
       "confidence": "high",
       "url": "https://www.bilibili.com/video/BV13Wh26wEM7/?t=22"
+    },
+    {
+      "sourceId": "bilibili:BV1ihWC65EMn",
+      "heroIds": [
+        16000006
+      ],
+      "heroEn": "Barley",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Medical Use：若白在与投掷位对线、需要续航时偏向生命之源。",
+      "condition": "对拉里与劳里、西里乌斯等消耗对位；不等于所有对局的唯一首选。",
+      "startSeconds": 48,
+      "confidence": "high",
+      "url": "https://www.bilibili.com/video/BV1ihWC65EMn?t=48"
+    },
+    {
+      "sourceId": "bilibili:BV1ihWC65EMn",
+      "heroIds": [
+        16000006
+      ],
+      "heroEn": "Barley",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "星徽 · Extra Noxious：面对笨重高血量目标且不缺续航时，可选增加伤害的星徽。",
+      "condition": "确认自身不依赖回血续线，且能安全持续消耗。",
+      "startSeconds": 59,
+      "confidence": "high",
+      "url": "https://www.bilibili.com/video/BV1ihWC65EMn?t=59"
+    },
+    {
+      "sourceId": "bilibili:BV1ihWC65EMn",
+      "heroIds": [
+        16000006
+      ],
+      "heroEn": "Barley",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Sticky Syrup Mixer：特调糖浆可隔墙减速追击者或辅助防守。",
+      "condition": "视频明确提醒艾德加、莫提斯、斯图等机动英雄可能绕开这个保护，不能据此硬顶刺客选巴利。",
+      "startSeconds": 68,
+      "confidence": "high",
+      "url": "https://www.bilibili.com/video/BV1ihWC65EMn?t=68"
+    },
+    {
+      "sourceId": "bilibili:BV1ihWC65EMn",
+      "heroIds": [
+        16000006
+      ],
+      "heroEn": "Barley",
+      "kind": "loadout_reference",
+      "mapId": null,
+      "summary": "妙具 · Herbal Tonic：草本精粹可以提升队伍续航。",
+      "condition": "要有适合停留治疗的位置，且敌方缺乏有效切入；不是强突进下的保命保证。",
+      "startSeconds": 84,
+      "confidence": "high",
+      "url": "https://www.bilibili.com/video/BV1ihWC65EMn?t=84"
+    },
+    {
+      "sourceId": "bilibili:BV1ihWC65EMn",
+      "heroIds": [
+        16000006
+      ],
+      "heroEn": "Barley",
+      "kind": "loadout_reference",
+      "mapId": 15000306,
+      "summary": "妙具 · Herbal Tonic：若白明确提到甲虫决斗后手针对拜瑞体系时，可用草本精粹补充队伍续航。",
+      "condition": "限对方控场/治疗体系、己方能保护巴利时考虑。",
+      "startSeconds": 100,
+      "confidence": "high",
+      "url": "https://www.bilibili.com/video/BV1ihWC65EMn?t=100"
+    },
+    {
+      "sourceId": "bilibili:BV1ihWC65EMn",
+      "heroIds": [
+        16000006
+      ],
+      "heroEn": "Barley",
+      "kind": "loadout_reference",
+      "mapId": 15000025,
+      "summary": "星徽 · Medical Use：视频以三重威胁为例，说明后手针对拉里与劳里或西里乌斯时的回血星徽选择。",
+      "condition": "须确认对方缺少切入和破墙；不扩展成巴利无条件先选。",
+      "startSeconds": 56,
+      "confidence": "high",
+      "url": "https://www.bilibili.com/video/BV1ihWC65EMn?t=56"
     }
   ],
   "mapEvidence": [
@@ -9396,6 +10043,504 @@
       ]
     },
     {
+      "sourceId": "youtube:1YTUpoEtq5M",
+      "mapId": 15000292,
+      "mode": "Hot Zone",
+      "heroIds": [
+        16000004
+      ],
+      "summary": "作者点名开门营业、灼热火圈中也有瑞科的使用空间。",
+      "conditions": [
+        "这是单英雄地图候选；三人阵容及其配合仍须单独推导。"
+      ],
+      "startSeconds": 444,
+      "url": "https://www.youtube.com/watch?v=1YTUpoEtq5M&t=444",
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": false,
+      "confidence": "high",
+      "negative": false
+    },
+    {
+      "sourceId": "youtube:1YTUpoEtq5M",
+      "mapId": 15000300,
+      "mode": "Hot Zone",
+      "heroIds": [
+        16000004
+      ],
+      "summary": "作者点名开门营业、灼热火圈中也有瑞科的使用空间。",
+      "conditions": [
+        "这是单英雄地图候选；三人阵容及其配合仍须单独推导。"
+      ],
+      "startSeconds": 444,
+      "url": "https://www.youtube.com/watch?v=1YTUpoEtq5M&t=444",
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": false,
+      "confidence": "high",
+      "negative": false
+    },
+    {
+      "sourceId": "youtube:oe1yVdeZMlY",
+      "mapId": 15000005,
+      "mode": "Bounty",
+      "heroIds": [
+        16000065
+      ],
+      "summary": "曼迪的星徽强化可在神秘流星这类长射程地图发挥，但高手对局仍依赖命中。",
+      "conditions": [
+        "11月11日妙具调整之后仍可参考射程与蓄力机制，不照搬维护前的妙具冷却或减速数值。"
+      ],
+      "startSeconds": 394,
+      "url": "https://www.youtube.com/watch?v=oe1yVdeZMlY&t=394",
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": false,
+      "confidence": "high",
+      "negative": false
+    },
+    {
+      "sourceId": "bilibili:BV1ihWC65EMn",
+      "mapId": 15000053,
+      "mode": "Heist",
+      "heroIds": [
+        16000006
+      ],
+      "summary": "若白明确点名巴利适用本图，但限于后手针对控场体系。",
+      "conditions": [
+        "须确认敌方缺少有效突进和破墙；不是无条件首选，也不把六选条件扩写成通用队伍。"
+      ],
+      "startSeconds": 123,
+      "url": "https://www.bilibili.com/video/BV1ihWC65EMn?t=123",
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": false,
+      "confidence": "high",
+      "negative": false
+    },
+    {
+      "sourceId": "bilibili:BV1ihWC65EMn",
+      "mapId": 15000082,
+      "mode": "Bounty",
+      "heroIds": [
+        16000006
+      ],
+      "summary": "若白明确点名巴利适用本图，但限于后手针对控场体系。",
+      "conditions": [
+        "须确认敌方缺少有效突进和破墙；不是无条件首选，也不把六选条件扩写成通用队伍。"
+      ],
+      "startSeconds": 123,
+      "url": "https://www.bilibili.com/video/BV1ihWC65EMn?t=123",
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": false,
+      "confidence": "high",
+      "negative": false
+    },
+    {
+      "sourceId": "bilibili:BV1ihWC65EMn",
+      "mapId": 15000306,
+      "mode": "Hot Zone",
+      "heroIds": [
+        16000006
+      ],
+      "summary": "若白明确点名巴利适用本图，但限于后手针对控场体系。",
+      "conditions": [
+        "须确认敌方缺少有效突进和破墙；不是无条件首选，也不把六选条件扩写成通用队伍。"
+      ],
+      "startSeconds": 123,
+      "url": "https://www.bilibili.com/video/BV1ihWC65EMn?t=123",
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": false,
+      "confidence": "high",
+      "negative": false
+    },
+    {
+      "sourceId": "bilibili:BV1ihWC65EMn",
+      "mapId": 15000292,
+      "mode": "Hot Zone",
+      "heroIds": [
+        16000006
+      ],
+      "summary": "若白明确点名巴利适用本图，但限于后手针对控场体系。",
+      "conditions": [
+        "须确认敌方缺少有效突进和破墙；不是无条件首选，也不把六选条件扩写成通用队伍。"
+      ],
+      "startSeconds": 123,
+      "url": "https://www.bilibili.com/video/BV1ihWC65EMn?t=123",
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": false,
+      "confidence": "high",
+      "negative": false
+    },
+    {
+      "sourceId": "bilibili:BV1ihWC65EMn",
+      "mapId": 15000050,
+      "mode": "Brawl Ball",
+      "heroIds": [
+        16000006
+      ],
+      "summary": "若白明确点名巴利适用本图，但限于后手针对控场体系。",
+      "conditions": [
+        "须确认敌方缺少有效突进和破墙；不是无条件首选，也不把六选条件扩写成通用队伍。"
+      ],
+      "startSeconds": 123,
+      "url": "https://www.bilibili.com/video/BV1ihWC65EMn?t=123",
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": false,
+      "confidence": "high",
+      "negative": false
+    },
+    {
+      "sourceId": "bilibili:BV1ihWC65EMn",
+      "mapId": 15000025,
+      "mode": "Brawl Ball",
+      "heroIds": [
+        16000006
+      ],
+      "summary": "若白明确点名巴利适用本图，但限于后手针对控场体系。",
+      "conditions": [
+        "须确认敌方缺少有效突进和破墙；不是无条件首选，也不把六选条件扩写成通用队伍。"
+      ],
+      "startSeconds": 123,
+      "url": "https://www.bilibili.com/video/BV1ihWC65EMn?t=123",
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": false,
+      "confidence": "high",
+      "negative": false
+    },
+    {
+      "sourceId": "bilibili:BV19MWK6eEkU",
+      "mapId": 15000293,
+      "mode": "Hot Zone",
+      "heroIds": [
+        16000087
+      ],
+      "summary": "土狗在完整排位英雄建议中点名朱朱可用于平行游戏。",
+      "conditions": [
+        "本地转写清楚点名地图，仅补充机制候选；不据此宣称当前最强或完整阵容。"
+      ],
+      "startSeconds": 963,
+      "url": "https://www.bilibili.com/video/BV19MWK6eEkU?t=963",
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": false,
+      "confidence": "high",
+      "negative": false
+    },
+    {
+      "sourceId": "bilibili:BV1vyWB6FE7p",
+      "mapId": 15000300,
+      "mode": "Hot Zone",
+      "heroIds": [
+        16000039,
+        16000109,
+        16000004
+      ],
+      "summary": "FUT在该地图的三名英雄已在录像关键画面核对：Colette / Cosmo / Rico。",
+      "conditions": [
+        "配合说明为工具整理；原对手：8-Bit / Mr. P / Ollie。"
+      ],
+      "startSeconds": 480,
+      "url": "https://www.bilibili.com/video/BV1vyWB6FE7p?t=480",
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": true,
+      "confidence": "high",
+      "negative": false,
+      "observedTeam": "FUT"
+    },
+    {
+      "sourceId": "bilibili:BV1vyWB6FE7p",
+      "mapId": 15000300,
+      "mode": "Hot Zone",
+      "heroIds": [
+        16000027,
+        16000031,
+        16000090
+      ],
+      "summary": "TE在该地图的三名英雄已在录像关键画面核对：8-Bit / Mr. P / Ollie。",
+      "conditions": [
+        "配合说明为工具整理；原对手：Colette / Cosmo / Rico。"
+      ],
+      "startSeconds": 480,
+      "url": "https://www.bilibili.com/video/BV1vyWB6FE7p?t=480",
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": true,
+      "confidence": "high",
+      "negative": false,
+      "observedTeam": "TE"
+    },
+    {
+      "sourceId": "bilibili:BV1vyWB6FE7p",
+      "mapId": 15000025,
+      "mode": "Brawl Ball",
+      "heroIds": [
+        16000013,
+        16000078,
+        16000004
+      ],
+      "summary": "TE在该地图的三名英雄已在录像关键画面核对：Poco / Melodie / Rico。",
+      "conditions": [
+        "配合说明为工具整理；原对手：Otis / Mina / Willow。"
+      ],
+      "startSeconds": 895,
+      "url": "https://www.bilibili.com/video/BV1vyWB6FE7p?t=895",
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": true,
+      "confidence": "high",
+      "negative": false,
+      "observedTeam": "TE"
+    },
+    {
+      "sourceId": "bilibili:BV1vyWB6FE7p",
+      "mapId": 15000025,
+      "mode": "Brawl Ball",
+      "heroIds": [
+        16000059,
+        16000097,
+        16000067
+      ],
+      "summary": "FUT在该地图的三名英雄已在录像关键画面核对：Otis / Mina / Willow。",
+      "conditions": [
+        "配合说明为工具整理；原对手：Poco / Melodie / Rico。"
+      ],
+      "startSeconds": 895,
+      "url": "https://www.bilibili.com/video/BV1vyWB6FE7p?t=895",
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": true,
+      "confidence": "high",
+      "negative": false,
+      "observedTeam": "FUT"
+    },
+    {
+      "sourceId": "bilibili:BV1vyWB6FE7p",
+      "mapId": 15000025,
+      "mode": "Brawl Ball",
+      "heroIds": [
+        16000077,
+        16000078,
+        16000084
+      ],
+      "summary": "TE在该地图的三名英雄已在录像关键画面核对：Larry & Lawrie / Melodie / Moe。",
+      "conditions": [
+        "配合说明为工具整理；原对手：Gale / Squeak / Willow。"
+      ],
+      "startSeconds": 1140,
+      "url": "https://www.bilibili.com/video/BV1vyWB6FE7p?t=1140",
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": true,
+      "confidence": "high",
+      "negative": false,
+      "observedTeam": "TE"
+    },
+    {
+      "sourceId": "bilibili:BV1vyWB6FE7p",
+      "mapId": 15000548,
+      "mode": "Knockout",
+      "heroIds": [
+        16000065,
+        16000003,
+        16000061
+      ],
+      "summary": "TE在该地图的三名英雄已在录像关键画面核对：Mandy / Brock / Gus。",
+      "conditions": [
+        "配合说明为工具整理；原对手：Angelo / Pearl / Leon。"
+      ],
+      "startSeconds": 2101,
+      "url": "https://www.bilibili.com/video/BV1vyWB6FE7p?t=2101",
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": true,
+      "confidence": "high",
+      "negative": false,
+      "observedTeam": "TE"
+    },
+    {
+      "sourceId": "bilibili:BV1vyWB6FE7p",
+      "mapId": 15000548,
+      "mode": "Knockout",
+      "heroIds": [
+        16000079,
+        16000072,
+        16000023
+      ],
+      "summary": "FUT在该地图的三名英雄已在录像关键画面核对：Angelo / Pearl / Leon。",
+      "conditions": [
+        "配合说明为工具整理；原对手：Mandy / Brock / Gus。"
+      ],
+      "startSeconds": 2101,
+      "url": "https://www.bilibili.com/video/BV1vyWB6FE7p?t=2101",
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": true,
+      "confidence": "high",
+      "negative": false,
+      "observedTeam": "FUT"
+    },
+    {
+      "sourceId": "bilibili:BV1vyWB6FE7p",
+      "mapId": 15000548,
+      "mode": "Knockout",
+      "heroIds": [
+        16000015,
+        16000041,
+        16000093
+      ],
+      "summary": "FUT在该地图的三名英雄已在录像关键画面核对：Piper / Lou / Jae-Yong。",
+      "conditions": [
+        "配合说明为工具整理；原对手：Angelo / Mr. P / Mina。"
+      ],
+      "startSeconds": 2160,
+      "url": "https://www.bilibili.com/video/BV1vyWB6FE7p?t=2160",
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": true,
+      "confidence": "high",
+      "negative": false,
+      "observedTeam": "FUT"
+    },
+    {
+      "sourceId": "bilibili:BV1vyWB6FE7p",
+      "mapId": 15000083,
+      "mode": "Bounty",
+      "heroIds": [
+        16000061,
+        16000031,
+        16000047
+      ],
+      "summary": "TE在该地图的三名英雄已在录像关键画面核对：Gus / Mr. P / Squeak。",
+      "conditions": [
+        "配合说明为工具整理；原对手：R-T / Amber / Mortis。"
+      ],
+      "startSeconds": 2565,
+      "url": "https://www.bilibili.com/video/BV1vyWB6FE7p?t=2565",
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": true,
+      "confidence": "high",
+      "negative": false,
+      "observedTeam": "TE"
+    },
+    {
+      "sourceId": "bilibili:BV1vyWB6FE7p",
+      "mapId": 15000083,
+      "mode": "Bounty",
+      "heroIds": [
+        16000065,
+        16000040,
+        16000043
+      ],
+      "summary": "TE在该地图的三名英雄已在录像关键画面核对：Mandy / Amber / Edgar。",
+      "conditions": [
+        "配合说明为工具整理；原对手：Mr. P / Melodie / Gigi。"
+      ],
+      "startSeconds": 2710,
+      "url": "https://www.bilibili.com/video/BV1vyWB6FE7p?t=2710",
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": true,
+      "confidence": "high",
+      "negative": false,
+      "observedTeam": "TE"
+    },
+    {
+      "sourceId": "bilibili:BV17KWY6DEdm",
+      "mapId": 15000018,
+      "mode": "Heist",
+      "heroIds": [
+        16000059,
+        16000083,
+        16000078
+      ],
+      "summary": "FUT在该地图的三名英雄已在录像关键画面核对：Otis / Clancy / Melodie。",
+      "conditions": [
+        "配合说明为工具整理；原对手：Gale / Penny / Nori。"
+      ],
+      "startSeconds": 310,
+      "url": "https://www.bilibili.com/video/BV17KWY6DEdm?t=310",
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": true,
+      "confidence": "high",
+      "negative": false,
+      "observedTeam": "FUT"
+    },
+    {
+      "sourceId": "bilibili:BV17KWY6DEdm",
+      "mapId": 15000018,
+      "mode": "Heist",
+      "heroIds": [
+        16000035,
+        16000019,
+        16000107
+      ],
+      "summary": "ZETA在该地图的三名英雄已在录像关键画面核对：Gale / Penny / Nori。",
+      "conditions": [
+        "配合说明为工具整理；原对手：Otis / Clancy / Melodie。"
+      ],
+      "startSeconds": 310,
+      "url": "https://www.bilibili.com/video/BV17KWY6DEdm?t=310",
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": true,
+      "confidence": "high",
+      "negative": false,
+      "observedTeam": "ZETA"
+    },
+    {
+      "sourceId": "bilibili:BV17KWY6DEdm",
+      "mapId": 15000083,
+      "mode": "Bounty",
+      "heroIds": [
+        16000031,
+        16000041,
+        16000106
+      ],
+      "summary": "FUT在该地图的三名英雄已在录像关键画面核对：Mr. P / Lou / Bolt。",
+      "conditions": [
+        "配合说明为工具整理；原对手：Byron / Squeak / Melodie。"
+      ],
+      "startSeconds": 1010,
+      "url": "https://www.bilibili.com/video/BV17KWY6DEdm?t=1010",
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": true,
+      "confidence": "high",
+      "negative": false,
+      "observedTeam": "FUT"
+    },
+    {
+      "sourceId": "bilibili:BV17KWY6DEdm",
+      "mapId": 15000083,
+      "mode": "Bounty",
+      "heroIds": [
+        16000042,
+        16000047,
+        16000078
+      ],
+      "summary": "ZETA在该地图的三名英雄已在录像关键画面核对：Byron / Squeak / Melodie。",
+      "conditions": [
+        "配合说明为工具整理；原对手：Mr. P / Lou / Bolt。"
+      ],
+      "startSeconds": 1010,
+      "url": "https://www.bilibili.com/video/BV17KWY6DEdm?t=1010",
+      "currentStrengthEvidence": false,
+      "mapCandidateEvidence": true,
+      "completeTeamObserved": true,
+      "confidence": "high",
+      "negative": false,
+      "observedTeam": "ZETA"
+    },
+    {
       "sourceId": "brawlpick-map-bridge-too-far",
       "mapId": 15000072,
       "mode": "Heist",
@@ -10351,7 +11496,9 @@
       "disputed": false,
       "startSeconds": 2677,
       "url": "https://www.youtube.com/watch?v=PGAR-j4AyHw&t=2677s",
-      "note": "Wendy仍在S/前四组，但较其他前四候选弱，削弱可感知。"
+      "note": "Wendy仍在S/前四组，但较其他前四候选弱，削弱可感知。",
+      "patchReviewAfter": "2026-11-11",
+      "patchReviewReason": "11月11日后续维护改变了该英雄；原分档保留回看，暂停用于阵容强度微调。"
     },
     {
       "heroId": 16000086,
@@ -10375,7 +11522,9 @@
       "disputed": false,
       "startSeconds": 2760,
       "url": "https://www.youtube.com/watch?v=PGAR-j4AyHw&t=2760s",
-      "note": "琥珀列S，虽感到削弱仍认为持续压制与技能配置强。"
+      "note": "琥珀列S，虽感到削弱仍认为持续压制与技能配置强。",
+      "patchReviewAfter": "2026-11-11",
+      "patchReviewReason": "11月11日后续维护改变了该英雄；原分档保留回看，暂停用于阵容强度微调。"
     },
     {
       "heroId": 16000061,
@@ -10497,7 +11646,9 @@
       "disputed": false,
       "startSeconds": 185,
       "url": "https://www.bilibili.com/video/BV1jAh66HEhk?t=185",
-      "note": "KairosTime V53原榜的中文整理；已对照原片与中文分档画面，保留同档画面顺序。"
+      "note": "KairosTime V53原榜的中文整理；已对照原片与中文分档画面，保留同档画面顺序。",
+      "patchReviewAfter": "2026-11-11",
+      "patchReviewReason": "11月11日后续维护改变了该英雄；原分档保留回看，暂停用于阵容强度微调。"
     },
     {
       "heroId": 16000061,
@@ -10523,7 +11674,9 @@
       "disputed": true,
       "startSeconds": 185,
       "url": "https://www.bilibili.com/video/BV1jAh66HEhk?t=185",
-      "note": "KairosTime V53原榜的中文整理；已对照原片与中文分档画面，保留同档画面顺序。 原榜S档，中文讲解有异议，不参与加权。 口播对S档提出质疑，暂不参与加权。"
+      "note": "KairosTime V53原榜的中文整理；已对照原片与中文分档画面，保留同档画面顺序。 原榜S档，中文讲解有异议，不参与加权。 口播对S档提出质疑，暂不参与加权。",
+      "patchReviewAfter": "2026-11-11",
+      "patchReviewReason": "11月11日后续维护改变了该英雄；原分档保留回看，暂停用于阵容强度微调。"
     },
     {
       "heroId": 16000010,
@@ -10575,7 +11728,9 @@
       "disputed": false,
       "startSeconds": 185,
       "url": "https://www.bilibili.com/video/BV1jAh66HEhk?t=185",
-      "note": "KairosTime V53原榜的中文整理；已对照原片与中文分档画面，保留同档画面顺序。 中文讲解明确为预测，不参与加权。"
+      "note": "KairosTime V53原榜的中文整理；已对照原片与中文分档画面，保留同档画面顺序。 中文讲解明确为预测，不参与加权。",
+      "patchReviewAfter": "2026-11-11",
+      "patchReviewReason": "11月11日后续维护改变了该英雄；原分档保留回看，暂停用于阵容强度微调。"
     },
     {
       "heroId": 16000107,
@@ -10796,7 +11951,9 @@
       "disputed": false,
       "startSeconds": 160,
       "url": "https://www.bilibili.com/video/BV1jAh66HEhk?t=160",
-      "note": "KairosTime V53原榜的中文整理；已对照原片与中文分档画面，保留同档画面顺序。"
+      "note": "KairosTime V53原榜的中文整理；已对照原片与中文分档画面，保留同档画面顺序。",
+      "patchReviewAfter": "2026-11-11",
+      "patchReviewReason": "11月11日后续维护改变了该英雄；原分档保留回看，暂停用于阵容强度微调。"
     },
     {
       "heroId": 16000072,
@@ -11381,7 +12538,9 @@
       "disputed": false,
       "startSeconds": 69,
       "url": "https://www.bilibili.com/video/BV1jAh66HEhk?t=69",
-      "note": "KairosTime V53原榜的中文整理；已对照原片与中文分档画面，保留同档画面顺序。"
+      "note": "KairosTime V53原榜的中文整理；已对照原片与中文分档画面，保留同档画面顺序。",
+      "patchReviewAfter": "2026-11-11",
+      "patchReviewReason": "11月11日后续维护改变了该英雄；原分档保留回看，暂停用于阵容强度微调。"
     },
     {
       "heroId": 16000018,
@@ -11576,7 +12735,9 @@
       "disputed": false,
       "startSeconds": 69,
       "url": "https://www.bilibili.com/video/BV1jAh66HEhk?t=69",
-      "note": "KairosTime V53原榜的中文整理；已对照原片与中文分档画面，保留同档画面顺序。"
+      "note": "KairosTime V53原榜的中文整理；已对照原片与中文分档画面，保留同档画面顺序。",
+      "patchReviewAfter": "2026-11-11",
+      "patchReviewReason": "11月11日后续维护改变了该英雄；原分档保留回看，暂停用于阵容强度微调。"
     },
     {
       "heroId": 16000020,
@@ -11719,7 +12880,9 @@
       "disputed": false,
       "startSeconds": 40,
       "url": "https://www.bilibili.com/video/BV1jAh66HEhk?t=40",
-      "note": "KairosTime V53原榜的中文整理；已对照原片与中文分档画面，保留同档画面顺序。"
+      "note": "KairosTime V53原榜的中文整理；已对照原片与中文分档画面，保留同档画面顺序。",
+      "patchReviewAfter": "2026-11-11",
+      "patchReviewReason": "11月11日后续维护改变了该英雄；原分档保留回看，暂停用于阵容强度微调。"
     },
     {
       "heroId": 16000080,
@@ -11862,7 +13025,9 @@
       "disputed": false,
       "startSeconds": 20,
       "url": "https://www.bilibili.com/video/BV1jAh66HEhk?t=20",
-      "note": "KairosTime V53原榜的中文整理；已对照原片与中文分档画面，保留同档画面顺序。"
+      "note": "KairosTime V53原榜的中文整理；已对照原片与中文分档画面，保留同档画面顺序。",
+      "patchReviewAfter": "2026-11-11",
+      "patchReviewReason": "11月11日后续维护改变了该英雄；原分档保留回看，暂停用于阵容强度微调。"
     },
     {
       "heroId": 16000048,
@@ -12525,7 +13690,9 @@
       "disputed": false,
       "startSeconds": 900,
       "url": "https://www.youtube.com/watch?v=D1JH7clEP2I?t=900",
-      "note": "作者该档章节中逐个介绍。"
+      "note": "作者该档章节中逐个介绍。",
+      "patchReviewAfter": "2026-11-11",
+      "patchReviewReason": "11月11日后续维护改变了该英雄；原分档保留回看，暂停用于阵容强度微调。"
     },
     {
       "heroId": 16000076,
@@ -13084,7 +14251,9 @@
       "disputed": false,
       "startSeconds": 1695,
       "url": "https://www.youtube.com/watch?v=D1JH7clEP2I?t=1695",
-      "note": "作者该档章节中逐个介绍。"
+      "note": "作者该档章节中逐个介绍。",
+      "patchReviewAfter": "2026-11-11",
+      "patchReviewReason": "11月11日后续维护改变了该英雄；原分档保留回看，暂停用于阵容强度微调。"
     },
     {
       "heroId": 16000004,
@@ -13123,7 +14292,9 @@
       "disputed": false,
       "startSeconds": 1869,
       "url": "https://www.youtube.com/watch?v=D1JH7clEP2I?t=1869",
-      "note": "作者该档章节中逐个介绍。"
+      "note": "作者该档章节中逐个介绍。",
+      "patchReviewAfter": "2026-11-11",
+      "patchReviewReason": "11月11日后续维护改变了该英雄；原分档保留回看，暂停用于阵容强度微调。"
     },
     {
       "heroId": 16000102,
@@ -13149,7 +14320,9 @@
       "disputed": false,
       "startSeconds": 1935,
       "url": "https://www.youtube.com/watch?v=D1JH7clEP2I?t=1935",
-      "note": "作者该档章节中逐个介绍。"
+      "note": "作者该档章节中逐个介绍。",
+      "patchReviewAfter": "2026-11-11",
+      "patchReviewReason": "11月11日后续维护改变了该英雄；原分档保留回看，暂停用于阵容强度微调。"
     },
     {
       "heroId": 16000035,
@@ -13162,7 +14335,9 @@
       "disputed": false,
       "startSeconds": 1990,
       "url": "https://www.youtube.com/watch?v=D1JH7clEP2I?t=1990",
-      "note": "作者该档章节中逐个介绍。"
+      "note": "作者该档章节中逐个介绍。",
+      "patchReviewAfter": "2026-11-11",
+      "patchReviewReason": "11月11日后续维护改变了该英雄；原分档保留回看，暂停用于阵容强度微调。"
     },
     {
       "heroId": 16000040,
@@ -13175,7 +14350,9 @@
       "disputed": false,
       "startSeconds": 1997,
       "url": "https://www.youtube.com/watch?v=D1JH7clEP2I?t=1997",
-      "note": "作者该档章节中逐个介绍。"
+      "note": "作者该档章节中逐个介绍。",
+      "patchReviewAfter": "2026-11-11",
+      "patchReviewReason": "11月11日后续维护改变了该英雄；原分档保留回看，暂停用于阵容强度微调。"
     },
     {
       "heroId": 16000031,
@@ -13188,7 +14365,9 @@
       "disputed": false,
       "startSeconds": 2123,
       "url": "https://www.youtube.com/watch?v=D1JH7clEP2I?t=2123",
-      "note": "作者该档章节中逐个介绍。"
+      "note": "作者该档章节中逐个介绍。",
+      "patchReviewAfter": "2026-11-11",
+      "patchReviewReason": "11月11日后续维护改变了该英雄；原分档保留回看，暂停用于阵容强度微调。"
     },
     {
       "heroId": 16000041,
@@ -13201,7 +14380,9 @@
       "disputed": false,
       "startSeconds": 2137,
       "url": "https://www.youtube.com/watch?v=D1JH7clEP2I?t=2137",
-      "note": "作者该档章节中逐个介绍。"
+      "note": "作者该档章节中逐个介绍。",
+      "patchReviewAfter": "2026-11-11",
+      "patchReviewReason": "11月11日后续维护改变了该英雄；原分档保留回看，暂停用于阵容强度微调。"
     },
     {
       "heroId": 16000086,
@@ -13227,7 +14408,9 @@
       "disputed": false,
       "startSeconds": 1170,
       "url": "https://www.youtube.com/watch?v=htL_pFHoW5E&t=1170s",
-      "note": "原榜完整分级画面已核对；保留原图同档排列，不额外生成数值分数或精确名次。"
+      "note": "原榜完整分级画面已核对；保留原图同档排列，不额外生成数值分数或精确名次。",
+      "patchReviewAfter": "2026-11-11",
+      "patchReviewReason": "11月11日后续维护改变了该英雄；原分档保留回看，暂停用于阵容强度微调。"
     },
     {
       "heroId": 16000061,
@@ -13253,7 +14436,9 @@
       "disputed": true,
       "startSeconds": 1170,
       "url": "https://www.youtube.com/watch?v=htL_pFHoW5E&t=1170s",
-      "note": "原榜完整分级画面已核对；保留原图同档排列，不额外生成数值分数或精确名次。 原榜列S；中文讲解对温蒂该档位提出异议，保守不参与加权。"
+      "note": "原榜完整分级画面已核对；保留原图同档排列，不额外生成数值分数或精确名次。 原榜列S；中文讲解对温蒂该档位提出异议，保守不参与加权。",
+      "patchReviewAfter": "2026-11-11",
+      "patchReviewReason": "11月11日后续维护改变了该英雄；原分档保留回看，暂停用于阵容强度微调。"
     },
     {
       "heroId": 16000010,
@@ -13305,7 +14490,9 @@
       "disputed": false,
       "startSeconds": 1170,
       "url": "https://www.youtube.com/watch?v=htL_pFHoW5E&t=1170s",
-      "note": "原榜完整分级画面已核对；保留原图同档排列，不额外生成数值分数或精确名次。 中文讲解将文斯标为预测，不参与加权。"
+      "note": "原榜完整分级画面已核对；保留原图同档排列，不额外生成数值分数或精确名次。 中文讲解将文斯标为预测，不参与加权。",
+      "patchReviewAfter": "2026-11-11",
+      "patchReviewReason": "11月11日后续维护改变了该英雄；原分档保留回看，暂停用于阵容强度微调。"
     },
     {
       "heroId": 16000107,
@@ -13526,7 +14713,9 @@
       "disputed": false,
       "startSeconds": 1170,
       "url": "https://www.youtube.com/watch?v=htL_pFHoW5E&t=1170s",
-      "note": "原榜完整分级画面已核对；保留原图同档排列，不额外生成数值分数或精确名次。"
+      "note": "原榜完整分级画面已核对；保留原图同档排列，不额外生成数值分数或精确名次。",
+      "patchReviewAfter": "2026-11-11",
+      "patchReviewReason": "11月11日后续维护改变了该英雄；原分档保留回看，暂停用于阵容强度微调。"
     },
     {
       "heroId": 16000072,
@@ -14111,7 +15300,9 @@
       "disputed": false,
       "startSeconds": 1170,
       "url": "https://www.youtube.com/watch?v=htL_pFHoW5E&t=1170s",
-      "note": "原榜完整分级画面已核对；保留原图同档排列，不额外生成数值分数或精确名次。"
+      "note": "原榜完整分级画面已核对；保留原图同档排列，不额外生成数值分数或精确名次。",
+      "patchReviewAfter": "2026-11-11",
+      "patchReviewReason": "11月11日后续维护改变了该英雄；原分档保留回看，暂停用于阵容强度微调。"
     },
     {
       "heroId": 16000018,
@@ -14306,7 +15497,9 @@
       "disputed": false,
       "startSeconds": 1170,
       "url": "https://www.youtube.com/watch?v=htL_pFHoW5E&t=1170s",
-      "note": "原榜完整分级画面已核对；保留原图同档排列，不额外生成数值分数或精确名次。"
+      "note": "原榜完整分级画面已核对；保留原图同档排列，不额外生成数值分数或精确名次。",
+      "patchReviewAfter": "2026-11-11",
+      "patchReviewReason": "11月11日后续维护改变了该英雄；原分档保留回看，暂停用于阵容强度微调。"
     },
     {
       "heroId": 16000020,
@@ -14449,7 +15642,9 @@
       "disputed": false,
       "startSeconds": 1170,
       "url": "https://www.youtube.com/watch?v=htL_pFHoW5E&t=1170s",
-      "note": "原榜完整分级画面已核对；保留原图同档排列，不额外生成数值分数或精确名次。"
+      "note": "原榜完整分级画面已核对；保留原图同档排列，不额外生成数值分数或精确名次。",
+      "patchReviewAfter": "2026-11-11",
+      "patchReviewReason": "11月11日后续维护改变了该英雄；原分档保留回看，暂停用于阵容强度微调。"
     },
     {
       "heroId": 16000080,
@@ -14592,7 +15787,9 @@
       "disputed": false,
       "startSeconds": 1170,
       "url": "https://www.youtube.com/watch?v=htL_pFHoW5E&t=1170s",
-      "note": "原榜完整分级画面已核对；保留原图同档排列，不额外生成数值分数或精确名次。"
+      "note": "原榜完整分级画面已核对；保留原图同档排列，不额外生成数值分数或精确名次。",
+      "patchReviewAfter": "2026-11-11",
+      "patchReviewReason": "11月11日后续维护改变了该英雄；原分档保留回看，暂停用于阵容强度微调。"
     },
     {
       "heroId": 16000048,

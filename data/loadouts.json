@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "asOf": "2026-10-23",
+  "asOf": "2026-11-14",
   "policy": {
     "maxAgeCalendarMonths": 3,
     "fallback": "map_then_mode_then_general_then_unknown",
@@ -53,6 +53,48 @@
         ]
       ],
       "note": "已完整本地转写，并核对22、35、46、58、92秒画面；讨论巴菲格斯，数值不写入推荐。"
+    },
+    {
+      "id": "bilibili:BV1ihWC65EMn",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1ihWC65EMn",
+      "title": "【TOC若白】《全英雄入门指南》第18期：巴利 酒保在排位赛里没有大家想象的那么弱",
+      "author": "荒野乱斗TOC若白",
+      "publishedAt": "2026-11-14",
+      "dataAsOf": "2026-11-14",
+      "durationSeconds": 183,
+      "read": true,
+      "status": "full_local_asr_and_selected_frames_read",
+      "readMethod": "full_local_asr_and_selected_frames_read",
+      "visualChecked": true,
+      "kind": "map_guide",
+      "validityNotes": [
+        "2026-11-14读取。自动字幕或本地转写中的不清晰专名不用于推荐；画面未显示的配置与选禁保留未知。"
+      ],
+      "reviewedFrameSeconds": [
+        50,
+        59,
+        68,
+        85,
+        108,
+        124,
+        129,
+        133,
+        151
+      ],
+      "readRangesSeconds": [
+        [
+          0,
+          183
+        ]
+      ],
+      "originalPublishedAt": "2026-11-14",
+      "reviewedRangesSeconds": [
+        [
+          0,
+          183
+        ]
+      ]
     }
   ],
   "observations": [
@@ -3009,6 +3051,104 @@
       "reviewedAt": "2026-10-23",
       "patchStatus": "reviewed_against_known_september_16_maintenance",
       "heroId": 16000061
+    },
+    {
+      "id": "loadout-nov14-1",
+      "heroEn": "Barley",
+      "slot": "starPower",
+      "optionEn": "Medical Use",
+      "preference": "alternative",
+      "reason": "若白在与投掷位对线、需要续航时偏向生命之源。",
+      "condition": "对拉里与劳里、西里乌斯等消耗对位；不等于所有对局的唯一首选。",
+      "sourceId": "bilibili:BV1ihWC65EMn",
+      "startSeconds": 48,
+      "endSeconds": 65,
+      "reviewed": true,
+      "reviewedAt": "2026-11-14",
+      "patchStatus": "post_november_11_guide_read",
+      "heroId": 16000006
+    },
+    {
+      "id": "loadout-nov14-2",
+      "heroEn": "Barley",
+      "slot": "starPower",
+      "optionEn": "Extra Noxious",
+      "preference": "alternative",
+      "reason": "面对笨重高血量目标且不缺续航时，可选增加伤害的星徽。",
+      "condition": "确认自身不依赖回血续线，且能安全持续消耗。",
+      "sourceId": "bilibili:BV1ihWC65EMn",
+      "startSeconds": 59,
+      "endSeconds": 68,
+      "reviewed": true,
+      "reviewedAt": "2026-11-14",
+      "patchStatus": "post_november_11_guide_read",
+      "heroId": 16000006
+    },
+    {
+      "id": "loadout-nov14-3",
+      "heroEn": "Barley",
+      "slot": "gadget",
+      "optionEn": "Sticky Syrup Mixer",
+      "preference": "alternative",
+      "reason": "特调糖浆可隔墙减速追击者或辅助防守。",
+      "condition": "视频明确提醒艾德加、莫提斯、斯图等机动英雄可能绕开这个保护，不能据此硬顶刺客选巴利。",
+      "sourceId": "bilibili:BV1ihWC65EMn",
+      "startSeconds": 68,
+      "endSeconds": 84,
+      "reviewed": true,
+      "reviewedAt": "2026-11-14",
+      "patchStatus": "post_november_11_guide_read",
+      "heroId": 16000006
+    },
+    {
+      "id": "loadout-nov14-4",
+      "heroEn": "Barley",
+      "slot": "gadget",
+      "optionEn": "Herbal Tonic",
+      "preference": "alternative",
+      "reason": "草本精粹可以提升队伍续航。",
+      "condition": "要有适合停留治疗的位置，且敌方缺乏有效切入；不是强突进下的保命保证。",
+      "sourceId": "bilibili:BV1ihWC65EMn",
+      "startSeconds": 84,
+      "endSeconds": 113,
+      "reviewed": true,
+      "reviewedAt": "2026-11-14",
+      "patchStatus": "post_november_11_guide_read",
+      "heroId": 16000006
+    },
+    {
+      "id": "loadout-nov14-5",
+      "heroEn": "Barley",
+      "slot": "gadget",
+      "optionEn": "Herbal Tonic",
+      "preference": "alternative",
+      "reason": "若白明确提到甲虫决斗后手针对拜瑞体系时，可用草本精粹补充队伍续航。",
+      "condition": "限对方控场/治疗体系、己方能保护巴利时考虑。",
+      "sourceId": "bilibili:BV1ihWC65EMn",
+      "startSeconds": 100,
+      "endSeconds": 113,
+      "reviewed": true,
+      "reviewedAt": "2026-11-14",
+      "patchStatus": "post_november_11_guide_read",
+      "mapId": 15000306,
+      "heroId": 16000006
+    },
+    {
+      "id": "loadout-nov14-6",
+      "heroEn": "Barley",
+      "slot": "starPower",
+      "optionEn": "Medical Use",
+      "preference": "alternative",
+      "reason": "视频以三重威胁为例，说明后手针对拉里与劳里或西里乌斯时的回血星徽选择。",
+      "condition": "须确认对方缺少切入和破墙；不扩展成巴利无条件先选。",
+      "sourceId": "bilibili:BV1ihWC65EMn",
+      "startSeconds": 56,
+      "endSeconds": 65,
+      "reviewed": true,
+      "reviewedAt": "2026-11-14",
+      "patchStatus": "post_november_11_guide_read",
+      "mapId": 15000025,
+      "heroId": 16000006
     }
   ],
   "localizedNames": [

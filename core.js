@@ -33,7 +33,7 @@ export function recentStrength(date, asOf, months=3) {
   return value>=cutoff&&value<=end;
 }
 export function eligibleObservation(row, source, asOf) {
-  return Boolean(source?.read && source.qualityDecision!=='exclude-from-strength-weighting' && recentStrength(source.dataAsOf||source.publishedAt,asOf) && !row.prediction && !row.disputed && row.confidence==='high' && Number.isFinite(row.strength)&&row.strength>=0&&row.strength<=1);
+  return Boolean(source?.read && source.qualityDecision!=='exclude-from-strength-weighting' && recentStrength(source.dataAsOf||source.publishedAt,asOf) && (!row.patchReviewAfter || asOf.slice(0,10)<row.patchReviewAfter) && !row.prediction && !row.disputed && row.confidence==='high' && Number.isFinite(row.strength)&&row.strength>=0&&row.strength<=1);
 }
 // Keep only the latest readable observation per author; one prolific creator is not a consensus.
 export function metaByHero(library) {

@@ -1,4 +1,4 @@
-import {eligibleObservation, recentStrength, normalize, metaByHero} from './core.js';
+import {eligibleObservation, recentStrength, normalize, metaByHero} from './core.js?v=20261114';
 
 // A source's original ordinal order and letter groups are different data types.
 export function rankingSources(library) {

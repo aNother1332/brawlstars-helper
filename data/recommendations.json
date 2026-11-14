@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-24",
-  "version": "研究试点 v0.5",
+  "updatedAt": "2026-11-14",
+  "version": "S56 · 11月11日维护后的资料补充",
   "currentPatchVerified": false,
-  "notice": "组合包括机制推导与已核验职业三英雄模板，配合执行说明均为工具整理；尚未完成国服当前版本与三人实战验证，不代表当前胜率排名。职业模板保留原对手条件，缺证据的地图不补虚构阵容。",
+  "notice": "阵容包括近期训练赛画面核对的三人组、历史职业实选与机制推演；每组保留原对手和来源。配合说明为工具分析，未完成国服同步与三人实战验证，不代表当前胜率排名。",
   "sources": [
     {
       "id": "spen54",
@@ -134,6 +134,7 @@
       ],
       "region": "international",
       "variantOnly": false,
+      "reviewedFrameSeconds": [],
       "validityNotes": [],
       "evidenceType": "automatic_captions"
     },
@@ -175,6 +176,13 @@
       "variantOnly": false,
       "kind": "map_guide",
       "recent": false,
+      "reviewedFrameSeconds": [
+        20,
+        64,
+        184,
+        202
+      ],
+      "readMethod": null,
       "validityNotes": [
         "historical-mechanics-only; exclude current-strength-weighting"
       ],
@@ -249,6 +257,8 @@
       "variantOnly": false,
       "kind": "professional_match_vod",
       "recent": true,
+      "reviewedFrameSeconds": [],
+      "readMethod": null,
       "validityNotes": [],
       "evidenceType": "automatic_captions"
     },
@@ -273,6 +283,80 @@
       "visualChecked": false,
       "reviewedRangesSeconds": [],
       "evidenceType": "map_statistics"
+    },
+    {
+      "id": "bilibili:BV1vyWB6FE7p",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1vyWB6FE7p",
+      "title": "【FUT&TE东京训练赛】4比6（11月13日）TEAM ELEKTROS vs FUT ESPORTS",
+      "author": "YunaYunia",
+      "publishedAt": "2026-11-13",
+      "dataAsOf": "2026-11-13",
+      "read": true,
+      "status": "historical_pending_current_patch_review",
+      "visualChecked": true,
+      "reviewedRangesSeconds": [],
+      "region": null,
+      "variantOnly": false,
+      "kind": "scrim_recording",
+      "recent": true,
+      "reviewedFrameSeconds": [
+        0,
+        480,
+        690,
+        895,
+        1140,
+        1800,
+        1920,
+        2101,
+        2160,
+        2405,
+        2565,
+        2710
+      ],
+      "readMethod": "selected_scrim_frames_reviewed",
+      "validityNotes": [
+        "这是训练赛转载；队伍及对局日期按录像标题/覆盖层记录，非官方正式赛事。已检查所列地图布局、英雄头像和结果/对局画面。",
+        "只检查列出的关键画面，未完整听译整段直播。英雄配装、完整Ban/Pick、选手意图与胜率均不推断。"
+      ],
+      "evidenceType": "local_asr"
+    },
+    {
+      "id": "bilibili:BV17KWY6DEdm",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV17KWY6DEdm",
+      "title": "【FUT&ZETA东京训练赛】6比4（11月12日）FUT ESPORTS VS ZETA DIVISION",
+      "author": "YunaYunia",
+      "publishedAt": "2026-11-13",
+      "dataAsOf": "2026-11-13",
+      "read": true,
+      "status": "historical_pending_current_patch_review",
+      "visualChecked": true,
+      "reviewedRangesSeconds": [],
+      "region": null,
+      "variantOnly": false,
+      "kind": "scrim_recording",
+      "recent": true,
+      "reviewedFrameSeconds": [
+        6,
+        15,
+        120,
+        240,
+        310,
+        555,
+        600,
+        720,
+        995,
+        1010,
+        1385
+      ],
+      "readMethod": "selected_scrim_frames_reviewed",
+      "validityNotes": [
+        "这是训练赛转载；队伍及对局日期按录像标题/覆盖层记录，非官方正式赛事。已检查所列地图布局、英雄头像和结果/对局画面。",
+        "只检查列出的关键画面，未完整听译整段直播。英雄配装、完整Ban/Pick、选手意图与胜率均不推断。",
+        "下载到约24分钟后文件中断；只采用前段已成功解码并核对的画面，后续地图不收录。"
+      ],
+      "evidenceType": "local_asr"
     },
     {
       "id": "youtube:UWXyKZl3e_A",
@@ -307,6 +391,8 @@
       "variantOnly": false,
       "kind": "professional_match_vod",
       "recent": true,
+      "reviewedFrameSeconds": [],
+      "readMethod": null,
       "validityNotes": [],
       "evidenceType": "automatic_captions"
     },
@@ -338,11 +424,59 @@
       "region": "international_competitive",
       "variantOnly": false,
       "kind": "professional_match_vod",
-      "recent": true,
+      "recent": false,
+      "reviewedFrameSeconds": [],
+      "readMethod": null,
       "validityNotes": [
         "只核对本批列出的选角片段；8月与9月赛事不能当作10月补丁下的强度统计。"
       ],
       "evidenceType": "automatic_captions"
+    },
+    {
+      "id": "bilibili:BV1ihWC65EMn",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1ihWC65EMn",
+      "title": "【TOC若白】《全英雄入门指南》第18期：巴利 酒保在排位赛里没有大家想象的那么弱",
+      "author": "荒野乱斗TOC若白",
+      "publishedAt": "2026-11-14",
+      "dataAsOf": "2026-11-14",
+      "read": true,
+      "status": "historical_pending_current_patch_review",
+      "visualChecked": true,
+      "reviewedRangesSeconds": [
+        [
+          0,
+          183
+        ]
+      ],
+      "region": null,
+      "variantOnly": false,
+      "kind": "loadout_guide",
+      "recent": true,
+      "reviewedFrameSeconds": [
+        50,
+        59,
+        68,
+        85,
+        108,
+        124,
+        129,
+        133,
+        151
+      ],
+      "readMethod": "full_local_asr_and_selected_frames_read",
+      "validityNotes": [
+        "2026-11-14读取。自动字幕或本地转写中的不清晰专名不用于推荐；画面未显示的配置与选禁保留未知。"
+      ],
+      "durationSeconds": 183,
+      "readRangesSeconds": [
+        [
+          0,
+          183
+        ]
+      ],
+      "originalPublishedAt": "2026-11-14",
+      "evidenceType": "local_asr"
     },
     {
       "id": "brawlzone-trio-snapshot-20261023-layer-cake",
@@ -428,6 +562,8 @@
       "variantOnly": false,
       "kind": "map_guide",
       "recent": false,
+      "reviewedFrameSeconds": [],
+      "readMethod": null,
       "validityNotes": [],
       "evidenceType": "local_asr"
     },
@@ -496,7 +632,9 @@
       "region": "international_competitive",
       "variantOnly": false,
       "kind": "professional_match_vod",
-      "recent": true,
+      "recent": false,
+      "reviewedFrameSeconds": [],
+      "readMethod": null,
       "validityNotes": [
         "只核对本批列出的选角片段；8月与9月赛事不能当作10月补丁下的强度统计。"
       ],
@@ -527,6 +665,8 @@
       "variantOnly": false,
       "kind": "professional_match_vod",
       "recent": true,
+      "reviewedFrameSeconds": [],
+      "readMethod": null,
       "validityNotes": [
         "只核对本批列出的选角片段；8月与9月赛事不能当作10月补丁下的强度统计。"
       ],
@@ -598,6 +738,8 @@
       "variantOnly": false,
       "kind": "map_guide",
       "recent": false,
+      "reviewedFrameSeconds": [],
+      "readMethod": null,
       "validityNotes": [],
       "evidenceType": "local_asr"
     },
@@ -702,6 +844,12 @@
       "variantOnly": false,
       "kind": "map_guide",
       "recent": false,
+      "reviewedFrameSeconds": [
+        155,
+        330,
+        630
+      ],
+      "readMethod": null,
       "validityNotes": [],
       "evidenceType": "local_asr"
     },
@@ -734,6 +882,8 @@
       "variantOnly": false,
       "kind": "professional_match_vod",
       "recent": true,
+      "reviewedFrameSeconds": [],
+      "readMethod": null,
       "validityNotes": [
         "只核对本批列出的选角片段；8月与9月赛事不能当作10月补丁下的强度统计。"
       ],
@@ -772,6 +922,8 @@
       "variantOnly": false,
       "kind": "professional_match_vod",
       "recent": true,
+      "reviewedFrameSeconds": [],
+      "readMethod": null,
       "validityNotes": [
         "只核对本批列出的选角片段；8月与9月赛事不能当作10月补丁下的强度统计。"
       ],
@@ -860,6 +1012,35 @@
       "evidenceType": "map_statistics"
     },
     {
+      "id": "bilibili:BV19MWK6eEkU",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV19MWK6eEkU",
+      "title": "近期以来算是最平衡的一个赛季，排位十五常用易上手角色推荐搭配打法【排位推荐篇】",
+      "author": "土狗帮帮主",
+      "publishedAt": "2026-11-10",
+      "dataAsOf": "2026-11-10",
+      "read": true,
+      "status": "historical_pending_current_patch_review",
+      "visualChecked": false,
+      "reviewedRangesSeconds": [
+        [
+          0,
+          1094
+        ]
+      ],
+      "region": null,
+      "variantOnly": false,
+      "kind": "map_guide",
+      "recent": true,
+      "reviewedFrameSeconds": [],
+      "readMethod": "full_local_asr_read",
+      "validityNotes": [
+        "2026-11-14读取。自动字幕或本地转写中的不清晰专名不用于推荐；画面未显示的配置与选禁保留未知。",
+        "发布早于11月11日维护；受调整的英雄只保留机制与使用条件，维护前强度或循环数值不视为最新结论。"
+      ],
+      "evidenceType": "local_asr"
+    },
+    {
       "id": "brawlpick-map-parallel-plays",
       "platform": "web",
       "url": "https://www.brawlpick.app/map-stats/parallel-plays",
@@ -916,10 +1097,45 @@
       "variantOnly": false,
       "kind": "map_guide",
       "recent": false,
+      "reviewedFrameSeconds": [
+        75,
+        125,
+        157
+      ],
+      "readMethod": null,
       "validityNotes": [
         "historical-mechanics-only; exclude current-strength-weighting"
       ],
       "evidenceType": "local_asr"
+    },
+    {
+      "id": "youtube:1YTUpoEtq5M",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=1YTUpoEtq5M",
+      "title": "The 15 BEST Brawlers To MAX OUT For RANKED - Season 56",
+      "author": "SpenLC - Brawl Stars",
+      "publishedAt": "2026-11-09",
+      "dataAsOf": "2026-11-09",
+      "read": true,
+      "status": "historical_pending_current_patch_review",
+      "visualChecked": false,
+      "reviewedRangesSeconds": [
+        [
+          0,
+          1054
+        ]
+      ],
+      "region": null,
+      "variantOnly": false,
+      "kind": "map_guide",
+      "recent": true,
+      "reviewedFrameSeconds": [],
+      "readMethod": "full_captions_read",
+      "validityNotes": [
+        "2026-11-14读取。自动字幕或本地转写中的不清晰专名不用于推荐；画面未显示的配置与选禁保留未知。",
+        "发布早于11月11日维护；受调整的英雄只保留机制与使用条件，维护前强度或循环数值不视为最新结论。"
+      ],
+      "evidenceType": "automatic_captions"
     },
     {
       "id": "brawlpick-map-ring-of-fire",
@@ -1046,6 +1262,8 @@
       "variantOnly": false,
       "kind": "map_guide",
       "recent": false,
+      "reviewedFrameSeconds": [],
+      "readMethod": null,
       "validityNotes": [
         "Full 3:08 audio was downloaded through bili-cli and transcribed locally with faster-whisper small; the video reports 3:08.",
         "Chinese hero proper nouns are machine-transcribed and not visually verified. Keep only the map-structure and role-level ideas as historical mechanism evidence; exclude its picks from current strength ranking.",
@@ -1152,6 +1370,16 @@
       "variantOnly": false,
       "kind": "map_guide",
       "recent": false,
+      "reviewedFrameSeconds": [
+        10,
+        40,
+        70,
+        100,
+        130,
+        160,
+        190
+      ],
+      "readMethod": null,
       "validityNotes": [],
       "evidenceType": "local_asr"
     },
@@ -1291,6 +1519,27 @@
       "variantOnly": false,
       "kind": "map_guide",
       "recent": false,
+      "reviewedFrameSeconds": [
+        5,
+        45,
+        73,
+        78,
+        83,
+        85,
+        88,
+        93,
+        98,
+        103,
+        108,
+        113,
+        118,
+        125,
+        165,
+        205,
+        245,
+        285
+      ],
+      "readMethod": null,
       "validityNotes": [],
       "evidenceType": "local_asr"
     },
@@ -1337,6 +1586,8 @@
       "variantOnly": false,
       "kind": "map_guide",
       "recent": false,
+      "reviewedFrameSeconds": [],
+      "readMethod": null,
       "validityNotes": [],
       "evidenceType": "local_asr"
     },
@@ -1383,6 +1634,63 @@
       "visualChecked": false,
       "reviewedRangesSeconds": [],
       "evidenceType": "indexed_ranked_trio_snapshot"
+    },
+    {
+      "id": "youtube:oe1yVdeZMlY",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=oe1yVdeZMlY",
+      "title": "*NEW* Ranking 18 Buffies From Worst To Best",
+      "author": "SpenLC - Brawl Stars",
+      "publishedAt": "2026-11-07",
+      "dataAsOf": "2026-11-07",
+      "read": true,
+      "status": "full_captions_read",
+      "visualChecked": false,
+      "reviewedRangesSeconds": [
+        [
+          0,
+          809
+        ]
+      ],
+      "region": null,
+      "variantOnly": false,
+      "kind": "map_guide",
+      "recent": true,
+      "reviewedFrameSeconds": [],
+      "readMethod": "full_captions_read",
+      "validityNotes": [
+        "2026-11-14读取。自动字幕或本地转写中的不清晰专名不用于推荐；画面未显示的配置与选禁保留未知。",
+        "发布早于11月11日维护；受调整的英雄只保留机制与使用条件，维护前强度或循环数值不视为最新结论。"
+      ],
+      "evidenceType": "automatic_captions"
+    },
+    {
+      "id": "bilibili:BV1efW26QEdW",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1efW26QEdW",
+      "title": "【荒野亂鬥】11月緊急平衡性調整 Mr.P配件大砍 文斯威能削弱 雷電娃&雷伊也被削 國際服",
+      "author": "PowerTech",
+      "publishedAt": "2026-11-11",
+      "dataAsOf": "2026-11-11",
+      "read": true,
+      "status": "full_local_asr_read",
+      "visualChecked": false,
+      "reviewedRangesSeconds": [
+        [
+          0,
+          505
+        ]
+      ],
+      "region": null,
+      "variantOnly": false,
+      "kind": "map_guide",
+      "recent": true,
+      "reviewedFrameSeconds": [],
+      "readMethod": "full_local_asr_read",
+      "validityNotes": [
+        "2026-11-14读取。自动字幕或本地转写中的不清晰专名不用于推荐；画面未显示的配置与选禁保留未知。"
+      ],
+      "evidenceType": "local_asr"
     }
   ],
   "bilibiliTests": [
@@ -1808,6 +2116,14 @@
           "url": "https://www.youtube.com/watch?v=5iHVKzN0c5M&t=303s",
           "claim": "除远程压制外，至少需要一名能前压中路的英雄，避免被投掷或中路体系卡住。",
           "type": "role_structure_not_complete_team"
+        },
+        {
+          "sourceId": "youtube:oe1yVdeZMlY",
+          "startSeconds": 394,
+          "url": "https://www.youtube.com/watch?v=oe1yVdeZMlY&t=394",
+          "claim": "曼迪的星徽强化可在神秘流星这类长射程地图发挥，但高手对局仍依赖命中。 11月11日妙具调整之后仍可参考射程与蓄力机制，不照搬维护前的妙具冷却或减速数值。",
+          "completeTeamObserved": false,
+          "evidenceType": "recent_map_guide"
         }
       ],
       "candidates": [
@@ -1850,6 +2166,14 @@
           "quote": "even an Angelo",
           "condition": "原视频作为可前压中路的远程候选之一",
           "status": "9月单英雄候选"
+        },
+        {
+          "heroEn": "Mandy",
+          "role": "近期教学地图候选",
+          "sourceId": "youtube:oe1yVdeZMlY",
+          "startSeconds": 394,
+          "condition": "11月11日妙具调整之后仍可参考射程与蓄力机制，不照搬维护前的妙具冷却或减速数值。",
+          "status": "已读近期地图建议；适用条件见来源"
         }
       ],
       "negativeEvidence": [
@@ -2023,7 +2347,16 @@
               "取得信息或压出对方关键技能后，侧翼位与支援位同步推进，保留互相支援距离。",
               "拿到目标后优先重整站位与保护撤退路线；失败时恢复分线，不连续单人强进。"
             ]
-          }
+          },
+          "reviewWarnings": [
+            {
+              "sourceId": "youtube:1YTUpoEtq5M",
+              "startSeconds": 160,
+              "url": "https://www.youtube.com/watch?v=1YTUpoEtq5M&t=160",
+              "reviewedAt": "2026-11-14",
+              "summary": "P先生面对三个长射程英雄时可能难以充出大招；本组仅在有安全充能对位时考虑。11月11日后增援妙具还需要消耗弹药。"
+            }
+          ]
         }
       ],
       "patchReview": {
@@ -2032,6 +2365,10 @@
         "basis": "mechanism_inference",
         "confidence": "中",
         "caveat": "Wendy 弹体与减速被削弱，先验证命中稳定性；更依赖 Brock 的远距离命中。"
+      },
+      "latestVideoReview": {
+        "reviewedAt": "2026-11-14",
+        "patchDate": "2026-11-11"
       }
     },
     {
@@ -2278,6 +2615,14 @@
           "claim": "2026 LCQ · 广州双方完整三英雄阵容已核对。KDS以Nori制造进攻空间，妮塔的熊提供金库压力；科迪琉斯需要处理科莱特的关键输出窗口。 FUT采用科莱特的远程金库输出、艾魅的中场控制与麦茜的防近身，展示同图两种不同的攻防结构。 解说讨论科迪琉斯对科莱特大招的打断；实际交互取决于时机和当前版本，不能自动当作必定成功的反制。",
           "completeTeamObserved": true,
           "evidenceType": "professional_visual_roster"
+        },
+        {
+          "sourceId": "bilibili:BV1ihWC65EMn",
+          "startSeconds": 123,
+          "url": "https://www.bilibili.com/video/BV1ihWC65EMn?t=123",
+          "claim": "若白明确点名巴利适用本图，但限于后手针对控场体系。 须确认敌方缺少有效突进和破墙；不是无条件首选，也不把六选条件扩写成通用队伍。",
+          "completeTeamObserved": false,
+          "evidenceType": "recent_map_guide"
         }
       ],
       "candidates": [
@@ -2368,6 +2713,14 @@
           "startSeconds": 7218,
           "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
           "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Barley",
+          "role": "近期教学地图候选",
+          "sourceId": "bilibili:BV1ihWC65EMn",
+          "startSeconds": 123,
+          "condition": "须确认敌方缺少有效突进和破墙；不是无条件首选，也不把六选条件扩写成通用队伍。",
+          "status": "已读近期地图建议；适用条件见来源"
         }
       ],
       "negativeEvidence": [
@@ -2591,6 +2944,47 @@
               "拿到目标后优先重整站位与保护撤退路线；失败时恢复分线，不连续单人强进。"
             ]
           }
+        },
+        {
+          "title": "新教学推演 · 火力与隔墙保护",
+          "evidenceRefs": [
+            "bilibili:BV1ihWC65EMn"
+          ],
+          "confidence": "中",
+          "synergy": "巴利压住金库前的狭道，妮塔维持近区防线，柯尔特利用两人创造的窗口输出金库。破墙前先确认不会让巴利暴露。",
+          "risk": "只在对方缺少有效突进与破墙时考虑；这是地图候选上的组合推演，不是若白提供的整组三人阵容。",
+          "loadout": "巴利配置按投掷对位、续航需求与敌方突进分别选择；具体条件见11月14日若白教学。",
+          "id": "15000053-video14-15",
+          "members": [
+            {
+              "heroId": 16000006,
+              "role": "隔墙控路"
+            },
+            {
+              "heroId": 16000001,
+              "role": "金库火力与破墙选择"
+            },
+            {
+              "heroId": 16000008,
+              "role": "近区防守与召唤物压力"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "displayPriority": 2,
+          "lastReviewedAt": "2026-11-14",
+          "status": "11月14日整理 · 新教学机制推演 · 中置信度",
+          "substitutions": [],
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三人分工与流程为工具分析；录像只核验角色和地图，不证明打法、意图或胜率。",
+            "steps": [
+              "巴利先拿掩体，妮塔负责近区，柯尔特建立独立射线。",
+              "控路迫使敌人绕行后，让柯尔特找金库输出窗口。",
+              "回防时妮塔优先接近威胁，柯尔特与巴利交替留人守家。"
+            ]
+          }
         }
       ],
       "patchReview": {
@@ -2599,6 +2993,10 @@
         "basis": "mechanism_inference",
         "confidence": "低",
         "caveat": "金库模式中的具体比赛证据不足；Melodie 增强后攻速和音符输出提升，但不等于稳定打家。"
+      },
+      "latestVideoReview": {
+        "reviewedAt": "2026-11-14",
+        "patchDate": "2026-11-11"
       }
     },
     {
@@ -2623,6 +3021,14 @@
           "claim": "已读取5套完整三英雄的地图排位组合样本及场数；组合与统计为索引快照，战术配合由工具另行推导。",
           "completeTeamObserved": true,
           "evidenceType": "indexed_ranked_trio_snapshot"
+        },
+        {
+          "sourceId": "bilibili:BV1ihWC65EMn",
+          "startSeconds": 123,
+          "url": "https://www.bilibili.com/video/BV1ihWC65EMn?t=123",
+          "claim": "若白明确点名巴利适用本图，但限于后手针对控场体系。 须确认敌方缺少有效突进和破墙；不是无条件首选，也不把六选条件扩写成通用队伍。",
+          "completeTeamObserved": false,
+          "evidenceType": "recent_map_guide"
         }
       ],
       "candidates": [
@@ -2699,6 +3105,14 @@
           "startSeconds": null,
           "condition": "精确地图三人组索引样本，窗口截止日未知；不是实时强度或职业选角证据。",
           "status": "地图组合样本快照 · 非职业原阵容"
+        },
+        {
+          "heroEn": "Barley",
+          "role": "近期教学地图候选",
+          "sourceId": "bilibili:BV1ihWC65EMn",
+          "startSeconds": 123,
+          "condition": "须确认敌方缺少有效突进和破墙；不是无条件首选，也不把六选条件扩写成通用队伍。",
+          "status": "已读近期地图建议；适用条件见来源"
         }
       ],
       "completeTeamObserved": false,
@@ -2770,10 +3184,12 @@
             }
           ],
           "synergy": "小罗和巴利形成不同角度的区域限制，科莱特负责处理高血量进场者并回防。前两人交错施压，为占区争取持续时间。",
-          "risk": "替换麦茜会改变反突进方式；不能默认科莱特提供相同的范围保护。面对机动刺客仍需谨慎。",
+          "risk": "替换麦茜会改变反突进方式；不能默认科莱特提供相同的范围保护。面对机动刺客仍需谨慎。 小罗妙具11月11日削弱；草本精粹不等于能承受刺客强切，本组合可能与已有三人组重合，保留为新的配置与条件依据。",
           "loadout": "科莱特的具体自保与控制配置必须核对，替换会降低某些近身对局的容错。",
           "evidenceRefs": [
-            "spen54"
+            "spen54",
+            "bilibili:BV1ihWC65EMn",
+            "youtube:1YTUpoEtq5M"
           ],
           "substitutions": [],
           "coordination": {
@@ -2784,7 +3200,9 @@
               "敌方前排进场时科莱特处理血量，小罗延续控制，巴利封住支援入口；技能错开形成连续占区窗口。",
               "科莱特无法提供麦茜同样的范围保护；被机动刺客切后排时先撤巴利，重新分配站区者而非硬站。"
             ]
-          }
+          },
+          "displayPriority": 2,
+          "lastReviewedAt": "2026-11-14"
         },
         {
           "title": "样本 · 控线支援与机动拉扯",
@@ -2884,6 +3302,10 @@
         "basis": "mechanism_inference",
         "confidence": "中",
         "caveat": "Hank 得到生命增强；Amber 被削弱后控制资源更珍贵，避免提前交技能。"
+      },
+      "latestVideoReview": {
+        "reviewedAt": "2026-11-14",
+        "patchDate": "2026-11-11"
       }
     },
     {
@@ -3670,7 +4092,16 @@
               "取得信息或压出对方关键技能后，侧翼位与支援位同步推进，保留互相支援距离。",
               "拿到目标后优先重整站位与保护撤退路线；失败时恢复分线，不连续单人强进。"
             ]
-          }
+          },
+          "reviewWarnings": [
+            {
+              "sourceId": "youtube:1YTUpoEtq5M",
+              "startSeconds": 160,
+              "url": "https://www.youtube.com/watch?v=1YTUpoEtq5M&t=160",
+              "reviewedAt": "2026-11-14",
+              "summary": "P先生面对三个长射程英雄时可能难以充出大招；本组仅在有安全充能对位时考虑。11月11日后增援妙具还需要消耗弹药。"
+            }
+          ]
         }
       ],
       "candidates": [
@@ -3935,7 +4366,9 @@
           "status": "待版本与实战复核",
           "mapFitBand": 1,
           "evidenceRefs": [
-            "youtube:5iHVKzN0c5M"
+            "youtube:5iHVKzN0c5M",
+            "bilibili:BV1vyWB6FE7p",
+            "bilibili:BV17KWY6DEdm"
           ],
           "substitutions": [],
           "teamStats": null,
@@ -3974,7 +4407,9 @@
           "status": "待版本与实战复核",
           "mapFitBand": 1,
           "evidenceRefs": [
-            "youtube:5iHVKzN0c5M"
+            "youtube:5iHVKzN0c5M",
+            "bilibili:BV1vyWB6FE7p",
+            "bilibili:BV17KWY6DEdm"
           ],
           "substitutions": [],
           "teamStats": null,
@@ -4052,7 +4487,11 @@
           "risk": "开放地图中投掷位风险较高，须依赖队友先取得射线优势。",
           "loadout": "本轮只复核英雄与阵容职责，没有足够的新版本地图专属配置证据；妙具与星徽请按已收录来源条件选择。",
           "evidenceRefs": [
-            "youtube:5iHVKzN0c5M"
+            "youtube:5iHVKzN0c5M",
+            "bilibili:BV1vyWB6FE7p",
+            "bilibili:BV1vyWB6FE7p",
+            "bilibili:BV17KWY6DEdm",
+            "bilibili:BV17KWY6DEdm"
           ],
           "substitutions": [],
           "refreshBasis": "mechanism_inference",
@@ -4064,6 +4503,277 @@
               "开局先由主控位确认中路与关键掩体，避免同时暴露。",
               "取得信息或压出对方关键技能后，侧翼位与支援位同步推进，保留互相支援距离。",
               "拿到目标后优先重整站位与保护撤退路线；失败时恢复分线，不连续单人强进。"
+            ]
+          },
+          "reviewWarnings": [
+            {
+              "sourceId": "youtube:1YTUpoEtq5M",
+              "startSeconds": 160,
+              "url": "https://www.youtube.com/watch?v=1YTUpoEtq5M&t=160",
+              "reviewedAt": "2026-11-14",
+              "summary": "P先生面对三个长射程英雄时可能难以充出大招；本组仅在有安全充能对位时考虑。11月11日后增援妙具还需要消耗弹药。"
+            }
+          ]
+        },
+        {
+          "title": "近期训练赛 · TE护盾与封路",
+          "synergy": "史奎克封住一个出口，把敌人引向队友能覆盖的路线；P先生从另一角度持续骚扰，格斯保留保护资源应对近身。",
+          "risk": "原对手包含莫提斯；没有可靠大招时P先生不能独自承担反突进，队伍近身保护要求高。 录像为训练赛转载；对局日期按视频标注，不据输赢推断通用胜率。",
+          "loadout": "未从本段画面推断职业妙具、星徽或强化配置；请查看英雄卡已有的教学依据。",
+          "evidenceRefs": [
+            "bilibili:BV1vyWB6FE7p"
+          ],
+          "confidence": "中",
+          "observedReference": {
+            "sourceId": "bilibili:BV1vyWB6FE7p",
+            "url": "https://www.bilibili.com/video/BV1vyWB6FE7p?t=2565",
+            "frameSeconds": 2565,
+            "reportedEventDate": "2026-11-13",
+            "teamName": "TE",
+            "opponentHeroesEn": [
+              "R-T",
+              "Amber",
+              "Mortis"
+            ],
+            "heroNamesEn": [
+              "Gus",
+              "Mr. P",
+              "Squeak"
+            ],
+            "mapId": 15000083,
+            "verification": "map_and_three_heroes_visual_checked",
+            "notice": "地图布局、英雄头像/对局或结算画面已核对；不是官方赛事，完整选禁与配装未核实。"
+          },
+          "id": "15000083-video14-9",
+          "members": [
+            {
+              "heroId": 16000061,
+              "role": "后排保护"
+            },
+            {
+              "heroId": 16000031,
+              "role": "持续牵制"
+            },
+            {
+              "heroId": 16000047,
+              "role": "封锁走位与消耗"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "displayPriority": 2,
+          "lastReviewedAt": "2026-11-14",
+          "status": "11月14日整理 · 训练赛三人组画面已核对 · 中置信度",
+          "substitutions": [],
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三人分工与流程为工具分析；录像只核验角色和地图，不证明打法、意图或胜率。",
+            "steps": [
+              "先分开消耗角度，格斯关注刺客的接近路线。",
+              "封路与召唤物错开释放，让对手绕路时承受第二方向火力。",
+              "有人被近身时优先护住撤退线路，不继续压空另一侧。"
+            ]
+          },
+          "reviewWarnings": [
+            {
+              "sourceId": "youtube:1YTUpoEtq5M",
+              "startSeconds": 160,
+              "url": "https://www.youtube.com/watch?v=1YTUpoEtq5M&t=160",
+              "reviewedAt": "2026-11-14",
+              "summary": "P先生面对三个长射程英雄时可能难以充出大招；本组仅在有安全充能对位时考虑。11月11日后增援妙具还需要消耗弹药。"
+            }
+          ]
+        },
+        {
+          "title": "近期训练赛 · TE消耗与切入",
+          "synergy": "曼迪建立长线威胁，琥珀控制草区，艾德加等对方关键保护技能交出后寻找切入。远程先压缩可走路线，再决定是否进场。",
+          "risk": "琥珀再次削弱；艾德加是对位型后手，不能把这组用于拥有完整反突进的所有对手。 录像为训练赛转载；对局日期按视频标注，不据输赢推断通用胜率。",
+          "loadout": "未从本段画面推断职业妙具、星徽或强化配置；请查看英雄卡已有的教学依据。",
+          "evidenceRefs": [
+            "bilibili:BV1vyWB6FE7p"
+          ],
+          "confidence": "中",
+          "observedReference": {
+            "sourceId": "bilibili:BV1vyWB6FE7p",
+            "url": "https://www.bilibili.com/video/BV1vyWB6FE7p?t=2710",
+            "frameSeconds": 2710,
+            "reportedEventDate": "2026-11-13",
+            "teamName": "TE",
+            "opponentHeroesEn": [
+              "Mr. P",
+              "Melodie",
+              "Gigi"
+            ],
+            "heroNamesEn": [
+              "Mandy",
+              "Amber",
+              "Edgar"
+            ],
+            "mapId": 15000083,
+            "verification": "map_and_three_heroes_visual_checked",
+            "notice": "地图布局、英雄头像/对局或结算画面已核对；不是官方赛事，完整选禁与配装未核实。"
+          },
+          "id": "15000083-video14-10",
+          "members": [
+            {
+              "heroId": 16000065,
+              "role": "远距离消耗"
+            },
+            {
+              "heroId": 16000040,
+              "role": "草区与通道限制"
+            },
+            {
+              "heroId": 16000043,
+              "role": "后排切入"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "displayPriority": 2,
+          "lastReviewedAt": "2026-11-14",
+          "status": "11月14日整理 · 训练赛三人组画面已核对 · 中置信度",
+          "substitutions": [],
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三人分工与流程为工具分析；录像只核验角色和地图，不证明打法、意图或胜率。",
+            "steps": [
+              "射手先拿视野，琥珀封住关键草区，艾德加保持威胁。",
+              "对方交出保护技能或分散时，艾德加再切，远程同步补伤。",
+              "没拿到切入条件就继续消耗，避免刺客不断送出赏金。"
+            ]
+          }
+        },
+        {
+          "title": "近期训练赛 · FUT前排与控制",
+          "synergy": "博尔特在队友火力范围内争夺空间，小罗限制进场方向，P先生从后排持续消耗。面对原对手的麦乐迪，前排与反突进要互相覆盖。",
+          "risk": "这是中距离前排体系；遇到三个长射程英雄时不能照搬P先生的充能假设。 录像为训练赛转载；对局日期按视频标注，不据输赢推断通用胜率。",
+          "loadout": "未从本段画面推断职业妙具、星徽或强化配置；请查看英雄卡已有的教学依据。",
+          "evidenceRefs": [
+            "bilibili:BV17KWY6DEdm"
+          ],
+          "confidence": "中",
+          "observedReference": {
+            "sourceId": "bilibili:BV17KWY6DEdm",
+            "url": "https://www.bilibili.com/video/BV17KWY6DEdm?t=1010",
+            "frameSeconds": 1010,
+            "reportedEventDate": "2026-11-12",
+            "teamName": "FUT",
+            "opponentHeroesEn": [
+              "Byron",
+              "Squeak",
+              "Melodie"
+            ],
+            "heroNamesEn": [
+              "Mr. P",
+              "Lou",
+              "Bolt"
+            ],
+            "mapId": 15000083,
+            "verification": "map_and_three_heroes_visual_checked",
+            "notice": "地图布局、英雄头像/对局或结算画面已核对；不是官方赛事，完整选禁与配装未核实。"
+          },
+          "id": "15000083-video14-13",
+          "members": [
+            {
+              "heroId": 16000031,
+              "role": "召唤物持续牵制"
+            },
+            {
+              "heroId": 16000041,
+              "role": "反近身与控制"
+            },
+            {
+              "heroId": 16000106,
+              "role": "前排空间"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "displayPriority": 2,
+          "lastReviewedAt": "2026-11-14",
+          "status": "11月14日整理 · 训练赛三人组画面已核对 · 中置信度",
+          "substitutions": [],
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三人分工与流程为工具分析；录像只核验角色和地图，不证明打法、意图或胜率。",
+            "steps": [
+              "博尔特不离开远程覆盖，小罗观察突进窗口，P先生寻找安全命中。",
+              "前排逼出走位后由控制位接上，再让召唤物拉长压力。",
+              "领先后保持保护链，避免前排和控制同时离开后排。"
+            ]
+          },
+          "reviewWarnings": [
+            {
+              "sourceId": "youtube:1YTUpoEtq5M",
+              "startSeconds": 160,
+              "url": "https://www.youtube.com/watch?v=1YTUpoEtq5M&t=160",
+              "reviewedAt": "2026-11-14",
+              "summary": "P先生面对三个长射程英雄时可能难以充出大招；本组仅在有安全充能对位时考虑。11月11日后增援妙具还需要消耗弹药。"
+            }
+          ]
+        },
+        {
+          "title": "近期训练赛 · ZETA治疗与封路",
+          "synergy": "拜伦维持队友血线，史奎克限制横向移动，麦乐迪利用对手被封路后的位置切入。治疗、控路、突破各占一个职责。",
+          "risk": "需要拜伦命中与麦乐迪熟练度；原对手的小罗有强控制，切入前必须等技能窗口。 录像为训练赛转载；对局日期按视频标注，不据输赢推断通用胜率。",
+          "loadout": "未从本段画面推断职业妙具、星徽或强化配置；请查看英雄卡已有的教学依据。",
+          "evidenceRefs": [
+            "bilibili:BV17KWY6DEdm"
+          ],
+          "confidence": "中",
+          "observedReference": {
+            "sourceId": "bilibili:BV17KWY6DEdm",
+            "url": "https://www.bilibili.com/video/BV17KWY6DEdm?t=1010",
+            "frameSeconds": 1010,
+            "reportedEventDate": "2026-11-12",
+            "teamName": "ZETA",
+            "opponentHeroesEn": [
+              "Mr. P",
+              "Lou",
+              "Bolt"
+            ],
+            "heroNamesEn": [
+              "Byron",
+              "Squeak",
+              "Melodie"
+            ],
+            "mapId": 15000083,
+            "verification": "map_and_three_heroes_visual_checked",
+            "notice": "地图布局、英雄头像/对局或结算画面已核对；不是官方赛事，完整选禁与配装未核实。"
+          },
+          "id": "15000083-video14-14",
+          "members": [
+            {
+              "heroId": 16000042,
+              "role": "治疗与远程消耗"
+            },
+            {
+              "heroId": 16000047,
+              "role": "封路与区域输出"
+            },
+            {
+              "heroId": 16000078,
+              "role": "侧翼突破"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "displayPriority": 2,
+          "lastReviewedAt": "2026-11-14",
+          "status": "11月14日整理 · 训练赛三人组画面已核对 · 中置信度",
+          "substitutions": [],
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三人分工与流程为工具分析；录像只核验角色和地图，不证明打法、意图或胜率。",
+            "steps": [
+              "拜伦与史奎克分开角度，麦乐迪先逼走位而不急于深入。",
+              "封路把对手挤出掩体后，治疗跟上突破位。",
+              "未击杀时撤回治疗范围，不让拜伦为救人进入危险射线。"
             ]
           }
         }
@@ -4086,11 +4796,75 @@
           "status": "历史地图候选 · 当前版本待核验"
         },
         {
+          "heroEn": "Mr. P",
+          "role": "地图候选",
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 2565,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
           "heroEn": "Max",
           "role": "推进破局",
           "sourceId": "youtube:5iHVKzN0c5M",
           "startSeconds": 92,
           "condition": "不是隔墙攻击，价值来自推动队伍上前；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Amber",
+          "role": "地图候选",
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 2710,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Lou",
+          "role": "地图候选",
+          "sourceId": "bilibili:BV17KWY6DEdm",
+          "startSeconds": 1010,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Byron",
+          "role": "地图候选",
+          "sourceId": "bilibili:BV17KWY6DEdm",
+          "startSeconds": 1010,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Edgar",
+          "role": "地图候选",
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 2710,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Squeak",
+          "role": "地图候选",
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 2565,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Gus",
+          "role": "地图候选",
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 2565,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Mandy",
+          "role": "地图候选",
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 2710,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
           "status": "历史地图候选 · 当前版本待核验"
         },
         {
@@ -4102,12 +4876,44 @@
           "status": "历史地图候选 · 当前版本待核验"
         },
         {
+          "heroEn": "Melodie",
+          "role": "地图候选",
+          "sourceId": "bilibili:BV17KWY6DEdm",
+          "startSeconds": 1010,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
           "heroEn": "Jae-Yong",
           "role": "妙具推进",
           "sourceId": "youtube:5iHVKzN0c5M",
           "startSeconds": 104,
           "condition": "字幕Jay Young归一；具体妙具效果依版本和配置；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
           "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Bolt",
+          "role": "地图候选",
+          "sourceId": "bilibili:BV17KWY6DEdm",
+          "startSeconds": 1010,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Mr. P",
+          "role": "录像地图候选",
+          "sourceId": "bilibili:BV17KWY6DEdm",
+          "startSeconds": 1010,
+          "condition": "配合说明为工具整理；原对手：Byron / Squeak / Melodie。",
+          "status": "已读近期地图建议；适用条件见来源"
+        },
+        {
+          "heroEn": "Squeak",
+          "role": "录像地图候选",
+          "sourceId": "bilibili:BV17KWY6DEdm",
+          "startSeconds": 1010,
+          "condition": "配合说明为工具整理；原对手：Mr. P / Lou / Bolt。",
+          "status": "已读近期地图建议；适用条件见来源"
         }
       ],
       "mechanismEvidence": [
@@ -4118,6 +4924,70 @@
           "claim": "蓝星领先后防守很强，至少需要隔墙影响、破墙或推进手段夺回局势。",
           "completeTeamObserved": false,
           "evidenceType": "map_guide"
+        },
+        {
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 2565,
+          "url": "https://www.bilibili.com/video/BV1vyWB6FE7p?t=2565",
+          "claim": "TE在该地图的三名英雄已在录像关键画面核对：Gus / Mr. P / Squeak。",
+          "completeTeamObserved": true,
+          "evidenceType": "scrim_recording"
+        },
+        {
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 2710,
+          "url": "https://www.bilibili.com/video/BV1vyWB6FE7p?t=2710",
+          "claim": "TE在该地图的三名英雄已在录像关键画面核对：Mandy / Amber / Edgar。",
+          "completeTeamObserved": true,
+          "evidenceType": "scrim_recording"
+        },
+        {
+          "sourceId": "bilibili:BV17KWY6DEdm",
+          "startSeconds": 1010,
+          "url": "https://www.bilibili.com/video/BV17KWY6DEdm?t=1010",
+          "claim": "FUT在该地图的三名英雄已在录像关键画面核对：Mr. P / Lou / Bolt。",
+          "completeTeamObserved": true,
+          "evidenceType": "scrim_recording"
+        },
+        {
+          "sourceId": "bilibili:BV17KWY6DEdm",
+          "startSeconds": 1010,
+          "url": "https://www.bilibili.com/video/BV17KWY6DEdm?t=1010",
+          "claim": "ZETA在该地图的三名英雄已在录像关键画面核对：Byron / Squeak / Melodie。",
+          "completeTeamObserved": true,
+          "evidenceType": "scrim_recording"
+        },
+        {
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 2565,
+          "url": "https://www.bilibili.com/video/BV1vyWB6FE7p?t=2565",
+          "claim": "TE在该地图的三名英雄已在录像关键画面核对：Gus / Mr. P / Squeak。 配合说明为工具整理；原对手：R-T / Amber / Mortis。",
+          "completeTeamObserved": true,
+          "evidenceType": "scrim_visual_roster"
+        },
+        {
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 2710,
+          "url": "https://www.bilibili.com/video/BV1vyWB6FE7p?t=2710",
+          "claim": "TE在该地图的三名英雄已在录像关键画面核对：Mandy / Amber / Edgar。 配合说明为工具整理；原对手：Mr. P / Melodie / Gigi。",
+          "completeTeamObserved": true,
+          "evidenceType": "scrim_visual_roster"
+        },
+        {
+          "sourceId": "bilibili:BV17KWY6DEdm",
+          "startSeconds": 1010,
+          "url": "https://www.bilibili.com/video/BV17KWY6DEdm?t=1010",
+          "claim": "FUT在该地图的三名英雄已在录像关键画面核对：Mr. P / Lou / Bolt。 配合说明为工具整理；原对手：Byron / Squeak / Melodie。",
+          "completeTeamObserved": true,
+          "evidenceType": "scrim_visual_roster"
+        },
+        {
+          "sourceId": "bilibili:BV17KWY6DEdm",
+          "startSeconds": 1010,
+          "url": "https://www.bilibili.com/video/BV17KWY6DEdm?t=1010",
+          "claim": "ZETA在该地图的三名英雄已在录像关键画面核对：Byron / Squeak / Melodie。 配合说明为工具整理；原对手：Mr. P / Lou / Bolt。",
+          "completeTeamObserved": true,
+          "evidenceType": "scrim_visual_roster"
         }
       ],
       "patchReview": {
@@ -4126,6 +4996,10 @@
         "basis": "mechanism_inference",
         "confidence": "低",
         "caveat": "开放地图中投掷位风险较高，须依赖队友先取得射线优势。"
+      },
+      "latestVideoReview": {
+        "reviewedAt": "2026-11-14",
+        "patchDate": "2026-11-11"
       }
     },
     {
@@ -4172,6 +5046,7 @@
             "youtube:5iHVKzN0c5M",
             "youtube:UWXyKZl3e_A",
             "youtube:ZIGzQ-zJFWc",
+            "bilibili:BV1ihWC65EMn",
             "brawlzone-trio-snapshot-20261023-layer-cake"
           ],
           "substitutions": [],
@@ -4214,6 +5089,7 @@
             "youtube:5iHVKzN0c5M",
             "youtube:UWXyKZl3e_A",
             "youtube:ZIGzQ-zJFWc",
+            "bilibili:BV1ihWC65EMn",
             "brawlzone-trio-snapshot-20261023-layer-cake"
           ],
           "substitutions": [],
@@ -4425,6 +5301,7 @@
             "youtube:5iHVKzN0c5M",
             "youtube:UWXyKZl3e_A",
             "youtube:ZIGzQ-zJFWc",
+            "bilibili:BV1ihWC65EMn",
             "brawlzone-trio-snapshot-20261023-layer-cake",
             "youtube:UWXyKZl3e_A",
             "youtube:ZIGzQ-zJFWc"
@@ -4439,6 +5316,56 @@
               "开局先由主控位确认中路与关键掩体，避免同时暴露。",
               "取得信息或压出对方关键技能后，侧翼位与支援位同步推进，保留互相支援距离。",
               "拿到目标后优先重整站位与保护撤退路线；失败时恢复分线，不连续单人强进。"
+            ]
+          },
+          "reviewWarnings": [
+            {
+              "sourceId": "youtube:1YTUpoEtq5M",
+              "startSeconds": 160,
+              "url": "https://www.youtube.com/watch?v=1YTUpoEtq5M&t=160",
+              "reviewedAt": "2026-11-14",
+              "summary": "P先生面对三个长射程英雄时可能难以充出大招；本组仅在有安全充能对位时考虑。11月11日后增援妙具还需要消耗弹药。"
+            }
+          ]
+        },
+        {
+          "title": "新教学推演 · 拉扯与隔墙消耗",
+          "evidenceRefs": [
+            "bilibili:BV1ihWC65EMn"
+          ],
+          "confidence": "中",
+          "synergy": "巴利从保留的掩体后限制路线，吉恩在安全位置接应，布洛克从另一角度消耗。先逼退一人，再一起接近，不把拉人当作无条件开战。",
+          "risk": "必须避开强突进和持续破墙；布洛克破墙也可能削弱巴利的生存空间。",
+          "loadout": "巴利配置按投掷对位、续航需求与敌方突进分别选择；具体条件见11月14日若白教学。",
+          "id": "15000082-video14-16",
+          "members": [
+            {
+              "heroId": 16000006,
+              "role": "隔墙区域压制"
+            },
+            {
+              "heroId": 16000021,
+              "role": "远程支援与收束"
+            },
+            {
+              "heroId": 16000003,
+              "role": "远程消耗与必要破墙"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "displayPriority": 2,
+          "lastReviewedAt": "2026-11-14",
+          "status": "11月14日整理 · 新教学机制推演 · 中置信度",
+          "substitutions": [],
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三人分工与流程为工具分析；录像只核验角色和地图，不证明打法、意图或胜率。",
+            "steps": [
+              "两名远程分开角度，巴利保住掩体。",
+              "敌人被区域伤害挤出后，远程同步施压再决定是否前移。",
+              "领先时保命退回交叉火力范围，不追过掩体。"
             ]
           }
         }
@@ -4458,6 +5385,14 @@
           "sourceId": "youtube:5iHVKzN0c5M",
           "startSeconds": 212,
           "condition": "作为当时夹击与反推候选；2026-09-11国际服历史意见，早于9/16已知补丁；当前国服适用待复核",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Barley",
+          "role": "地图候选",
+          "sourceId": "bilibili:BV1ihWC65EMn",
+          "startSeconds": 123,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
           "status": "历史地图候选 · 当前版本待核验"
         },
         {
@@ -4663,6 +5598,14 @@
           "evidenceType": "professional_match_vod"
         },
         {
+          "sourceId": "bilibili:BV1ihWC65EMn",
+          "startSeconds": 123,
+          "url": "https://www.bilibili.com/video/BV1ihWC65EMn?t=123",
+          "claim": "若白明确点名巴利适用本图，但限于后手针对控场体系。",
+          "completeTeamObserved": false,
+          "evidenceType": "loadout_guide"
+        },
+        {
           "sourceId": "brawlzone-trio-snapshot-20261023-layer-cake",
           "startSeconds": null,
           "url": "https://brawlzone.net/maps/bounty/layer-cake",
@@ -4687,6 +5630,14 @@
           "claim": "2026月度决赛 · 8月东亚双方完整三英雄阵容已核对。工具分析：布洛克与黑鸦先消耗和限制退路，阿莉等敌人分散或血量下降后从侧面切入；阿莉不能与破墙后的远程线脱节。 工具分析：斯图保持移动牵制，米宝围绕掩体支援射线，西里乌斯用影子增加交火目标；控制住中路后再拓展侧路。",
           "completeTeamObserved": true,
           "evidenceType": "professional_visual_roster"
+        },
+        {
+          "sourceId": "bilibili:BV1ihWC65EMn",
+          "startSeconds": 123,
+          "url": "https://www.bilibili.com/video/BV1ihWC65EMn?t=123",
+          "claim": "若白明确点名巴利适用本图，但限于后手针对控场体系。 须确认敌方缺少有效突进和破墙；不是无条件首选，也不把六选条件扩写成通用队伍。",
+          "completeTeamObserved": false,
+          "evidenceType": "recent_map_guide"
         }
       ],
       "patchReview": {
@@ -4695,6 +5646,10 @@
         "basis": "mechanism_inference",
         "confidence": "中",
         "caveat": "Amber 削弱后草区覆盖下降；不要把火焰覆盖视为持续封锁。"
+      },
+      "latestVideoReview": {
+        "reviewedAt": "2026-11-14",
+        "patchDate": "2026-11-11"
       }
     },
     {
@@ -5111,6 +6066,7 @@
           "evidenceRefs": [
             "youtube:PIAPgulZPa4",
             "bilibili:BV1tH4y1A7K6",
+            "bilibili:BV17KWY6DEdm",
             "brawlpick-map-kaboom-canyon",
             "brawlzone-trio-snapshot-20261023-kaboom-canyon"
           ],
@@ -5240,6 +6196,8 @@
             "bilibili:BV1tH4y1A7K6",
             "bilibili:BV1tH4y1A7K6",
             "bilibili:BV1tH4y1A7K6",
+            "bilibili:BV17KWY6DEdm",
+            "bilibili:BV17KWY6DEdm",
             "brawlpick-map-kaboom-canyon",
             "brawlzone-trio-snapshot-20261023-kaboom-canyon",
             "youtube:PIAPgulZPa4"
@@ -5254,6 +6212,128 @@
               "开局先由主控位确认中路与关键掩体，避免同时暴露。",
               "取得信息或压出对方关键技能后，侧翼位与支援位同步推进，保留互相支援距离。",
               "拿到目标后优先重整站位与保护撤退路线；失败时恢复分线，不连续单人强进。"
+            ]
+          }
+        },
+        {
+          "title": "近期训练赛 · FUT防守转攻库",
+          "synergy": "奥蒂斯与克兰西先维持己方防线，麦乐迪在队友稳住侧路后攻击金库。通过明确守家人选，为机动输出留窗口。",
+          "risk": "双防守位不能一直被压在家；麦乐迪离开时需要及时交接回防。 录像为训练赛转载；对局日期按视频标注，不据输赢推断通用胜率。",
+          "loadout": "未从本段画面推断职业妙具、星徽或强化配置；请查看英雄卡已有的教学依据。",
+          "evidenceRefs": [
+            "bilibili:BV17KWY6DEdm"
+          ],
+          "confidence": "中",
+          "observedReference": {
+            "sourceId": "bilibili:BV17KWY6DEdm",
+            "url": "https://www.bilibili.com/video/BV17KWY6DEdm?t=310",
+            "frameSeconds": 310,
+            "reportedEventDate": "2026-11-12",
+            "teamName": "FUT",
+            "opponentHeroesEn": [
+              "Gale",
+              "Penny",
+              "Nori"
+            ],
+            "heroNamesEn": [
+              "Otis",
+              "Clancy",
+              "Melodie"
+            ],
+            "mapId": 15000018,
+            "verification": "map_and_three_heroes_visual_checked",
+            "notice": "地图布局、英雄头像/对局或结算画面已核对；不是官方赛事，完整选禁与配装未核实。"
+          },
+          "id": "15000018-video14-11",
+          "members": [
+            {
+              "heroId": 16000059,
+              "role": "金库防守与限制突进"
+            },
+            {
+              "heroId": 16000083,
+              "role": "防守输出与成长"
+            },
+            {
+              "heroId": 16000078,
+              "role": "机动攻库"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "displayPriority": 2,
+          "lastReviewedAt": "2026-11-14",
+          "status": "11月14日整理 · 训练赛三人组画面已核对 · 中置信度",
+          "substitutions": [],
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三人分工与流程为工具分析；录像只核验角色和地图，不证明打法、意图或胜率。",
+            "steps": [
+              "先分清两条防守路线，麦乐迪积累资源并观察对方回防。",
+              "防守压退敌人后让麦乐迪进攻，其他人不同时离家。",
+              "失去一侧控制就缩回防守，避免持续用金库换不确定击杀。"
+            ]
+          }
+        },
+        {
+          "title": "近期训练赛 · ZETA炮台与护卫",
+          "synergy": "格尔保护炮台与己方通道，潘妮用持续压力迫使敌人分散，阿宪利用另一侧的机会进攻金库。",
+          "risk": "格尔风墙维护后冷却更长；不能当作整条通道常驻无敌墙。 录像为训练赛转载；对局日期按视频标注，不据输赢推断通用胜率。",
+          "loadout": "未从本段画面推断职业妙具、星徽或强化配置；请查看英雄卡已有的教学依据。",
+          "evidenceRefs": [
+            "bilibili:BV17KWY6DEdm"
+          ],
+          "confidence": "中",
+          "observedReference": {
+            "sourceId": "bilibili:BV17KWY6DEdm",
+            "url": "https://www.bilibili.com/video/BV17KWY6DEdm?t=310",
+            "frameSeconds": 310,
+            "reportedEventDate": "2026-11-12",
+            "teamName": "ZETA",
+            "opponentHeroesEn": [
+              "Otis",
+              "Clancy",
+              "Melodie"
+            ],
+            "heroNamesEn": [
+              "Gale",
+              "Penny",
+              "Nori"
+            ],
+            "mapId": 15000018,
+            "verification": "map_and_three_heroes_visual_checked",
+            "notice": "地图布局、英雄头像/对局或结算画面已核对；不是官方赛事，完整选禁与配装未核实。"
+          },
+          "id": "15000018-video14-12",
+          "members": [
+            {
+              "heroId": 16000035,
+              "role": "反突进与通道保护"
+            },
+            {
+              "heroId": 16000019,
+              "role": "炮台与范围压力"
+            },
+            {
+              "heroId": 16000107,
+              "role": "侧翼进攻"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "displayPriority": 2,
+          "lastReviewedAt": "2026-11-14",
+          "status": "11月14日整理 · 训练赛三人组画面已核对 · 中置信度",
+          "substitutions": [],
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三人分工与流程为工具分析；录像只核验角色和地图，不证明打法、意图或胜率。",
+            "steps": [
+              "炮台先求安全覆盖，格尔留下防守资源，阿宪避免无支援进攻。",
+              "炮台牵制敌人回防时，再让侧翼推进。",
+              "风墙结束或炮台被清后先重建阵型，不连续强冲。"
             ]
           }
         }
@@ -5276,6 +6356,14 @@
           "status": "历史地图候选 · 当前版本待核验"
         },
         {
+          "heroEn": "Penny",
+          "role": "地图候选",
+          "sourceId": "bilibili:BV17KWY6DEdm",
+          "startSeconds": 310,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
           "heroEn": "8-Bit",
           "role": "地图候选",
           "sourceId": "brawlzone-trio-snapshot-20261023-kaboom-canyon",
@@ -5292,6 +6380,14 @@
           "status": "历史地图候选 · 当前版本待核验"
         },
         {
+          "heroEn": "Gale",
+          "role": "地图候选",
+          "sourceId": "bilibili:BV17KWY6DEdm",
+          "startSeconds": 310,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
           "heroEn": "Colette",
           "role": "地图候选",
           "sourceId": "brawlpick-map-kaboom-canyon",
@@ -5304,6 +6400,14 @@
           "role": "地图候选",
           "sourceId": "brawlzone-trio-snapshot-20261023-kaboom-canyon",
           "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Otis",
+          "role": "地图候选",
+          "sourceId": "bilibili:BV17KWY6DEdm",
+          "startSeconds": 310,
           "condition": "具体条件见原视频；版本与国服适用性待核验。",
           "status": "历史地图候选 · 当前版本待核验"
         },
@@ -5334,8 +6438,16 @@
         {
           "heroEn": "Melodie",
           "role": "地图候选",
-          "sourceId": "brawlpick-map-kaboom-canyon",
-          "startSeconds": null,
+          "sourceId": "bilibili:BV17KWY6DEdm",
+          "startSeconds": 310,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Clancy",
+          "role": "地图候选",
+          "sourceId": "bilibili:BV17KWY6DEdm",
+          "startSeconds": 310,
           "condition": "具体条件见原视频；版本与国服适用性待核验。",
           "status": "历史地图候选 · 当前版本待核验"
         },
@@ -5374,8 +6486,8 @@
         {
           "heroEn": "Nori",
           "role": "地图候选",
-          "sourceId": "brawlpick-map-kaboom-canyon",
-          "startSeconds": null,
+          "sourceId": "bilibili:BV17KWY6DEdm",
+          "startSeconds": 310,
           "condition": "具体条件见原视频；版本与国服适用性待核验。",
           "status": "历史地图候选 · 当前版本待核验"
         },
@@ -5478,6 +6590,22 @@
           "evidenceType": "map_guide"
         },
         {
+          "sourceId": "bilibili:BV17KWY6DEdm",
+          "startSeconds": 310,
+          "url": "https://www.bilibili.com/video/BV17KWY6DEdm?t=310",
+          "claim": "FUT在该地图的三名英雄已在录像关键画面核对：Otis / Clancy / Melodie。",
+          "completeTeamObserved": true,
+          "evidenceType": "scrim_recording"
+        },
+        {
+          "sourceId": "bilibili:BV17KWY6DEdm",
+          "startSeconds": 310,
+          "url": "https://www.bilibili.com/video/BV17KWY6DEdm?t=310",
+          "claim": "ZETA在该地图的三名英雄已在录像关键画面核对：Gale / Penny / Nori。",
+          "completeTeamObserved": true,
+          "evidenceType": "scrim_recording"
+        },
+        {
           "sourceId": "brawlpick-map-kaboom-canyon",
           "startSeconds": null,
           "url": "https://www.brawlpick.app/map-stats/kaboom-canyon",
@@ -5501,6 +6629,22 @@
           "claim": "2026 LCQ · 广州双方完整三英雄阵容已核对。解说把轰隆峡谷分成后排渗透与中场控制两条思路：侵入者牵制防守，队友争草区与通路。 解说认为LOUD的Nori具有后排渗透威胁，而SK缺少相应的进攻切入与足够射程；这是一场对局分析，不是全地图胜率结论。 解说提到训练赛数字，未核验其原始样本，因此不写入产品的胜率或英雄强度评分。",
           "completeTeamObserved": true,
           "evidenceType": "professional_visual_roster"
+        },
+        {
+          "sourceId": "bilibili:BV17KWY6DEdm",
+          "startSeconds": 310,
+          "url": "https://www.bilibili.com/video/BV17KWY6DEdm?t=310",
+          "claim": "FUT在该地图的三名英雄已在录像关键画面核对：Otis / Clancy / Melodie。 配合说明为工具整理；原对手：Gale / Penny / Nori。",
+          "completeTeamObserved": true,
+          "evidenceType": "scrim_visual_roster"
+        },
+        {
+          "sourceId": "bilibili:BV17KWY6DEdm",
+          "startSeconds": 310,
+          "url": "https://www.bilibili.com/video/BV17KWY6DEdm?t=310",
+          "claim": "ZETA在该地图的三名英雄已在录像关键画面核对：Gale / Penny / Nori。 配合说明为工具整理；原对手：Otis / Clancy / Melodie。",
+          "completeTeamObserved": true,
+          "evidenceType": "scrim_visual_roster"
         }
       ],
       "patchReview": {
@@ -5509,6 +6653,10 @@
         "basis": "mechanism_inference",
         "confidence": "低",
         "caveat": "缺少新赛季此图组合样本；Chuck 等旧强点增强后也可作为待验证替代，但不作为直接推荐。"
+      },
+      "latestVideoReview": {
+        "reviewedAt": "2026-11-14",
+        "patchDate": "2026-11-11"
       }
     },
     {
@@ -6514,6 +7662,8 @@
             "youtube:UWXyKZl3e_A",
             "bilibili:BV11FEJzfEG4",
             "brawlzone-ranked-triple-dribble",
+            "bilibili:BV1ihWC65EMn",
+            "bilibili:BV1vyWB6FE7p",
             "brawlzone-trio-snapshot-20261023-triple-dribble"
           ],
           "substitutions": [],
@@ -6565,6 +7715,8 @@
             "youtube:UWXyKZl3e_A",
             "bilibili:BV11FEJzfEG4",
             "brawlzone-ranked-triple-dribble",
+            "bilibili:BV1ihWC65EMn",
+            "bilibili:BV1vyWB6FE7p",
             "brawlzone-trio-snapshot-20261023-triple-dribble"
           ],
           "substitutions": [],
@@ -6778,6 +7930,10 @@
             "bilibili:BV11FEJzfEG4",
             "bilibili:BV11FEJzfEG4",
             "brawlzone-ranked-triple-dribble",
+            "bilibili:BV1ihWC65EMn",
+            "bilibili:BV1vyWB6FE7p",
+            "bilibili:BV1vyWB6FE7p",
+            "bilibili:BV1vyWB6FE7p",
             "brawlzone-trio-snapshot-20261023-triple-dribble",
             "youtube:PIAPgulZPa4",
             "youtube:UWXyKZl3e_A"
@@ -6794,9 +7950,200 @@
               "拿到目标后优先重整站位与保护撤退路线；失败时恢复分线，不连续单人强进。"
             ]
           }
+        },
+        {
+          "title": "近期训练赛 · TE续航突破",
+          "synergy": "波克保护拿球和接应队友，瑞科先借墙压退防守，麦乐迪利用防线被拉开后的窗口冲入。把清线、治疗和突破分成先后步骤。",
+          "risk": "遇到奥蒂斯等沉默时不能指望治疗抵消控制；三人不要一直挤在同一条路。 录像为训练赛转载；对局日期按视频标注，不据输赢推断通用胜率。",
+          "loadout": "未从本段画面推断职业妙具、星徽或强化配置；请查看英雄卡已有的教学依据。",
+          "evidenceRefs": [
+            "bilibili:BV1vyWB6FE7p"
+          ],
+          "confidence": "中",
+          "observedReference": {
+            "sourceId": "bilibili:BV1vyWB6FE7p",
+            "url": "https://www.bilibili.com/video/BV1vyWB6FE7p?t=895",
+            "frameSeconds": 895,
+            "reportedEventDate": "2026-11-13",
+            "teamName": "TE",
+            "opponentHeroesEn": [
+              "Otis",
+              "Mina",
+              "Willow"
+            ],
+            "heroNamesEn": [
+              "Poco",
+              "Melodie",
+              "Rico"
+            ],
+            "mapId": 15000025,
+            "verification": "map_and_three_heroes_visual_checked",
+            "notice": "地图布局、英雄头像/对局或结算画面已核对；不是官方赛事，完整选禁与配装未核实。"
+          },
+          "id": "15000025-video14-3",
+          "members": [
+            {
+              "heroId": 16000013,
+              "role": "团队续航与接应"
+            },
+            {
+              "heroId": 16000078,
+              "role": "突破与持球"
+            },
+            {
+              "heroId": 16000004,
+              "role": "隔墙压制与清线"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "displayPriority": 2,
+          "lastReviewedAt": "2026-11-14",
+          "status": "11月14日整理 · 训练赛三人组画面已核对 · 中置信度",
+          "substitutions": [],
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三人分工与流程为工具分析；录像只核验角色和地图，不证明打法、意图或胜率。",
+            "steps": [
+              "瑞科占有利墙角，波克保持能覆盖两人的位置，麦乐迪先积累资源。",
+              "瑞科压出防守技能后，波克补治疗，麦乐迪再推进持球。",
+              "进场失败先把球传回安全接应点，留一人回防。"
+            ]
+          }
+        },
+        {
+          "title": "近期训练赛 · FUT限制与夹击",
+          "synergy": "奥蒂斯留意近距离突破，薇洛隔墙扰乱射门路径，米娜在侧路压退远程位。后排先给进场者制造限制，再让米娜转化空间为球权。",
+          "risk": "缺少稳定治疗；米娜与薇洛都需要先判断对方控制技能和破墙能力。 录像为训练赛转载；对局日期按视频标注，不据输赢推断通用胜率。",
+          "loadout": "未从本段画面推断职业妙具、星徽或强化配置；请查看英雄卡已有的教学依据。",
+          "evidenceRefs": [
+            "bilibili:BV1vyWB6FE7p"
+          ],
+          "confidence": "中",
+          "observedReference": {
+            "sourceId": "bilibili:BV1vyWB6FE7p",
+            "url": "https://www.bilibili.com/video/BV1vyWB6FE7p?t=895",
+            "frameSeconds": 895,
+            "reportedEventDate": "2026-11-13",
+            "teamName": "FUT",
+            "opponentHeroesEn": [
+              "Poco",
+              "Melodie",
+              "Rico"
+            ],
+            "heroNamesEn": [
+              "Otis",
+              "Mina",
+              "Willow"
+            ],
+            "mapId": 15000025,
+            "verification": "map_and_three_heroes_visual_checked",
+            "notice": "地图布局、英雄头像/对局或结算画面已核对；不是官方赛事，完整选禁与配装未核实。"
+          },
+          "id": "15000025-video14-4",
+          "members": [
+            {
+              "heroId": 16000059,
+              "role": "防突进与沉默"
+            },
+            {
+              "heroId": 16000097,
+              "role": "侧翼施压"
+            },
+            {
+              "heroId": 16000067,
+              "role": "隔墙干扰与打断"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "displayPriority": 2,
+          "lastReviewedAt": "2026-11-14",
+          "status": "11月14日整理 · 训练赛三人组画面已核对 · 中置信度",
+          "substitutions": [],
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三人分工与流程为工具分析；录像只核验角色和地图，不证明打法、意图或胜率。",
+            "steps": [
+              "奥蒂斯守关键口，薇洛保留掩体，米娜走另一角度。",
+              "用沉默或隔墙压力逼退防守后再同步推进。",
+              "没有击杀窗口就保球重整，避免米娜孤立追到球门后。"
+            ]
+          }
+        },
+        {
+          "title": "近期训练赛 · TE隔墙与双机动",
+          "synergy": "拉里与劳里从掩体后清理防守，阿萌在另一侧施压，麦乐迪等控制资源被逼出再穿过防线。两边制造窗口，中间完成球权转换。",
+          "risk": "原对手有格尔等反突进；双机动位同时冲入会失去保护投掷位的人。 录像为训练赛转载；对局日期按视频标注，不据输赢推断通用胜率。",
+          "loadout": "未从本段画面推断职业妙具、星徽或强化配置；请查看英雄卡已有的教学依据。",
+          "evidenceRefs": [
+            "bilibili:BV1vyWB6FE7p"
+          ],
+          "confidence": "中",
+          "observedReference": {
+            "sourceId": "bilibili:BV1vyWB6FE7p",
+            "url": "https://www.bilibili.com/video/BV1vyWB6FE7p?t=1140",
+            "frameSeconds": 1140,
+            "reportedEventDate": "2026-11-13",
+            "teamName": "TE",
+            "opponentHeroesEn": [
+              "Gale",
+              "Squeak",
+              "Willow"
+            ],
+            "heroNamesEn": [
+              "Larry & Lawrie",
+              "Melodie",
+              "Moe"
+            ],
+            "mapId": 15000025,
+            "verification": "map_and_three_heroes_visual_checked",
+            "notice": "地图布局、英雄头像/对局或结算画面已核对；不是官方赛事，完整选禁与配装未核实。"
+          },
+          "id": "15000025-video14-5",
+          "members": [
+            {
+              "heroId": 16000077,
+              "role": "隔墙控制"
+            },
+            {
+              "heroId": 16000078,
+              "role": "突破与球权转换"
+            },
+            {
+              "heroId": 16000084,
+              "role": "侧翼压迫"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "displayPriority": 2,
+          "lastReviewedAt": "2026-11-14",
+          "status": "11月14日整理 · 训练赛三人组画面已核对 · 中置信度",
+          "substitutions": [],
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三人分工与流程为工具分析；录像只核验角色和地图，不证明打法、意图或胜率。",
+            "steps": [
+              "投掷位先拿掩体，两名机动位分开寻找角度。",
+              "先逼出击退/减速，再选一人进入，另一人准备接球。",
+              "失败后先护住投掷位与球，避免连续单人进场。"
+            ]
+          }
         }
       ],
       "candidates": [
+        {
+          "heroEn": "Rico",
+          "role": "地图候选",
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 895,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
         {
           "heroEn": "Barley",
           "role": "投掷与区域封锁",
@@ -6810,6 +8157,14 @@
           "role": "地图候选",
           "sourceId": "brawlzone-trio-snapshot-20261023-triple-dribble",
           "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Poco",
+          "role": "地图候选",
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 895,
           "condition": "具体条件见原视频；版本与国服适用性待核验。",
           "status": "历史地图候选 · 当前版本待核验"
         },
@@ -6870,6 +8225,14 @@
           "status": "历史地图候选 · 当前版本待核验"
         },
         {
+          "heroEn": "Otis",
+          "role": "地图候选",
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 895,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
           "heroEn": "Gus",
           "role": "地图候选",
           "sourceId": "brawlzone-ranked-triple-dribble",
@@ -6886,10 +8249,42 @@
           "status": "历史地图候选 · 当前版本待核验"
         },
         {
+          "heroEn": "Larry & Lawrie",
+          "role": "地图候选",
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 1140,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Melodie",
+          "role": "地图候选",
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 895,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Moe",
+          "role": "地图候选",
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 1140,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
           "heroEn": "Shade",
           "role": "地图候选",
           "sourceId": "brawlzone-ranked-triple-dribble",
           "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Mina",
+          "role": "地图候选",
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 895,
           "condition": "具体条件见原视频；版本与国服适用性待核验。",
           "status": "历史地图候选 · 当前版本待核验"
         },
@@ -6996,6 +8391,22 @@
           "startSeconds": 7835,
           "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
           "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Barley",
+          "role": "近期教学地图候选",
+          "sourceId": "bilibili:BV1ihWC65EMn",
+          "startSeconds": 123,
+          "condition": "须确认敌方缺少有效突进和破墙；不是无条件首选，也不把六选条件扩写成通用队伍。",
+          "status": "已读近期地图建议；适用条件见来源"
+        },
+        {
+          "heroEn": "Willow",
+          "role": "录像地图候选",
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 895,
+          "condition": "配合说明为工具整理；原对手：Poco / Melodie / Rico。",
+          "status": "已读近期地图建议；适用条件见来源"
         }
       ],
       "mechanismEvidence": [
@@ -7048,6 +8459,38 @@
           "evidenceType": "ranked_map_statistics"
         },
         {
+          "sourceId": "bilibili:BV1ihWC65EMn",
+          "startSeconds": 123,
+          "url": "https://www.bilibili.com/video/BV1ihWC65EMn?t=123",
+          "claim": "若白明确点名巴利适用本图，但限于后手针对控场体系。",
+          "completeTeamObserved": false,
+          "evidenceType": "loadout_guide"
+        },
+        {
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 895,
+          "url": "https://www.bilibili.com/video/BV1vyWB6FE7p?t=895",
+          "claim": "TE在该地图的三名英雄已在录像关键画面核对：Poco / Melodie / Rico。",
+          "completeTeamObserved": true,
+          "evidenceType": "scrim_recording"
+        },
+        {
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 895,
+          "url": "https://www.bilibili.com/video/BV1vyWB6FE7p?t=895",
+          "claim": "FUT在该地图的三名英雄已在录像关键画面核对：Otis / Mina / Willow。",
+          "completeTeamObserved": true,
+          "evidenceType": "scrim_recording"
+        },
+        {
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 1140,
+          "url": "https://www.bilibili.com/video/BV1vyWB6FE7p?t=1140",
+          "claim": "TE在该地图的三名英雄已在录像关键画面核对：Larry & Lawrie / Melodie / Moe。",
+          "completeTeamObserved": true,
+          "evidenceType": "scrim_recording"
+        },
+        {
           "sourceId": "brawlzone-trio-snapshot-20261023-triple-dribble",
           "startSeconds": null,
           "url": "https://brawlzone.net/maps/brawl-ball/triple-dribble",
@@ -7072,6 +8515,38 @@
           "claim": "2026 LCQ · 广州双方完整三英雄阵容已核对。工具分析：三重威胁的绕墙入口可用近身争球或隔墙封锁处理。进攻前确认球权、弹药和队友跟进，防守阵容也要在逼退后及时转控球。",
           "completeTeamObserved": true,
           "evidenceType": "professional_visual_roster"
+        },
+        {
+          "sourceId": "bilibili:BV1ihWC65EMn",
+          "startSeconds": 123,
+          "url": "https://www.bilibili.com/video/BV1ihWC65EMn?t=123",
+          "claim": "若白明确点名巴利适用本图，但限于后手针对控场体系。 须确认敌方缺少有效突进和破墙；不是无条件首选，也不把六选条件扩写成通用队伍。",
+          "completeTeamObserved": false,
+          "evidenceType": "recent_map_guide"
+        },
+        {
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 895,
+          "url": "https://www.bilibili.com/video/BV1vyWB6FE7p?t=895",
+          "claim": "TE在该地图的三名英雄已在录像关键画面核对：Poco / Melodie / Rico。 配合说明为工具整理；原对手：Otis / Mina / Willow。",
+          "completeTeamObserved": true,
+          "evidenceType": "scrim_visual_roster"
+        },
+        {
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 895,
+          "url": "https://www.bilibili.com/video/BV1vyWB6FE7p?t=895",
+          "claim": "FUT在该地图的三名英雄已在录像关键画面核对：Otis / Mina / Willow。 配合说明为工具整理；原对手：Poco / Melodie / Rico。",
+          "completeTeamObserved": true,
+          "evidenceType": "scrim_visual_roster"
+        },
+        {
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 1140,
+          "url": "https://www.bilibili.com/video/BV1vyWB6FE7p?t=1140",
+          "claim": "TE在该地图的三名英雄已在录像关键画面核对：Larry & Lawrie / Melodie / Moe。 配合说明为工具整理；原对手：Gale / Squeak / Willow。",
+          "completeTeamObserved": true,
+          "evidenceType": "scrim_visual_roster"
         }
       ],
       "patchReview": {
@@ -7080,6 +8555,10 @@
         "basis": "mechanism_inference",
         "confidence": "中",
         "caveat": "Amber 被削弱后要更谨慎留技能；Jacky 进场需等控制技能消耗。"
+      },
+      "latestVideoReview": {
+        "reviewedAt": "2026-11-14",
+        "patchDate": "2026-11-11"
       }
     },
     {
@@ -8781,6 +10260,7 @@
           "status": "待版本与实战复核",
           "mapFitBand": 1,
           "evidenceRefs": [
+            "bilibili:BV19MWK6eEkU",
             "brawlpick-map-parallel-plays",
             "brawlzone-trio-snapshot-20261023-parallel-plays"
           ],
@@ -8922,6 +10402,7 @@
           "risk": "Chuck 增强不代表此图必然适配；本组合基于地图路径与角色职责推演。",
           "loadout": "本轮只复核英雄与阵容职责，没有足够的新版本地图专属配置证据；妙具与星徽请按已收录来源条件选择。",
           "evidenceRefs": [
+            "bilibili:BV19MWK6eEkU",
             "brawlpick-map-parallel-plays",
             "brawlzone-trio-snapshot-20261023-parallel-plays"
           ],
@@ -9023,8 +10504,8 @@
         {
           "heroEn": "Juju",
           "role": "地图候选",
-          "sourceId": "brawlpick-map-parallel-plays",
-          "startSeconds": null,
+          "sourceId": "bilibili:BV19MWK6eEkU",
+          "startSeconds": 963,
           "condition": "具体条件见原视频；版本与国服适用性待核验。",
           "status": "历史地图候选 · 当前版本待核验"
         },
@@ -9079,6 +10560,14 @@
       ],
       "mechanismEvidence": [
         {
+          "sourceId": "bilibili:BV19MWK6eEkU",
+          "startSeconds": 963,
+          "url": "https://www.bilibili.com/video/BV19MWK6eEkU?t=963",
+          "claim": "土狗在完整排位英雄建议中点名朱朱可用于平行游戏。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        },
+        {
           "sourceId": "brawlpick-map-parallel-plays",
           "startSeconds": null,
           "url": "https://www.brawlpick.app/map-stats/parallel-plays",
@@ -9093,6 +10582,14 @@
           "claim": "已读取5套完整三英雄的地图排位组合样本及场数；组合与统计为索引快照，战术配合由工具另行推导。",
           "completeTeamObserved": true,
           "evidenceType": "ranked_trio_index_snapshot"
+        },
+        {
+          "sourceId": "bilibili:BV19MWK6eEkU",
+          "startSeconds": 963,
+          "url": "https://www.bilibili.com/video/BV19MWK6eEkU?t=963",
+          "claim": "土狗在完整排位英雄建议中点名朱朱可用于平行游戏。 本地转写清楚点名地图，仅补充机制候选；不据此宣称当前最强或完整阵容。",
+          "completeTeamObserved": false,
+          "evidenceType": "recent_map_guide"
         }
       ],
       "patchReview": {
@@ -9101,6 +10598,10 @@
         "basis": "mechanism_inference",
         "confidence": "低",
         "caveat": "Chuck 增强不代表此图必然适配；本组合基于地图路径与角色职责推演。"
+      },
+      "latestVideoReview": {
+        "reviewedAt": "2026-11-14",
+        "patchDate": "2026-11-11"
       }
     },
     {
@@ -9147,6 +10648,8 @@
             "bilibili:BV1jU411Z7sx",
             "youtube:PIAPgulZPa4",
             "youtube:UWXyKZl3e_A",
+            "youtube:1YTUpoEtq5M",
+            "bilibili:BV1vyWB6FE7p",
             "brawlpick-map-ring-of-fire",
             "brawlzone-trio-snapshot-20261023-ring-of-fire"
           ],
@@ -9364,6 +10867,9 @@
             "bilibili:BV1jU411Z7sx",
             "youtube:PIAPgulZPa4",
             "youtube:UWXyKZl3e_A",
+            "youtube:1YTUpoEtq5M",
+            "bilibili:BV1vyWB6FE7p",
+            "bilibili:BV1vyWB6FE7p",
             "brawlpick-map-ring-of-fire",
             "brawlzone-trio-snapshot-20261023-ring-of-fire",
             "youtube:PIAPgulZPa4",
@@ -9381,9 +10887,139 @@
               "拿到目标后优先重整站位与保护撤退路线；失败时恢复分线，不连续单人强进。"
             ]
           }
+        },
+        {
+          "title": "近期训练赛 · FUT交叉控区",
+          "synergy": "科莱特处理进入区域的高血量目标，科斯莫从中区限制走位，瑞科沿墙建立侧面火力。先从两个角度压低血线，再交接站区。",
+          "risk": "三人没有持续治疗；科莱特离区追击可能导致占区中断。 录像为训练赛转载；对局日期按视频标注，不据输赢推断通用胜率。",
+          "loadout": "未从本段画面推断职业妙具、星徽或强化配置；请查看英雄卡已有的教学依据。",
+          "evidenceRefs": [
+            "bilibili:BV1vyWB6FE7p"
+          ],
+          "confidence": "中",
+          "observedReference": {
+            "sourceId": "bilibili:BV1vyWB6FE7p",
+            "url": "https://www.bilibili.com/video/BV1vyWB6FE7p?t=480",
+            "frameSeconds": 480,
+            "reportedEventDate": "2026-11-13",
+            "teamName": "FUT",
+            "opponentHeroesEn": [
+              "8-Bit",
+              "Mr. P",
+              "Ollie"
+            ],
+            "heroNamesEn": [
+              "Colette",
+              "Cosmo",
+              "Rico"
+            ],
+            "mapId": 15000300,
+            "verification": "map_and_three_heroes_visual_checked",
+            "notice": "地图布局、英雄头像/对局或结算画面已核对；不是官方赛事，完整选禁与配装未核实。"
+          },
+          "id": "15000300-video14-1",
+          "members": [
+            {
+              "heroId": 16000039,
+              "role": "反高血量与回防"
+            },
+            {
+              "heroId": 16000109,
+              "role": "中区控制"
+            },
+            {
+              "heroId": 16000004,
+              "role": "墙面压制与侧路清线"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "displayPriority": 2,
+          "lastReviewedAt": "2026-11-14",
+          "status": "11月14日整理 · 训练赛三人组画面已核对 · 中置信度",
+          "substitutions": [],
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三人分工与流程为工具分析；录像只核验角色和地图，不证明打法、意图或胜率。",
+            "steps": [
+              "先让瑞科取得墙面射线，科斯莫控制区域边缘，科莱特留意前排。",
+              "限制敌方进入方向后再站区，避免同角度重复交控制。",
+              "被突进打乱时先回收站位，保护瑞科，不以追击换掉占区时间。"
+            ]
+          }
+        },
+        {
+          "title": "近期训练赛 · TE前排与定点火力",
+          "synergy": "8比特守住能覆盖热区的输出点，P先生用召唤物分散火力，奥利只在队友火力能跟进时打断敌方站区。",
+          "risk": "P先生11月11日妙具消耗弹药；8比特与奥利同时压深会丢失后排保护。 录像为训练赛转载；对局日期按视频标注，不据输赢推断通用胜率。",
+          "loadout": "未从本段画面推断职业妙具、星徽或强化配置；请查看英雄卡已有的教学依据。",
+          "evidenceRefs": [
+            "bilibili:BV1vyWB6FE7p"
+          ],
+          "confidence": "中",
+          "observedReference": {
+            "sourceId": "bilibili:BV1vyWB6FE7p",
+            "url": "https://www.bilibili.com/video/BV1vyWB6FE7p?t=480",
+            "frameSeconds": 480,
+            "reportedEventDate": "2026-11-13",
+            "teamName": "TE",
+            "opponentHeroesEn": [
+              "Colette",
+              "Cosmo",
+              "Rico"
+            ],
+            "heroNamesEn": [
+              "8-Bit",
+              "Mr. P",
+              "Ollie"
+            ],
+            "mapId": 15000300,
+            "verification": "map_and_three_heroes_visual_checked",
+            "notice": "地图布局、英雄头像/对局或结算画面已核对；不是官方赛事，完整选禁与配装未核实。"
+          },
+          "id": "15000300-video14-2",
+          "members": [
+            {
+              "heroId": 16000027,
+              "role": "定点输出与增幅"
+            },
+            {
+              "heroId": 16000031,
+              "role": "召唤物牵制"
+            },
+            {
+              "heroId": 16000090,
+              "role": "前排争夺与打断"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "displayPriority": 2,
+          "lastReviewedAt": "2026-11-14",
+          "status": "11月14日整理 · 训练赛三人组画面已核对 · 中置信度",
+          "substitutions": [],
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三人分工与流程为工具分析；录像只核验角色和地图，不证明打法、意图或胜率。",
+            "steps": [
+              "8比特先确认安全输出点，P先生寻找可充能的对位，奥利保持支援距离。",
+              "对方清理召唤物时再让奥利争夺空间，8比特同步覆盖进场路线。",
+              "奥利后撤时两名远程补火力，避免三人一起离开区域。"
+            ]
+          }
         }
       ],
       "candidates": [
+        {
+          "heroEn": "Rico",
+          "role": "地图候选",
+          "sourceId": "youtube:1YTUpoEtq5M",
+          "startSeconds": 444,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
         {
           "heroEn": "Poco",
           "role": "地图候选",
@@ -9409,10 +11045,26 @@
           "status": "历史地图候选 · 当前版本待核验"
         },
         {
+          "heroEn": "8-Bit",
+          "role": "地图候选",
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 480,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
           "heroEn": "Emz",
           "role": "地图候选",
           "sourceId": "brawlpick-map-ring-of-fire",
           "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Mr. P",
+          "role": "地图候选",
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 480,
           "condition": "具体条件见原视频；版本与国服适用性待核验。",
           "status": "历史地图候选 · 当前版本待核验"
         },
@@ -9427,8 +11079,8 @@
         {
           "heroEn": "Colette",
           "role": "地图候选",
-          "sourceId": "brawlzone-trio-snapshot-20261023-ring-of-fire",
-          "startSeconds": null,
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 480,
           "condition": "具体条件见原视频；版本与国服适用性待核验。",
           "status": "历史地图候选 · 当前版本待核验"
         },
@@ -9489,6 +11141,14 @@
           "status": "历史地图候选 · 当前版本待核验"
         },
         {
+          "heroEn": "Ollie",
+          "role": "地图候选",
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 480,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
           "heroEn": "Mina",
           "role": "地图候选",
           "sourceId": "brawlzone-trio-snapshot-20261023-ring-of-fire",
@@ -9501,6 +11161,14 @@
           "role": "地图候选",
           "sourceId": "brawlpick-map-ring-of-fire",
           "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Cosmo",
+          "role": "地图候选",
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 480,
           "condition": "具体条件见原视频；版本与国服适用性待核验。",
           "status": "历史地图候选 · 当前版本待核验"
         },
@@ -9599,6 +11267,14 @@
           "startSeconds": 3680,
           "condition": "职业实选；原对手及使用边界见职业模板，不作为无条件英雄推荐。",
           "status": "职业选角已看最终画面 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Rico",
+          "role": "录像地图候选",
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 480,
+          "condition": "配合说明为工具整理；原对手：8-Bit / Mr. P / Ollie。",
+          "status": "已读近期地图建议；适用条件见来源"
         }
       ],
       "mechanismEvidence": [
@@ -9667,6 +11343,30 @@
           "evidenceType": "professional_match_vod"
         },
         {
+          "sourceId": "youtube:1YTUpoEtq5M",
+          "startSeconds": 444,
+          "url": "https://www.youtube.com/watch?v=1YTUpoEtq5M&t=444",
+          "claim": "作者点名开门营业、灼热火圈中也有瑞科的使用空间。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        },
+        {
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 480,
+          "url": "https://www.bilibili.com/video/BV1vyWB6FE7p?t=480",
+          "claim": "FUT在该地图的三名英雄已在录像关键画面核对：Colette / Cosmo / Rico。",
+          "completeTeamObserved": true,
+          "evidenceType": "scrim_recording"
+        },
+        {
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 480,
+          "url": "https://www.bilibili.com/video/BV1vyWB6FE7p?t=480",
+          "claim": "TE在该地图的三名英雄已在录像关键画面核对：8-Bit / Mr. P / Ollie。",
+          "completeTeamObserved": true,
+          "evidenceType": "scrim_recording"
+        },
+        {
           "sourceId": "brawlpick-map-ring-of-fire",
           "startSeconds": null,
           "url": "https://www.brawlpick.app/map-stats/ring-of-fire",
@@ -9699,6 +11399,30 @@
           "claim": "2026 LCQ · 广州双方完整三英雄阵容已核对。工具分析：灼热火圈的高血量驻点必须有入口控制或火力掩护；反高血量组合则应交错消耗和反突进，别在追击时让热区空转。",
           "completeTeamObserved": true,
           "evidenceType": "professional_visual_roster"
+        },
+        {
+          "sourceId": "youtube:1YTUpoEtq5M",
+          "startSeconds": 444,
+          "url": "https://www.youtube.com/watch?v=1YTUpoEtq5M&t=444",
+          "claim": "作者点名开门营业、灼热火圈中也有瑞科的使用空间。 这是单英雄地图候选；三人阵容及其配合仍须单独推导。",
+          "completeTeamObserved": false,
+          "evidenceType": "recent_map_guide"
+        },
+        {
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 480,
+          "url": "https://www.bilibili.com/video/BV1vyWB6FE7p?t=480",
+          "claim": "FUT在该地图的三名英雄已在录像关键画面核对：Colette / Cosmo / Rico。 配合说明为工具整理；原对手：8-Bit / Mr. P / Ollie。",
+          "completeTeamObserved": true,
+          "evidenceType": "scrim_visual_roster"
+        },
+        {
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 480,
+          "url": "https://www.bilibili.com/video/BV1vyWB6FE7p?t=480",
+          "claim": "TE在该地图的三名英雄已在录像关键画面核对：8-Bit / Mr. P / Ollie。 配合说明为工具整理；原对手：Colette / Cosmo / Rico。",
+          "completeTeamObserved": true,
+          "evidenceType": "scrim_visual_roster"
         }
       ],
       "patchReview": {
@@ -9707,6 +11431,10 @@
         "basis": "mechanism_inference",
         "confidence": "中",
         "caveat": "Amber 削弱后需控制技能轮转；Bo 的侦测配置依具体草量选择。"
+      },
+      "latestVideoReview": {
+        "reviewedAt": "2026-11-14",
+        "patchDate": "2026-11-11"
       }
     },
     {
@@ -9977,6 +11705,7 @@
           "mapFitBand": 1,
           "evidenceRefs": [
             "youtube:PIAPgulZPa4",
+            "bilibili:BV1vyWB6FE7p",
             "brawlpick-map-out-in-the-open"
           ],
           "substitutions": [],
@@ -10272,6 +12001,9 @@
             "youtube:PIAPgulZPa4",
             "youtube:PIAPgulZPa4",
             "youtube:PIAPgulZPa4",
+            "bilibili:BV1vyWB6FE7p",
+            "bilibili:BV1vyWB6FE7p",
+            "bilibili:BV1vyWB6FE7p",
             "brawlpick-map-out-in-the-open",
             "youtube:PIAPgulZPa4",
             "youtube:PIAPgulZPa4",
@@ -10288,6 +12020,198 @@
               "取得信息或压出对方关键技能后，侧翼位与支援位同步推进，保留互相支援距离。",
               "拿到目标后优先重整站位与保护撤退路线；失败时恢复分线，不连续单人强进。"
             ]
+          },
+          "reviewWarnings": [
+            {
+              "sourceId": "youtube:1YTUpoEtq5M",
+              "startSeconds": 160,
+              "url": "https://www.youtube.com/watch?v=1YTUpoEtq5M&t=160",
+              "reviewedAt": "2026-11-14",
+              "summary": "P先生面对三个长射程英雄时可能难以充出大招；本组仅在有安全充能对位时考虑。11月11日后增援妙具还需要消耗弹药。"
+            }
+          ]
+        },
+        {
+          "title": "近期训练赛 · TE长线与护盾",
+          "synergy": "曼迪建立长视野火力，布洛克从另一角度压制并谨慎处理掩体，格斯把保护资源留给被迫换位的输出者。",
+          "risk": "格斯仍受11月3日削弱影响；对方里昂等绕侧威胁要优先探明，破墙会同时改变曼迪的安全点。 录像为训练赛转载；对局日期按视频标注，不据输赢推断通用胜率。",
+          "loadout": "未从本段画面推断职业妙具、星徽或强化配置；请查看英雄卡已有的教学依据。",
+          "evidenceRefs": [
+            "bilibili:BV1vyWB6FE7p"
+          ],
+          "confidence": "中",
+          "observedReference": {
+            "sourceId": "bilibili:BV1vyWB6FE7p",
+            "url": "https://www.bilibili.com/video/BV1vyWB6FE7p?t=2101",
+            "frameSeconds": 2101,
+            "reportedEventDate": "2026-11-13",
+            "teamName": "TE",
+            "opponentHeroesEn": [
+              "Angelo",
+              "Pearl",
+              "Leon"
+            ],
+            "heroNamesEn": [
+              "Mandy",
+              "Brock",
+              "Gus"
+            ],
+            "mapId": 15000548,
+            "verification": "map_and_three_heroes_visual_checked",
+            "notice": "地图布局、英雄头像/对局或结算画面已核对；不是官方赛事，完整选禁与配装未核实。"
+          },
+          "id": "15000548-video14-6",
+          "members": [
+            {
+              "heroId": 16000065,
+              "role": "长射程输出"
+            },
+            {
+              "heroId": 16000003,
+              "role": "远程压制与破墙选择"
+            },
+            {
+              "heroId": 16000061,
+              "role": "护盾保护与续航"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "displayPriority": 2,
+          "lastReviewedAt": "2026-11-14",
+          "status": "11月14日整理 · 训练赛三人组画面已核对 · 中置信度",
+          "substitutions": [],
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三人分工与流程为工具分析；录像只核验角色和地图，不证明打法、意图或胜率。",
+            "steps": [
+              "两名射手拉开角度，格斯保持可支援距离。",
+              "护盾与远程消耗同步使用，只有队友能接火力时才破墙。",
+              "领先后保安全角度，不为单次击杀让支援位暴露。"
+            ]
+          }
+        },
+        {
+          "title": "近期训练赛 · FUT远程与绕侧",
+          "synergy": "安吉洛先压低敌人血线，珀尔守住可退的位置并阻止贴近，里昂利用敌人被长线火力牵制的时机绕侧。",
+          "risk": "里昂不宜在敌方控制和护盾仍完整时单独深入；阵容没有稳定治疗。 录像为训练赛转载；对局日期按视频标注，不据输赢推断通用胜率。",
+          "loadout": "未从本段画面推断职业妙具、星徽或强化配置；请查看英雄卡已有的教学依据。",
+          "evidenceRefs": [
+            "bilibili:BV1vyWB6FE7p"
+          ],
+          "confidence": "中",
+          "observedReference": {
+            "sourceId": "bilibili:BV1vyWB6FE7p",
+            "url": "https://www.bilibili.com/video/BV1vyWB6FE7p?t=2101",
+            "frameSeconds": 2101,
+            "reportedEventDate": "2026-11-13",
+            "teamName": "FUT",
+            "opponentHeroesEn": [
+              "Mandy",
+              "Brock",
+              "Gus"
+            ],
+            "heroNamesEn": [
+              "Angelo",
+              "Pearl",
+              "Leon"
+            ],
+            "mapId": 15000548,
+            "verification": "map_and_three_heroes_visual_checked",
+            "notice": "地图布局、英雄头像/对局或结算画面已核对；不是官方赛事，完整选禁与配装未核实。"
+          },
+          "id": "15000548-video14-7",
+          "members": [
+            {
+              "heroId": 16000079,
+              "role": "蓄力消耗"
+            },
+            {
+              "heroId": 16000072,
+              "role": "稳定输出与近身威胁"
+            },
+            {
+              "heroId": 16000023,
+              "role": "侧翼威胁与收割"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "displayPriority": 2,
+          "lastReviewedAt": "2026-11-14",
+          "status": "11月14日整理 · 训练赛三人组画面已核对 · 中置信度",
+          "substitutions": [],
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三人分工与流程为工具分析；录像只核验角色和地图，不证明打法、意图或胜率。",
+            "steps": [
+              "远程位先建立交叉火力，里昂保持能回撤的侧路。",
+              "敌方换位或清空关键弹药后，里昂再给侧面压力。",
+              "没能形成局部优势就退回远程覆盖范围。"
+            ]
+          }
+        },
+        {
+          "title": "近期训练赛 · FUT输出与支援",
+          "synergy": "佩佩负责远距离威胁，小罗用控制覆盖敌方近身路线，载勇围绕支援与转线帮助两人调整火力角度。",
+          "risk": "小罗11月11日妙具冻结积累已降低；不能照搬维护前的立即冻结节奏。 录像为训练赛转载；对局日期按视频标注，不据输赢推断通用胜率。",
+          "loadout": "未从本段画面推断职业妙具、星徽或强化配置；请查看英雄卡已有的教学依据。",
+          "evidenceRefs": [
+            "bilibili:BV1vyWB6FE7p"
+          ],
+          "confidence": "中",
+          "observedReference": {
+            "sourceId": "bilibili:BV1vyWB6FE7p",
+            "url": "https://www.bilibili.com/video/BV1vyWB6FE7p?t=2160",
+            "frameSeconds": 2160,
+            "reportedEventDate": "2026-11-13",
+            "teamName": "FUT",
+            "opponentHeroesEn": [
+              "Angelo",
+              "Mr. P",
+              "Mina"
+            ],
+            "heroNamesEn": [
+              "Piper",
+              "Lou",
+              "Jae-Yong"
+            ],
+            "mapId": 15000548,
+            "verification": "map_and_three_heroes_visual_checked",
+            "notice": "地图布局、英雄头像/对局或结算画面已核对；不是官方赛事，完整选禁与配装未核实。"
+          },
+          "id": "15000548-video14-8",
+          "members": [
+            {
+              "heroId": 16000015,
+              "role": "长射程主输出"
+            },
+            {
+              "heroId": 16000041,
+              "role": "反近身与区域限制"
+            },
+            {
+              "heroId": 16000093,
+              "role": "团队支援与转线"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "displayPriority": 2,
+          "lastReviewedAt": "2026-11-14",
+          "status": "11月14日整理 · 训练赛三人组画面已核对 · 中置信度",
+          "substitutions": [],
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三人分工与流程为工具分析；录像只核验角色和地图，不证明打法、意图或胜率。",
+            "steps": [
+              "佩佩先占射线，小罗覆盖可能的突进入口，支援位避免与射手重叠。",
+              "对方前压时先限制近身路线，再用支援窗口换到另一角度。",
+              "保住输出位后再重建交叉火力，不追入敌方掩体。"
+            ]
           }
         }
       ],
@@ -10295,8 +12219,8 @@
         {
           "heroEn": "Brock",
           "role": "地图候选",
-          "sourceId": "brawlpick-map-out-in-the-open",
-          "startSeconds": null,
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 2101,
           "condition": "具体条件见原视频；版本与国服适用性待核验。",
           "status": "历史地图候选 · 当前版本待核验"
         },
@@ -10311,8 +12235,24 @@
         {
           "heroEn": "Piper",
           "role": "地图候选",
-          "sourceId": "brawlpick-map-out-in-the-open",
-          "startSeconds": null,
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 2160,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Leon",
+          "role": "地图候选",
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 2101,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Lou",
+          "role": "地图候选",
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 2160,
           "condition": "具体条件见原视频；版本与国服适用性待核验。",
           "status": "历史地图候选 · 当前版本待核验"
         },
@@ -10335,24 +12275,40 @@
         {
           "heroEn": "Gus",
           "role": "地图候选",
-          "sourceId": "brawlpick-map-out-in-the-open",
-          "startSeconds": null,
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 2101,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Mandy",
+          "role": "地图候选",
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 2101,
           "condition": "具体条件见原视频；版本与国服适用性待核验。",
           "status": "历史地图候选 · 当前版本待核验"
         },
         {
           "heroEn": "Pearl",
           "role": "地图候选",
-          "sourceId": "brawlpick-map-out-in-the-open",
-          "startSeconds": null,
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 2101,
           "condition": "具体条件见原视频；版本与国服适用性待核验。",
           "status": "历史地图候选 · 当前版本待核验"
         },
         {
           "heroEn": "Angelo",
           "role": "地图候选",
-          "sourceId": "brawlpick-map-out-in-the-open",
-          "startSeconds": null,
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 2101,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Jae-Yong",
+          "role": "地图候选",
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 2160,
           "condition": "具体条件见原视频；版本与国服适用性待核验。",
           "status": "历史地图候选 · 当前版本待核验"
         },
@@ -10503,6 +12459,30 @@
           "evidenceType": "professional_match_vod"
         },
         {
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 2101,
+          "url": "https://www.bilibili.com/video/BV1vyWB6FE7p?t=2101",
+          "claim": "TE在该地图的三名英雄已在录像关键画面核对：Mandy / Brock / Gus。",
+          "completeTeamObserved": true,
+          "evidenceType": "scrim_recording"
+        },
+        {
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 2101,
+          "url": "https://www.bilibili.com/video/BV1vyWB6FE7p?t=2101",
+          "claim": "FUT在该地图的三名英雄已在录像关键画面核对：Angelo / Pearl / Leon。",
+          "completeTeamObserved": true,
+          "evidenceType": "scrim_recording"
+        },
+        {
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 2160,
+          "url": "https://www.bilibili.com/video/BV1vyWB6FE7p?t=2160",
+          "claim": "FUT在该地图的三名英雄已在录像关键画面核对：Piper / Lou / Jae-Yong。",
+          "completeTeamObserved": true,
+          "evidenceType": "scrim_recording"
+        },
+        {
           "sourceId": "brawlpick-map-out-in-the-open",
           "startSeconds": null,
           "url": "https://www.brawlpick.app/map-stats/out-in-the-open",
@@ -10536,6 +12516,30 @@
           "claim": "2026 LCQ · 广州双方完整三英雄阵容已核对。工具分析：护盾与定点火力能支持机动换线，回复和远程对枪则更依赖节奏重置。一次职业选择只证明当场选过，不能据此推断胜率。",
           "completeTeamObserved": true,
           "evidenceType": "professional_visual_roster"
+        },
+        {
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 2101,
+          "url": "https://www.bilibili.com/video/BV1vyWB6FE7p?t=2101",
+          "claim": "TE在该地图的三名英雄已在录像关键画面核对：Mandy / Brock / Gus。 配合说明为工具整理；原对手：Angelo / Pearl / Leon。",
+          "completeTeamObserved": true,
+          "evidenceType": "scrim_visual_roster"
+        },
+        {
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 2101,
+          "url": "https://www.bilibili.com/video/BV1vyWB6FE7p?t=2101",
+          "claim": "FUT在该地图的三名英雄已在录像关键画面核对：Angelo / Pearl / Leon。 配合说明为工具整理；原对手：Mandy / Brock / Gus。",
+          "completeTeamObserved": true,
+          "evidenceType": "scrim_visual_roster"
+        },
+        {
+          "sourceId": "bilibili:BV1vyWB6FE7p",
+          "startSeconds": 2160,
+          "url": "https://www.bilibili.com/video/BV1vyWB6FE7p?t=2160",
+          "claim": "FUT在该地图的三名英雄已在录像关键画面核对：Piper / Lou / Jae-Yong。 配合说明为工具整理；原对手：Angelo / Mr. P / Mina。",
+          "completeTeamObserved": true,
+          "evidenceType": "scrim_visual_roster"
         }
       ],
       "patchReview": {
@@ -10544,6 +12548,10 @@
         "basis": "mechanism_inference",
         "confidence": "中",
         "caveat": "开阔图优先命中与生存；不据此推断固定胜率。"
+      },
+      "latestVideoReview": {
+        "reviewedAt": "2026-11-14",
+        "patchDate": "2026-11-11"
       }
     },
     {
@@ -10839,7 +12847,16 @@
               "取得信息或压出对方关键技能后，侧翼位与支援位同步推进，保留互相支援距离。",
               "拿到目标后优先重整站位与保护撤退路线；失败时恢复分线，不连续单人强进。"
             ]
-          }
+          },
+          "reviewWarnings": [
+            {
+              "sourceId": "youtube:1YTUpoEtq5M",
+              "startSeconds": 160,
+              "url": "https://www.youtube.com/watch?v=1YTUpoEtq5M&t=160",
+              "reviewedAt": "2026-11-14",
+              "summary": "P先生面对三个长射程英雄时可能难以充出大招；本组仅在有安全充能对位时考虑。11月11日后增援妙具还需要消耗弹药。"
+            }
+          ]
         }
       ],
       "candidates": [
@@ -11965,6 +13982,7 @@
           "evidenceRefs": [
             "youtube:5iHVKzN0c5M",
             "bilibili:BV1vs4y1y7KD",
+            "bilibili:BV1ihWC65EMn",
             "brawlplanet-map-sneaky-fields",
             "brawlmetrics-map-sneaky-fields",
             "brawlzone-trio-snapshot-20261023-sneaky-fields"
@@ -12008,6 +14026,7 @@
           "evidenceRefs": [
             "youtube:5iHVKzN0c5M",
             "bilibili:BV1vs4y1y7KD",
+            "bilibili:BV1ihWC65EMn",
             "brawlplanet-map-sneaky-fields",
             "brawlmetrics-map-sneaky-fields",
             "brawlzone-trio-snapshot-20261023-sneaky-fields"
@@ -12102,6 +14121,7 @@
           "evidenceRefs": [
             "youtube:5iHVKzN0c5M",
             "bilibili:BV1vs4y1y7KD",
+            "bilibili:BV1ihWC65EMn",
             "brawlplanet-map-sneaky-fields",
             "brawlmetrics-map-sneaky-fields",
             "brawlzone-trio-snapshot-20261023-sneaky-fields"
@@ -12126,6 +14146,14 @@
           "role": "地图候选",
           "sourceId": "brawlzone-trio-snapshot-20261023-sneaky-fields",
           "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Barley",
+          "role": "地图候选",
+          "sourceId": "bilibili:BV1ihWC65EMn",
+          "startSeconds": 123,
           "condition": "具体条件见原视频；版本与国服适用性待核验。",
           "status": "历史地图候选 · 当前版本待核验"
         },
@@ -12292,6 +14320,14 @@
           "evidenceType": "map_guide"
         },
         {
+          "sourceId": "bilibili:BV1ihWC65EMn",
+          "startSeconds": 123,
+          "url": "https://www.bilibili.com/video/BV1ihWC65EMn?t=123",
+          "claim": "若白明确点名巴利适用本图，但限于后手针对控场体系。",
+          "completeTeamObserved": false,
+          "evidenceType": "loadout_guide"
+        },
+        {
           "sourceId": "brawlplanet-map-sneaky-fields",
           "startSeconds": null,
           "url": "https://www.brawlplanet.com/maps/sneakyfields_brawlball",
@@ -12314,6 +14350,14 @@
           "claim": "已读取5套完整三英雄的地图排位组合样本及场数；组合与统计为索引快照，战术配合由工具另行推导。",
           "completeTeamObserved": true,
           "evidenceType": "ranked_trio_index_snapshot"
+        },
+        {
+          "sourceId": "bilibili:BV1ihWC65EMn",
+          "startSeconds": 123,
+          "url": "https://www.bilibili.com/video/BV1ihWC65EMn?t=123",
+          "claim": "若白明确点名巴利适用本图，但限于后手针对控场体系。 须确认敌方缺少有效突进和破墙；不是无条件首选，也不把六选条件扩写成通用队伍。",
+          "completeTeamObserved": false,
+          "evidenceType": "recent_map_guide"
         }
       ],
       "patchReview": {
@@ -12322,6 +14366,10 @@
         "basis": "mechanism_inference",
         "confidence": "低",
         "caveat": "Ash 被削弱，不能强行主导近战；需要对手近战较多才适用。"
+      },
+      "latestVideoReview": {
+        "reviewedAt": "2026-11-14",
+        "patchDate": "2026-11-11"
       }
     },
     {
@@ -12983,7 +15031,16 @@
           "professionalReference": {
             "caseId": "chall26-gf-hideout",
             "teamName": "FUT Freezone"
-          }
+          },
+          "reviewWarnings": [
+            {
+              "sourceId": "youtube:1YTUpoEtq5M",
+              "startSeconds": 160,
+              "url": "https://www.youtube.com/watch?v=1YTUpoEtq5M&t=160",
+              "reviewedAt": "2026-11-14",
+              "summary": "P先生面对三个长射程英雄时可能难以充出大招；本组仅在有安全充能对位时考虑。11月11日后增援妙具还需要消耗弹药。"
+            }
+          ]
         }
       ],
       "candidates": [
@@ -13392,6 +15449,8 @@
             "bilibili:BV1wGgfz1Eoa",
             "youtube:PIAPgulZPa4",
             "youtube:9CQQ04lg-sQ",
+            "youtube:1YTUpoEtq5M",
+            "bilibili:BV1ihWC65EMn",
             "brawlzone-trio-snapshot-20261023-open-business"
           ],
           "substitutions": [],
@@ -13605,6 +15664,8 @@
             "bilibili:BV1wGgfz1Eoa",
             "youtube:PIAPgulZPa4",
             "youtube:9CQQ04lg-sQ",
+            "youtube:1YTUpoEtq5M",
+            "bilibili:BV1ihWC65EMn",
             "brawlzone-trio-snapshot-20261023-open-business",
             "youtube:PIAPgulZPa4",
             "youtube:9CQQ04lg-sQ"
@@ -13621,14 +15682,72 @@
               "拿到目标后优先重整站位与保护撤退路线；失败时恢复分线，不连续单人强进。"
             ]
           }
+        },
+        {
+          "title": "新教学推演 · 双角度封路",
+          "evidenceRefs": [
+            "bilibili:BV1ihWC65EMn",
+            "youtube:1YTUpoEtq5M"
+          ],
+          "confidence": "中",
+          "synergy": "巴利与瑞科分别从墙后和反弹角度限制入口，小罗留控制资源保护后排并争夺站区。三人依次交控制，争取持续站区时间。",
+          "risk": "遇到强破墙或多突进时不宜照搬；小罗维护后冻结积累下降，控制链需要重新把握。",
+          "loadout": "巴利配置按投掷对位、续航需求与敌方突进分别选择；具体条件见11月14日若白教学。",
+          "id": "15000292-video14-18",
+          "members": [
+            {
+              "heroId": 16000006,
+              "role": "隔墙封路"
+            },
+            {
+              "heroId": 16000004,
+              "role": "反弹清线"
+            },
+            {
+              "heroId": 16000041,
+              "role": "反突进与站区"
+            }
+          ],
+          "kind": "mechanism_inference",
+          "mapFitBand": 1,
+          "cooperationBand": 1,
+          "displayPriority": 2,
+          "lastReviewedAt": "2026-11-14",
+          "status": "11月14日整理 · 新教学机制推演 · 中置信度",
+          "substitutions": [],
+          "coordination": {
+            "kind": "mechanism_inference",
+            "notice": "三人分工与流程为工具分析；录像只核验角色和地图，不证明打法、意图或胜率。",
+            "steps": [
+              "瑞科先确认反弹路线，巴利保掩体，小罗覆盖近身威胁。",
+              "两侧火力逼退对手后，小罗接替站区，另一人保留控制。",
+              "破墙或一侧被绕后时先收缩阵型，避免投掷位孤立。"
+            ]
+          }
         }
       ],
       "candidates": [
+        {
+          "heroEn": "Rico",
+          "role": "地图候选",
+          "sourceId": "youtube:1YTUpoEtq5M",
+          "startSeconds": 444,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
         {
           "heroEn": "Spike",
           "role": "地图候选",
           "sourceId": "brawlzone-trio-snapshot-20261023-open-business",
           "startSeconds": null,
+          "condition": "具体条件见原视频；版本与国服适用性待核验。",
+          "status": "历史地图候选 · 当前版本待核验"
+        },
+        {
+          "heroEn": "Barley",
+          "role": "地图候选",
+          "sourceId": "bilibili:BV1ihWC65EMn",
+          "startSeconds": 123,
           "condition": "具体条件见原视频；版本与国服适用性待核验。",
           "status": "历史地图候选 · 当前版本待核验"
         },
@@ -13867,6 +15986,22 @@
           "evidenceType": "professional_match_vod"
         },
         {
+          "sourceId": "youtube:1YTUpoEtq5M",
+          "startSeconds": 444,
+          "url": "https://www.youtube.com/watch?v=1YTUpoEtq5M&t=444",
+          "claim": "作者点名开门营业、灼热火圈中也有瑞科的使用空间。",
+          "completeTeamObserved": false,
+          "evidenceType": "map_guide"
+        },
+        {
+          "sourceId": "bilibili:BV1ihWC65EMn",
+          "startSeconds": 123,
+          "url": "https://www.bilibili.com/video/BV1ihWC65EMn?t=123",
+          "claim": "若白明确点名巴利适用本图，但限于后手针对控场体系。",
+          "completeTeamObserved": false,
+          "evidenceType": "loadout_guide"
+        },
+        {
           "sourceId": "brawlzone-trio-snapshot-20261023-open-business",
           "startSeconds": null,
           "url": "https://brawlzone.net/maps/hot-zone/open-business",
@@ -13891,6 +16026,22 @@
           "claim": "2026挑战者总决赛 · 伊斯坦布尔双方完整三英雄阵容已核对。工具分析：梅格维持占区压力，拉夫上校从安全角度提供强化与射线，科迪留斯隔离关键敌人来帮助队友争区；不能为单挑把区域长时间留空。 工具分析：格斯保护进区者，健次从侧面迫使防守转向，科莱特处理高血量目标；护盾与切入时机需要同步。",
           "completeTeamObserved": true,
           "evidenceType": "professional_visual_roster"
+        },
+        {
+          "sourceId": "youtube:1YTUpoEtq5M",
+          "startSeconds": 444,
+          "url": "https://www.youtube.com/watch?v=1YTUpoEtq5M&t=444",
+          "claim": "作者点名开门营业、灼热火圈中也有瑞科的使用空间。 这是单英雄地图候选；三人阵容及其配合仍须单独推导。",
+          "completeTeamObserved": false,
+          "evidenceType": "recent_map_guide"
+        },
+        {
+          "sourceId": "bilibili:BV1ihWC65EMn",
+          "startSeconds": 123,
+          "url": "https://www.bilibili.com/video/BV1ihWC65EMn?t=123",
+          "claim": "若白明确点名巴利适用本图，但限于后手针对控场体系。 须确认敌方缺少有效突进和破墙；不是无条件首选，也不把六选条件扩写成通用队伍。",
+          "completeTeamObserved": false,
+          "evidenceType": "recent_map_guide"
         }
       ],
       "patchReview": {
@@ -13899,6 +16050,10 @@
         "basis": "mechanism_inference",
         "confidence": "低",
         "caveat": "Hank 增强后更适合承受区域压力；具体适配仍缺近期直接样本。"
+      },
+      "latestVideoReview": {
+        "reviewedAt": "2026-11-14",
+        "patchDate": "2026-11-11"
       }
     },
     {
